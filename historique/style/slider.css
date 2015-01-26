@@ -1,0 +1,35 @@
+/*--------- slider ---------*/
+#slide { 
+   position:relative;
+   width:300px;
+   height:215px; 
+   padding:0px 0px 0 0px;
+   z-index:2;
+   background:url(../images/slider-shadow.png) center 0 no-repeat;
+}
+
+.slider { 
+    width:400px; 
+    height:159px; 
+    margin:0 auto; 
+    position:relative; 
+    z-index:2; 
+}
+.items { display:none;}
+
+.pagination { 
+    position:absolute; 
+    bottom:26px; 
+    left:144px; 
+    display:inline-block; 
+    z-index:10;
+}
+.pagination li {float:left; list-style:none;	}
+.pagination a { 
+    display:block; 
+    width:16px; 
+    height:56px; 
+    background:url(../images/pagination.png) right 0 no-repeat; margin-right:4px; 
+}
+.pagination li.current a, .pagination li:hover a { background-position: 0 0;}
+.banner a.button-1 {margin-left:66px;}

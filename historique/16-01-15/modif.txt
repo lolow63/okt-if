@@ -1,0 +1,3 @@
+integration du MAIL
+changement icone activité 2
+integration barre de navigation

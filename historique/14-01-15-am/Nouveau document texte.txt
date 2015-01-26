@@ -1,0 +1,11 @@
+Integration fiche 1:
+Exo 1
+Mise en place des label sur propositions exo 1, 2 et 5
+Suppression du div id=exo sur la fiche (encadre dashed)
+Rémplacé par div class well well
+
+ATTENTION
+
+VERSION AVEC BUG
+Dans le traitement du formulaire
+Dans l'affichage reponsive ( débordement du texte)

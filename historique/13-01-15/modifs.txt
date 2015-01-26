@@ -1,0 +1,2 @@
+intégration des menus déroulants activité 2, 3, 4
+activité 5: correctif sur affichage > à 330 px  

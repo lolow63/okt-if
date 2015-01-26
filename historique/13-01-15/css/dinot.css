@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Dinot';
+  src: url('fonts/dinot-bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+h1,h2,h3,h4,h5{
+	font-family: Dinot;
+}

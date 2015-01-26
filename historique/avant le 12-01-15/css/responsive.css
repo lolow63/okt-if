@@ -1,0 +1,35 @@
+@media (max-width: 480px) {
+	.subheader .mailimg{
+		display: none;
+	}
+	.subheader .btn {
+		margin: 2px auto;
+	}
+	.toptitle{
+	  	position: relative;
+	  	vertical-align: bottom;
+	  	font-weight: bold;
+	  	color: #58585A;
+	  	padding-left: 10px;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+	.subheader .mailimg{
+		display: none;
+	}
+}
+
+
+@media (min-width:768px) and (max-width: 992px) {
+	.subheader .mailimg{
+		display: none;
+	}
+}
+
+@media (min-width:992px) and (max-width: 1200px) {
+}
+
+@media (min-width:1200px ) {
+
+}
