@@ -39,39 +39,39 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">ACCUEIL</a></li>
-                    <li><a href="intro.html">INTRODUCTION</a></li>
-                    <li><a href="construction.html">LIEN</a></li>
+                    <li><a href="index.php">ACCUEIL</a></li>
+                    <li><a href="intro.php">INTRODUCTION</a></li>
+                    <li><a href="construction.php">LIEN</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="construction.html">AIDE</a></li>
+                    <li><a href="construction.php">AIDE</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">FICHES<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="fiche1.php">Fiche 1</a></li>
-                            <li><a href="construction.html">Fiche 2</a></li>
-                            <li><a href="construction.html">Fiche 3</a></li>
-                            <li><a href="construction.html">Fiche 4</a></li>
-							<li><a href="construction.html">Fiche 5</a></li>
-							<li><a href="construction.html">Fiche 6</a></li>
-							<li><a href="construction.html">Fiche 7</a></li>
-							<li><a href="construction.html">Fiche 8</a></li>
-							<li><a href="construction.html">Fiche 9</a></li>
-							<li><a href="construction.html">Fiche 10</a></li>
-							<li><a href="construction.html">Fiche 11</a></li>
-							<li><a href="construction.html">Fiche 12</a></li>
-							<li><a href="construction.html">Fiche 13</a></li>
-							<li><a href="construction.html">Fiche 14</a></li>
-							<li><a href="construction.html">Fiche 15</a></li>
-							<li><a href="construction.html">Fiche 16</a></li>
-							<li><a href="construction.html">Fiche 17</a></li>
-							<li><a href="construction.html">Fiche 18</a></li>
-							<li><a href="construction.html">Fiche 19</a></li>
-							<li><a href="construction.html">Fiche 20</a></li>
-							<li><a href="construction.html">Fiche 21</a></li>
-							<li><a href="construction.html">Fiche 22</a></li>
-							<li><a href="construction.html">Fiche 23</a></li>
-							<li><a href="construction.html">Fiche 24</a></li>
+                            <li><a href="construction.php">Fiche 2</a></li>
+                            <li><a href="construction.php">Fiche 3</a></li>
+                            <li><a href="construction.php">Fiche 4</a></li>
+							<li><a href="construction.php">Fiche 5</a></li>
+							<li><a href="construction.php">Fiche 6</a></li>
+							<li><a href="construction.php">Fiche 7</a></li>
+							<li><a href="construction.php">Fiche 8</a></li>
+							<li><a href="construction.php">Fiche 9</a></li>
+							<li><a href="construction.php">Fiche 10</a></li>
+							<li><a href="construction.php">Fiche 11</a></li>
+							<li><a href="construction.php">Fiche 12</a></li>
+							<li><a href="construction.php">Fiche 13</a></li>
+							<li><a href="construction.php">Fiche 14</a></li>
+							<li><a href="construction.php">Fiche 15</a></li>
+							<li><a href="construction.php">Fiche 16</a></li>
+							<li><a href="construction.php">Fiche 17</a></li>
+							<li><a href="construction.php">Fiche 18</a></li>
+							<li><a href="construction.php">Fiche 19</a></li>
+							<li><a href="construction.php">Fiche 20</a></li>
+							<li><a href="construction.php">Fiche 21</a></li>
+							<li><a href="construction.php">Fiche 22</a></li>
+							<li><a href="construction.php">Fiche 23</a></li>
+							<li><a href="construction.php">Fiche 24</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -80,7 +80,7 @@
            </div>
            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                <ul class="nav navbar-nav navbar-default navbar-right">
-                           <li><a href="construction.html"><i class="fa fa-unlock-alt"></i> MON COMPTE</a></li>                     
+                           <li><a href="construction.php"><i class="fa fa-unlock-alt"></i> MON COMPTE</a></li>                     
                        </ul>
            </div>
         </div>
@@ -824,11 +824,11 @@
             <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 ">
                 <span class="copyrights"><strong>© Institut Français 2014 - Tous droits réservés 2014.</strong> L'Institut Français est l'opérateur du ministère des Affaires étrangères et européennes pour l'action culturelle extérieure de la France.
                 </span><br>
-                <span><a href="index.html">ACCUEIL</a>
+                <span><a href="index.php">ACCUEIL</a>
                     <a href="http://www.if-algerie.com" target="blank">SITE OFFICIEL DE L'INSTITUT FRANÇAIS ALGÉRIE</a>
-                    <a href="construction.html">TERMES ET CONDITIONS D'UTILISATION</a>
-                    <a href="construction.html">PLAN DU SITE</a>
-                    <a href="construction.html">AUTRE</a>
+                    <a href="construction.php">TERMES ET CONDITIONS D'UTILISATION</a>
+                    <a href="construction.php">PLAN DU SITE</a>
+                    <a href="construction.php">AUTRE</a>
                 </span>
                 
             </div>

@@ -16,8 +16,8 @@
         <div class="container"><br>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="buttons">
-                    <a href="intro.html"class="btn btn-inscription">M'inscrire gratuitement</a>
-                    <a href="intro.html"class="btn btn-formation">Débuter la formation</a>
+                    <a href="intro.php"class="btn btn-inscription">M'inscrire gratuitement</a>
+                    <a href="intro.php"class="btn btn-formation">Débuter la formation</a>
                 </div>         
             </div>
         </div>         

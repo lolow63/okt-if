@@ -36,11 +36,11 @@
 									  <div id="collapseOne" class="panel-collapse collapse in">
 										<div class="panel-body">
 							<li><a href="fiche1.php">Fiche 1</a></li>
-                            <li><a href="construction.html">Fiche 2</a></li>
-                            <li><a href="construction.html">Fiche 3</a></li>
-                            <li><a href="construction.html">Fiche 4</a></li>
-							<li><a href="construction.html">Fiche 5</a></li>
-							<li><a href="construction.html">Fiche 6</a></li>
+                            <li><a href="construction.php">Fiche 2</a></li>
+                            <li><a href="construction.php">Fiche 3</a></li>
+                            <li><a href="construction.php">Fiche 4</a></li>
+							<li><a href="construction.php">Fiche 5</a></li>
+							<li><a href="construction.php">Fiche 6</a></li>
 										</div>
 									</div>
 									<div class="panel-heading">
@@ -52,12 +52,12 @@
 									  </div>
 									<div id="collapseTwo" class="panel-collapse collapse in">
 										<div class="panel-body">
-							<li><a href="construction.html">Fiche 7</a></li>
-                            <li><a href="construction.html">Fiche 8</a></li>
-                            <li><a href="construction.html">Fiche 9</a></li>
-                            <li><a href="construction.html">Fiche 10</a></li>
-							<li><a href="construction.html">Fiche 11</a></li>
-							<li><a href="construction.html">Fiche 12</a></li>
+							<li><a href="construction.php">Fiche 7</a></li>
+                            <li><a href="construction.php">Fiche 8</a></li>
+                            <li><a href="construction.php">Fiche 9</a></li>
+                            <li><a href="construction.php">Fiche 10</a></li>
+							<li><a href="construction.php">Fiche 11</a></li>
+							<li><a href="construction.php">Fiche 12</a></li>
 										</div>
 									</div>
 									<div class="panel-heading">
@@ -69,12 +69,12 @@
 									  </div>
 									<div id="collapseThree" class="panel-collapse collapse in">
 										<div class="panel-body">
-							<li><a href="construction.html">Fiche 13</a></li>
-                            <li><a href="construction.html">Fiche 14</a></li>
-                            <li><a href="construction.html">Fiche 15</a></li>
-                            <li><a href="construction.html">Fiche 16</a></li>
-							<li><a href="construction.html">Fiche 17</a></li>
-							<li><a href="construction.html">Fiche 18</a></li>
+							<li><a href="construction.php">Fiche 13</a></li>
+                            <li><a href="construction.php">Fiche 14</a></li>
+                            <li><a href="construction.php">Fiche 15</a></li>
+                            <li><a href="construction.php">Fiche 16</a></li>
+							<li><a href="construction.php">Fiche 17</a></li>
+							<li><a href="construction.php">Fiche 18</a></li>
 										</div>
 									</div>
 									<div class="panel-heading">
@@ -86,12 +86,12 @@
 									  </div>
 									<div id="collapseFour" class="panel-collapse collapse in">
 										<div class="panel-body">
-							<li><a href="#">Fiche 19</a></li>
-                            <li><a href="#">Fiche 20</a></li>
-                            <li><a href="#">Fiche 21</a></li>
-                            <li><a href="#">Fiche 22</a></li>
-							<li><a href="#">Fiche 23</a></li>
-							<li><a href="#">Fiche 24</a></li>
+							<li><a href="#">construction.php</a></li>
+                            <li><a href="#">construction.php</a></li>
+                            <li><a href="#">construction.php</a></li>
+                            <li><a href="#">construction.php</a></li>
+							<li><a href="#">construction.php</a></li>
+							<li><a href="#">construction.php</a></li>
 										</div>
 									</div>
 								</div>
@@ -104,9 +104,9 @@
             <ul class="dropdown-menu" role="menu">
 							<li><a href="index.php">Accueil</a></li>
 							<li class="divider"></li>
-							<li><a href="construction.html">Mon compte</a></li>
+							<li><a href="construction.php">Mon compte</a></li>
 							<li class="divider"></li>
-							<li><a href="construction.html">Mes notes</a></li>
+							<li><a href="construction.php">Mes notes</a></li>
 			</ul>
 							</li>
         </ul>

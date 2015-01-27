@@ -8,9 +8,9 @@
         </span><br>
         <span><a href="index.php">ACCUEIL</a>
             <a href="http://www.if-algerie.com">SITE OFFICIEL DE L'INSTITUT FRANÇAIS ALGÉRIE</a>
-            <a href="construction.html">TERMES ET CONDITIONS D'UTILISATION</a>
-            <a href="construction.html">PLAN DU SITE</a>
-            <a href="construction.html">AUTRE</a>
+            <a href="construction.php">TERMES ET CONDITIONS D'UTILISATION</a>
+            <a href="construction.php">PLAN DU SITE</a>
+            <a href="construction.php">AUTRE</a>
         </span>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1 marianne">

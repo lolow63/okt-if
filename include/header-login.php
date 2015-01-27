@@ -8,12 +8,12 @@
     	<div class="container">
 			<div class="col-xs-7 visible-xs">
 							<ul class="nav navbar-nav navbar-default">
-								<li><a href="#"><i class="fa fa-2x fa-user"></i> MON PROFIL</a></li>                     
+								<li><a href="construction.php"><i class="fa fa-2x fa-user"></i> MON PROFIL</a></li>                     
 							</ul>
 			</div>
 			<div class="col-xs-offset-3 col-xs-2 visible-xs">
 							<ul class="nav navbar-nav navbar-default">
-								<li><a href="#"><i class="fa fa-2x fa-sign-out"> </i></a></li>                     
+								<li><a href="construction.php"><i class="fa fa-2x fa-sign-out"> </i></a></li>                     
 							</ul>
 			</div>
     	    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 mainnav">
@@ -33,37 +33,37 @@
 						<ul class="nav navbar-nav">
 							<li><a href="index.php">ACCUEIL</a></li>
 							<li><a href="intro.php">INTRODUCTION</a></li>
-							<li><a href="#">LIEN</a></li>
+							<li><a href="construction.php">LIEN</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#">AIDE</a></li>
+							<li><a href="construction.php">AIDE</a></li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">FICHES <b class="caret"></b></a>
 								<ul class="dropdown-menu">
 									<li><a href="fiche1.php">Fiche 1</a></li>
-									<li><a href="#">Fiche 2</a></li>
-									<li><a href="#">Fiche 3</a></li>
-									<li><a href="#">Fiche 4</a></li>
-									<li><a href="#">Fiche 5</a></li>
-									<li><a href="#">Fiche 6</a></li>
-									<li><a href="#">Fiche 7</a></li>
-									<li><a href="#">Fiche 8</a></li>
-									<li><a href="#">Fiche 9</a></li>
-									<li><a href="#">Fiche 10</a></li>
-									<li><a href="#">Fiche 11</a></li>
-									<li><a href="#">Fiche 12</a></li>
-									<li><a href="#">Fiche 13</a></li>
-									<li><a href="#">Fiche 14</a></li>
-									<li><a href="#">Fiche 15</a></li>
-									<li><a href="#">Fiche 16</a></li>
-									<li><a href="#">Fiche 17</a></li>
-									<li><a href="#">Fiche 18</a></li>
-									<li><a href="#">Fiche 19</a></li>
-									<li><a href="#">Fiche 20</a></li>
-									<li><a href="#">Fiche 21</a></li>
-									<li><a href="#">Fiche 22</a></li>
-									<li><a href="#">Fiche 23</a></li>
-									<li><a href="#">Fiche 24</a></li>
+									<li><a href="construction.php">Fiche 2</a></li>
+									<li><a href="construction.php">Fiche 3</a></li>
+									<li><a href="construction.php">Fiche 4</a></li>
+									<li><a href="construction.php">Fiche 5</a></li>
+									<li><a href="construction.php">Fiche 6</a></li>
+									<li><a href="construction.php">Fiche 7</a></li>
+									<li><a href="construction.php">Fiche 8</a></li>
+									<li><a href="construction.php">Fiche 9</a></li>
+									<li><a href="construction.php">Fiche 10</a></li>
+									<li><a href="construction.php">Fiche 11</a></li>
+									<li><a href="construction.php">Fiche 12</a></li>
+									<li><a href="construction.php">Fiche 13</a></li>
+									<li><a href="construction.php">Fiche 14</a></li>
+									<li><a href="construction.php">Fiche 15</a></li>
+									<li><a href="construction.php">Fiche 16</a></li>
+									<li><a href="construction.php">Fiche 17</a></li>
+									<li><a href="construction.php">Fiche 18</a></li>
+									<li><a href="construction.php">Fiche 19</a></li>
+									<li><a href="construction.php">Fiche 20</a></li>
+									<li><a href="construction.php">Fiche 21</a></li>
+									<li><a href="construction.php">Fiche 22</a></li>
+									<li><a href="construction.php">Fiche 23</a></li>
+									<li><a href="construction.php">Fiche 24</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -72,12 +72,12 @@
 			</div>
            <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2 hidden-xs">
 				<ul class="nav navbar-nav navbar-default navbar-right">
-                    <li><a href="#"><i class="fa fa-user"></i> MON PROFIL</a></li>                     
+                    <li><a href="construction.php"><i class="fa fa-user"></i> MON PROFIL</a></li>                     
 				</ul>
            </div>
 		   <div class="col-sm-1 col-md-2 col-lg-2 hidden-xs">
 				<ul class="nav navbar-nav navbar-default navbar-right">
-                    <li><a href="#"><i class="fa fa-sign-out hidden-md"></i><span class="hidden-sm"> DECONNEXION</span></a></li>                     
+                    <li><a href="construction.php"><i class="fa fa-sign-out hidden-md"></i><span class="hidden-sm"> DECONNEXION</span></a></li>                     
 				</ul>
            </div>
         </div>
