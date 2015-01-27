@@ -6,6 +6,11 @@
         </div>
     </div>
     	<div class="container">
+			<div class="col-xs-12 visible-xs">
+							<ul class="nav navbar-nav navbar-default">
+								<li><a href="#"><i class="fa fa-user"></i> MON PROFIL</a></li>                     
+							</ul>
+			</div>
     	    <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 mainnav">
 				<nav class="navbar navbar-default" role="navigation">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -60,7 +65,7 @@
 					</div><!-- /.navbar-collapse -->
 				</nav>   
 			</div>
-           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 hidden-xs">
 				<ul class="nav navbar-nav navbar-default navbar-right">
                     <li><a href="#"><i class="fa fa-user"></i> MON PROFIL</a></li>                     
 				</ul>
