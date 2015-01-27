@@ -6,12 +6,17 @@
         </div>
     </div>
     	<div class="container">
-			<div class="col-xs-12 visible-xs">
+			<div class="col-xs-7 visible-xs">
 							<ul class="nav navbar-nav navbar-default">
-								<li><a href="#"><i class="fa fa-user"></i> MON PROFIL</a></li>                     
+								<li><a href="#"><i class="fa fa-2x fa-user"></i> MON PROFIL</a></li>                     
 							</ul>
 			</div>
-    	    <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 mainnav">
+			<div class="col-xs-offset-3 col-xs-2 visible-xs">
+							<ul class="nav navbar-nav navbar-default">
+								<li><a href="#"><i class="fa fa-2x fa-sign-out"> </i></a></li>                     
+							</ul>
+			</div>
+    	    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 mainnav">
 				<nav class="navbar navbar-default" role="navigation">
                 <!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
@@ -65,9 +70,14 @@
 					</div><!-- /.navbar-collapse -->
 				</nav>   
 			</div>
-           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 hidden-xs">
+           <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2 hidden-xs">
 				<ul class="nav navbar-nav navbar-default navbar-right">
                     <li><a href="#"><i class="fa fa-user"></i> MON PROFIL</a></li>                     
+				</ul>
+           </div>
+		   <div class="col-sm-1 col-md-2 col-lg-2 hidden-xs">
+				<ul class="nav navbar-nav navbar-default navbar-right">
+                    <li><a href="#"><i class="fa fa-sign-out hidden-md"></i><span class="hidden-sm"> DECONNEXION</span></a></li>                     
 				</ul>
            </div>
         </div>
