@@ -521,6 +521,20 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
             })
         })
     </script>
+	<!--Script pour Scrollspy fluide-->
+	<script>
+		$(function () {
+		$('li>a').on('click', function(e) {
+		e.preventDefault();
+		var hash = this.hash;
+		$('html, body').animate({
+		  scrollTop: $(this.hash).offset().top
+			}, 1000, function(){
+			window.location.hash = hash;
+			});
+		});
+	});
+	</Script>
 	
     </body>
 </html>
