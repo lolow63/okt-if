@@ -62,7 +62,7 @@
 			</div>
            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 				<ul class="nav navbar-nav navbar-default navbar-right">
-                    <li><a href="#"><i class="fa fa-unlock-alt"></i> MON COMPTE</a></li>                     
+                    <li><a href="#"><i class="fa fa-user"></i> MON PROFIL</a></li>                     
 				</ul>
            </div>
         </div>
