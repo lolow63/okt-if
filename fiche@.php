@@ -41,11 +41,11 @@
 				<h2>FICHE N°@</h2>
 				<div class="row">
 					<div class="text-center well encadre col-xs-12 col-sm-offset-4 col-sm-4 col-sm-offset-4">
-						<h3 class="activite">@</h3>
+						<h3 class="activite">Thème</h3>
 						<h3 class="remarque">@</h3>
 					</div>
 					<div class="text-center well encadre col-xs-12 col-sm-offset-1 col-sm-10 col-sm-offset-1">
-						<ul class="list-unstyled"><h3 class="activite">@</h3>
+						<ul class="list-unstyled"><h3 class="activite">Objectifs</h3>
 							<li class="remarque"><span class="fa fa-angle-double-right"></span>@</li>
 							<li class="remarque"><span class="fa fa-angle-double-right"></span>@</li>
 							<li class="remarque"><span class="fa fa-angle-double-right"></span>@</li>
@@ -84,6 +84,20 @@
 				})
 			})
 		</script>
+		<!--Script pour Scrollspy fluide-->
+		<script>
+			$(function () {
+			$('li>a').on('click', function(e) {
+			e.preventDefault();
+			var hash = this.hash;
+			$('html, body').animate({
+			  scrollTop: $(this.hash).offset().top
+				}, 1000, function(){
+				window.location.hash = hash;
+				});
+			});
+		});
+		</Script>
 	</body>
 </html>
 		  

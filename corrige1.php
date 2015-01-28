@@ -185,7 +185,7 @@
                          //$total=($notetab+$notea+$noteb+$notemed+$notea2)/5;
                            $total=($notea+$notegenerale+$noteb+$notemed+$notetab)/5;
                          
-						  echo'<table>';
+						  echo'<table class="table table-bordered table-striped table-condensed">';
 						         echo'<tr>
 						            <td>Activité 1</td>
 						            <td>'.$notea.'%';
@@ -217,6 +217,7 @@
 
 						         <tr>
                                     <td>Activité 2</td>
+									
 						            <td>'.$notegenerale.'%';
 									
 									 if(($notegenerale >0) and ($notegenerale<49)){
@@ -307,6 +308,7 @@
 									echo'</td>
 						         </tr>
 
+								<tfoot>
 						         <tr>
 						           <td>Total Fiche N°1</td>
 						            <td> '.$total.'%';
@@ -327,7 +329,7 @@
         <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
       </div>';}
 									echo'</td>
-						         </tr>
+						         </tr></tfoot>
                                  </table></br>
 								 </div><br/>';
 								 //activité1

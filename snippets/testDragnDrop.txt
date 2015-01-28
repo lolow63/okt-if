@@ -1,0 +1,67 @@
+<div class="row">
+					<div class="col-md-6">
+						<ol class="phrases encours">
+						<li>phrase 1</li>
+						<li>phrase 2</li>
+						<li>phrase 3</li>
+						<li>phrase 4</li>
+						<li>phrase 5</li>
+						</ol>
+						<input type="text" id="ordre" hidden="hidden" name="reponse" value="pas de reponse" /> 
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-offset-2 col-md-2">
+							Réponse 1
+								<div class="well">
+								Dépot 1
+								</div>
+							</div>
+							<div class="col-md-2">
+							Réponse 2
+								<div class="well">
+								Dépot 2
+								</div>
+							</div>
+							<div class="col-md-2">
+							Réponse 3
+								<div class="well">
+								Dépot 3
+								</div>
+							</div>
+							<div class="col-md-2">
+							Réponse 4
+								<div class="well">
+								Dépot 4
+								</div>
+							</div>
+							<div class="col-md-2">
+							Réponse 5
+								<div class="well">
+								Dépot 5
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			
+			
+			
+		
+
+		<!-- JavaScript Includes -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var group = $("ol.phrases").sortable({
+					group: 'phrases',
+
+				onDrop: function (item, container, _super) {
+					$('#ordre').val(group.sortable("serialize").get().join())
+					_super(item, container)
+					},
+				serialize: function (parent, children, isContainer) {
+					return isContainer ? children.join() : parent.val()
+					},
+				})
+			})

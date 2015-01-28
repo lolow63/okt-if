@@ -53,11 +53,13 @@ ol.encours li:hover{
 
 .alinea{
 	text-indent:2em}
-table{
+	
+.table{
 	width:80%;
-	margin-left:12px;
-	margin-top:10px;
+	padding:0;
+	margin: 10px;
 	color:black;
+	vertical-align: middle;
 }
 td 	{
    border: 1px solid #55BCBE;
@@ -66,11 +68,9 @@ td 	{
    font-family: Arial;
    font-size: 15px;
    text-align: center;
+   vertical-align: middle;
   
 	}
-	td.tit{background:#FF4B00;}
-	td.col{background:#55BCBE; }
-tr{width:;}
 
 	input.bouton{
 	height:50px;
