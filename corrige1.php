@@ -168,7 +168,7 @@
                           //activité4
                        	 if ($avocat=='Maître'){$note7=$note7+50; $rep7='vrai';}else{ $note7; $rep7;}
                        	 if ($medcin=='Docteur'){$note8=$note8+50; $rep8='vrai';}else{ $note8; $rep8;}
-						 if ($medcin=='Professeur'){$note8=$note8+50; $rep8='vrai';}else{$note8; $rep8;}
+						
                            $notemed=$note7+$note8;
 						   //activité5
 
@@ -188,39 +188,152 @@
 						  echo'<table>';
 						         echo'<tr>
 						            <td>Activité 1</td>
-						            <td>'.$notea.'%</td>
+						            <td>'.$notea.'%';
+									 if(($notea >0) and ($notea<49)){
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notea.'%"></div>
+      </div>';}
+						elseif(($notea >= 50) and ($notea<74)){
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notea.'%"></div>
+      </div>';}	
+                        elseif(($notea >= 75) ){
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notea.'%"></div>
+      </div>';}	  
+	                  else{
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+      </div>';}	  
+									
+									
+									
+									
+									
+									
+									
+									echo'</td>
 						         </tr>
 
 						         <tr>
                                     <td>Activité 2</td>
-						            <td>'.$notegenerale.'%</td>
+						            <td>'.$notegenerale.'%';
+									
+									 if(($notegenerale >0) and ($notegenerale<49)){
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notegenerale.'%"></div>
+      </div>';}
+						elseif(($notegenerale >= 50) and ($notegenerale<74)){
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notegenerale.'%"></div>
+      </div>';}	
+                        elseif(($notegenerale >= 75) ){
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notegenerale.'%"></div>
+      </div>';}	  
+	                  else{
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+      </div>';}
+									
+									
+									
+									echo'</td>
 						         </tr>
 
 						         <tr>
                                     <td>Activité 3</td>
-						            <td>'.$noteb.'%</td>
+						            <td>'.$noteb.'%';
+									 if(($noteb >0) and ($noteb<49)){
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$noteb.'%"></div>
+      </div>';}
+						elseif(($noteb >= 50) and ($noteb<74)){
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$noteb.'%"></div>
+      </div>';}	
+                        elseif(($noteb >= 75) ){
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$noteb.'%"></div>
+      </div>';}	  
+	                  else{
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+      </div>';}
+									echo'</td>
 						         </tr>
 
 						         <tr>
 						            <td>Activité 4</td>
-						            <td>'.$notemed.'%</td>
+						            <td>'.$notemed.'%';
+									 if(($notemed >0) and ($notemed<49)){
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notemed.'%"></div>
+      </div>';}
+						elseif(($notemed >= 50) and ($notemed<74)){
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notemed.'%"></div>
+      </div>';}	
+                        elseif(($notemed >= 75) ){
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notemed.'%"></div>
+      </div>';}	  
+	                  else{
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+      </div>';}
+									echo'</td>
 						         </tr>
 
 						         <tr>
 						           <td>Activité 5</td>
-						            <td>'.$notetab.'%</td>
+						            <td>'.$notetab.'%';
+									 if(($notetab >0) and ($notetab<49)){
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notetab.'%"></div>
+      </div>';}
+						elseif(($notetab >= 50) and ($notetab<74)){
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notetab.'%"></div>
+      </div>';}	
+                        elseif(($notetab >= 75) ){
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notetab.'%"></div>
+      </div>';}	  
+	                  else{
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+      </div>';}
+									echo'</td>
 						         </tr>
 
 						         <tr>
 						           <td>Total Fiche N°1</td>
-						            <td> '.$total.'%</td>
+						            <td> '.$total.'%';
+									 if(($total >0) and ($total<49)){
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$total.'%"></div>
+      </div>';}
+						elseif(($total >= 50) and ($total<74)){
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$total.'%"></div>
+      </div>';}	
+                        elseif(($total >= 75) ){
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$total.'%"></div>
+      </div>';}	  
+	                  else{
+									   echo'<div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+      </div>';}
+									echo'</td>
 						         </tr>
                                  </table></br>
 								 </div><br/>';
 								 //activité1
 
 						  echo'<p>Voyons maintenant vos réponses plus en détail :</p>
-                             <h3 class="activite">Activité 1</h3>
+                             <h3 class="activite">Activité 1 ('.$notea.'%)</h3>
 							 <div class="list-group-item">
                              <h3>Question 1</h3>
 							 
@@ -248,7 +361,7 @@
                                   $ligne6='<ol class="phrases vertical encours"><li value="6"><strong>Salutations</strong> : Cordialement</li></ol>';
 					              $ligne7='<ol class="phrases vertical encours"><li value="7"><strong>Signature</strong> : Service commercial</li></ol>'; 
 						   ?>
-						    <h3 class="activite">Activité 2</h3><?php
+						   <?php echo' <h3 class="activite">Activité 2 ('.$notegenerale.'%)</h3>';
 							if($ok =='true'){
 							     echo'<div class="col-md-12 list-group-item ">';
 								  echo $ligne1;
@@ -356,7 +469,7 @@
 						  <!--activité3-->
 						  
                           <?php
-                          echo'<h3 class="activite">Activité 3</h3>
+                          echo'<h3 class="activite">Activité 3('.$noteb.'%)</h3>
 						  <div class="list-group-item">';
                           echo' <p>La formule d\'appel :</p>
                                 <p>Pour vous adresser à votre destinataire, vous avez utilisé cette formule : </p>';
@@ -427,7 +540,7 @@
 							  
                                  <!--activité4--><?php
 								 
-                                 echo'<h3 class="activite">Activité 4</h3>
+                                 echo'<h3 class="activite">Activité 4('.$notemed.'%)</h3>
 								 
 							<div class="list-group-item col-lg-12">
 
@@ -503,267 +616,657 @@
 							  
 						<?php
 							  
-	                      echo'<h3 class="activite">Activité 5</h3>';
+	                      echo'<h3 class="activite">Activité 5('.$notetab.'%)</h3>';
 	                      echo'<p>Revoyons votre tableau :<p>
-						  <div class="list-group-item">';
-                                echo' <table>
-                                 <tr>
-                                    <td class="col">Formule</td>
-                                    <td class="col">À un ami</th>
-                                    <td class="col">À un professionnel</td>
-                                    <td class="col">À un supérieur hiérarchique</td>
-                                 </tr>
-
-                                 <tr>
-                                 <td>Salutations respectueuses</td>';
-                                 if($sentim=='À un proche'){
-
-                                echo' 
-                                 <td style="background:#D2204C"><input type="radio" checked="checked" name="sentim"  value="À un proche" /></td>
-                                 <td></td>
-                                 <td style="background:#BAC900"></td>
-                                 </tr>';} elseif($sentim=='À des professionnels'){
-                                 	echo' 
-                                 <td></td>
-                                 <td style="background:#D2204C"><input type="radio" checked="checked" name="sentim" value="À des professionnels" /></td>
-                                 <td style="background:#BAC900"></td>
-                                 </tr>';}
-                                 elseif($sentim=='À une personnalité'){echo' 
-                                 <td></td>
-                                 <td></td>
-                                 <td style="background:#BAC900"><input type="radio" checked="checked" name="sentim" value="À une personnalité" /></td>
-                                 </tr>';}
-                                 else{ echo'
-                                 <td style="background:#D2204C"></td>
-                                 <td style="background:#D2204C"></td>
-                                 <td style="background:#BAC900"></td>
-                                 </tr>';}
+						   <div class="well well-lg"><!--debut-->';
+						  
+						       if($sentim=='À un proche'){
+								echo'
+								     <div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class=" label-info label_activite">Salutations respectueuses</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="sentim1" class="form-control" style="background:#D2204C">À un ami </label></div>
+								</div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="sentim2" class=" form-control">À un profes<wbr>sionnel</label></div>
+								</div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                   <span class="input-group-addon">
+                                        
+                                    </span><label for="sentim3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
+								</div></br>';}
+								   elseif($sentim=='À des professionnels'){
+								echo'
+								     <div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class=" label-info label_activite">Salutations respectueuses</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="sentim1" class="form-control" >À un ami </label></div>
+								</div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="sentim2" class=" form-control" style="background:#D2204C">À un profes<wbr>sionnel</label></div>
+								</div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                   <span class="input-group-addon">
+                                        
+                                    </span><label for="sentim3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
+								</div></br>';}
+								 elseif($sentim=='À une personnalité'){
+								echo'
+								     <div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class=" label-info label_activite">Salutations respectueuses</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="sentim1" class="form-control" >À un ami </label></div>
+								</div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="sentim2" class=" form-control">À un profes<wbr>sionnel</label></div>
+								</div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                   <span class="input-group-addon">
+                                        
+                                    </span><label for="sentim3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
+								</div></br>';}
+								else {echo'
+								     <div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class=" label-info label_activite">Salutations respectueuses</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="sentim1" class="form-control" >À un ami </label></div>
+								</div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="sentim2" class=" form-control">À un profes<wbr>sionnel</label></div>
+								</div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                   <span class="input-group-addon">
+                                        
+                                    </span><label for="sentim3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
+								</div></br>';}							
+								//fin de premeir teste				   
+						          if($cord=='À un proche'){
+								  echo'
+								  <div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Cordialement</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="cord1" class="form-control" style="background:#D2204C" >À un ami </label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="cord2" class=" form-control" style="background:#BAC900">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                    <span class="input-group-addon"></span>          
+                                    <label for="cord3" class=" form-control">À un supérieur hiérarchique </label></div></div>
+								    </div></br>';}
+									elseif($cord=='À des professionnels'){
+								  echo'
+								  <div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Cordialement</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="cord1" class="form-control">À un ami </label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="cord2" class=" form-control" style="background:#BAC900">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                    <span class="input-group-addon"></span>          
+                                    <label for="cord3" class=" form-control">À un supérieur hiérarchique </label></div></div>
+								    </div></br>';}
+									elseif($cord=='À une personnalité'){
+								  echo'
+								  <div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Cordialement</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="cord1" class="form-control">À un ami </label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="cord2" class=" form-control" style="background:#BAC900">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                    <span class="input-group-addon"></span>          
+                                    <label for="cord3" class=" form-control"style="background:#D2204C" >À un supérieur hiérarchique </label></div></div>
+								    </div></br>';}
+									else{
+								  echo'
+								  <div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Cordialement</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="cord1" class="form-control" >À un ami </label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="cord2" class=" form-control" style="background:#BAC900">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                    <span class="input-group-addon"></span>          
+                                    <label for="cord3" class=" form-control">À un supérieur hiérarchique </label></div></div>
+								    </div></br>';}
+									//fin desieme teste
+									if($alap=='À un proche'){
+									echo'
+									<div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">À la prochaine !</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="alap1" class="form-control" style="background:#BAC900">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="alap2" class=" form-control">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="alap3" class=" form-control">À un supérieur hiérarchique</label></div></div>
+								</div></br>';}
+								elseif($alap=='À des professionnels'){
+									echo'
+									<div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">À la prochaine !</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="alap1" class="form-control" style="background:#BAC900">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="alap2" class=" form-control" style="background:#D2204C">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="alap3" class=" form-control">À un supérieur hiérarchique</label></div></div>
+								</div></br>';}
+								elseif($alap=='À une personnalité'){
+									echo'
+									<div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">À la prochaine !</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="alap1" class="form-control" style="background:#BAC900">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="alap2" class=" form-control">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="alap3" class=" form-control" style="background:#D2204C">À un supérieur hiérarchique</label></div></div>
+								</div></br>';}
+								else{
+									echo'
+									<div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">À la prochaine !</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="alap1" class="form-control" style="background:#BAC900">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="alap2" class=" form-control">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="alap3" class=" form-control">À un supérieur hiérarchique</label></div></div>
+								</div></br>';}
+						     //fin troisieme teste
+							 if($cors=='À un proche'){
+							 echo'
+							  <div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Cordiales salutations</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="cors1" class="form-control" style="background:#D2204C">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="cors2" class=" form-control">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="cors3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
+								</div></br>';}
+								 elseif($cors=='À des professionnels'){
+							 echo'
+							  <div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Cordiales salutations</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="cors1" class="form-control">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="cors2" class=" form-control"  style="background:#D2204C">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="cors3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
+								</div></br>';}
+								 elseif($cors=='À une personnalité'){
+							 echo'
+							  <div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Cordiales salutations</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="cors1" class="form-control">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="cors2" class=" form-control">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="cors3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
+								</div></br>';}
+								 else{
+							 echo'
+							  <div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Cordiales salutations</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="cors1" class="form-control">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="cors2" class=" form-control">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="cors3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
+								</div></br>';}// fin du quatriem teste
+								if($resp=='À un proche'){
+							        echo'
+									<div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class=" label-info label_activite">Respectueuse considération</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="resp1" class="form-control" style="background:#D2204C">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="resp2" class=" form-control">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="resp3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
+								</div></br>';}
+								if($resp=='À des professionnels'){
+							        echo'
+									<div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class=" label-info label_activite">Respectueuse considération</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="resp1" class="form-control" >À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="resp2" class=" form-control" style="background:#D2204C">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="resp3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
+								</div></br>';}
+								else{
+							        echo'
+									<div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class=" label-info label_activite">Respectueuse considération</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="resp1" class="form-control" >À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="resp2" class=" form-control">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="resp3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
+								</div></br>';}// fin sisieme teste
+								if($ss=='À un proche'){
+								echo'
+								<div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Sincères salutations</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										 
+                                    </span><label for="ss1" class="form-control" style="background:#D2204C">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="ss2" class=" form-control" style="background:#BAC900">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="ss3" class=" form-control" >À un supérieur hiérarchique</label></div></div>
+								</div></br>';}
+								elseif($ss=='À des professionnels'){
+								echo'
+								<div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Sincères salutations</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										 
+                                    </span><label for="ss1" class="form-control">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="ss2" class=" form-control" style="background:#BAC900">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="ss3" class=" form-control" >À un supérieur hiérarchique</label></div></div>
+								</div></br>';}
+							 elseif($ss=='À une personnalité'){
+								echo'
+								<div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Sincères salutations</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										 
+                                    </span><label for="ss1" class="form-control" >À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="ss2" class=" form-control" style="background:#BAC900">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="ss3" class=" form-control" style="background:#D2204C" >À un supérieur hiérarchique</label></div></div>
+								</div></br>';}
+							else{
+								echo'
+								<div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Sincères salutations</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										 
+                                    </span><label for="ss1" class="form-control" >À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="ss2" class=" form-control" style="background:#BAC900">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="ss3" class=" form-control" >À un supérieur hiérarchique</label></div></div>
+								</div></br>';}//fin 7eme teste
+								 if($sd=='À un proche'){
+								 echo'
+								 <div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Salutations distinguées</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="sd1" class="form-control" style="background:#D2204C">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="sd2" class=" form-control" style="background:#BAC900">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="sd3" class=" form-control">À un supérieur hiérarchique</label></div></div>
+								</div></br>';}
+								elseif($sd=='À des professionnels'){
+								 echo'
+								 <div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Salutations distinguées</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="sd1" class="form-control" >À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="sd2" class=" form-control" style="background:#BAC900">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="sd3" class=" form-control">À un supérieur hiérarchique</label></div></div>
+								</div></br>';}
+								elseif($sd=='À une personnalité'){
+								 echo'
+								 <div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Salutations distinguées</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="sd1" class="form-control" >À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="sd2" class=" form-control" style="background:#BAC900">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="sd3" class=" form-control" style="background:#D2204C">À un supérieur hiérarchique</label></div></div>
+								</div></br>';}
+								else{
+								 echo'
+								 <div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Salutations distinguées</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="sd1" class="form-control">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="sd2" class=" form-control" style="background:#BAC900">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                       
+                                    </span><label for="sd3" class=" form-control">À un supérieur hiérarchique</label></div></div>
+								</div></br>';}//7eme
+								if($bs=='À un proche'){
+								echo'
+								 <div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Bises</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="bs1" class="form-control" style="background:#BAC900">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="bs2" class=" form-control">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="bs3" class=" form-control">À un supérieur hiérarchique</label></div></div>
+								</div></br> ';}
+								elseif($bs=='À une personnalité'){
+								echo'
+								 <div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Bises</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="bs1" class="form-control" style="background:#BAC900">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="bs2" class=" form-control" style="background:#D2204C">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="bs3" class=" form-control">À un supérieur hiérarchique</label></div></div>
+								</div></br> ';}
+								elseif($bs=='À une personnalité'){
+								echo'
+								 <div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Bises</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="bs1" class="form-control" style="background:#BAC900">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="bs2" class=" form-control">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="bs3" class=" form-control" style="background:#D2204C">À un supérieur hiérarchique</label></div></div>
+								</div></br> ';}
+								else{
+								echo'
+								 <div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Bises</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="bs1" class="form-control" style="background:#BAC900">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="bs2" class=" form-control">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="bs3" class=" form-control">À un supérieur hiérarchique</label></div></div>
+								</div></br> ';}//8eme
+								if($a=='À un proche'){
+								echo'
+								<div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">À +</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="a1" class="form-control" style="background:#BAC900">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="a2" class=" form-control">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="a3" class=" form-control">À un supérieur hiérarchique</label></div></div>
+								</div></br> ';}
+								elseif($a=='À des professionnels'){
+								echo'
+								<div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">À +</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="a1" class="form-control" style="background:#BAC900">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="a2" class=" form-control" style="background:#D2204C">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="a3" class=" form-control">À un supérieur hiérarchique</label></div></div>
+								</div></br> ';}
+								elseif($a=='À une personnalité'){
+								echo'
+								<div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">À +</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="a1" class="form-control" style="background:#BAC900">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="a2" class=" form-control">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="a3" class=" form-control" style="background:#D2204C">À un supérieur hiérarchique</label></div></div>
+								</div></br> ';}
+								else{
+								echo'
+								<div class="row">  
+                                <div class="col-md-3 col-xs-12"><p class="label-info label_activite">À +</p></div>
+								<div class="col-md-3 col-xs-12">
+                                       <div class="input-group">
+                                        <span class="input-group-addon">
+										
+                                    </span><label for="a1" class="form-control" style="background:#BAC900">À un ami</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class=" input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="a2" class=" form-control">À un profes<wbr>sionnel</label></div></div>
+								<div class="col-md-3 col-xs-12"><div class="input-group">
+                                        <span class="input-group-addon">
+                                        
+                                    </span><label for="a3" class=" form-control">À un supérieur hiérarchique</label></div></div>
+								</div></br> ';}
+								
+						  echo' </div><!--fin exo-->';
+						  
+                               
                                  
-                                   
-
-
-                               echo' <tr>
-                                <td class="col">Cordialement</td>';
-                                 if($cord=='À un proche'){                                
-                                echo' <td class="col" style="background:#D2204C"><input type="radio" checked="checked" name="cord" value="À un proche" /></td>
-                                 <td class="col" style="background:#BAC900"></td>
-                                 <td class="col"></td>                                
-                                 </tr>';} 
-                                 elseif($cord=='À des professionnels'){
-                                 	echo' <td class="col"></td>
-                                 <td class="col" style="background:#BAC900"><input type="radio" checked="checked" name="cord" value="À des professionnels" /></td>
-                                 <td class="col"></td>                                
-                                 </tr>';}
-                                 elseif($cord=='À une personnalité'){
-                                 	echo' <td class="col"></td>
-                                 <td class="col" style="background:#BAC900"></td>
-                                 <td class="col" style="background:#D2204C"><input type="radio" checked="checked" name="cord" value="À une personnalité" /></td>                                
-                                 </tr>';}
-                                 else {echo'
-                                 <td class="col" style="background:#D2204C"></td>
-                                 <td class="col" style="background:#BAC900"></td>
-                                 <td class="col" style="background:#D2204C"></td>                                
-                                 </tr>';}
 
 
 
-                                 echo'<tr>
-                                 <td>À la prochaine !</td>';
-                                 if($alap=='À un proche'){
-	                             echo'                                 
-                                 <td style="background:#BAC900"><input type="radio" checked="checked"name="alap" value="À un proche" /></td>
-                                 <td></td>
-                                 <td></td>
-                                 </tr>';}
-                                 elseif($alap=='À des professionnels'){
-                                 echo'<td style="background:#BAC900"></td>
-                                 <td style="background:#D2204C"><input type="radio" checked="checked" name="alap" value="À des professionnels" /></td>
-                                 <td></td>
-                                 </tr>';}
-                                 elseif($alap=='À une personnalité'){
-                                 echo'<td style="background:#BAC900"></td>
-                                 <td></td>
-                                 <td style="background:#D2204C"><input type="radio" checked="checked" name="alap" value="À une personnalité" /></td>
-                                 </tr>';}
-                                 else{
-                                 echo'<td style="background:#BAC900"></td>
-                                 <td style="background:#D2204C"></td>
-                                 <td style="background:#D2204C"></td>
-                                 </tr>';}
-
-                                 echo'<tr>
-                                 <td class="col">Cordiales salutations</td>';
-                                 if($cors=='À un proche'){
-                                 echo'
-                                 <td class="col" style="background:#D2204C"><input type="radio" checked="checked" name="cors" value="À un proche" /></td>
-                                 <td class="col"></td>
-                                 <td class="col" style="background:#BAC900"></td>
-                                 </tr>';}
-                                 elseif($cors=='À des professionnels'){
-                                 echo'
-                                 <td class="col"></td>
-                                 <td class="col" style="background:#D2204C"><input type="radio" checked="checked" name="cors" value="À des professionnels" /></td>
-                                 <td class="col" style="background:#BAC900"></td>
-                                 </tr>';}
-                                 elseif($cors=='À une personnalité'){
-                                 echo'
-                               	<td class="col"></td>
-                                 <td class="col"></td>
-                                 <td class="col" style="background:#BAC900"><input type="radio" checked="checked" name="cors" value="À une personnalité" /></td>
-                                 </tr>';}
-                                 else{
-                                 echo'
-                               	<td class="col" style="background:#D2204C"></td>
-                                 <td class="col" style="background:#D2204C"></td>
-                                 <td class="col" style="background:#BAC900"></td>
-                                 </tr>';}
-                                 echo'<tr>';
-                                 echo'<td >Respectueuse considération</td>';
-
-                                 if($resp=='À un proche'){
-                                 echo'
-                                 <td style="background:#D2204C"><input type="radio" checked="checked"name="resp" value="À un proche" /></td>
-                                 <td ></td>
-                                 <td style="background:#BAC900"></td>
-                                 </tr>';}
-                                 elseif($resp=='À des professionnels'){
-                                 echo'
-                                 <td ></td>
-                                 <td style="background:#D2204C"><input type="radio" name="resp"checked="checked" value="À des professionnels" /></td>
-                                 <td style="background:#BAC900"></td>
-                                 </tr>';}
-                                 elseif($resp=='À une personnalité'){
-                                 echo'
-                                 <td ></td>
-                                 <td ></td>
-                                 <td style="background:#BAC900"><input type="radio" name="resp "checked="checked" value="À une personnalité" /></td>
-                                 </tr>';}
-                                 else{
-                                 echo'
-                                 <td style="background:#D2204C"></td>
-                                 <td style="background:#D2204C"></td>
-                                 <td style="background:#BAC900"></td>
-                                 </tr>';}
-
-
-
-                                 echo'<tr>
-                                 <td class="col">Sincères salutations</td>';
-                                 if($ss=='À un proche'){
-                                 echo'<td class="col" style="background:#D2204C"><input type="radio" checked="checked" name="ss" value="À un proche" /></td>
-                                 <td class="col" style="background:#BAC900"></td>
-                                 <td class="col"></td>
-                                 </tr>';}
-
-                                 elseif($ss=='À des professionnels'){
-                                 echo'<td class="col"></td>
-                                 <td class="col" style="background:#BAC900"><input type="radio" checked="checked" name="ss" value="À des professionnels" /></td>
-                                 <td class="col"></td>
-                                 </tr>';}
-
-                                 elseif($ss=='À une personnalité'){
-                                 echo'<td class="col"></td>
-                                 <td class="col" style="background:#BAC900"></td>
-                                 <td class="col" style="background:#D2204C"><input type="radio" checked="checked" name="ss" value="À une personnalité" /></td>
-                                 </tr>';}
-
-                                 else{
-                                 echo'<td class="col" style="background:#D2204C"></td>
-                                 <td class="col" style="background:#BAC900"></td>
-                                 <td class="col" style="background:#D2204C"></td>
-                                 </tr>';}
-
-
-                                 echo'<tr>
-                                 <td >Salutations distinguées</td>';
-
-                                 if($sd=='À un proche'){
-                                 	echo'
-                                 <td style="background:#D2204C"><input type="radio" name="sd" checked="checked" value="À un proche" /></td>
-                                 <td style="background:#BAC900"><input type="radio" name="sd" value="À des professionnels" /></td>
-                                 <td ></td>
-                                 </tr>';}
-                                 elseif($sd=='À des professionnels'){
-                                 	echo'
-                                 <td ></td>
-                                 <td style="background:#BAC900"><input type="radio" checked="checked" name="sd" value="À des professionnels" /></td>
-                                 <td ></td>
-                                 </tr>';}
-                                 elseif($sd=='À une personnalité'){
-                                 	echo'
-                                 <td ></td>
-                                 <td style="background:#BAC900"></td>
-                                 <td style="background:#D2204C"><input type="radio" name="sd" checked="checked" value="À une personnalité" /></td>
-                                 </tr>';}
-                                 else{
-                                 	echo'
-                                 <td style="background:#D2204C"></td>
-                                 <td style="background:#BAC900"></td>
-                                 <td style="background:#D2204C"></td>
-                                 </tr>';}
-
-
-
-                                 echo'<tr>
-                                 <td class="col">Bises</td>';
-
-                                 if($bs=='À un proche'){
-                                 echo'<td class="col" style="background:#BAC900"><input type="radio" checked="checked" name="bs" value="À un proche" /></td>
-                                 <td class="col"></td>
-                                 <td class="col"></td>
-                                 </tr>';}
-
-                                 elseif($bs=='À des professionnels'){
-                                 echo'<td class="col" style="background:#BAC900"></td>
-                                 <td class="col" style="background:#D2204C"><input type="radio" checked="checked" name="bs" value="À des professionnels" /></td>
-                                 <td class="col"></td>
-                                 </tr>';}
-
-                                 elseif($bs=='À une personnalité'){
-                                 echo'<td class="col" style="background:#BAC900"></td>
-                                 <td class="col"></td>
-                                 <td class="col" style="background:#D2204C"><input type="radio" checked="checked" name="bs" value="À une personnalité" /></td>
-                                 </tr>';}
-
-                                 else{
-                                 echo'<td class="col" style="background:#BAC900"></td>
-                                 <td class="col" style="background:#D2204C"></td>
-                                 <td class="col" style="background:#D2204C"></td>
-                                 </tr>';}
-
-
-                                 echo'<tr>
-                                 <td>À +</td>';
-
-                                 if($a=='À un proche'){
-                                 echo'
-                                 <td style="background:#BAC900"><input type="radio" checked="checked" name="a" value="À un proche" /></td>
-                                 <td></td>
-                                 <td></td>
-                                 </tr>';}
-                                 
-                                 elseif($a=='À des professionnels'){
-                                 echo'
-                                 <td style="background:#BAC900"></td>
-                                 <td style="background:#D2204C"><input type="radio" checked="checked" name="a" value="À des professionnels" /></td>
-                                 <td></td>
-                                 </tr>';}
-                                 elseif($a=='À une personnalité'){
-                                 echo'
-                                 <td style="background:#BAC900"></td>
-                                 <td></td>
-                                 <td style="background:#D2204C"><input type="radio" checked="checked" name="a" value="À une personnalité" /></td>
-                                 </tr>';}
-                                 else{
-                                 echo'
-                                 <td style="background:#BAC900"></td>
-                                 <td style="background:#D2204C"></td>
-                                 <td style="background:#D2204C"></td>
-                                 </tr>';}
-
-
-
-                               echo'</table></br>';
+                               
+                               	
+                                
 							   
 
                   if($notetab==100){echo'<p><strong class="bonrep">C\'est bien cela !</strong></p>';}
