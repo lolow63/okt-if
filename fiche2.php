@@ -82,20 +82,15 @@
 						<a href="#" title="Imprimer">
 						<i class="fa fa-print fa-lg"></i></a>
 					</div>
-					<div class="input-group">
-						<div class="form-group">
-							<div class="input-group">
-								<span class="input-group-addon label_activite"><strong>Objet :</strong></span>
-								<select name="formap" class="form-control">
+					<strong>Objet :</strong></span>
+								<select name="formap" class="form-control inline-form-control">
 									<option VALUE="f2a1q1none"> </option>
 									<option VALUE="f2a1q1sou">Souhait d'obtenir un crédit</option>
 									<option VALUE="f2a1q1vol">Volonté d'obtenir un crédit bancaire</option>     	                                            
 									<option VALUE="f2a1q1dem">Demande d'obtention d'un crédit</option>
 									<option VALUE="f2a1q1pos">Possiblitité d'obtention d'un crédit</option>
 								</select>
-							</div>
-						</div>
-					</div>
+						
 					<div class="list-group-item">
 						<p><strong>De :</strong>
 							<a class="btn btn-primary btn-xs" href="#" title="Répondre">
@@ -107,49 +102,37 @@
 				</div>
 				<div class="list-group-item">
 					<p>Bonjour, </br>
-					<div class="input-group">
-						<div class="form-group">
-							<div class="input-group">
-								<select name="formap" class="form-control">
+					
+								<select name="formap" class="form-control inline-form-control">
 									<option VALUE="f2a1q2none"> </option>
 									<option VALUE="f2a1q2rai">En raison de </option>
 									<option VALUE="f2a1q2sui">À la suite de </option>     	                                            
 									<option VALUE="f2a1q2apr">Après </option>
 								</select>
-							</div>
-						</div>
-					</div>
+						
 
 					votre offre reçue le 15 mars 2015, je me permets de vous demander de bien vouloir m’informer sur 
 					la possibilité d’achat du modèle CLS 2000 par crédit bancaire.</br> 
 					
-					<div class="input-group">
-						<div class="form-group">
-							<div class="input-group">
-								<select name="formap" class="form-control">
+					
+								<select name="formap" class="form-control inline-form-control">
 									<option VALUE="f2a1q3none"> </option>
 									<option VALUE="f2a1q3bien">Bien que </option>
 									<option VALUE="f2a1q3tout">Toutefois </option>     	                                            
 									<option VALUE="f2a1q3enef">En effet </option>
 								</select>
-							</div>
-						</div>
-					</div>
+						
 
 					ma situation financière actuelle ne me permet pas de régler cash la somme totale du véhicule.</br>
 					
-					<div class="input-group">
-						<div class="form-group">
-							<div class="input-group">
-								<select name="formap" class="form-control">
+			
+								<select name="formap" class="form-control inline-form-control">
 									<option VALUE="f2a1q4none"> </option>
 									<option VALUE="f2a1q4par">Par ailleurs </option>
 									<option VALUE="f2a1q4fin">À la fin </option>     	                                            
 									<option VALUE="f2a1q4cons">En conséquence</option>
 								</select>
-							</div>
-						</div>
-					</div>
+						
 					,je vous prie de bien vouloir prendre en considération ma demande.</br>
 					Je vous prie d’agréer, Monsieur, l’expression de mes salutations distinguées.</br>
 					Mohammed RAÏS</br> 
@@ -292,7 +275,7 @@
 			 <button class="btn btn-success btn-md pull-right" type="submit" hidden="hidden">
 				<i class="fa fa-check-circle"> </i> Voir le corrigé</button></br></br>
 								
-				   </form>
+				   </form><!-- FIN FORMULAIRE -->
 		
 		
 		
