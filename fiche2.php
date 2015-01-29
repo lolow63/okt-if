@@ -58,6 +58,10 @@
 				<p><i>Complétez son courriel avec les formules qui conviennent :</i></p>
 				
 				<!--BOITE MAIL-->
+				 <!-- FORMULAIRE A TRANSMETTRE -->
+				 <form method="post" action="corrige2.php">
+				 
+				 
 				<div class="list-group-item">
 					<div style="float:right"> 
 						<a class="btn btn-info" href="#" title="Accès à votre boite de réception">
@@ -151,16 +155,15 @@
 					Mohammed RAÏS</br> 
 					</p>
 				</div>
-				<div class="list-group-item">
-					<a class="btn btn-primary" href="#" title="Répondre">
-					  <i class="fa fa-reply fa-lg"></i> Répondre</a>
-					<a class="btn btn-info" href="#" title="Répondre à tous">
-					  <i class="fa fa-reply-all fa-lg"></i> Répondre à tous</a>
-					<a class="btn btn-info" href="#" title="Transférer">
-					  <i class="fa fa-share fa-lg"></i> Transférer</a>
-					<a class="btn btn-danger" href="#" title="Supprimer">
-					  <i class="fa fa-trash-o fa-lg"></i> Supprimer</a>
-				</div>
+					<div class="list-group-item">
+					<a class="btn btn-success" href="#" title="Envoyer">
+					  <i class="fa fa-send fa-lg"></i> Envoyer</a>
+					<a class="btn btn-info" href="#" title="Enregister dans Brouillons">
+					  <i class="fa fa-save fa-lg"></i>  Enregister dans Brouillons</a>
+					<a class="btn btn-danger" href="#" title="Annuler">
+					  <i class="fa fa-trash-o fa-lg"></i> Annuler</a>
+				</div></br>
+				
 				
 				
 				
