@@ -53,7 +53,7 @@
 						</ul>
 					</div>
 				</div>
-				<p class="recoi" id="sujet">Mohammed rédige le message :</p>
+				<p class="recoi" id="sujet">Mohammed rédige le message suivant :</p>
 				<h3 id="act1" class="activite">Activité 1</h3>
 				<p><i>Complétez son courriel avec les formules qui conviennent :</i></p>
 				
@@ -85,10 +85,10 @@
 					<strong>Objet :</strong></span>
 								<select name="formap" class="form-control inline-form-control">
 									<option VALUE="f2a1q1none"> </option>
-									<option VALUE="f2a1q1sou">Souhait d'obtenir un crédit</option>
-									<option VALUE="f2a1q1vol">Volonté d'obtenir un crédit bancaire</option>     	                                            
-									<option VALUE="f2a1q1dem">Demande d'obtention d'un crédit</option>
-									<option VALUE="f2a1q1pos">Possiblitité d'obtention d'un crédit</option>
+									<option VALUE="f2a1q1p1">Souhait d'obtenir un crédit</option>
+									<option VALUE="f2a1q1p2">Volonté d'obtenir un crédit bancaire</option>     	                                            
+									<option VALUE="f2a1q1p3">Demande d'obtention d'un crédit</option>
+									<option VALUE="f2a1q1p4">Possiblitité d'obtention d'un crédit</option>
 								</select>
 						
 					<div class="list-group-item">
@@ -105,9 +105,9 @@
 					
 								<select name="formap" class="form-control inline-form-control">
 									<option VALUE="f2a1q2none"> </option>
-									<option VALUE="f2a1q2rai">En raison de </option>
-									<option VALUE="f2a1q2sui">À la suite de </option>     	                                            
-									<option VALUE="f2a1q2apr">Après </option>
+									<option VALUE="f2a1q2p1">En raison de </option>
+									<option VALUE="f2a1q2p2">À la suite de </option>     	                                            
+									<option VALUE="f2a1q2p3">Après </option>
 								</select>
 						
 
@@ -117,20 +117,20 @@
 					
 								<select name="formap" class="form-control inline-form-control">
 									<option VALUE="f2a1q3none"> </option>
-									<option VALUE="f2a1q3bien">Bien que </option>
-									<option VALUE="f2a1q3tout">Toutefois </option>     	                                            
-									<option VALUE="f2a1q3enef">En effet </option>
+									<option VALUE="f2a1q3p1">Bien que </option>
+									<option VALUE="f2a1q3p2">Toutefois </option>     	                                            
+									<option VALUE="f2a1q3p3">En effet </option>
 								</select>
 						
 
-					ma situation financière actuelle ne me permet pas de régler cash la somme totale du véhicule.</br>
+					ma situation financière actuelle ne me permet pas de régler comptant la somme totale du véhicule.</br>
 					
 			
 								<select name="formap" class="form-control inline-form-control">
 									<option VALUE="f2a1q4none"> </option>
-									<option VALUE="f2a1q4par">Par ailleurs </option>
-									<option VALUE="f2a1q4fin">À la fin </option>     	                                            
-									<option VALUE="f2a1q4cons">En conséquence</option>
+									<option VALUE="f2a1q4p1">Par ailleurs </option>
+									<option VALUE="f2a1q4p2">À la fin </option>     	                                            
+									<option VALUE="f2a1q4p3">En conséquence</option>
 								</select>
 						
 					,je vous prie de bien vouloir prendre en considération ma demande.</br>
@@ -152,7 +152,7 @@
 				
 				<h3 id="act2" class="activite">Activité 2</h3>
 				<p class="recoi">Pour aller plus loin</p>
-				<p><i>Trouvez le nom du verbe en italique :</i></p>
+				<p><i>Quelle est la forme nominale du verbe en italique ?</i></p>
 				
 				<div class="well well-lg">
 					<div class="row">
@@ -161,13 +161,13 @@
 						</ol>
 						<div class="btn-group col-md-6" data-toggle="buttons">
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qa" id="f2a2qa-p1"> Recrue
+								<input type="radio" name="f2a2qa" id="f2a2qap1"> Recrue
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qa" id="f2a2qa-p2"> Recrutement
+								<input type="radio" name="f2a2qa" id="f2a2qap2"> Recrutement
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qa" id="f2a2qa-p3"> Recrutation
+								<input type="radio" name="f2a2qa" id="f2a2qap3"> Recrutation
 							</label>
 						</div>
 					</div>
@@ -177,13 +177,13 @@
 						</ol>
 						<div class="btn-group col-md-6" data-toggle="buttons">
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qb" id="f2a2qb-p1"> Révision
+								<input type="radio" name="f2a2qb" id="f2a2qbp1"> Révision
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qb" id="f2a2qb-p2"> Revue
+								<input type="radio" name="f2a2qb" id="f2a2qbp2"> Revue
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qb" id="f2a2qb-p3"> Révisionnement
+								<input type="radio" name="f2a2qb" id="f2a2qbp3"> Révisionnement
 							</label>
 						</div>
 					</div>	
@@ -193,13 +193,13 @@
 						</ol>
 						<div class="btn-group col-md-6" data-toggle="buttons">
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qc" id="f2a2qc-p1"> Réception
+								<input type="radio" name="f2a2qc" id="f2a2qcp1"> Réception
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qc" id="f2a2qc-p2"> Reçu
+								<input type="radio" name="f2a2qc" id="f2a2qcp2"> Reçu
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qc" id="f2a2qc-p3"> Réceptive
+								<input type="radio" name="f2a2qc" id="f2a2qcp3"> Réceptive
 							</label>
 						</div>
 					</div>
@@ -209,13 +209,13 @@
 						</ol>
 						<div class="btn-group col-md-6" data-toggle="buttons">
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qd" id="f2a2qd-p1"> Interromption
+								<input type="radio" name="f2a2qd" id="f2a2qdp1"> Interromption
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qd" id="f2a2qd-p2"> Interrupteur
+								<input type="radio" name="f2a2qd" id="f2a2qdp2"> Interrupteur
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qd" id="f2a2qd-p3"> Interruption
+								<input type="radio" name="f2a2qd" id="f2a2qdp3"> Interruption
 							</label>
 						</div>
 					</div>
@@ -225,13 +225,13 @@
 						</ol>
 						<div class="btn-group col-md-6" data-toggle="buttons">
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qe" id="f2a2qe-p1"> Report
+								<input type="radio" name="f2a2qe" id="f2a2qep1"> Report
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qe" id="f2a2qe-p2"> Reportage
+								<input type="radio" name="f2a2qe" id="f2a2qep2"> Reportage
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qe" id="f2a2qe-p3"> Reportement
+								<input type="radio" name="f2a2qe" id="f2a2qep3"> Reportement
 							</label>
 						</div>
 					</div>
@@ -242,7 +242,7 @@
 				
 				
 				<h3 id="act3" class="activite">Activité 3</h3>
-				<p><i>Trouvez l’objet aux situations ci-dessous :</i></p>
+				<p><i>Pour ces situations, comment formuleriez-vous l’objet du courriel ?</i></p>
 		
 				<div class="well well-lg">
 					<div class="row">
