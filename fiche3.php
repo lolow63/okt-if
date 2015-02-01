@@ -233,6 +233,46 @@
 				
 				<h3 id="act3" class="activite">Activité 3</h3>
 				<p><i>Améliorez le style de ce message en barrant les expressions incorrectes :</i></p>
+				
+				<div class="well">
+					<div class="row">
+						<div class="list-group-item col-md-offset-1 col-md-8">
+							<p>Salut Farid! </br>
+							Moi je suis le représentant de l'association Tadhamon.</br> 
+							Excusez-moi ce grand retard, je n'ai pas pu me déplacer à Alger; en effet j'ai eu la maladie de la maman qui m'a empeché de venir. </br>
+							Voila la fiche technique de notre association qui projette de se doter d’une bibliothèque. Je vous remercie infiniment M. Farid Hamadouche.</p>
+						</div>
+					</div>	
+						<hr>
+					<div class="row">
+						<div class="col-md-12">
+							<ul class="list-unstyled"><strong>a. Se présenter :</strong> <i>Moi je suis le représentant de l'association Tadhamon.</i>
+							<li>Je représente l’association Tadhamon.</li>
+							<li>L’association Tadhamon m’a chargé de la représenter.</li>
+							<li>Je vous écris au nom de l’association Tadhamon.</li>
+							</ul>
+							
+							<ul class="list-unstyled"><strong>b. S’excuser :</strong> <i>Excusez-moi ce grand retard.</i>
+							<li>Excusez-moi ce grand retard.</li>
+							<li>Je vous prie de m’excuser de ce grand retard.</li>
+							<li>Veuillez agréer mes sincères excuses pour ce grand retard.</li>
+							</ul>
+							
+							<ul class="list-unstyled"><strong>c. Expliquer et justifier :</strong> <i>J’ai eu la maladie de la maman qui m’a empêché de ...</i>
+							<li>Ma mère est tombée malade et cela m’a empêché de venir.</li>
+							<li>Maman est malade et je n’ai donc pas pu venir.</li>
+							<li>J’ai pas pu venir à cause de ma mère qui est malade.</li>
+							</ul>
+							
+							<ul class="list-unstyled"><strong>d. Adresser une pièce jointe :</strong> <i>Voilà la fiche technique de notre association.</i>
+							<li>Je vous prie de trouver ci-joint la fiche technique de notre association</li>
+							<li>J’ai mis la fiche la fiche technique de notre association dans le mail</li>
+							<li>La fiche technique de notre association est en pièces jointes : formulation trop directe.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
 		
 		
 		
