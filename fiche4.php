@@ -123,90 +123,93 @@
 				<h3 id="act1" class="activite">Activité 1</h3>
 				<p><i>Parmi les messages suivants, lequel vous semble le plus poli ?</i></p>
 				
-				<div class="row">  
-					<div class="col-md-4 col-xs-12">
-					<input type="radio" style='visibility:hidden;display:none' name="f4a1" value="Vous n'avez pas répondu"  checked="checked"/>
-						   <div class="input-group">
-							<span class="input-group-addon">                                     
-							<input type="radio" name="f4a1" id="f4a1p1" value="On lui propose une brochure" />
-						</span><label for="f4a1p1" class="form-control">
-						Bonjour,</br> 
-						Pouvez-vous, Monsieur Khadraoui, m’informer sur les possibilités d’avoir un crédit. </br> 
-						En fait, je veux acheter une auto et je n’ai pas les moyens qu’il faut.</br> 
-						Merci	
-						</label></div></div>
-					<div class="col-md-4 col-xs-12"><div class=" input-group">
-							<span class="input-group-addon">
-							<input type="radio" name="f4a1" id="f4a1p2" value="On lui fait une proposition commerciale" />
-						</span><label for="f4a1p2" class="2 form-control">
-						Salut Khadraoui,</br> 
-						Est-ce qu’il y a une possibilité de crédit bancaire dans notre société ? </br> 
-						On m’a dit que le comité en a déjà donné, pourquoi pas moi ? </br> 
-						J’ai aussi droit puisque je travaille depuis 5 ans dans cette entreprise ?</br> 
-						Je vous remercie.
-						</label></div></div>
-					<div class="col-md-4 col-xs-12"><div class="input-group">
-							<span class="input-group-addon">
-							<input type="radio" name="f4a1" id="f4a1p3" value="On lui indique qu'un conseiller commercial va le contacter" />
-						</span><label for="f4a1p3" class="2 form-control">
-						Bonjour,</br> 
-						Avant de m’engager dans l’achat d’un véhicule, je me permets de vous demander de bien vouloir m’informer sur les possibilités 
-						d’obtenir un crédit auprès de votre comité.</br> 
-						Je vous remercie par avance de votre retour.</br> 
-						Meilleures salutations.
-						Mohammed RAÏS
-						</label></div></div>
-			</div> 
-				
+				<div class="well">
+					<div class="row">  
+						<div class="col-md-4 col-xs-12">
+						<input type="radio" style='visibility:hidden;display:none' name="f4a1" value="Vous n'avez pas répondu"  checked="checked"/>
+							   <div class="input-group">
+								<span class="input-group-addon">                                     
+								<input type="radio" name="f4a1" id="f4a1p1" value="On lui propose une brochure" />
+							</span><label for="f4a1p1" class="form-control">
+							Bonjour,</br> 
+							Pouvez-vous, Monsieur Khadraoui, m’informer sur les possibilités d’avoir un crédit. </br> 
+							En fait, je veux acheter une auto et je n’ai pas les moyens qu’il faut.</br> 
+							Merci	
+							</label></div></div>
+						<div class="col-md-4 col-xs-12"><div class=" input-group">
+								<span class="input-group-addon">
+								<input type="radio" name="f4a1" id="f4a1p2" value="On lui fait une proposition commerciale" />
+							</span><label for="f4a1p2" class="2 form-control">
+							Salut Khadraoui,</br> 
+							Est-ce qu’il y a une possibilité de crédit bancaire dans notre société ? </br> 
+							On m’a dit que le comité en a déjà donné, pourquoi pas moi ? </br> 
+							J’ai aussi droit puisque je travaille depuis 5 ans dans cette entreprise ?</br> 
+							Je vous remercie.
+							</label></div></div>
+						<div class="col-md-4 col-xs-12"><div class="input-group">
+								<span class="input-group-addon">
+								<input type="radio" name="f4a1" id="f4a1p3" value="On lui indique qu'un conseiller commercial va le contacter" />
+							</span><label for="f4a1p3" class="2 form-control">
+							Bonjour,</br> 
+							Avant de m’engager dans l’achat d’un véhicule, je me permets de vous demander de bien vouloir m’informer sur les possibilités 
+							d’obtenir un crédit auprès de votre comité.</br> 
+							Je vous remercie par avance de votre retour.</br> 
+							Meilleures salutations.
+							Mohammed RAÏS
+							</label></div></div>
+					</div> 
+				</div>
 				
 				
 				
 				<h3 id="act2" class="activite">Activité 2</h3>
 				<p><i>Utilisez à bon escient « qui », « que », « dont », « où » :</i></p>
 				
-				<div>
-					Suite au message
-					<select name="formap" class="form-control inline-form-control">
-						<option VALUE="vous n'avez pas répondu"> </option>
-						<option VALUE="f4a2q1qui">qui</option>
-						<option VALUE="f4a2q1que">que</option>     	                                            
-						<option VALUE="f4a2q1dont">dont</option>
-						<option VALUE="f4a2q1ou">où</option>
-					</select>
-					vous nous avez adressé, je vous prie de trouver ci-joint le document demandé.
-				</div>
-				<div>
-					Les produits
-					<select name="formap" class="form-control inline-form-control">
-						<option VALUE="vous n'avez pas répondu"> </option>
-						<option VALUE="f4a2q2qui">qui</option>
-						<option VALUE="f4a2q2que">que</option>     	                                            
-						<option VALUE="f4a2q2dont">dont</option>
-						<option VALUE="f4a2q2ou">où</option>
-					</select>
-					vous avez fait la commande vont vous être livrés très prochainement.
-				</div>
-				<div>
-					Mohammed RAÏS
-					<select name="formap" class="form-control inline-form-control">
-						<option VALUE="vous n'avez pas répondu"> </option>
-						<option VALUE="f4a2q3qui">qui</option>
-						<option VALUE="f4a2q3que">que</option>     	                                            
-						<option VALUE="f4a2q3dont">dont</option>
-						<option VALUE="f4a2q3ou">où</option>
-					</select>
-					est employé chez FARGO. Mohammed RAÏS cherche à obtenir un crédit bancaire.
-				</div>
-				<div>
-					FARGO
-					<select name="formap" class="form-control inline-form-control">
-						<option VALUE="vous n'avez pas répondu"> </option>
-						<option VALUE="f4a2q4qui">qui</option>
-						<option VALUE="f4a2q4que">que</option>     	                                            
-						<option VALUE="f4a2q4dont">dont</option>
-						<option VALUE="f4a2q4ou">où</option>
-					</select>
-					travaille Mohammed RAÏS est une entreprise de maintenance et de commercialisation de produits frigorifiques.
+				<div class="well">
+					<div>
+						Suite au message
+						<select name="formap" class="form-control inline-form-control">
+							<option VALUE="vous n'avez pas répondu"> </option>
+							<option VALUE="f4a2q1qui">qui</option>
+							<option VALUE="f4a2q1que">que</option>     	                                            
+							<option VALUE="f4a2q1dont">dont</option>
+							<option VALUE="f4a2q1ou">où</option>
+						</select>
+						vous nous avez adressé, je vous prie de trouver ci-joint le document demandé.
+					</div>
+					<div>
+						Les produits
+						<select name="formap" class="form-control inline-form-control">
+							<option VALUE="vous n'avez pas répondu"> </option>
+							<option VALUE="f4a2q2qui">qui</option>
+							<option VALUE="f4a2q2que">que</option>     	                                            
+							<option VALUE="f4a2q2dont">dont</option>
+							<option VALUE="f4a2q2ou">où</option>
+						</select>
+						vous avez fait la commande vont vous être livrés très prochainement.
+					</div>
+					<div>
+						Mohammed RAÏS
+						<select name="formap" class="form-control inline-form-control">
+							<option VALUE="vous n'avez pas répondu"> </option>
+							<option VALUE="f4a2q3qui">qui</option>
+							<option VALUE="f4a2q3que">que</option>     	                                            
+							<option VALUE="f4a2q3dont">dont</option>
+							<option VALUE="f4a2q3ou">où</option>
+						</select>
+						est employé chez FARGO. Mohammed RAÏS cherche à obtenir un crédit bancaire.
+					</div>
+					<div>
+						FARGO
+						<select name="formap" class="form-control inline-form-control">
+							<option VALUE="vous n'avez pas répondu"> </option>
+							<option VALUE="f4a2q4qui">qui</option>
+							<option VALUE="f4a2q4que">que</option>     	                                            
+							<option VALUE="f4a2q4dont">dont</option>
+							<option VALUE="f4a2q4ou">où</option>
+						</select>
+						travaille Mohammed RAÏS est une entreprise de maintenance et de commercialisation de produits frigorifiques.
+					</div>
 				</div>
 					
 				
