@@ -54,23 +54,7 @@ ol.encours li:hover{
 .alinea{
 	text-indent:2em}
 	
-.table{
-	width:80%;
-	padding:0;
-	margin: 10px;
-	color:black;
-	vertical-align: middle;
-}
-td 	{
-   border: 1px solid #55BCBE;
-   padding: 2px;
-   margin: 2px;
-   font-family: Arial;
-   font-size: 15px;
-   text-align: center;
-   vertical-align: middle;
-  
-	}
+	
 
 	input.bouton{
 	height:50px;
@@ -95,6 +79,8 @@ strong.bonrep{color:#BAC900;}
   color:#D2204C;
   font-weight:bold;
   }	
+ 
+
 
 .body-saviez-vous{
   background:#55BCBE;
