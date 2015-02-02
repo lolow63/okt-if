@@ -1,32 +1,34 @@
-body.dragging, body.dragging * {
-    cursor: n-resize; !important; }
+	/*Définition des classes pour les exercices de Drag N'Drop*/
 
 .dragged {
     position: absolute;
     top: 0;
     opacity: 0.5;
-    z-index: 2000; }
-
+    z-index: 2000;
+}
 ol.vertical {
     margin: 0 0 4px 0;
     min-height: 15px; 
     padding-left: 0 !important
-  }
-
-ol.vertical li {
+}
+ol.vertical li ,
+ol.horizontal li,
+ol.cardinal li{
     display: block;
     margin: 2px;
     padding: 8px;
     border: 1px solid #dfdfdf;
     color: #111;
-    background: #eeeeee; }
-
-ol.vertical li.placeholder {
+    background: #eeeeee;
+}
+ol.vertical li.placeholder,
+ol.horizontal li.placeholder,
+ol.cardinal li.placeholder {
     position: relative;
     margin: 0;
     padding: 0;
-    border: none; }
-
+    border: none; 
+}
 ol.vertical li.placeholder:before {
     position: absolute;
     content: "";
@@ -37,26 +39,64 @@ ol.vertical li.placeholder:before {
     top: -4px;
     border: 7px solid transparent;
     border-left-color: red;
-    border-right: none; }
-
+    border-right: none; 
+}
+.vertical li:hover {
+	cursor: n-resize;
+}
+.horizontal li:hover {
+	cursor: e-resize;
+}
+.cardinal li:hover {
+	cursor: move;
+}
 ol.phrases {
-  	list-style-type: none; }
-
+  	list-style-type: none; 
+}
 ol.phrases .fa {
   color: #0088cc;
 }
-
 ol.encours li:hover{
-  cursor: n-resize;
   background: #ddd
 }
 
-.alinea{
-	text-indent:2em}
+/*=================================================
+	Classes d'exercices à rayer					 */
 	
-	
+ul.a-rayer li:hover{
+	cursor: pointer;
+}
+ul.a-rayer li {
+	text-indent: 1em;
+}
+.a-rayer label{
+	font-weight:normal;
+}
+.a-rayer input{
+	visibility:hidden;
+	display:none;
+}
+.a-rayer input[type="checkbox"]:checked+label{
+text-decoration: line-through;
+}
+/*=================================================
+    Classes pour les élements de formulaire      */
 
-	input.bouton{
+.inline-form-control{
+	display:inline-block;
+	width:auto;
+	margin:5px;
+}
+.label_activite{
+ height: 34px;
+ border-radius: 4px;
+ text-align: center;
+ vertical-align: middle;
+ padding: 6px;
+ background-color: #008AC9; 
+ color: white;
+}
+input.bouton{
 	height:50px;
 	background:#3E647E;
 	font-size:14px;
@@ -70,22 +110,53 @@ ol.encours li:hover{
 	margin-left:300px;
 	margin-bottom:10px;
 	}
-p.recoi{font-weight:bold;font-size: 2em;}
-strong.mauvrep{color:#D2204C;}
-strong.bonrep{color:#BAC900;}
-.activite{color:#FF4B00;font-size: 2em; font-style: normal;}
-.remarque{color:#55BCBE;}
+/*===================================================
+    Elements de mise en forme du texte                  */
+
+.alinea{
+	text-indent:2em}
+	
+.justif{
+	text-align: justify;}
+	
+/*=================================================	
+	Définition des classes de polices            */	
+ 
+p.recoi{
+	font-weight:bold;font-size: 2em;
+}
+strong.mauvrep{
+	color:#D2204C;
+}
+strong.bonrep{
+	color:#BAC900;
+}
+.activite{
+color:#FF4B00;
+font-size: 2em;
+font-style: normal;
+}
+.remarque{
+color:#55BCBE;
+}
 .resume{
   color:#D2204C;
   font-weight:bold;
-  }	
- 
+}	
+
+/*===================================================
+	Définition des couleurs							*/
 
 
 .body-saviez-vous{
   background:#55BCBE;
 }
-
+.fa-check{
+  color: #BAC900;
+}
+.fa-close{
+  color: #D2204C;
+}
 #res{
 	border-width:2px;
 	border-color:#ADA59A;
@@ -95,37 +166,21 @@ strong.bonrep{color:#BAC900;}
 	background:#ADA59A;
 }
 a.continue{text-align:center;font-size:1.5em;}
-#exo{
-	border-style:dashed;
-	border-width:1px;
-	margin-left:5px;
-	margin-right:5px;
-	padding:3%;
-}
 
-.label_activite{
- height: 34px;
- border-radius: 4px;
- text-align: center;
- vertical-align: middle;
- padding: 6px;
- background-color: #008AC9; 
- color: white;
-}
+/*====================================================
+	Instruction supplémentaires pour le responsive*/
 
 @media all and (max-width: 980px) and (min-width: 700px){
 .form-control,.label_activite{
   height: 100%;
     }
 }
-
 @media all and (max-width: 700px) and (min-width: 360px){
 .form-control,.label_activite{
    height: 100%;
    
     }
 }
-
 @media all and (max-width: 360px){
 .form-control,.label_activite{
   height: 100%;
@@ -133,7 +188,6 @@ a.continue{text-align:center;font-size:1.5em;}
 
     }
 }
-
 @media all and (max-width: 2000px) and (min-width: 980px) {
 .form-control,.label_activite {
   height: 100%;
@@ -143,15 +197,6 @@ a.continue{text-align:center;font-size:1.5em;}
   }
 }
 
-.justif{text-align: justify;}
-
-.fa-check{
-  color: #BAC900;
-}
-
-.fa-close{
-  color: #D2204C;
-}
 
 .encadre{
 	padding-top:0px;
@@ -161,11 +206,9 @@ label:hover , select:hover, a :hover, .modal-title{
 	cursor: pointer;
 	}
 	
-.inline-form-control{
-display:inline-block;
-width:auto;
-margin:5px;
-}
+/*==========================================================
+*******************FOOTER**********************************/
+
 footer .marianne img{
   width: 80px;
   margin-top:10px;
@@ -173,7 +216,6 @@ footer .marianne img{
   margin-bottom: 10px;
   float:right;
 }
-
 footer .copyrights{
   font-size: 10px;
 }
