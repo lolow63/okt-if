@@ -54,7 +54,7 @@
 					</div>
 				</div>
 				
-				<p class="recoi" id="sujet">Mohammed réçoit le message suivant :</p>
+				<p class="recoi" id="sujet">Mohammed reçoit le message suivant :</p>
 			
             <!--BOITE MAIL-->
 				<div class="list-group-item">
@@ -151,7 +151,6 @@
 					<p>Bonjour Rachid, </br>
 
 					J’ai décidé d’acheter une voiture pour éviter d’être en retard le matin. Mais mes moyens ne me permettent pas cet achat.</br>
-					En effet, nous avons arrêté les ventes par crédit depuis 2009.</br>
 					
 					On m’a dit que notre comité des oeuvres sociales pourrait m’octroyer une aide financière. Je sollicite, donc, cette aide
 					auprès de vous sachant qu’elle me permettra de me faciliter la vie au quotidien.</br>
@@ -177,7 +176,7 @@
 				<form method="post" action="corrige3.php">
 		
 				<h3 id="act1" class="activite">Activité 1</h3>
-				<p><i>Mettez les verbes à l'infinitif au passé composé :</i></p>
+				<p><i>Écrivez les verbes à l'infinitif au passé composé :</i></p>
 				
 				<ol>
 					<li>Mon collègue <input class="form-control inline-form-control" type="text" name="f3a1q1" id="f3a1q1" placeholder="travailler" size="10" maxlength="20"/> jusqu’à 18h.</li>
@@ -185,7 +184,7 @@
 					<li>Ta lettre <input class="form-control inline-form-control" type="text" name="f3a1q3" id="f3a1q3" placeholder="arriver" size="10" maxlength="20"/> la semaine dernière.</li>
 					<li>Nous <input class="form-control inline-form-control" type="text" name="f3a1q4" id="f3a1q4" placeholder="répondre" size="15" maxlength="20"/> favorablement à leur demande.</li>
 					<li>Après la réunion, ils <input class="form-control inline-form-control" type="text" name="f3a1q5" id="f3a1q5" placeholder="rester" size="10" maxlength="20"/> au bureau.</li>
-					<li>Le produit <input class="form-control inline-form-control" type="text" name="f3a1q6" id="f3a1q6" placeholder="devenir" size="10" maxlength="20"/> très commercialisés dans le marché.</li>
+					<li>Le produit <input class="form-control inline-form-control" type="text" name="f3a1q6" id="f3a1q6" placeholder="devenir" size="10" maxlength="20"/> très commercialisé dans le marché.</li>
 				</ol>
 				
 				
@@ -197,33 +196,32 @@
 				
 				
 				<div class="row">
-					<div class="col-md-6">
-						<ol class="phrases encours">
-						<li>Peux-tu me donner un coup de pouce ?</li>
-						<li>Je te prie de m’aider pour</li>
-						<li>Réponds-moi stp sur ce sujet ...</li>
-						<li>Ils m’ont dit que ...</li>
-						<li>Je t’envoie le dossier en pj</li>
-						<li>Merci infiniment pour ton aide</li> 
+				
+					<div class="col-sm-12 col-md-4 well">
+							<strong>Langage formel</strong>
+								<div class="list-group-item">
+								<i>Dépot 1</i>
+								</div>
+					</div>
+					<div class="col-sm-12 col-md-4">
+						<ol class="cardinal phrases encours">
+						<li><span class="fa fa-arrows"></span> Peux-tu me donner un coup de pouce ?</li>
+						<li><span class="fa fa-arrows"></span> Je te prie de m’aider pour ...</li>
+						<li><span class="fa fa-arrows"></span> Réponds-moi stp sur ce sujet ...</li>
+						<li><span class="fa fa-arrows"></span> Ils m’ont dit que ...</li>
+						<li><span class="fa fa-arrows"></span> Je t’envoie le dossier en pj.</li>
+						<li><span class="fa fa-arrows"></span> Merci infiniment pour ton aide.</li> 
 						</ol>
 						<input type="text" id="ordre" hidden="hidden" name="reponse" value="pas de reponse" /> 
 					</div>
-					<div class="col-md-6">
-						<div class="row">
-							<div class="col-md-6">
-							Langage formel
-								<div class="well">
-								Dépot 1
-								</div>
-							</div>
-							<div class="col-md-6">
-							Langage informel
-								<div id="dropper" class="well">
-								Dépot 2
-								</div>
-							</div>							
+					<div class="col-sm-12 col-md-4 well">
+						<strong>Langage informel</strong>
+						<div class="list-group-item">
+						<i>Dépot 2</i>
 						</div>
-					</div>
+					</div>							
+						
+					
 				</div>
 				
 				
@@ -240,34 +238,47 @@
 							<p>Salut Farid! </br>
 							Moi je suis le représentant de l'association Tadhamon.</br> 
 							Excusez-moi ce grand retard, je n'ai pas pu me déplacer à Alger; en effet j'ai eu la maladie de la maman qui m'a empeché de venir. </br>
-							Voila la fiche technique de notre association qui projette de se doter d’une bibliothèque. Je vous remercie infiniment M. Farid Hamadouche.</p>
+							Voila la fiche technique de notre association qui projette de se doter d’une bibliothèque. Je vous remercie infiniment.</br>
+							M. Farid Hamadouche.</p>
 						</div>
 					</div>	
 						<hr>
 					<div class="row">
 						<div class="col-md-12">
-							<ul class="list-unstyled"><strong>a. Se présenter :</strong> <i>Moi je suis le représentant de l'association Tadhamon.</i>
-							<li>Je représente l’association Tadhamon.</li>
-							<li>L’association Tadhamon m’a chargé de la représenter.</li>
-							<li>Je vous écris au nom de l’association Tadhamon.</li>
+							<ul class="list-unstyled a-rayer"><strong>a. Se présenter :</strong> <i>Moi je suis le représentant de l'association Tadhamon.</i>
+							<li><input type="checkbox" name="f3a3qa" id="f3a3qap1"></input>
+							<label for="f3a3qap1">Je représente l’association Tadhamon.</label></li>
+							<li><input type="checkbox" name="f3a3qa" id="f3a3qap2"></input>
+							<label for="f3a3qap2">L’association Tadhamon m’a chargé de la représenter.</label></li>
+							<li><input type="checkbox" name="f3a3qa" id="f3a3qap3"></input>
+							<label for="f3a3qap3">Je vous écris au nom de l’association Tadhamon.</label></li>
 							</ul>
 							
-							<ul class="list-unstyled"><strong>b. S’excuser :</strong> <i>Excusez-moi ce grand retard.</i>
-							<li>Excusez-moi ce grand retard.</li>
-							<li>Je vous prie de m’excuser de ce grand retard.</li>
-							<li>Veuillez agréer mes sincères excuses pour ce grand retard.</li>
+							<ul class="list-unstyled a-rayer"><strong>b. S’excuser :</strong> <i>Excusez-moi ce grand retard.</i>
+							<li><input type="checkbox" name="f3a3qb" id="f3a3qbp1"></input>
+							<label for="f3a3qbp1">Excusez-moi ce grand retard.</label></li>
+							<li><input type="checkbox" name="f3a3qb" id="f3a3qbp2"></input>
+							<label for="f3a3qbp2">Je vous prie de m’excuser de ce grand retard.</label></li>
+							<li><input type="checkbox" name="f3a3qb" id="f3a3qbp3"></input>
+							<label for="f3a3qbp3">Veuillez agréer mes sincères excuses pour ce grand retard.</label></li>
 							</ul>
 							
-							<ul class="list-unstyled"><strong>c. Expliquer et justifier :</strong> <i>J’ai eu la maladie de la maman qui m’a empêché de ...</i>
-							<li>Ma mère est tombée malade et cela m’a empêché de venir.</li>
-							<li>Maman est malade et je n’ai donc pas pu venir.</li>
-							<li>J’ai pas pu venir à cause de ma mère qui est malade.</li>
+							<ul class="list-unstyled a-rayer"><strong>c. Expliquer et justifier :</strong> <i>J’ai eu la maladie de la maman qui m’a empêché de ...</i>
+								<li><input type="checkbox" name="f3a3qc" id="f3a3qcp1"></input>
+								<label for="f3a3qcp1">Ma mère est tombée malade et cela m’a empêché de venir.</label></li>
+								<li><input type="checkbox" name="f3a3qc" id="f3a3qcp2"></input>
+								<label for="f3a3qcp2">Maman est malade et je n’ai donc pas pu venir.</label></li>
+								<li><input type="checkbox" name="f3a3qc" id="f3a3qcp3"></input>
+								<label for="f3a3qcp3">J’ai pas pu venir à cause de ma mère qui est malade.</label></li>
 							</ul>
 							
-							<ul class="list-unstyled"><strong>d. Adresser une pièce jointe :</strong> <i>Voilà la fiche technique de notre association.</i>
-							<li>Je vous prie de trouver ci-joint la fiche technique de notre association</li>
-							<li>J’ai mis la fiche la fiche technique de notre association dans le mail</li>
-							<li>La fiche technique de notre association est en pièces jointes : formulation trop directe.</li>
+							<ul class="list-unstyled a-rayer"><strong>d. Adresser une pièce jointe :</strong> <i>Voilà la fiche technique de notre association.</i>
+								<li><input type="checkbox" name="f3a3qd" id="f3a3qdp1"></input>
+								<label for="f3a3qdp1">Je vous prie de trouver ci-joint la fiche technique de notre association</label></li>
+								<li><li><input type="checkbox" name="f3a3qd" id="f3a3qdp2"></input>
+								<label for="f3a3qdp2">J’ai mis la fiche technique de notre association dans le mail</label></li>
+								<li><li><input type="checkbox" name="f3a3qd" id="f3a3qdp3"></input>
+								<label for="f3a3qdp3">La fiche technique de notre association est en pièces jointes : formulation trop directe.</label></li>
 							</ul>
 						</div>
 					</div>
