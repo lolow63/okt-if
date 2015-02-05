@@ -59,6 +59,10 @@ ol.phrases .fa {
 ol.encours li:hover{
   background: #ddd
 }
+#ordre {
+	display:none;
+	visibility: hidden;
+}
 
 /*=================================================
 	Classes d'exercices à rayer					 */
@@ -79,6 +83,40 @@ ul.a-rayer li {
 .a-rayer input[type="checkbox"]:checked+label{
 text-decoration: line-through;
 }
+/*=================================================
+	Classes d'exercices à surligner				 */
+	
+.a-surligner label:hover{
+	cursor: pointer;
+}
+.a-surligner label{
+	font-weight:normal;
+}
+.a-surligner input{
+	visibility:hidden;
+	display:none;
+ }
+ .a-surligner input[type="checkbox"]:checked+label{
+	background-color: yellow;
+}
+
+/*=================================================
+	Classes d'exercices trouver les erreurs*/
+
+.erreur label:hover{
+	cursor: text;
+}	
+.erreur label{
+	font-weight: normal;
+}
+.erreur input{
+	visibility: hidden;
+	display: none;
+}
+ .erreur input[type="checkbox"]:checked+label{
+	text-decoration: line-through;
+	color: red;
+}	
 /*=================================================
     Classes pour les élements de formulaire      */
 

@@ -133,7 +133,7 @@
 							</span><label for="f4a1p1" class="form-control">
 							Bonjour,</br> 
 							Pouvez-vous, Monsieur Khadraoui, m’informer sur les possibilités d’avoir un crédit. </br> 
-							En fait, je veux acheter une auto et je n’ai pas les moyens qu’il faut.</br> 
+							En fait, je veux acheter une auto et je n’ai pas les moyens nécessaires.</br> 
 							Merci	
 							</label></div></div>
 						<div class="col-md-4 col-xs-12"><div class=" input-group">
@@ -197,10 +197,10 @@
 							<option VALUE="f4a2q3dont">dont</option>
 							<option VALUE="f4a2q3ou">où</option>
 						</select>
-						est employé chez FARGO. Mohammed RAÏS cherche à obtenir un crédit bancaire.
+						est employé chez FARGO, cherche à obtenir un crédit bancaire.
 					</div>
 					<div>
-						FARGO
+						L'entreprise FARGO,
 						<select name="formap" class="form-control inline-form-control">
 							<option VALUE="vous n'avez pas répondu"> </option>
 							<option VALUE="f4a2q4qui">qui</option>
@@ -208,7 +208,7 @@
 							<option VALUE="f4a2q4dont">dont</option>
 							<option VALUE="f4a2q4ou">où</option>
 						</select>
-						travaille Mohammed RAÏS est une entreprise de maintenance et de commercialisation de produits frigorifiques.
+						travaille Mohammed RAÏS, est une entreprise de maintenance et de commercialisation de produits frigorifiques.
 					</div>
 				</div>
 					
@@ -240,15 +240,13 @@
 						<a href="#" title="Imprimer">
 						<i class="fa fa-print fa-lg"></i></a>
 					</div>
-					<p><strong>Objet:</strong> Demande de renseignement</p>
+					<p><strong>Objet:</strong> Demande de renseignements</p>
 					<div class="list-group-item">
 						<p><strong>De :</strong>
 							<span><a class="btn btn-primary btn-xs" href="#" title="Répondre">
 								<i class="fa fa-user fa-lg"></i> Moi</a>
 							</span>
 							<strong>À : </strong>Salim KHADRAOUI (sal.khadraoui@fargo.dz)
-								</br>
-							<strong>Envoyé :</strong> dim. 02/04/15 14:17
 						</p>
 					</div>
 				</div>
@@ -329,9 +327,9 @@
 						<a href="#" title="Imprimer">
 						<i class="fa fa-print fa-lg"></i></a>
 					</div>
-					<p><strong>Objet:</strong> Re: Demande de renseignement</p>
+					<p><strong>Objet:</strong> Re: Demande de renseignements</p>
 					<div class="list-group-item">
-						<p><strong>De :</strong>Salim KHADRAOUI (sal.khadraoui@fargo.dz)
+						<p><strong>De :</strong>Salah KHADRAOUI (sal.khadraoui@fargo.dz)
 							<strong>À : </strong>
 							<span><a class="btn btn-primary btn-xs" href="#" title="Répondre">
 								<i class="fa fa-user fa-lg"></i> Moi</a>
@@ -395,11 +393,11 @@
 						<option VALUE="f4a3q12p2">n’importe</option>     	                                            
 						<option VALUE="f4a3q12p3">certain</option>
 					</select>
-					complément d’information.</br>
+					complément d’informations.</br>
 				
 					Salutations cordiales</br>
 					
-					Salim KHADRAOUI</p>
+					Salah KHADRAOUI</p>
 				</div>
 				<div class="list-group-item">
 					<a class="btn btn-primary" href="#" title="Répondre">
@@ -425,22 +423,7 @@
 		<footer>
 			<?php include("include/footer.php"); ?> 
 		</footer>
-		<!-- JavaScript Includes -->
-		<script type="text/javascript">
-			$(document).ready(function(){
-				var group = $("ol.phrases").sortable({
-					group: 'phrases',
-
-				onDrop: function (item, container, _super) {
-					$('#ordre').val(group.sortable("serialize").get().join())
-					_super(item, container)
-					},
-				serialize: function (parent, children, isContainer) {
-					return isContainer ? children.join() : parent.val()
-					},
-				})
-			})
-		</script>
+	
 		<!--Script pour Scrollspy fluide-->
 		<script>
 			$(function () {

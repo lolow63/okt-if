@@ -142,8 +142,6 @@
 								<i class="fa fa-user fa-lg"></i> Moi</a>
 							</span>
 							<strong>À : </strong>Rachid HAMDI (rach.hamdi@fargo.dz)
-								</br>
-							<strong>Envoyé :</strong> jeu. 30/03/15 10:21
 						</p>
 					</div>
 				</div>
@@ -194,36 +192,87 @@
 				<p class="recoi">Pour aller plus loin</p>
 				<p><i>Déplacez les phrases ci-dessous dans les bonnes cases :</i></p>
 				
-				
-				<div class="row">
-				
-					<div class="col-sm-12 col-md-4 well">
-							<strong>Langage formel</strong>
-								<div class="list-group-item">
-								<i>Dépot 1</i>
-								</div>
-					</div>
-					<div class="col-sm-12 col-md-4">
-						<ol class="cardinal phrases encours">
-						<li><span class="fa fa-arrows"></span> Peux-tu me donner un coup de pouce ?</li>
-						<li><span class="fa fa-arrows"></span> Je te prie de m’aider pour ...</li>
-						<li><span class="fa fa-arrows"></span> Réponds-moi stp sur ce sujet ...</li>
-						<li><span class="fa fa-arrows"></span> Ils m’ont dit que ...</li>
-						<li><span class="fa fa-arrows"></span> Je t’envoie le dossier en pj.</li>
-						<li><span class="fa fa-arrows"></span> Merci infiniment pour ton aide.</li> 
+				<div class="well well-lg">
+					<div class="row">
+						<ol class="vertical col-md-6">
+							<li>a. Peux-tu me donner un coup de pouce ?</li>
 						</ol>
-						<input type="text" id="ordre" hidden="hidden" name="reponse" value="pas de reponse" /> 
-					</div>
-					<div class="col-sm-12 col-md-4 well">
-						<strong>Langage informel</strong>
-						<div class="list-group-item">
-						<i>Dépot 2</i>
+						<div class="btn-group col-md-6" data-toggle="buttons">
+							<label class="btn btn-primary">
+								<input type="radio" name="f3a2qa" id="f3a2qap1"> Langage formel
+							</label>
+							<label class="btn btn-primary">
+								<input type="radio" name="f3a2qa" id="f3a2qap2"> Langage informel
+							</label>
 						</div>
-					</div>							
-						
+					</div>
+					<div class="row">
+						<ol class="vertical col-md-6">
+							<li>b. Je te prie de m’aider pour ...</li>
+						</ol>
+						<div class="btn-group col-md-6" data-toggle="buttons">
+							<label class="btn btn-primary">
+								<input type="radio" name="f3a2qb" id="f3a2qbp1"> Langage formel
+							</label>
+							<label class="btn btn-primary">
+								<input type="radio" name="f3a2qb" id="f3a2qbp2"> Langage informel
+							</label>
+						</div>
+					</div>	
+					<div class="row">	
+						<ol class="vertical col-md-6">
+							<li>c. Réponds-moi stp sur ce sujet ...</li>
+						</ol>
+						<div class="btn-group col-md-6" data-toggle="buttons">
+							<label class="btn btn-primary">
+								<input type="radio" name="f3a2qc" id="f3a2qcp1"> Langage formel
+							</label>
+							<label class="btn btn-primary">
+								<input type="radio" name="f3a2qc" id="f3a2qcp2"> Langage informel
+							</label>
+						</div>
+					</div>
+					<div class="row">	
+						<ol class="vertical col-md-6">
+							<li>d. Ils m’ont dit que ...</li>
+						</ol>
+						<div class="btn-group col-md-6" data-toggle="buttons">
+							<label class="btn btn-primary">
+								<input type="radio" name="f3a2qd" id="f3a2qdp1"> Langage formel
+							</label>
+							<label class="btn btn-primary">
+								<input type="radio" name="f3a2qd" id="f3a2qdp2"> Langage informel
+							</label>
+						</div>
+					</div>
+					<div class="row">	
+						<ol class="vertical col-md-6">
+							<li>e. Je t’envoie le dossier en pj.</li>
+						</ol>
+						<div class="btn-group col-md-6" data-toggle="buttons">
+							<label class="btn btn-primary">
+								<input type="radio" name="f3a2qe" id="f3a2qep1"> Langage formel
+							</label>
+							<label class="btn btn-primary">
+								<input type="radio" name="f2a2qe" id="f2a2qep2"> Langage informel
+							</label>
+						</div>
+					</div>
+					<div class="row">	
+						<ol class="vertical col-md-6">
+							<li>f. Merci infiniment pour ton aide.</li>
+						</ol>
+						<div class="btn-group col-md-6" data-toggle="buttons">
+							<label class="btn btn-primary">
+								<input type="radio" name="f3a2qf" id="f3a2qfp1"> Langage formel
+							</label>
+							<label class="btn btn-primary">
+								<input type="radio" name="f3a2qf" id="f3a2qfp2"> Langage informel
+							</label>
+						</div>
+					</div>
 					
 				</div>
-				
 				
 				
 				
@@ -235,7 +284,7 @@
 				<div class="well">
 					<div class="row">
 						<div class="list-group-item col-md-offset-1 col-md-8">
-							<p>Salut Farid! </br>
+							<p>Salut Omar! </br>
 							Moi je suis le représentant de l'association Tadhamon.</br> 
 							Excusez-moi ce grand retard, je n'ai pas pu me déplacer à Alger; en effet j'ai eu la maladie de la maman qui m'a empeché de venir. </br>
 							Voila la fiche technique de notre association qui projette de se doter d’une bibliothèque. Je vous remercie infiniment.</br>
@@ -246,39 +295,47 @@
 					<div class="row">
 						<div class="col-md-12">
 							<ul class="list-unstyled a-rayer"><strong>a. Se présenter :</strong> <i>Moi je suis le représentant de l'association Tadhamon.</i>
-							<li><input type="checkbox" name="f3a3qa" id="f3a3qap1"></input>
-							<label for="f3a3qap1">Je représente l’association Tadhamon.</label></li>
-							<li><input type="checkbox" name="f3a3qa" id="f3a3qap2"></input>
-							<label for="f3a3qap2">L’association Tadhamon m’a chargé de la représenter.</label></li>
-							<li><input type="checkbox" name="f3a3qa" id="f3a3qap3"></input>
-							<label for="f3a3qap3">Je vous écris au nom de l’association Tadhamon.</label></li>
+							<div class="well">
+								<li><input type="checkbox" name="f3a3qa" id="f3a3qap1"></input>
+								<label for="f3a3qap1">Je représente l’association Tadhamon.</label></li>
+								<li><input type="checkbox" name="f3a3qa" id="f3a3qap2"></input>
+								<label for="f3a3qap2">L’association Tadhamon m’a chargé de la représenter.</label></li>
+								<li><input type="checkbox" name="f3a3qa" id="f3a3qap3"></input>
+								<label for="f3a3qap3">Je vous écris au nom de l’association Tadhamon.</label></li>
+							</div>
 							</ul>
 							
 							<ul class="list-unstyled a-rayer"><strong>b. S’excuser :</strong> <i>Excusez-moi ce grand retard.</i>
-							<li><input type="checkbox" name="f3a3qb" id="f3a3qbp1"></input>
-							<label for="f3a3qbp1">Excusez-moi ce grand retard.</label></li>
-							<li><input type="checkbox" name="f3a3qb" id="f3a3qbp2"></input>
-							<label for="f3a3qbp2">Je vous prie de m’excuser de ce grand retard.</label></li>
-							<li><input type="checkbox" name="f3a3qb" id="f3a3qbp3"></input>
-							<label for="f3a3qbp3">Veuillez agréer mes sincères excuses pour ce grand retard.</label></li>
+								<div class="well">
+								<li><input type="checkbox" name="f3a3qb" id="f3a3qbp1"></input>
+								<label for="f3a3qbp1">Excusez-moi ce grand retard.</label></li>
+								<li><input type="checkbox" name="f3a3qb" id="f3a3qbp2"></input>
+								<label for="f3a3qbp2">Je vous prie de m’excuser de ce grand retard.</label></li>
+								<li><input type="checkbox" name="f3a3qb" id="f3a3qbp3"></input>
+								<label for="f3a3qbp3">Veuillez agréer mes sincères excuses pour ce grand retard.</label></li>
+							</div>
 							</ul>
 							
 							<ul class="list-unstyled a-rayer"><strong>c. Expliquer et justifier :</strong> <i>J’ai eu la maladie de la maman qui m’a empêché de ...</i>
+							<div class="well">
 								<li><input type="checkbox" name="f3a3qc" id="f3a3qcp1"></input>
 								<label for="f3a3qcp1">Ma mère est tombée malade et cela m’a empêché de venir.</label></li>
 								<li><input type="checkbox" name="f3a3qc" id="f3a3qcp2"></input>
 								<label for="f3a3qcp2">Maman est malade et je n’ai donc pas pu venir.</label></li>
 								<li><input type="checkbox" name="f3a3qc" id="f3a3qcp3"></input>
 								<label for="f3a3qcp3">J’ai pas pu venir à cause de ma mère qui est malade.</label></li>
+							</div>
 							</ul>
 							
 							<ul class="list-unstyled a-rayer"><strong>d. Adresser une pièce jointe :</strong> <i>Voilà la fiche technique de notre association.</i>
+							<div class="well">
 								<li><input type="checkbox" name="f3a3qd" id="f3a3qdp1"></input>
 								<label for="f3a3qdp1">Je vous prie de trouver ci-joint la fiche technique de notre association</label></li>
 								<li><li><input type="checkbox" name="f3a3qd" id="f3a3qdp2"></input>
 								<label for="f3a3qdp2">J’ai mis la fiche technique de notre association dans le mail</label></li>
 								<li><li><input type="checkbox" name="f3a3qd" id="f3a3qdp3"></input>
-								<label for="f3a3qdp3">La fiche technique de notre association est en pièces jointes : formulation trop directe.</label></li>
+								<label for="f3a3qdp3">La fiche technique de notre association est en pièces jointes.</label></li>
+							</div>
 							</ul>
 						</div>
 					</div>
@@ -299,22 +356,7 @@
 		<footer>
 			<?php include("include/footer.php"); ?> 
 		</footer>
-		<!-- JavaScript Includes -->
-		<script type="text/javascript">
-			$(document).ready(function(){
-				var group = $("ol.phrases").sortable({
-					group: 'phrases',
 
-				onDrop: function (item, container, _super) {
-					$('#ordre').val(group.sortable("serialize").get().join())
-					_super(item, container)
-					},
-				serialize: function (parent, children, isContainer) {
-					return isContainer ? children.join() : parent.val()
-					},
-				})
-			})
-		</script>
 		<!--Script pour Scrollspy fluide-->
 		<script>
 			$(function () {

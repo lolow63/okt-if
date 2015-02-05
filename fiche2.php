@@ -96,7 +96,6 @@
 							<a class="btn btn-primary btn-xs" href="#" title="Répondre">
 								<i class="fa fa-user fa-lg"></i> Moi</a> 
 							<span><strong>À : </strong>service.commercial@<wbr>veh.dz</span></br>
-							<strong>Envoyé :</strong> lun. 16/03/15 09:43
 						</p>
 					</div>
 				</div>
@@ -147,7 +146,7 @@
 					  <i class="fa fa-trash-o fa-lg"></i> Annuler</a>
 				</div></br>
 				
-				
+				<!--FIN BOITE MAIL -->
 				
 				
 				<h3 id="act2" class="activite">Activité 2</h3>
@@ -258,13 +257,13 @@
 						</div>
 						<div class="col-md-6">
 							<ol class="phrases vertical encours">
-							<li><i class="fa fa-arrows-v"></i> Demande de documentation</li>
-							<li><i class="fa fa-arrows-v"></i> Expédition de marchandises</li>
-							<li><i class="fa fa-arrows-v"></i> Confirmation de commande</li>
-							<li><i class="fa fa-arrows-v"></i> Demande de prolongation de paiement</li>
-							<li><i class="fa fa-arrows-v"></i> Annulation en partie de la commande passée précédemment</li>
+							<li value="3"><i class="fa fa-arrows-v"></i> Demande de documentation</li>
+							<li value="5"><i class="fa fa-arrows-v"></i> Demande de prolongation de paiement</li>
+							<li value="1"><i class="fa fa-arrows-v"></i> Expédition de marchandises</li>
+							<li value="4"><i class="fa fa-arrows-v"></i> Confirmation de commande</li>
+							<li value="2"><i class="fa fa-arrows-v"></i> Annulation en partie de la commande passée précédemment</li>
 							</ol>
-							<input type="text" id="ordre" hidden="hidden" name="reponse" value="pas de reponse" /> 
+							<input type="text" id="ordre" name="reponse" value="pas de reponse" /> 
 						</div>
 					</div>
 				</div>
