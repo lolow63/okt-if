@@ -46,10 +46,10 @@
 					</div>
 					<div class="text-center well encadre col-xs-12 col-sm-offset-1 col-sm-10 col-sm-offset-1">
 						<ul class="list-unstyled"><h3 class="activite">Objectifs</h3>
-							<li class="remarque"><span class="fa fa-angle-double-right"></span>@</li>
-							<li class="remarque"><span class="fa fa-angle-double-right"></span>@</li>
-							<li class="remarque"><span class="fa fa-angle-double-right"></span>@</li>
-							<li class="remarque"><span class="fa fa-angle-double-right"></span>@</li>
+							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
+							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
+							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
+							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
 						</ul>
 					</div>
 				</div>
@@ -59,29 +59,29 @@
             <!--BOITE MAIL-->
 				<div class="list-group-item">
 					<div style="float:right"> 
-						<a class="btn btn-info" href="#" title="Accès à votre boite de réception">
+						<a class="btn btn-info" href="#this" title="Accès à votre boite de réception">
 						<i class="fa fa-envelope-o fa-lg"></i> Boite de réception</a>
 
-						<a class="btn btn-primary" href="#" title="Afficher les messages non lus">
+						<a class="btn btn-primary" href="#this" title="Afficher les messages non lus">
 						<i class="fa fa-envelope fa-lg"></i> Non lus </a>
 
-						<a href="#" title="Répondre">
+						<a href="#this" title="Répondre">
 						<i class="fa fa-reply fa-lg"></i></a>
 
-						<a href="#" title="Répondre à tous">
+						<a href="#this" title="Répondre à tous">
 						<i class="fa fa-reply-all fa-lg"></i></a>
 
-						<a href="#" title="Faire suivre à vos contacts">
+						<a href="#this" title="Faire suivre à vos contacts">
 						<i class="fa fa-share fa-lg"></i></a>
 
-						<a href="#" title="Imprimer">
+						<a href="#this" title="Imprimer">
 						<i class="fa fa-print fa-lg"></i></a>
 					</div>
 					<p><strong>Objet:</strong> Re: votre demande de crédit</p>
 					<div class="list-group-item">
 						<p><strong>De :</strong> service.commercial@<wbr>veh.dz
 							<span><strong>À : </strong>
-								<a class="btn btn-primary btn-xs" href="#" title="Répondre">
+								<a class="btn btn-primary btn-xs" href="#this" title="Répondre">
 								<i class="fa fa-user fa-lg"></i> Moi</a>
 							</span></br>
 							<strong>Envoyé :</strong> mar. 25/03/15 10:21
@@ -101,13 +101,13 @@
 					Service commercial VEH</p>
 				</div>
 				<div class="list-group-item">
-					<a class="btn btn-primary" href="#" title="Répondre">
+					<a class="btn btn-primary" href="#this" title="Répondre">
 					  <i class="fa fa-reply fa-lg"></i> Répondre</a>
-					<a class="btn btn-info" href="#" title="Répondre à tous">
+					<a class="btn btn-info" href="#this" title="Répondre à tous">
 					  <i class="fa fa-reply-all fa-lg"></i> Répondre à tous</a>
-					<a class="btn btn-info" href="#" title="Transférer">
+					<a class="btn btn-info" href="#this" title="Transférer">
 					  <i class="fa fa-share fa-lg"></i> Transférer</a>
-					<a class="btn btn-danger" href="#" title="Supprimer">
+					<a class="btn btn-danger" href="#this" title="Supprimer">
 					  <i class="fa fa-trash-o fa-lg"></i> Supprimer</a>
 				</div></br>
 				<!--FIN BOITE MAIL -->
@@ -117,28 +117,28 @@
 				<!--BOITE MAIL-->
 				<div class="list-group-item">
 					<div style="float:right"> 
-						<a class="btn btn-info" href="#" title="Accès à votre boite de réception">
+						<a class="btn btn-info" href="#this" title="Accès à votre boite de réception">
 						<i class="fa fa-envelope-o fa-lg"></i> Boite de réception</a>
 
-						<a class="btn btn-primary" href="#" title="Afficher les messages non lus">
+						<a class="btn btn-primary" href="#this" title="Afficher les messages non lus">
 						<i class="fa fa-envelope fa-lg"></i> Non lus </a>
 
-						<a href="#" title="Répondre">
+						<a href="#this" title="Répondre">
 						<i class="fa fa-reply fa-lg"></i></a>
 
-						<a href="#" title="Répondre à tous">
+						<a href="#this" title="Répondre à tous">
 						<i class="fa fa-reply-all fa-lg"></i></a>
 
-						<a href="#" title="Faire suivre à vos contacts">
+						<a href="#this" title="Faire suivre à vos contacts">
 						<i class="fa fa-share fa-lg"></i></a>
 
-						<a href="#" title="Imprimer">
+						<a href="#this" title="Imprimer">
 						<i class="fa fa-print fa-lg"></i></a>
 					</div>
 					<p><strong>Objet:</strong> Sollicitation d’un crédit</p>
 					<div class="list-group-item">
 						<p><strong>De :</strong>
-							<span><a class="btn btn-primary btn-xs" href="#" title="Répondre">
+							<span><a class="btn btn-primary btn-xs" href="#this" title="Répondre">
 								<i class="fa fa-user fa-lg"></i> Moi</a>
 							</span>
 							<strong>À : </strong>Rachid HAMDI (rach.hamdi@fargo.dz)
@@ -160,11 +160,11 @@
 					Mohammed RAÏS</p>
 				</div>
 				<div class="list-group-item">
-					<a class="btn btn-success" href="#" title="Envoyer">
+					<a class="btn btn-success" href="#this" title="Envoyer">
 					  <i class="fa fa-send fa-lg"></i> Envoyer</a>
-					<a class="btn btn-info" href="#" title="Enregister dans Brouillons">
+					<a class="btn btn-info" href="#this" title="Enregister dans Brouillons">
 					  <i class="fa fa-save fa-lg"></i>  Enregister dans Brouillons</a>
-					<a class="btn btn-danger" href="#" title="Annuler">
+					<a class="btn btn-danger" href="#this" title="Annuler">
 					  <i class="fa fa-trash-o fa-lg"></i> Annuler</a>
 				</div></br>
 				
@@ -194,7 +194,7 @@
 				
 				<div class="well well-lg">
 					<div class="row">
-						<ol class="vertical col-md-6">
+						<ol class="vertical col-xs-12 col-sm-6">
 							<li>a. Peux-tu me donner un coup de pouce ?</li>
 						</ol>
 						<div class="btn-group col-md-6" data-toggle="buttons">
@@ -207,7 +207,7 @@
 						</div>
 					</div>
 					<div class="row">
-						<ol class="vertical col-md-6">
+						<ol class="vertical col-xs-12 col-sm-6">
 							<li>b. Je te prie de m’aider pour ...</li>
 						</ol>
 						<div class="btn-group col-md-6" data-toggle="buttons">
@@ -220,7 +220,7 @@
 						</div>
 					</div>	
 					<div class="row">	
-						<ol class="vertical col-md-6">
+						<ol class="vertical col-xs-12 col-sm-6">
 							<li>c. Réponds-moi stp sur ce sujet ...</li>
 						</ol>
 						<div class="btn-group col-md-6" data-toggle="buttons">
@@ -233,7 +233,7 @@
 						</div>
 					</div>
 					<div class="row">	
-						<ol class="vertical col-md-6">
+						<ol class="vertical col-xs-12 col-sm-6">
 							<li>d. Ils m’ont dit que ...</li>
 						</ol>
 						<div class="btn-group col-md-6" data-toggle="buttons">
@@ -246,7 +246,7 @@
 						</div>
 					</div>
 					<div class="row">	
-						<ol class="vertical col-md-6">
+						<ol class="vertical col-xs-12 col-sm-6">
 							<li>e. Je t’envoie le dossier en pj.</li>
 						</ol>
 						<div class="btn-group col-md-6" data-toggle="buttons">
@@ -259,7 +259,7 @@
 						</div>
 					</div>
 					<div class="row">	
-						<ol class="vertical col-md-6">
+						<ol class="vertical col-xs-12 col-sm-6">
 							<li>f. Merci infiniment pour ton aide.</li>
 						</ol>
 						<div class="btn-group col-md-6" data-toggle="buttons">

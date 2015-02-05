@@ -44,10 +44,10 @@
 					 </div>
 					 <div class="text-center well encadre col-xs-12 col-sm-offset-1 col-sm-10 col-sm-offset-1">
 						<ul class="list-unstyled"><h3 class="activite">Objectifs</h3>
-							 <li class="remarque"><span class="fa fa-angle-double-right"></span> Identifier l’expéditeur d’un courriel professionnel reçu.</li>
-							 <li class="remarque"><span class="fa fa-angle-double-right"></span> Repérer l’objet d’un courriel professionnel.</li>
-							 <li class="remarque"><span class="fa fa-angle-double-right"></span> Reconnaître la structure d’un courriel professionnel.</li>
-							 <li class="remarque"><span class="fa fa-angle-double-right"></span> Utiliser de façon adéquate les formules d’appel et de salutations</li>
+							 <li class=""><span class="fa fa-angle-double-right"></span> Identifier l’expéditeur d’un courriel professionnel reçu.</li>
+							 <li class=""><span class="fa fa-angle-double-right"></span> Repérer l’objet d’un courriel professionnel.</li>
+							 <li class=""><span class="fa fa-angle-double-right"></span> Reconnaître la structure d’un courriel professionnel.</li>
+							 <li class=""><span class="fa fa-angle-double-right"></span> Utiliser de façon adéquate les formules d’appel et de salutations</li>
 						</ul>
 					 </div>
 				 </div>
@@ -56,29 +56,29 @@
 			 <!--BOITE MAIL -->
             <div class="list-group-item">
             <div style="float:right"> 
-    <a class="btn btn-info" href="#" title="Accès à votre boite de réception">
+    <a class="btn btn-info" href="#this" title="Accès à votre boite de réception">
     <i class="fa fa-envelope-o fa-lg"></i> Boite de réception</a>
 
-    <a class="hidden-xs btn btn-primary" href="#" title="Afficher les messages non lus">
+    <a class="hidden-xs btn btn-primary" href="#this" title="Afficher les messages non lus">
   <i class="fa fa-envelope fa-lg"></i> Non lus </a>
 
-    <a href="#" class="hidden-xs" title="Répondre">
+    <a href="#this" class="hidden-xs" title="Répondre">
     <i class="fa fa-reply fa-lg"></i></a>
 
-    <a href="#" class="hidden-xs" title="Répondre à tous">
+    <a href="#this" class="hidden-xs" title="Répondre à tous">
     <i class="fa fa-reply-all fa-lg"></i></a>
 
-    <a href="#" class="hidden-xs" title="Faire suivre à vos contacts">
+    <a href="#this" class="hidden-xs" title="Faire suivre à vos contacts">
     <i class="fa fa-share fa-lg"></i></a>
 
-    <a href="#" class="hidden-xs" title="Imprimer">
+    <a href="#this" class="hidden-xs" title="Imprimer">
     <i class="fa fa-print fa-lg"></i></a>
             </div>
     <p><strong>Objet:</strong> Offre commerciale</p>
                 <div class="list-group-item">
         <p><strong>De :</strong> service.commercial@<wbr>veh.dz
         <span><strong>À : </strong>
-        <a class="btn btn-primary btn-xs" href="#" title="med.rais102@gmail.com">
+        <a class="btn btn-primary btn-xs" href="#this" title="med.rais102@gmail.com">
         <i class="fa fa-user fa-lg"></i> Moi</a>
         </span></br>
         <strong>Envoyé :</strong> dim. 15/03/14 10:21</p>
@@ -102,13 +102,13 @@ Cordialement.</br>
 Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
             </div>
             <div class="list-group-item">
-<a class="btn btn-primary" href="#" title="Répondre">
+<a class="btn btn-primary" href="#this" title="Répondre">
   <i class="fa fa-reply fa-lg"></i> Répondre</a>
-<a class="btn btn-info hidden-xs" href="#" title="Répondre à tous">
+<a class="btn btn-info hidden-xs" href="#this" title="Répondre à tous">
   <i class="fa fa-reply-all fa-lg"></i> Répondre à tous</a>
-<a class="btn btn-info hidden-xs" href="#" title="Transférer">
+<a class="btn btn-info hidden-xs" href="#this" title="Transférer">
   <i class="fa fa-share fa-lg"></i> Transférer</a>
-<a class="btn btn-danger hidden-xs" href="#" title="Supprimer">
+<a class="btn btn-danger hidden-xs" href="#this" title="Supprimer">
   <i class="fa fa-trash-o fa-lg"></i> Supprimer</a>
         </div>
 
