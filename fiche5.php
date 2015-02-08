@@ -62,20 +62,20 @@
 						<a class="btn btn-info" href="#this" title="Accès à votre boite de réception">
 						<i class="fa fa-envelope-o fa-lg"></i> Boite de réception</a>
 
-						<a class="btn btn-primary" href="#this" title="Afficher les messages non lus">
+						<a class="hidden-xs btn btn-primary" href="#this" title="Afficher les messages non lus">
 						<i class="fa fa-envelope fa-lg"></i> Non lus </a>
 
 						<a href="#this" title="Répondre">
-						<i class="fa fa-reply fa-lg"></i></a>
+						<i class="hidden-xs fa fa-reply fa-lg"></i></a>
 
 						<a href="#this" title="Répondre à tous">
-						<i class="fa fa-reply-all fa-lg"></i></a>
+						<i class="hidden-xs fa fa-reply-all fa-lg"></i></a>
 
 						<a href="#this" title="Faire suivre à vos contacts">
-						<i class="fa fa-share fa-lg"></i></a>
+						<i class="hidden-xs fa fa-share fa-lg"></i></a>
 
 						<a href="#this" title="Imprimer">
-						<i class="fa fa-print fa-lg"></i></a>
+						<i class="hidden-xs fa fa-print fa-lg"></i></a>
 					</div>
 					<p><strong>Objet:</strong> Re : Demande de renseignements</p>
 					<div class="list-group-item">
@@ -101,11 +101,11 @@
 				<div class="list-group-item">
 					<a class="btn btn-primary" href="#this" title="Répondre">
 					  <i class="fa fa-reply fa-lg"></i> Répondre</a>
-					<a class="btn btn-info" href="#this" title="Répondre à tous">
+					<a class="hidden-xs btn btn-info" href="#this" title="Répondre à tous">
 					  <i class="fa fa-reply-all fa-lg"></i> Répondre à tous</a>
-					<a class="btn btn-info" href="#this" title="Transférer">
+					<a class="hidden-xs btn btn-info" href="#this" title="Transférer">
 					  <i class="fa fa-share fa-lg"></i> Transférer</a>
-					<a class="btn btn-danger" href="#this" title="Supprimer">
+					<a class="hidden-xs btn btn-danger" href="#this" title="Supprimer">
 					  <i class="fa fa-trash-o fa-lg"></i> Supprimer</a>
 				</div><br/>
 				<!--FIN BOITE MAIL -->
@@ -125,20 +125,20 @@
 						<a class="btn btn-info" href="#this" title="Accès à votre boite de réception">
 						<i class="fa fa-envelope-o fa-lg"></i> Boite de réception</a>
 
-						<a class="btn btn-primary" href="#this" title="Afficher les messages non lus">
+						<a class="hidden-xs btn btn-primary" href="#this" title="Afficher les messages non lus">
 						<i class="fa fa-envelope fa-lg"></i> Non lus </a>
 
 						<a href="#this" title="Répondre">
-						<i class="fa fa-reply fa-lg"></i></a>
+						<i class="hidden-xs fa fa-reply fa-lg"></i></a>
 
 						<a href="#this" title="Répondre à tous">
-						<i class="fa fa-reply-all fa-lg"></i></a>
+						<i class="hidden-xs fa fa-reply-all fa-lg"></i></a>
 
 						<a href="#this" title="Faire suivre à vos contacts">
-						<i class="fa fa-share fa-lg"></i></a>
+						<i class="hidden-xs fa fa-share fa-lg"></i></a>
 
 						<a href="#this" title="Imprimer">
-						<i class="fa fa-print fa-lg"></i></a>
+						<i class="hidden-xs fa fa-print fa-lg"></i></a>
 					</div>
 					<p><strong>Objet:</strong> Demande de crédit de M.RAÏS</p>
 					<div class="list-group-item">
@@ -168,9 +168,9 @@
 				<div class="list-group-item">
 					<a class="btn btn-success" href="#this" title="Envoyer">
 					  <i class="fa fa-send fa-lg"></i> Envoyer</a>
-					<a class="btn btn-info" href="#this" title="Enregister dans Brouillons">
+					<a class="hidden-xs btn btn-info" href="#this" title="Enregister dans Brouillons">
 					  <i class="fa fa-save fa-lg"></i>  Enregister dans Brouillons</a>
-					<a class="btn btn-danger" href="#this" title="Annuler">
+					<a class="hidden-xs btn btn-danger" href="#this" title="Annuler">
 					  <i class="fa fa-trash-o fa-lg"></i> Annuler</a>
 				</div><br/>
 				<!--FIN BOITE MAIL -->
@@ -353,20 +353,20 @@
 						<a class="btn btn-info" href="#this" title="Accès à votre boite de réception">
 						<i class="fa fa-envelope-o fa-lg"></i> Boite de réception</a>
 
-						<a class="btn btn-primary" href="#this" title="Afficher les messages non lus">
+						<a class="hidden-xs btn btn-primary" href="#this" title="Afficher les messages non lus">
 						<i class="fa fa-envelope fa-lg"></i> Non lus </a>
 
 						<a href="#this" title="Répondre">
-						<i class="fa fa-reply fa-lg"></i></a>
+						<i class="hidden-xs fa fa-reply fa-lg"></i></a>
 
 						<a href="#this" title="Répondre à tous">
-						<i class="fa fa-reply-all fa-lg"></i></a>
+						<i class="hidden-xs fa fa-reply-all fa-lg"></i></a>
 
 						<a href="#this" title="Faire suivre à vos contacts">
-						<i class="fa fa-share fa-lg"></i></a>
+						<i class="hidden-xs fa fa-share fa-lg"></i></a>
 
 						<a href="#this" title="Imprimer">
-						<i class="fa fa-print fa-lg"></i></a>
+						<i class="hidden-xs fa fa-print fa-lg"></i></a>
 					</div>
 					<p><strong>Objet:</strong> Demande de renseignements</p>
 					<div class="list-group-item">
@@ -399,9 +399,9 @@
 				<div class="list-group-item">
 					<a class="btn btn-success" href="#this" title="Envoyer">
 					  <i class="fa fa-send fa-lg"></i> Envoyer</a>
-					<a class="btn btn-info" href="#this" title="Enregister dans Brouillons">
+					<a class="hidden-xs btn btn-info" href="#this" title="Enregister dans Brouillons">
 					  <i class="fa fa-save fa-lg"></i>  Enregister dans Brouillons</a>
-					<a class="btn btn-danger" href="#this" title="Annuler">
+					<a class="hidden-xs btn btn-danger" href="#this" title="Annuler">
 					  <i class="fa fa-trash-o fa-lg"></i> Annuler</a>
 				</div><br/>
 				
