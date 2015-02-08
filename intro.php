@@ -138,7 +138,7 @@
 				<div class="modal-content">
 					<div class="modal-header">
 					  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					  <h4 class="modal-title resume text-center" id="myModalLabel3"><img src="img/le-saviez-vous.png" alt="" class="img-responsive"></h4>
+					  <div class="modal-title resume text-center" id="myModalLabel3"><img src="img/le-saviez-vous.png" alt="" class="img-responsive"></div>
 					</div>
 					<div class="modal-body body-saviez-vous">
 						<h2 class="resume">EN RÉSUMÉ :</h2>
@@ -245,16 +245,18 @@
 				</div>
 				<div class="list-group-item">
 					<h3 class="activite">2.Objectifs</h3>
-					<ul class="list-unstyled">À l'issue de cette formation, vous saurez: : 
+					<p>À l'issue de cette formation, vous saurez :</p>
+					<ul class="list-unstyled">
 							<li><span class="alinea fa fa-angle-double-right"></span> Analyser et repérer rapidement les informations essentielles contenues dans un courriel.</li> 
 							<li><span class="alinea fa fa-angle-double-right"></span> Utiliser un vocabulaire adapté à la communication professionnelle électronique.</li>
 							<li><span class="alinea fa fa-angle-double-right"></span> Réaliser certaines démarches professionnelles (demander un crédit bancaire, solliciter un délai de paiement, passer commande, etc...).</li>
-							<li><span class="alinea fa fa-angle-double-right"></span> Améliorer vos capacités rédactionnelles (lexique, conjugaison, syntaxe, etc...).
+							<li><span class="alinea fa fa-angle-double-right"></span> Améliorer vos capacités rédactionnelles (lexique, conjugaison, syntaxe, etc...).</li>
 					</ul>
 				</div>
 				<div class="list-group-item">
 					<h3 class="activite">3.Guide pratique</h3>
-					<ul class="list-unstyled">Chaque fiche est structurée de la façon suivante :
+					<p>Chaque fiche est structurée de la façon suivante :</p>
+					<ul class="list-unstyled">
 							<li><span class="alinea fa fa-angle-double-right"></span> Un <a class="modal-title" data-toggle="modal" data-target="#myModal5"><strong>encadré</strong></a> qui met en évidence le thème autour duquel est construite l’unité.</li>
 							<li><span class="alinea fa fa-angle-double-right"></span> Un <a class="modal-title" data-toggle="modal" data-target="#myModal6"><strong>encadré</strong></a> explicitant les objectifs poursuivis tout au long de l’unité.</li>
 							<li><span class="alinea fa fa-angle-double-right"></span> Un <a class="modal-title" data-toggle="modal" data-target="#myModal2"><strong>courriel professionnel.</strong></a></li>
