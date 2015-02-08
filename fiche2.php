@@ -45,7 +45,8 @@
 						<h3 class="remarque">Mohammed souhaiterait bénéficier d’un crédit à la consommation.</h3>
 					</div>
 					<div class="text-center well encadre col-xs-12 col-sm-offset-1 col-sm-10 col-sm-offset-1">
-						<ul class="list-unstyled"><h3 class="activite">Objectifs</h3>
+						<h3 class="activite">Objectifs</h3>
+						<ul class="list-unstyled">
 							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
 							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
 							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
@@ -53,7 +54,7 @@
 						</ul>
 					</div>
 				</div>
-				<p class="recoi" id="sujet">Mohammed rédige le message suivant :</p>
+				<p class="recoi">Mohammed rédige le message suivant :</p>
 				<h3 id="act1" class="activite">Activité 1</h3>
 				<p><i>Complétez son courriel avec les formules qui conviennent :</i></p>
 				
@@ -95,12 +96,12 @@
 						<p><strong>De :</strong>
 							<a class="btn btn-primary btn-xs" href="#this" title="Répondre">
 								<i class="fa fa-user fa-lg"></i> Moi</a> 
-							<span><strong>À : </strong>service.commercial@<wbr>veh.dz</span></br>
+							<span><strong>À : </strong>service.commercial@<wbr>veh.dz</span><br/>
 						</p>
 					</div>
 				</div>
 				<div class="list-group-item">
-					<p>Bonjour, </br>
+					<p>Bonjour, <br/>
 					
 								<select name="formap" class="form-control inline-form-control">
 									<option VALUE="f2a1q2none"> </option>
@@ -111,7 +112,7 @@
 						
 
 					votre offre reçue le 15 mars 2015, je me permets de vous demander de bien vouloir m’informer sur 
-					la possibilité d’achat du modèle CLS 2000 par crédit bancaire.</br> 
+					la possibilité d’achat du modèle CLS 2000 par crédit bancaire.<br/>
 					
 					
 								<select name="formap" class="form-control inline-form-control">
@@ -122,7 +123,7 @@
 								</select>
 						
 
-					ma situation financière actuelle ne me permet pas de régler comptant la somme totale du véhicule.</br>
+					ma situation financière actuelle ne me permet pas de régler comptant la somme totale du véhicule.<br/>
 					
 			
 								<select name="formap" class="form-control inline-form-control">
@@ -132,9 +133,9 @@
 									<option VALUE="f2a1q4p3">En conséquence</option>
 								</select>
 						
-					,je vous prie de bien vouloir prendre en considération ma demande.</br>
-					Je vous prie d’agréer, Monsieur, l’expression de mes salutations distinguées.</br>
-					Mohammed RAÏS</br> 
+					,je vous prie de bien vouloir prendre en considération ma demande.<br/>
+					Je vous prie d’agréer, Monsieur, l’expression de mes salutations distinguées.<br/>
+					Mohammed RAÏS<br/>
 					</p>
 				</div>
 					<div class="list-group-item">
@@ -144,7 +145,7 @@
 					  <i class="hidden-xs fa fa-save fa-lg"></i>  Enregister dans Brouillons</a>
 					<a class="hidden-xs btn btn-danger" href="#this" title="Annuler">
 					  <i class="hidden-xs fa fa-trash-o fa-lg"></i> Annuler</a>
-				</div></br>
+				</div><br/>
 				
 				<!--FIN BOITE MAIL -->
 				
@@ -272,7 +273,7 @@
 			
 			
 			 <button class="btn btn-success btn-md pull-right" type="submit" hidden="hidden">
-				<i class="fa fa-check-circle"> </i> Voir le corrigé</button></br></br>
+				<i class="fa fa-check-circle"> </i> Voir le corrigé</button><br/><br/>
 								
 				   </form><!-- FIN FORMULAIRE -->
 		

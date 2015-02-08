@@ -45,7 +45,8 @@
 						<h3 class="remarque">@</h3>
 					</div>
 					<div class="text-center well encadre col-xs-12 col-sm-offset-1 col-sm-10 col-sm-offset-1">
-						<ul class="list-unstyled"><h3 class="activite">Objectifs</h3>
+						<h3 class="activite">Objectifs</h3>
+						<ul class="list-unstyled">
 							<li class="remarque"><span class="fa fa-angle-double-right"></span>@</li>
 							<li class="remarque"><span class="fa fa-angle-double-right"></span>@</li>
 							<li class="remarque"><span class="fa fa-angle-double-right"></span>@</li>

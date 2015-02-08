@@ -39,7 +39,7 @@
 		<div class="container">
 			<div class="well">
 				<h1>Fiches d'aide à la réalisation de courriels professionnels</h1>
-				 <h2>Corrigé de la fiche N°@</h2></br>
+				 <h2>Corrigé de la fiche N°@</h2><br/>
 					<p>Félicitation ! Vous avez terminé votre @ série d'activités.</p>
 					<p>Voici votre score :</p>	
 					<div class="list-group-item">

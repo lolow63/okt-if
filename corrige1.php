@@ -89,7 +89,7 @@
      <div class="container">
 	         <div class="well">
 			  <h1>Fiches d'aide à la réalisation de courriels professionnels</h1>
-				 <h2>Corrigé de la fiche N°1</h2></br>
+				 <h2>Corrigé de la fiche N°1</h2><br/>
 					 <p>Félicitation ! Vous avez terminé votre première série d'activités.</p>
 					 <p>Voici votre score :</p>	
 					 
@@ -330,7 +330,7 @@
       </div>';}
 									echo'</td>
 						         </tr></tfoot>
-                                 </table></br>
+                                 </table><br/>
 								 </div><br/>';
 								 //activité1
 
@@ -374,7 +374,7 @@
 								  echo $ligne6;
 								  echo $ligne7;
 							  echo'<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">C\'est correct !</strong></p>';
-							  echo' <p class="remarque">Retenez bien cet ordre d\'étapes, dans la plupart des cas les courriels sont organisés de cette façon.</p></div></br>';
+							  echo' <p class="remarque">Retenez bien cet ordre d\'étapes, dans la plupart des cas les courriels sont organisés de cette façon.</p></div><br/>';
 							  }
 					elseif($repAZ=='pas de reponse') {
 					echo'<div class="col-md-12 list-group-item ">';
@@ -387,7 +387,7 @@
 								  echo $ligne5;
 								  echo $ligne6;
 								  echo $ligne7;		
-                    echo' <p class="remarque">Retenez bien cet ordre d\'étapes, dans la plupart des cas les courriels sont organisés de cette façon.</p></div></br>';								  
+                    echo' <p class="remarque">Retenez bien cet ordre d\'étapes, dans la plupart des cas les courriels sont organisés de cette façon.</p></div><br/>';								  
 					}	else{
 					 echo'<div class="col-md-12 list-group-item">';
                      echo'<div class="col-md-6">';
@@ -460,7 +460,7 @@
 								  echo $ligne7;
 								  
 								  echo'</div>';
-								  echo'<p class="remarque">Retenez bien cet ordre d\'étapes, dans la plupart des cas les courriels sont organisés de cette façon.</p></div></br>';
+								  echo'<p class="remarque">Retenez bien cet ordre d\'étapes, dans la plupart des cas les courriels sont organisés de cette façon.</p></div><br/>';
 								  }
 						   
 							
@@ -477,11 +477,11 @@
                                 <p>Pour vous adresser à votre destinataire, vous avez utilisé cette formule : </p>';
 						
                                 
-                          if($rep3=='vrai'){echo '<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">'.$formap.' : </strong>C\'est bien cela ! </p>';} else{echo'  <p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$formap.' </p></strong>   <p> Il fallait plutôt écrire : « Madame, Monsieur ».</p> ';}
+                          if($rep3=='vrai'){echo '<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">'.$formap.' : </strong>C\'est bien cela ! </p>';} else{echo'  <p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$formap.' </strong></p>   <p> Il fallait plutôt écrire : « Madame, Monsieur ».</p> ';}
                           echo'<p class="remarque">Comme nous l\'avons dit plus haut, nous nous adressons au service commercial, nous ne traitons  pas directement avec un individu. Dans ce genre de situation, il faut utiliser une formule d\'appel neutre.</p>
-                          <p class="remarque">Si nous avions eu en signature du courriel :</br> « Cordialement </br>M. AYADI Hicham</br> Service commercial VEH »</p>
+                          <p class="remarque">Si nous avions eu en signature du courriel :<br/> « Cordialement <br/>M. AYADI Hicham<br/> Service commercial VEH »</p>
                           <p class="remarque">alors nous aurions été en présence d\'un interlocuteur précis. Nous aurions répondu par la formule « Monsieur ».</p>
-                          <p class="remarque">À noter : il est fréquent de passer au cours d\'un échange de courriels d\'un destinataire indéfini à un interlocuteur privilégié. Il s\'agira donc d\'adapter les formules d\'appel durant ces échanges.</p></br>';
+                          <p class="remarque">À noter : il est fréquent de passer au cours d\'un échange de courriels d\'un destinataire indéfini à un interlocuteur privilégié. Il s\'agira donc d\'adapter les formules d\'appel durant ces échanges.</p><br/>';
 
                           echo'<p>Rappel du contexte :</p>
                           <p class="remarque">La première phrase d\'un courriel sert à se replacer dans l\'historique des échanges. Ici, Mohammed exprime une double idée : il a bien reçu le courriel de son interlocuteur et il l\'en remercie.</p>';
@@ -534,7 +534,7 @@
 
                              elseif($cordialement=='Cordialement'){echo'<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">'.$cordialement.' . </strong><p>Parfait!</p>';}
                              else{echo'<p><strong class="mauvrep">vous n\'avez pas répondu</strong></p>
-                             <p class="remarque">Ici, il serait plus à propos d\'utiliser cette formule : « Cordialement »</p></p>
+                             <p class="remarque">Ici, il serait plus à propos d\'utiliser cette formule : « Cordialement »</p>
                               <p class="remarque">En effet, c\'est la formule utilisée initialement par votre correspondant, cela vous place dans un rapport équivalent</p>';}
                               ?>
 							  </div>
@@ -641,7 +641,7 @@
                                    <span class="input-group-addon">
                                         
                                     </span><label for="sentim3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
-								</div></br>';}
+								</div><br/>';}
 								   elseif($sentim=='À des professionnels'){
 								echo'
 								     <div class="row">  
@@ -661,7 +661,7 @@
                                    <span class="input-group-addon">
                                         
                                     </span><label for="sentim3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
-								</div></br>';}
+								</div><br/>';}
 								 elseif($sentim=='À une personnalité'){
 								echo'
 								     <div class="row">  
@@ -681,7 +681,7 @@
                                    <span class="input-group-addon">
                                         
                                     </span><label for="sentim3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
-								</div></br>';}
+								</div><br/>';}
 								else {echo'
 								     <div class="row">  
                                 <div class="col-md-3 col-xs-12"><p class=" label-info label_activite">Salutations respectueuses</p></div>
@@ -700,7 +700,7 @@
                                    <span class="input-group-addon">
                                         
                                     </span><label for="sentim3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
-								</div></br>';}							
+								</div><br/>';}							
 								//fin de premeir teste				   
 						          if($cord=='À un proche'){
 								  echo'
@@ -718,7 +718,7 @@
 								<div class="col-md-3 col-xs-12"><div class="input-group">
                                     <span class="input-group-addon"></span>          
                                     <label for="cord3" class=" form-control">À un supérieur hiérarchique </label></div></div>
-								    </div></br>';}
+								    </div><br/>';}
 									elseif($cord=='À des professionnels'){
 								  echo'
 								  <div class="row">  
@@ -735,7 +735,7 @@
 								<div class="col-md-3 col-xs-12"><div class="input-group">
                                     <span class="input-group-addon"></span>          
                                     <label for="cord3" class=" form-control">À un supérieur hiérarchique </label></div></div>
-								    </div></br>';}
+								    </div><br/>';}
 									elseif($cord=='À une personnalité'){
 								  echo'
 								  <div class="row">  
@@ -752,7 +752,7 @@
 								<div class="col-md-3 col-xs-12"><div class="input-group">
                                     <span class="input-group-addon"></span>          
                                     <label for="cord3" class=" form-control"style="background:#D2204C" >À un supérieur hiérarchique </label></div></div>
-								    </div></br>';}
+								    </div><br/>';}
 									else{
 								  echo'
 								  <div class="row">  
@@ -769,7 +769,7 @@
 								<div class="col-md-3 col-xs-12"><div class="input-group">
                                     <span class="input-group-addon"></span>          
                                     <label for="cord3" class=" form-control">À un supérieur hiérarchique </label></div></div>
-								    </div></br>';}
+								    </div><br/>';}
 									//fin desieme teste
 									if($alap=='À un proche'){
 									echo'
@@ -788,7 +788,7 @@
                                         <span class="input-group-addon">
                                        
                                     </span><label for="alap3" class=" form-control">À un supérieur hiérarchique</label></div></div>
-								</div></br>';}
+								</div><br/>';}
 								elseif($alap=='À des professionnels'){
 									echo'
 									<div class="row">  
@@ -806,7 +806,7 @@
                                         <span class="input-group-addon">
                                        
                                     </span><label for="alap3" class=" form-control">À un supérieur hiérarchique</label></div></div>
-								</div></br>';}
+								</div><br/>';}
 								elseif($alap=='À une personnalité'){
 									echo'
 									<div class="row">  
@@ -824,7 +824,7 @@
                                         <span class="input-group-addon">
                                        
                                     </span><label for="alap3" class=" form-control" style="background:#D2204C">À un supérieur hiérarchique</label></div></div>
-								</div></br>';}
+								</div><br/>';}
 								else{
 									echo'
 									<div class="row">  
@@ -842,7 +842,7 @@
                                         <span class="input-group-addon">
                                        
                                     </span><label for="alap3" class=" form-control">À un supérieur hiérarchique</label></div></div>
-								</div></br>';}
+								</div><br/>';}
 						     //fin troisieme teste
 							 if($cors=='À un proche'){
 							 echo'
@@ -861,7 +861,7 @@
                                         <span class="input-group-addon">
                                        
                                     </span><label for="cors3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
-								</div></br>';}
+								</div><br/>';}
 								 elseif($cors=='À des professionnels'){
 							 echo'
 							  <div class="row">  
@@ -879,7 +879,7 @@
                                         <span class="input-group-addon">
                                        
                                     </span><label for="cors3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
-								</div></br>';}
+								</div><br/>';}
 								 elseif($cors=='À une personnalité'){
 							 echo'
 							  <div class="row">  
@@ -897,7 +897,7 @@
                                         <span class="input-group-addon">
                                        
                                     </span><label for="cors3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
-								</div></br>';}
+								</div><br/>';}
 								 else{
 							 echo'
 							  <div class="row">  
@@ -915,7 +915,7 @@
                                         <span class="input-group-addon">
                                        
                                     </span><label for="cors3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
-								</div></br>';}// fin du quatriem teste
+								</div><br/>';}// fin du quatriem teste
 								if($resp=='À un proche'){
 							        echo'
 									<div class="row">  
@@ -933,7 +933,7 @@
                                         <span class="input-group-addon">
                                         
                                     </span><label for="resp3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
-								</div></br>';}
+								</div><br/>';}
 								if($resp=='À des professionnels'){
 							        echo'
 									<div class="row">  
@@ -951,7 +951,7 @@
                                         <span class="input-group-addon">
                                         
                                     </span><label for="resp3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
-								</div></br>';}
+								</div><br/>';}
 								else{
 							        echo'
 									<div class="row">  
@@ -969,7 +969,7 @@
                                         <span class="input-group-addon">
                                         
                                     </span><label for="resp3" class=" form-control" style="background:#BAC900">À un supérieur hiérarchique</label></div></div>
-								</div></br>';}// fin sisieme teste
+								</div><br/>';}// fin sisieme teste
 								if($ss=='À un proche'){
 								echo'
 								<div class="row">  
@@ -987,7 +987,7 @@
                                         <span class="input-group-addon">
                                         
                                     </span><label for="ss3" class=" form-control" >À un supérieur hiérarchique</label></div></div>
-								</div></br>';}
+								</div><br/>';}
 								elseif($ss=='À des professionnels'){
 								echo'
 								<div class="row">  
@@ -1005,7 +1005,7 @@
                                         <span class="input-group-addon">
                                         
                                     </span><label for="ss3" class=" form-control" >À un supérieur hiérarchique</label></div></div>
-								</div></br>';}
+								</div><br/>';}
 							 elseif($ss=='À une personnalité'){
 								echo'
 								<div class="row">  
@@ -1023,7 +1023,7 @@
                                         <span class="input-group-addon">
                                         
                                     </span><label for="ss3" class=" form-control" style="background:#D2204C" >À un supérieur hiérarchique</label></div></div>
-								</div></br>';}
+								</div><br/>';}
 							else{
 								echo'
 								<div class="row">  
@@ -1041,7 +1041,7 @@
                                         <span class="input-group-addon">
                                         
                                     </span><label for="ss3" class=" form-control" >À un supérieur hiérarchique</label></div></div>
-								</div></br>';}//fin 7eme teste
+								</div><br/>';}//fin 7eme teste
 								 if($sd=='À un proche'){
 								 echo'
 								 <div class="row">  
@@ -1059,7 +1059,7 @@
                                         <span class="input-group-addon">
                                        
                                     </span><label for="sd3" class=" form-control">À un supérieur hiérarchique</label></div></div>
-								</div></br>';}
+								</div><br/>';}
 								elseif($sd=='À des professionnels'){
 								 echo'
 								 <div class="row">  
@@ -1077,7 +1077,7 @@
                                         <span class="input-group-addon">
                                        
                                     </span><label for="sd3" class=" form-control">À un supérieur hiérarchique</label></div></div>
-								</div></br>';}
+								</div><br/>';}
 								elseif($sd=='À une personnalité'){
 								 echo'
 								 <div class="row">  
@@ -1095,7 +1095,7 @@
                                         <span class="input-group-addon">
                                        
                                     </span><label for="sd3" class=" form-control" style="background:#D2204C">À un supérieur hiérarchique</label></div></div>
-								</div></br>';}
+								</div><br/>';}
 								else{
 								 echo'
 								 <div class="row">  
@@ -1113,7 +1113,7 @@
                                         <span class="input-group-addon">
                                        
                                     </span><label for="sd3" class=" form-control">À un supérieur hiérarchique</label></div></div>
-								</div></br>';}//7eme
+								</div><br/>';}//7eme
 								if($bs=='À un proche'){
 								echo'
 								 <div class="row">  
@@ -1131,7 +1131,7 @@
                                         <span class="input-group-addon">
                                         
                                     </span><label for="bs3" class=" form-control">À un supérieur hiérarchique</label></div></div>
-								</div></br> ';}
+								</div><br/> ';}
 								elseif($bs=='À une personnalité'){
 								echo'
 								 <div class="row">  
@@ -1149,7 +1149,7 @@
                                         <span class="input-group-addon">
                                         
                                     </span><label for="bs3" class=" form-control">À un supérieur hiérarchique</label></div></div>
-								</div></br> ';}
+								</div><br/> ';}
 								elseif($bs=='À une personnalité'){
 								echo'
 								 <div class="row">  
@@ -1167,7 +1167,7 @@
                                         <span class="input-group-addon">
                                         
                                     </span><label for="bs3" class=" form-control" style="background:#D2204C">À un supérieur hiérarchique</label></div></div>
-								</div></br> ';}
+								</div><br/> ';}
 								else{
 								echo'
 								 <div class="row">  
@@ -1185,7 +1185,7 @@
                                         <span class="input-group-addon">
                                         
                                     </span><label for="bs3" class=" form-control">À un supérieur hiérarchique</label></div></div>
-								</div></br> ';}//8eme
+								</div><br/> ';}//8eme
 								if($a=='À un proche'){
 								echo'
 								<div class="row">  
@@ -1203,7 +1203,7 @@
                                         <span class="input-group-addon">
                                         
                                     </span><label for="a3" class=" form-control">À un supérieur hiérarchique</label></div></div>
-								</div></br> ';}
+								</div><br/> ';}
 								elseif($a=='À des professionnels'){
 								echo'
 								<div class="row">  
@@ -1221,7 +1221,7 @@
                                         <span class="input-group-addon">
                                         
                                     </span><label for="a3" class=" form-control">À un supérieur hiérarchique</label></div></div>
-								</div></br> ';}
+								</div><br/> ';}
 								elseif($a=='À une personnalité'){
 								echo'
 								<div class="row">  
@@ -1239,7 +1239,7 @@
                                         <span class="input-group-addon">
                                         
                                     </span><label for="a3" class=" form-control" style="background:#D2204C">À un supérieur hiérarchique</label></div></div>
-								</div></br> ';}
+								</div><br/> ';}
 								else{
 								echo'
 								<div class="row">  
@@ -1257,7 +1257,7 @@
                                         <span class="input-group-addon">
                                         
                                     </span><label for="a3" class=" form-control">À un supérieur hiérarchique</label></div></div>
-								</div></br> ';}
+								</div><br/> ';}
 								
 						  echo' </div><!--fin exo-->';
 						  
@@ -1338,7 +1338,7 @@
                 
             </div>
             <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
-                <img src="img/logoifa2.jpg" class="logobott">
+                <img src="img/logoifa2.jpg" alt="" class="logobott">
             </div>
         </div>
     </footer>

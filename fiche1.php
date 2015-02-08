@@ -43,7 +43,8 @@
 							 </h3>
 					 </div>
 					 <div class="text-center well encadre col-xs-12 col-sm-offset-1 col-sm-10 col-sm-offset-1">
-						<ul class="list-unstyled"><h3 class="activite">Objectifs</h3>
+						<h3 class="activite">Objectifs</h3>
+						<ul class="list-unstyled">
 							 <li class=""><span class="fa fa-angle-double-right"></span> Identifier l’expéditeur d’un courriel professionnel reçu.</li>
 							 <li class=""><span class="fa fa-angle-double-right"></span> Repérer l’objet d’un courriel professionnel.</li>
 							 <li class=""><span class="fa fa-angle-double-right"></span> Reconnaître la structure d’un courriel professionnel.</li>
@@ -51,7 +52,7 @@
 						</ul>
 					 </div>
 				 </div>
-			 <p class="recoi" id="sujet">Mohammed RAÏS reçoit le message suivant:</p>
+			 <p class="recoi">Mohammed RAÏS reçoit le message suivant:</p>
 			 
 			 <!--BOITE MAIL -->
             <div class="list-group-item">
@@ -80,25 +81,25 @@
         <span><strong>À : </strong>
         <a class="btn btn-primary btn-xs" href="#this" title="med.rais102@gmail.com">
         <i class="fa fa-user fa-lg"></i> Moi</a>
-        </span></br>
+        </span><br/>
         <strong>Envoyé :</strong> dim. 15/03/14 10:21</p>
                 </div>
             </div>
             <div class="list-group-item">
-    <p>Bonjour, </br>
+    <p>Bonjour, <br/>
 
 Faisant suite à votre visite sur notre site Internet et à votre demande
 de brochure sur notre modèle CLS 2000, 
-nous revenons vers vous afin de vous faire une offre.</br> 
+nous revenons vers vous afin de vous faire une offre.<br/> 
 
 Notre conseiller commercial aura le privilège de vous faire bénéficier
 des remises exceptionnelles du mois pouvant aller jusqu’à 450 000 Da sur 
 l’ensemble de notre gamme de véhicules, 
 si vous le contactez à l’adresse suivante : service.commercial@<wbr>veh.dz 
-avant le 30 mars.</br> 
+avant le 30 mars.<br/> 
 
-Nous vous remercions pour l’intérêt que vous portez à notre marque.</br>
-Cordialement.</br> 
+Nous vous remercions pour l’intérêt que vous portez à notre marque.<br/> 
+Cordialement.<br/>  
 Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
             </div>
             <div class="list-group-item">
@@ -127,7 +128,7 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
 			  <div class="row">  
                                 <div class="col-md-12 col-xs-12"><p class="label-info label_activite">a. Qui est l'expéditeur de ce courrier électronique aussi appelé courriel ?</p></div>
 								<div class="col-md-4 col-xs-12">
-								 <input type="radio" style='visibility:hidden;display:none' name="exped" value="Vous n'avez pas répondu"  checked="checked"/>
+								 <input type="radio" style='visibility:hidden;display:none' name="exped" value="Vous n'avez pas répondu" checked="checked"/>
                                        <div class="input-group">
                                         <span class="input-group-addon">                                     
                                         <input type="radio" name="exped" id="exped1" value="Un homme" />
@@ -140,12 +141,12 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
                                         <span class="input-group-addon">
                                         <input type="radio" name="exped" id="exped3" value="On ne sait pas" />
                                     </span><label for="exped3" class="form-control">On ne sait pas</label></div></div>
-				</div></br> 
+				</div><br/> 
 								
 				<div class="row">  
                                 <div class="col-md-12 col-xs-12"><p class="label-info label_activite">b. Que propose-t-on à Mohammed RAÏS ?</p></div>
 								<div class="col-md-4 col-xs-12">
-								<input type="radio" style='visibility:hidden;display:none' name="propos" value="Vous n'avez pas répondu"  checked="checked"/>
+								<input type="radio" style='visibility:hidden;display:none' name="propos" value="Vous n'avez pas répondu" checked="checked"/>
                                        <div class="input-group">
                                         <span class="input-group-addon">                                     
                                         <input type="radio" name="propos" id="propos1" value="On lui propose une brochure" />
@@ -161,11 +162,11 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
 			<!--ANCRE NAVBAR-TOPFIX--></div> <div id="act2"></div>
 
 
-	 </div><!--fin activité 1--></br>
+	 </div><!--fin activité 1--><br/>
 
 
 								 <h3 class="activite">Activité 2</h3>
-                          <p><i>De quoi est composé un courriel ?<i></p>
+                          <p><i>De quoi est composé un courriel ?</i></p>
 	                          
 						  
                 <div class="well well-lg col-xs-12 col-sm-12 col-md-5">
@@ -181,14 +182,14 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
                     <li value="3"><i class="fa fa-arrows-v"></i> <strong>Rappel du contexte</strong> : Faisant suite à...</li>
                     <li value="5"><i class="fa fa-arrows-v"></i> <strong>Remerciement</strong> : Nous vous remercions pour...</li>          
                     <li value="6"><i class="fa fa-arrows-v"></i> <strong>Salutations</strong> : Cordialement</li>
-                    <li value="2"><i class="fa fa-arrows-v"></i> <strong>Formule d’appel</strong> : Bonjour</li> <!--ANCRE NAVBAR-TOPFIX--><div id="act3"></div> 
+                    <li value="2"><i class="fa fa-arrows-v"></i> <strong>Formule d’appel</strong> : Bonjour</li> 
                     <li value="7"><i class="fa fa-arrows-v"></i> <strong>Signature</strong> : Service commercial</li>     
                 </ol>
 				<input type="text" id="ordre" hidden="hidden" name="reponse" value="pas de reponse" /> 
 			</div>
             <!--fin activité 2-->
-
-			<!--ANCRE NAVBAR-TOPFIX--><div id="act3"></div>
+			<!--ANCRE NAVBAR-TOPFIX--><div id="act3"></div> 
+			
 			<h3 class="activite">Activité 3</h3>
 			<p><i>Choisissez la bonne expression :</i></p>
 			<div class="well well-lg" style="font-style : normal">
@@ -211,7 +212,7 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
 										
 											</div>
 										</div>
-								</br>
+								<br/>
 										<div class="form-group">
 											<div class="input-group">
 												<span class="input-group-addon label_activite"><i>Rappel du contexte :</i>	
@@ -225,8 +226,8 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
 													</select>												
 											</div>
 										</div>		
-								</br>					
-										<div class="form-group"></h3>
+								<br/>					
+										<div class="form-group">
 											<div class="input-group">
 												<span class="input-group-addon label_activite"><i>Développement :</i>	
 												</span>		
@@ -243,7 +244,7 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
 									
 					<p>Cependant, je souhaiterais savoir dans quelle mesure je serais susceptible de pouvoir bénéficier d’un prêt bancaire auprès de votre compagnie.</p>					
 									
-								</br>		
+								<br/>		
 								
 										<div class="form-group">
 											<div class="input-group">
@@ -273,10 +274,10 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
 										</div>	
 									</div>
 										
-								</br>			                         
+								<br/>			                         
 				 <p> Mohammed Raïs </p>
 									
-		    </div><!--fin activité 3--></br>
+		    </div><!--fin activité 3--><br/>
 
 
                                  <h2>Aller plus loin</h2>
@@ -299,7 +300,7 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
 												
 											</div>
 										</div>
-								</br>
+								<br/>
 								
 								<div class="input-group">
 										<div class="form-group">
@@ -317,7 +318,7 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
 										</div><div id="act5"></div><!--ANCRE NAVBAR-TOPFIX-->
 									</div>
 								</div>
-			</div><!--fin activité 4--></br>
+			</div><!--fin activité 4--><br/> 
 			
 								<h3 class="activite">Activité 5</h3>
                                
@@ -343,14 +344,14 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
                                         <span class="input-group-addon">
                                         <input type="radio" name="sentim" id="sentim3" value="À une personnalité" />
                                     </span><label for="sentim3" class=" form-control">À un supérieur hiérarchique</label></div></div>
-								</div></br>
+								</div><br/> 
                                 
                                 <div class="row">  
                                 <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Cordialement</p></div>
 								<div class="col-md-3 col-xs-12">
                                        <div class="input-group">
                                         <span class="input-group-addon">
-										<input type="radio" style='visibility:hidden;display:none' name="cord" value="Vous n'avez pas répondu"checked="checked"/>
+										<input type="radio" style='visibility:hidden;display:none' name="cord" value="Vous n'avez pas répondu" checked="checked"/>
                                         <input type="radio" name="cord" id="cord1" value="À un proche" />
                                     </span><label for="cord1" class="form-control">À un ami </label></div></div>
 								<div class="col-md-3 col-xs-12"><div class=" input-group">
@@ -361,14 +362,14 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
                                         <span class="input-group-addon">
                                         <input type="radio" name="cord" id="cord3" value="À une personnalité" />
                                     </span><label for="cord3" class=" form-control">À un supérieur hiérarchique </label></div></div>
-								</div></br>
+								</div><br/> 
                       
                                <div class="row">  
                                 <div class="col-md-3 col-xs-12"><p class="label-info label_activite">À la prochaine !</p></div>
 								<div class="col-md-3 col-xs-12">
                                        <div class="input-group">
                                         <span class="input-group-addon">
-										<input type="radio" style='visibility:hidden;display:none' name="alap" value="Vous n'avez pas répondu"checked="checked"/>
+										<input type="radio" style='visibility:hidden;display:none' name="alap" value="Vous n'avez pas répondu" checked="checked"/>
                                         <input type="radio" name="alap" id="alap1" value="À un proche" />
                                     </span><label for="alap1" class="form-control">À un ami</label></div></div>
 								<div class="col-md-3 col-xs-12"><div class=" input-group">
@@ -379,14 +380,14 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
                                         <span class="input-group-addon">
                                         <input type="radio" name="alap" id="alap3" value="À une personnalité" />
                                     </span><label for="alap3" class=" form-control">À un supérieur hiérarchique</label></div></div>
-								</div></br>
+								</div><br/>
 
                                 <div class="row">  
                                 <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Cordiales salutations</p></div>
 								<div class="col-md-3 col-xs-12">
                                        <div class="input-group">
                                         <span class="input-group-addon">
-										<input type="radio" style='visibility:hidden;display:none' name="cors" value="Vous n'avez pas répondu"checked="checked"/>
+										<input type="radio" style='visibility:hidden;display:none' name="cors" value="Vous n'avez pas répondu" checked="checked"/>
                                         <input type="radio" name="cors" id="cors1" value="À un proche" />
                                     </span><label for="cors1" class="form-control">À un ami</label></div></div>
 								<div class="col-md-3 col-xs-12"><div class=" input-group">
@@ -397,14 +398,14 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
                                         <span class="input-group-addon">
                                         <input type="radio" name="cors" id="cors3" value="À une personnalité" />
                                     </span><label for="cors3" class=" form-control">À un supérieur hiérarchique</label></div></div>
-								</div></br>
+								</div><br/> 
 
                                <div class="row">  
                                 <div class="col-md-3 col-xs-12"><p class=" label-info label_activite">Respectueuse considération</p></div>
 								<div class="col-md-3 col-xs-12">
                                        <div class="input-group">
                                         <span class="input-group-addon">
-										<input type="radio" style='visibility:hidden;display:none' name="resp" value="Vous n'avez pas répondu"checked="checked"/>
+										<input type="radio" style='visibility:hidden;display:none' name="resp" value="Vous n'avez pas répondu" checked="checked"/>
                                         <input type="radio" name="resp" id="resp1" value="À un proche" />
                                     </span><label for="resp1" class="form-control">À un ami</label></div></div>
 								<div class="col-md-3 col-xs-12"><div class=" input-group">
@@ -415,14 +416,14 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
                                         <span class="input-group-addon">
                                         <input type="radio" name="resp" id="resp3" value="À une personnalité" />
                                     </span><label for="resp3" class=" form-control">À un supérieur hiérarchique</label></div></div>
-								</div></br>
+								</div><br/> 
 
                                 <div class="row">  
                                 <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Sincères salutations</p></div>
 								<div class="col-md-3 col-xs-12">
                                        <div class="input-group">
                                         <span class="input-group-addon">
-										 <input type="radio" style='visibility:hidden;display:none' name="ss" value="Vous n'avez pas répondu"checked="checked"/>
+										 <input type="radio" style='visibility:hidden;display:none' name="ss" value="Vous n'avez pas répondu" checked="checked"/>
                                         <input type="radio" name="ss" id="ss1" value="À un proche" />
                                     </span><label for="ss1" class="form-control">À un ami</label></div></div>
 								<div class="col-md-3 col-xs-12"><div class=" input-group">
@@ -433,14 +434,14 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
                                         <span class="input-group-addon">
                                         <input type="radio" name="ss" id="ss3" value="À une personnalité" />
                                     </span><label for="ss3" class=" form-control">À un supérieur hiérarchique</label></div></div>
-								</div></br>
+								</div><br/> 
 
                                 <div class="row">  
                                 <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Salutations distinguées</p></div>
 								<div class="col-md-3 col-xs-12">
                                        <div class="input-group">
                                         <span class="input-group-addon">
-										<input type="radio" style='visibility:hidden;display:none' name="sd" value="Vous n'avez pas répondu"checked="checked"/>
+										<input type="radio" style='visibility:hidden;display:none' name="sd" value="Vous n'avez pas répondu" checked="checked"/>
                                         <input type="radio" name="sd" id="sd1" value="À un proche" />
                                     </span><label for="sd1" class="form-control">À un ami</label></div></div>
 								<div class="col-md-3 col-xs-12"><div class=" input-group">
@@ -451,14 +452,14 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
                                         <span class="input-group-addon">
                                         <input type="radio" name="sd" id="sd3" value="À une personnalité" />
                                     </span><label for="sd3" class=" form-control">À un supérieur hiérarchique</label></div></div>
-								</div></br>
+								</div><br/> 
 
                                <div class="row">  
                                 <div class="col-md-3 col-xs-12"><p class="label-info label_activite">Bises</p></div>
 								<div class="col-md-3 col-xs-12">
                                        <div class="input-group">
                                         <span class="input-group-addon">
-										<input type="radio" style='visibility:hidden;display:none' name="bs" value="Vous n'avez pas répondu"checked="checked"/>
+										<input type="radio" style='visibility:hidden;display:none' name="bs" value="Vous n'avez pas répondu" checked="checked"/>
                                         <input type="radio" name="bs" id="bs1" value="À un proche" />
                                     </span><label for="bs1" class="form-control">À un ami</label></div></div>
 								<div class="col-md-3 col-xs-12"><div class=" input-group">
@@ -469,7 +470,7 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
                                         <span class="input-group-addon">
                                         <input type="radio" name="bs" id="bs3" value="À une personnalité" />
                                     </span><label for="bs3" class=" form-control">À un supérieur hiérarchique</label></div></div>
-								</div></br> 
+								</div><br/> 
 
                                 <div class="row">  
                                 <div class="col-md-3 col-xs-12"><p class="label-info label_activite">À +</p></div>
@@ -487,20 +488,21 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
                                         <span class="input-group-addon">
                                         <input type="radio" name="a" id="a3" value="À une personnalité" />
                                     </span><label for="a3" class=" form-control">À un supérieur hiérarchique</label></div></div>
-								</div></br> 
+								</div><br/> 
 								
 
-            </div><!--fin activité 5--></br>
+            </div><!--fin activité 5--><br/>
 							    <button class="btn btn-success btn-md pull-right" type="submit" hidden="hidden">
-                        <i class="fa fa-check-circle"> </i> Voir le corrigé</button></br></br>
+                        <i class="fa fa-check-circle"> </i> Voir le corrigé</button><br/> <br/> 
 							    
-                           </form>
+                           
             
            
-                
+                 </form>
                 
      </div><!--fin well principal-->
 	 </div><!--fin container principal-->
+	
      <hr>
     <footer>
     	<?php include("include/footer.php"); ?> 

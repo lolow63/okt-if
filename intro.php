@@ -61,12 +61,12 @@
 		</div>
 		<!--FIN DE MODAL JAVASCRIPT-->
 		<!--SNIPET MODAL2 JAVASCRIPT-->
-		<div id="myModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div id="myModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-						<h4 class="modal-title" id="myModalLabel">Exemple de courriel</h4>
+						<h4 class="modal-title" id="myModalLabel2">Exemple de courriel</h4>
 					</div>
 					<div class="modal-body">
 						<div style="size:auto">
@@ -92,24 +92,24 @@
 									<span><strong>À : </strong>
 									<a class="btn btn-primary btn-xs" href="#" title="med.rais102@gmail.com">
 									<i class="fa fa-user fa-lg"></i> Moi</a>
-									</span></br>
+									</span><br/>
 									<strong>Envoyé :</strong> dim. 15/03/14 10:21</p>
 								</div>
 							</div>
 							<div class="list-group-item">
-								<p>Bonjour, </br>
+								<p>Bonjour, <br/>
 								Faisant suite à votre visite sur notre site Internet et à votre demande
 								de brochure sur notre modèle CLS 2000, 
-								nous revenons vers vous afin de vous faire une offre.</br> 
+								nous revenons vers vous afin de vous faire une offre.<br/>
 
 								Notre conseiller commercial aura le privilège de vous faire bénéficier
 								des remises exceptionnelles du mois pouvant aller jusqu’à 450 000 Da sur 
 								l’ensemble de notre gamme de véhicules, 
 								si vous le contactez à l’adresse suivante : service.commercial@<wbr>veh.dz 
-								avant le 30 mars.</br> 
+								avant le 30 mars.<br/> 
 
-								Nous vous remercions pour l’intérêt que vous portez à notre marque.</br>
-								Cordialement.</br> 
+								Nous vous remercions pour l’intérêt que vous portez à notre marque.<br/>
+								Cordialement.<br/>
 								Service commercial VEH</p>
 							</div>
 							<div class="list-group-item">
@@ -133,12 +133,12 @@
 		</div>
 		<!--FIN DE MODAL2 JAVASCRIPT-->
 		<!--SNIPET MODAL3 JAVASCRIPT-->
-		<div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
 					  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					  <h4 class="modal-title resume text-center" id="myModalLabel"><img src="img/le-saviez-vous.png" alt="" class="img-responsive"></h4>
+					  <h4 class="modal-title resume text-center" id="myModalLabel3"><img src="img/le-saviez-vous.png" alt="" class="img-responsive"></h4>
 					</div>
 					<div class="modal-body body-saviez-vous">
 						<h2 class="resume">EN RÉSUMÉ :</h2>
@@ -159,12 +159,12 @@
 		</div>	
 		<!--FIN DE MODAL3 JAVASCRIPT-->
 		<!--SNIPET MODAL4 JAVASCRIPT-->	 
-		<div id="myModal4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div id="myModal4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
 					  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					  <h4 class="modal-title" id="myModalLabel">Exemple d'activité</h4>
+					  <h4 class="modal-title" id="myModalLabel4">Exemple d'activité</h4>
 					</div>
 					<div class="modal-body">
 						<div style="size:auto">
@@ -179,12 +179,12 @@
 		</div>
 		<!--FIN DE MODAL4 JAVASCRIPT-->
 		<!--SNIPET MODAL5 JAVASCRIPT-->
-		<div id="myModal5" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div id="myModal5" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
 					  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					  <h4 class="modal-title" id="myModalLabel">Exemple de thème</h4>
+					  <h4 class="modal-title" id="myModalLabel5">Exemple de thème</h4>
 					</div>
 					<div class="modal-body">
 						<div style="size:auto">
@@ -202,17 +202,18 @@
 		</div>
 		<!--FIN DE MODAL5 JAVASCRIPT-->
 		<!--SNIPET MODAL6 JAVASCRIPT-->
-		<div id="myModal6" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div id="myModal6" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
 					  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					  <h4 class="modal-title" id="myModalLabel">Exemple d'objectifs</h4>
+					  <h4 class="modal-title" id="myModalLabel6">Exemple d'objectifs</h4>
 					</div>
 					<div class="modal-body">
 						<div style="size:auto">
 						 <div class="text-center well encadre">
-							<ul class="list-unstyled"><h3 class="activite">Objectifs</h3>
+							<h3 class="activite">Objectifs</h3>
+							<ul class="list-unstyled">
 								 <li class="remarque"><span class="fa fa-angle-double-right"></span> Identifier l’expéditeur d’un courriel professionnel reçu.</li>
 								 <li class="remarque"><span class="fa fa-angle-double-right"></span> Repérer l’objet d’un courriel professionnel.</li>
 								 <li class="remarque"><span class="fa fa-angle-double-right"></span> Reconnaître la structure d’un courriel professionnel.</li>
@@ -245,25 +246,21 @@
 				<div class="list-group-item">
 					<h3 class="activite">2.Objectifs</h3>
 					<ul class="list-unstyled">À l'issue de cette formation, vous saurez: : 
-						<div style="margin-left:2em">
-							<li><span class="fa fa-angle-double-right"></span> Analyser et repérer rapidement les informations essentielles contenues dans un courriel.</li> 
-							<li><span class="fa fa-angle-double-right"></span> Utiliser un vocabulaire adapté à la communication professionnelle électronique.</li>
-							<li><span class="fa fa-angle-double-right"></span> Réaliser certaines démarches professionnelles (demander un crédit bancaire, solliciter un délai de paiement, passer commande, etc...).</li>
-							<li><span class="fa fa-angle-double-right"></span> Améliorer vos capacités rédactionnelles (lexique, conjugaison, syntaxe, etc...).
-						</div> 
+							<li><span class="alinea fa fa-angle-double-right"></span> Analyser et repérer rapidement les informations essentielles contenues dans un courriel.</li> 
+							<li><span class="alinea fa fa-angle-double-right"></span> Utiliser un vocabulaire adapté à la communication professionnelle électronique.</li>
+							<li><span class="alinea fa fa-angle-double-right"></span> Réaliser certaines démarches professionnelles (demander un crédit bancaire, solliciter un délai de paiement, passer commande, etc...).</li>
+							<li><span class="alinea fa fa-angle-double-right"></span> Améliorer vos capacités rédactionnelles (lexique, conjugaison, syntaxe, etc...).
 					</ul>
 				</div>
 				<div class="list-group-item">
 					<h3 class="activite">3.Guide pratique</h3>
 					<ul class="list-unstyled">Chaque fiche est structurée de la façon suivante :
-						<div style="margin-left:2em">
-							<li><span class="fa fa-angle-double-right"></span> Un <a class="modal-title" data-toggle="modal" data-target="#myModal5"><strong>encadré</strong></a> qui met en évidence le thème autour duquel est construite l’unité.</li>
-							<li><span class="fa fa-angle-double-right"></span> Un <a class="modal-title" data-toggle="modal" data-target="#myModal6"><strong>encadré</strong></a> explicitant les objectifs poursuivis tout au long de l’unité.</li>
-							<li><span class="fa fa-angle-double-right"></span> Un <a class="modal-title" data-toggle="modal" data-target="#myModal2"><strong>courriel professionnel.</strong></a></li>
-							<li><span class="fa fa-angle-double-right"></span> Des <a class="modal-title" data-toggle="modal" data-target="#myModal4"><strong>activités</strong></a> en rapport au courriel.</li>
-							<li><span class="fa fa-angle-double-right"></span> Un <a class="js-popover" data-container="body" data-toggle="popover" data-placement="top" data-content="Lancez-vous! Faites la première fiche pour voir la première correction!" data-original-title="" title=""><strong>corrigé</strong></a> apportant des éclaircissements en rapport avec vos réponses.</li>
-							<li><span class="fa fa-angle-double-right"></span> Une page interactive <a class="modal-title" data-toggle="modal" data-target="#myModal3"><strong>« Le saviez-vous ? »</strong></a> centrée sur des éléments à retenir. </li>
-						</div> 
+							<li><span class="alinea fa fa-angle-double-right"></span> Un <a class="modal-title" data-toggle="modal" data-target="#myModal5"><strong>encadré</strong></a> qui met en évidence le thème autour duquel est construite l’unité.</li>
+							<li><span class="alinea fa fa-angle-double-right"></span> Un <a class="modal-title" data-toggle="modal" data-target="#myModal6"><strong>encadré</strong></a> explicitant les objectifs poursuivis tout au long de l’unité.</li>
+							<li><span class="alinea fa fa-angle-double-right"></span> Un <a class="modal-title" data-toggle="modal" data-target="#myModal2"><strong>courriel professionnel.</strong></a></li>
+							<li><span class="alinea fa fa-angle-double-right"></span> Des <a class="modal-title" data-toggle="modal" data-target="#myModal4"><strong>activités</strong></a> en rapport au courriel.</li>
+							<li><span class="alinea fa fa-angle-double-right"></span> Un <a class="js-popover" data-container="body" data-toggle="popover" data-placement="top" data-content="Lancez-vous! Faites la première fiche pour voir la première correction!" data-original-title="" title=""><strong>corrigé</strong></a> apportant des éclaircissements en rapport avec vos réponses.</li>
+							<li><span class="alinea fa fa-angle-double-right"></span> Une page interactive <a class="modal-title" data-toggle="modal" data-target="#myModal3"><strong>« Le saviez-vous ? »</strong></a> centrée sur des éléments à retenir. </li>
 					</ul>
 				</div>
 				<hr>
@@ -271,7 +268,7 @@
 					<p class="alinea">Par la richesse de ses contenus, son ergonomie et son aspect dynamique, cette formation en ligne de l’IFA vous aidera à acquérir et développer des compétences, nécessaires pour la bonne conduite de vos projets en entreprise.</p>
 				</div>
 				<div class="buttons pull-right">
-					<a href="construction2.html"class="btn btn-formation">M'inscrire gratuitement</a>
+					<a href="construction2.html" class="btn btn-formation">M'inscrire gratuitement</a>
 				</div> 
 			</div>
 		</div>

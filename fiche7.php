@@ -44,7 +44,8 @@
 						<h3 class="remarque">@</h3>
 					</div>
 					<div class="text-center well encadre col-xs-12 col-sm-offset-1 col-sm-10 col-sm-offset-1">
-						<ul class="list-unstyled"><h3 class="activite">Objectifs</h3>
+						<h3 class="activite">Objectifs</h3>
+						<ul class="list-unstyled">
 							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
 							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
 							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
@@ -53,7 +54,7 @@
 					</div>
 				</div>
 				
-				<p class="recoi" id="sujet">Le secrétariat du comité accuse réception.</p>
+				<p class="recoi">Le secrétariat du comité accuse réception.</p>
 				<h3 id="act1" class="activite">Activité 1</h3>
 				<p><i>Choisissez les deux messages qui vous semblent corrects :</i></p>
 				
@@ -63,20 +64,20 @@
 		
 				<div class="well">
 					1.<span class="a-surligner"><input type="checkbox" value="1. Nous vous accusons réception de votre message. Cordialement." name="f7a1" id="f7a1p1">
-					<label for="f7a1p1"> Nous vous accusons réception de votre message. Cordialement.</label></span></br></br>
+					<label for="f7a1p1"> Nous vous accusons réception de votre message. Cordialement.</label></span><br/><br/>
 					
 					2.<span class="a-surligner"><input type="checkbox" value="2. Nous avons bien reçu votre message. Cordialement." name="f7a1" id="f7a1p2">
-					<label for="f7a1p2"> Nous avons bien reçu votre message. Cordialement.</label></span></br></br>
+					<label for="f7a1p2"> Nous avons bien reçu votre message. Cordialement.</label></span><br/><br/>
 					
 					3.<span class="a-surligner"><input type="checkbox" value="3. Votre message est bien reçu." name="f7a1" id="f7a1p3">
-					<label for="f7a1p3"> Votre message est bien reçu.</label></span></br></br>
+					<label for="f7a1p3"> Votre message est bien reçu.</label></span><br/><br/>
 					
 					4.<span class="a-surligner"><input type="checkbox" value="4. Nous accusons réception de votre message. Cordialement." name="f7a1" id="f7a1p4">
-					<label for="f7a1p4"> Nous accusons réception de votre message. Cordialement.</label></span></br></br>
+					<label for="f7a1p4"> Nous accusons réception de votre message. Cordialement.</label></span><br/><br/>
 					
 					5.<span class="a-surligner"><input type="checkbox" value="5. Nous venons de recevoir votre message." name="f7a1" id="f7a1p5">
 					<label for="f7a1p5"> Nous venons de recevoir votre message. Merci par avance de votre retour.</label></span>
-					</br>
+					<br/>
 				</div>
 		
 				<h3 id="act2" class="activite">Activité 2</h3>
@@ -85,12 +86,12 @@
 				<div class="well">
 					1. Tous les messages que j’ai
 						<select name="formap" class="form-control inline-form-control">
-							<option value="Vous n'avez pas répondu"id="f7a2q1p0"> </option>
+							<option value="Vous n'avez pas répondu" id="f7a2q1p0"> </option>
 							<option value="reçu" id="f7a2q1p1">reçu </option>
 							<option value="reçues" id="f7a2q1p2">reçues </option>     	                                            
-							<option value="reçus"id="f7a2q1p3">reçus </option>
+							<option value="reçus" id="f7a2q1p3">reçus </option>
 						</select>
-					sont des spams.</br>
+					sont des spams.<br/>
 
 					2. Les membres du comité ont
 						<select name="formap" class="form-control inline-form-control">
@@ -99,7 +100,7 @@
 							<option VALUE="confirmés" id="f7a2q2p2">confirmés</option>     	                                            
 							<option VALUE="confirmer" id="f7a2q2p3">confirmer </option>
 						</select>
-					leur présence.</br>
+					leur présence.<br/>
 					
 					3. La réunion avec le directeur a été
 						<select name="formap" class="form-control inline-form-control">
@@ -108,7 +109,7 @@
 							<option VALUE="programmée" id="f7a2q3p2">programmée</option>     	                                            
 							<option VALUE="programmer" id="f7a2q3p3">programmer</option>
 						</select>
-					à 10h.</br>
+					à 10h.<br/>
 								
 					4. Les convocations seront
 						<select name="formap" class="form-control inline-form-control">
@@ -148,16 +149,16 @@
 					<p><strong>Objet:</strong> Concernant votre demande de prêt.</p>
 					<div class="list-group-item">
 						<p><strong>De :</strong> Comité (comité.social@fargo.dz)
-							<span><strong>À : </strong>
+							<strong>À : </strong>
 								<a class="btn btn-primary btn-xs" href="#this" title="Répondre">
 								<i class="fa fa-user fa-lg"></i> Moi</a>
-							</span></br>
+							<br/>
 							<strong>Envoyé :</strong> jeu. 06/04/15 16:53
 						</p>
 					</div>
 				</div>
 				<div class="list-group-item">
-					<p>Cher Monsieur,</br>
+					<p>Cher Monsieur,<br/>
 
 					Nous vous informons que vous 
 						<span class="inline-form-control btn-group" data-toggle="buttons">
@@ -168,7 +169,7 @@
 								<input type="radio" value="recevez" name="f7a3q1" id="f7a3q1p2"> recevez
 							</label>
 						</span>
-					une réponse à votre demande prêt mardi prochain.</br>
+					une réponse à votre demande de prêt mardi prochain.<br/>
 					
 					Pour votre information, le comité des oeuvres sociales
 						<span class="inline-form-control btn-group" data-toggle="buttons">
@@ -179,7 +180,7 @@
 								<input type="radio" value="se réunit" name="f7a3q2" id="f7a3q2p2"> se réunit
 							</label>
 						</span>
-					jeudi pour étudier votre dossier.</br>
+					jeudi pour étudier votre dossier.<br/>
 					
 					Si vous
 						<span class="inline-form-control btn-group" data-toggle="buttons">
@@ -200,9 +201,9 @@
 								<input type="radio" value="resterons" name="f7a3q4" id="f7a3q4p2"> resterons
 							</label>
 						</span>
-					 à votre disposition.</br>
+					 à votre disposition.<br/>
 					
-					Cordialement.</br> 
+					Cordialement.<br/> 
 					Le comité des oeuvres sociales</p>
 				</div>
 				<div class="list-group-item">
@@ -217,12 +218,34 @@
 				</div>
 				
 				<!--FIN DE BOITE MAIL-->
-		
+				
+				<h3 id="act4" class="activite">Activité 4</h3>
+				<p><i>Sélectionnez la forme adéquate :</i></p>
+				
+				<div class="well">
+					<p>1. Le séminaire commence 
+					<input class="form-control inline-form-control" type="text" name="f5a2q1" id="f5a2q1" size="10" maxlength="20"/>
+					après midi.</p>
+					<hr>
+					<p>2. Le directeur organisera la réunion au plus tard
+					<input class="form-control inline-form-control" type="text" name="f5a2q2" id="f5a2q2" size="10" maxlength="20"/>
+					mercredi prochain.</p>
+					<hr>
+					<p>3. Vous devez rendre votre réponse
+					<input class="form-control inline-form-control" type="text" name="f5a2q3" id="f5a2q3" size="10" maxlength="20"/>
+					 48 heures.</p>
+					 <hr>
+					 <p>4. Nous vous octroyons le crédit
+					<input class="form-control inline-form-control" type="text" name="f5a2q4" id="f5a2q4" size="10" maxlength="20"/>
+					deux jours.</p>
+					
+					
+				</div>
 				
 		
 		
 					<button class="btn btn-success btn-md pull-right" type="submit" hidden="hidden">
-				<i class="fa fa-check-circle"> </i> Voir le corrigé</button></br></br>
+				<i class="fa fa-check-circle"> </i> Voir le corrigé</button><br/><br/>
 								
 				   </form><!-- FIN FORMULAIRE -->
 				   

@@ -45,7 +45,8 @@
 						<h3 class="remarque">@</h3>
 					</div>
 					<div class="text-center well encadre col-xs-12 col-sm-offset-1 col-sm-10 col-sm-offset-1">
-						<ul class="list-unstyled"><h3 class="activite">Objectifs</h3>
+						<h3 class="activite">Objectifs</h3>
+						<ul class="list-unstyled">
 							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
 							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
 							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
@@ -54,7 +55,7 @@
 					</div>
 				</div>
 		
-				<p class="recoi" id="sujet">Le directeur, M. Meftah, répond au chef du comité.</p>
+				<p class="recoi">Le directeur, M. Meftah, répond au chef du comité.</p>
 				<!--BOITE MAIL-->
 				<div class="list-group-item">
 					<div style="float:right"> 
@@ -80,18 +81,18 @@
 					<div class="list-group-item">
 						<p><strong>De :</strong> Karim MEFTAH (km.meftah@fargo.dz)
 							<span><strong>À : </strong>Salah KHADRAOUI (sal.khadraoui@fargo.dz)
-							</span></br>
+							</span><br/>
 							<strong>Envoyé :</strong> mer. 05/04/15 09:05
 						</p>
 					</div>
 				</div>
 				<div class="list-group-item">
-					<p>Bonjour, </br>
+					<p>Bonjour, <br/>
 
 					Faisant suite à votre message, vous pouvez donner, à priori, 
 					une réponse favorable à la demande de Mohammed RAÏS.
-					</br>Néanmoins, je vous demanderais si son dossier est acceptable par la commission.</br>
-					Cordialement.</br>
+					<br/>Néanmoins, je vous demanderais si son dossier est acceptable par la commission.<br/>
+					Cordialement.<br/>
 					K.M</p>
 				</div>
 				<div class="list-group-item">
@@ -103,7 +104,7 @@
 					  <i class="fa fa-share fa-lg"></i> Transférer</a>
 					<a class="btn btn-danger" href="#this" title="Supprimer">
 					  <i class="fa fa-trash-o fa-lg"></i> Supprimer</a>
-				</div></br>
+				</div><br/>
 				<!--FIN BOITE MAIL -->
 				
 				<!-- FORMULAIRE A TRANSMETTRE -->
@@ -111,8 +112,8 @@
 				<form method="post" action="construction.php">
 				
 				<h3 id="act1" class="activite">Activité 1</h3>
-				<p><i>Réécrivez les phrases suivantes en suivant l’exemple :</p>
-				<p class="alinea">Exemple:</i><strong> Puisqu’il travaille</strong> depuis longtemps en France, Karim parle bien français.</p>
+				<p><i>Réécrivez les phrases suivantes en suivant l’exemple :</i></p>
+				<p class="alinea"><i>Exemple:</i><strong> Puisqu’il travaille</strong> depuis longtemps en France, Karim parle bien français.</p>
 				<p class="alinea"><strong>Travaillant</strong> depuis longtemps en France, Karim parle bien français.</p>
 				
 				<div class="well">
@@ -160,18 +161,18 @@
 					</div>
 				</div>
 				<div class="list-group-item">
-					<p>Chers collègues, </br>
+					<p>Chers collègues, <br/>
 
 					Il serait nécessaire de nous réunir d’ici la fin de la semaine pour examiner
-					la demande de crédit d’un employé de notre entreprise, conformément à l’avis du directeur.</br>
+					la demande de crédit d’un employé de notre entreprise, conformément à l’avis du directeur.<br/>
 					
-					Je vous remercie par avance de bien vouloir vous libérer jeudi à 14h dans la salle de réunion habituelle.</br>
+					Je vous remercie par avance de bien vouloir vous libérer jeudi à 14h dans la salle de réunion habituelle.<br/>
 					
-					Dans le cas où vous ne pourriez pas assister à la réunion, je vous remercierais de bien vouloir m’en aviser suffisamment à l’avance.</br>
+					Dans le cas où vous ne pourriez pas assister à la réunion, je vous remercierais de bien vouloir m’en aviser suffisamment à l’avance.<br/>
 					
-					Bien à vous</br>
+					Bien à vous<br/>
 					
-					KHADRAOUI Salah </br>
+					KHADRAOUI Salah <br/>
 					Chef du comité des oeuvres sociales</p>
 				</div>
 				<div class="list-group-item">
@@ -181,7 +182,7 @@
 					  <i class="fa fa-save fa-lg"></i>  Enregister dans Brouillons</a>
 					<a class="btn btn-danger" href="#this" title="Annuler">
 					  <i class="fa fa-trash-o fa-lg"></i> Annuler</a>
-				</div></br>
+				</div><br/>
 				
 				<!--FIN BOITE MAIL -->
 				
@@ -275,22 +276,22 @@
 								
 					<div class="list-group-item">
 						<p><strong>De :</strong>Karim MEFTAH (km.meftah@fargo.dz)
-							<span><strong>À : </strong>Comité (comité.social@fargo.dz)
+							<strong>À : </strong>Comité (comité.social@fargo.dz)
 						</p>
 					</div>
 				</div>
 				<div class="list-group-item">
-					<p>Bonjour, </br>
+					<p>Bonjour, <br/>
 					
-					Je vous prie de vouloir bien accepter la demande de Mohammed RAÏS. </br>
+					Je vous prie de vouloir bien accepter la demande de Mohammed RAÏS. <br/>
 					Cependant, au cas où elle ne
 								<select name="formap" class="form-control inline-form-control">
-									<option value="Vous n'avez pas répondu"id="f6a3q1p0"> </option>
+									<option value="Vous n'avez pas répondu" id="f6a3q1p0"> </option>
 									<option value="répondait" id="f6a3q1p1">répondait </option>
 									<option value="répond" id="f6a3q1p2">répond </option>     	                                            
-									<option value="répondrait"id="f6a3q1p3">répondrait </option>
+									<option value="répondrait" id="f6a3q1p3">répondrait </option>
 								</select>
-					pas aux normes, je vous prie de prendre les mesures nécessaires.</br>
+					pas aux normes, je vous prie de prendre les mesures nécessaires.<br/>
 
 					Dans l’hypothèse où vous
 								<select name="formap" class="form-control inline-form-control">
@@ -299,7 +300,7 @@
 									<option VALUE="acceptiez" id="f6a3q2p2">acceptiez </option>     	                                            
 									<option VALUE="acceptez" id="f6a3q2p3">acceptez </option>
 								</select>
-					son dossier, faites en sorte d’informer Mohammed dans les meilleurs délais.</br>
+					son dossier, faites en sorte d’informer Mohammed dans les meilleurs délais.<br/>
 					
 					A moins que le dossier ne
 								<select name="formap" class="form-control inline-form-control">
@@ -309,9 +310,9 @@
 									<option VALUE="contenait" id="f6a3q3p3">contenait</option>
 								</select>
 						
-					toutes les conditions requises, dans ce cas-là, je vous prie d’accorder à l’intéressé sa demande dans les meilleurs délais.</br>
-					Je vous remercie par avance.</br>
-					Le directeur.</br> 
+					toutes les conditions requises, dans ce cas-là, je vous prie d’accorder à l’intéressé sa demande dans les meilleurs délais.<br/>
+					Je vous remercie par avance.<br/>
+					Le directeur.<br/> 
 					</p>
 				</div>
 					<div class="list-group-item">
@@ -321,14 +322,14 @@
 					  <i class="fa fa-save fa-lg"></i>  Enregister dans Brouillons</a>
 					<a class="btn btn-danger" href="#this" title="Annuler">
 					  <i class="fa fa-trash-o fa-lg"></i> Annuler</a>
-				</div></br>
+				</div><br/>
 				
 				<!--FIN BOITE MAIL -->
 		
 		
 		
 				<button class="btn btn-success btn-md pull-right" type="submit" hidden="hidden">
-				<i class="fa fa-check-circle"> </i> Voir le corrigé</button></br></br>
+				<i class="fa fa-check-circle"> </i> Voir le corrigé</button><br/><br/>
 								
 				   </form><!-- FIN FORMULAIRE -->
 					

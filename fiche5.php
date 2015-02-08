@@ -44,7 +44,8 @@
 						<h3 class="remarque">@</h3>
 					</div>
 					<div class="text-center well encadre col-xs-12 col-sm-offset-1 col-sm-10 col-sm-offset-1">
-						<ul class="list-unstyled"><h3 class="activite">Objectifs</h3>
+						<h3 class="activite">Objectifs</h3>
+						<ul class="list-unstyled">
 							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
 							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
 							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
@@ -53,7 +54,7 @@
 					</div>
 				</div>
 				
-				<p class="recoi" id="sujet">M. KHADRAOUI accuse réception de la demande de crédit.</p>
+				<p class="recoi">M. KHADRAOUI accuse réception de la demande de crédit.</p>
 				
 				<!--BOITE MAIL-->
 				<div class="list-group-item">
@@ -82,19 +83,19 @@
 							<span><strong>À : </strong>
 								<a class="btn btn-primary btn-xs" href="#this" title="Répondre">
 								<i class="fa fa-user fa-lg"></i> Moi</a>
-							</span></br>
+							</span><br/>
 							<strong>Envoyé :</strong> dim. 02/04/15 17:25
 						</p>
 					</div>
 				</div>
 				<div class="list-group-item">
-					<p>Bonjour, </br>
+					<p>Bonjour, <br/>
 
-					J’ai bien reçu votre message.</br>
-					Je vous informe que le comité va étudier votre demande et vous rendra une réponse dans les meilleurs délais.</br>
-					Je vous remercie par avance.</br>
-					Bien à vous.</br>
-					KHADRAOUI Salah</br>
+					J’ai bien reçu votre message.<br/>
+					Je vous informe que le comité va étudier votre demande et vous rendra une réponse dans les meilleurs délais.<br/>
+					Je vous remercie par avance.<br/>
+					Bien à vous.<br/>
+					KHADRAOUI Salah<br/>
 					Chef du comité des oeuvres sociales</p>
 				</div>
 				<div class="list-group-item">
@@ -106,10 +107,10 @@
 					  <i class="fa fa-share fa-lg"></i> Transférer</a>
 					<a class="btn btn-danger" href="#this" title="Supprimer">
 					  <i class="fa fa-trash-o fa-lg"></i> Supprimer</a>
-				</div></br>
+				</div><br/>
 				<!--FIN BOITE MAIL -->
 				
-				<p class="recoi" id="sujet">M. KHADRAOUI demande l'avis du directeur sur la faisabilité de ce crédit.</p>
+				<p class="recoi">M. KHADRAOUI demande l'avis du directeur sur la faisabilité de ce crédit.</p>
 				
 				 <!-- FORMULAIRE A TRANSMETTRE -->
 				
@@ -142,26 +143,26 @@
 					<p><strong>Objet:</strong> Demande de crédit de M.RAÏS</p>
 					<div class="list-group-item">
 						<p><strong>De :</strong> Salah KHADRAOUI (sal.khadraoui@fargo.dz)
-							<span><strong>À : </strong>Karim MEFTAH (km.meftah@fargo.dz) 
+							<strong>À : </strong>Karim MEFTAH (km.meftah@fargo.dz) 
 						</p>
 					</div>
 				</div>
 				<div class="list-group-item">
-					<p>Bonjour, </br>
+					<p>Bonjour, <br/>
 
 					Suite à la demande de crédit <span class="a-surligner"><input type="checkbox" value="formulée" name="f5a1" id="f5a1p1"><label for="f5a1p1">formulée</label></span> par Mohammed RAÏS pour l’achat de son véhicule,
 					je <span class="a-surligner"><input type="checkbox" value="souhaiterais" name="f5a1" id="f5a1p2"><label for="f5a1p2">souhaiterais</label></span>
 					savoir si nous <span class="a-surligner"><input type="checkbox" value="pourrions" name="f5a1" id="f5a1p3"><label for="f5a1p3">pourrions</label></span>
-					répondre favorablement à sa demande.</br>
+					répondre favorablement à sa demande.<br/>
 					Je vous <span class="a-surligner"><input type="checkbox" value="pourrions" name="f5a1" id="f5a1p4"><label for="f5a1p4">serais</label></span>
 					reconnaissant de bien vouloir me 
 					<span class="a-surligner"><input type="checkbox" value="donner" name="f5a1" id="f5a1p5"><label for="f5a1p5">donner</label></span>
 					une réponse dès que possible afin de rassurer cet employé,
-					aujourd’hui dans la difficulté.</br>
+					aujourd’hui dans la difficulté.<br/>
 					Je vous <span class="a-surligner"><input type="checkbox" value="remercie" name="f5a1" id="f5a1p6"><label for="f5a1p6">remercie</label></span>
-					par avance de votre retour.</br>
-					Cordialement,</br>
-					KHADRAOUI Salah</br>
+					par avance de votre retour.<br/>
+					Cordialement,<br/>
+					KHADRAOUI Salah<br/>
 					Chef du comité des oeuvres sociales</p>
 				</div>
 				<div class="list-group-item">
@@ -171,12 +172,12 @@
 					  <i class="fa fa-save fa-lg"></i>  Enregister dans Brouillons</a>
 					<a class="btn btn-danger" href="#this" title="Annuler">
 					  <i class="fa fa-trash-o fa-lg"></i> Annuler</a>
-				</div></br>
+				</div><br/>
 				<!--FIN BOITE MAIL -->
 				
 				<h3 id="act2" class="activite">Activité 2</h3>
-				<p><i>En suivant l’exemple, écrivez les verbes au conditionnel:</p>
-				<p class="alinea">Exemple:</i><strong> Je souhaite</strong> une réponse dans les meilleurs délais.</p>
+				<p><i>En suivant l’exemple, écrivez les verbes au conditionnel:</i></p>
+				<p class="alinea"><i>Exemple:</i><strong> Je souhaite</strong> une réponse dans les meilleurs délais.</p>
 				<p class="alinea"><strong>Je souhaiterais</strong> une réponse dans les meilleurs délais.</p>
 				
 				<div class="well">
@@ -211,7 +212,7 @@
 							<option id="f5a3q1p3" VALUE="si">si</option>
 							<option id="f5a3q1p4" VALUE="ce qui">ce qui</option>
 							<option id="f5a3q1p5" VALUE="quand">quand</option>
-							<option id="f5a3q1p6"VALUE="pourquoi">pourquoi</option>
+							<option id="f5a3q1p6" VALUE="pourquoi">pourquoi</option>
 						</select>
 						cette information est bien exacte.
 					</div>
@@ -224,7 +225,7 @@
 							<option id="f5a3q2p3" VALUE="si">si</option>
 							<option id="f5a3q2p4" VALUE="ce qui">ce qui</option>
 							<option id="f5a3q2p5" VALUE="quand">quand</option>
-							<option id="f5a3q2p6"VALUE="pourquoi">pourquoi</option>
+							<option id="f5a3q2p6" VALUE="pourquoi">pourquoi</option>
 						</select>
 						est écrit sur ce prospectus.
 					</div>
@@ -237,7 +238,7 @@
 							<option id="f5a3q3p3" VALUE="si">si</option>
 							<option id="f5a3q3p4" VALUE="ce qui">ce qui</option>
 							<option id="f5a3q3p5" VALUE="quand">quand</option>
-							<option id="f5a3q3p6"VALUE="pourquoi">pourquoi</option>
+							<option id="f5a3q3p6" VALUE="pourquoi">pourquoi</option>
 						</select>
 						le directeur sera disponible demain matin.
 					</div>
@@ -250,7 +251,7 @@
 							<option id="f5a3q4p3" VALUE="si">si</option>
 							<option id="f5a3q4p4" VALUE="ce qui">ce qui</option>
 							<option id="f5a3q4p5" VALUE="quand">quand</option>
-							<option id="f5a3q4p6"VALUE="pourquoi">pourquoi</option>
+							<option id="f5a3q4p6" VALUE="pourquoi">pourquoi</option>
 						</select>
 						tu n’as pas répondu à mon courrier.
 					</div>
@@ -263,7 +264,7 @@
 							<option id="f5a3q5p3" VALUE="si">si</option>
 							<option id="f5a3q5p4" VALUE="ce qui">ce qui</option>
 							<option id="f5a3q5p5" VALUE="quand">quand</option>
-							<option id="f5a3q5p6"VALUE="pourquoi">pourquoi</option>
+							<option id="f5a3q5p6" VALUE="pourquoi">pourquoi</option>
 						</select>
 						faire pour obtenir un crédit bancaire.
 					</div>
@@ -276,7 +277,7 @@
 							<option id="f5a3q6p3" VALUE="si">si</option>
 							<option id="f5a3q6p4" VALUE="ce qui">ce qui</option>
 							<option id="f5a3q6p5" VALUE="quand">quand</option>
-							<option id="f5a3q6p6"VALUE="pourquoi">pourquoi</option>
+							<option id="f5a3q6p6" VALUE="pourquoi">pourquoi</option>
 						</select>
 						se tiendra notre prochain rendez-vous.
 					</div>
@@ -287,7 +288,7 @@
 				
 				<div class="well">
 					<div>
-						1. Une procédure devant les tribunaux :</br>
+						1. Une procédure devant les tribunaux :<br/>
 						Une procédure 
 						<select name="formap" class="form-control inline-form-control">
 							<option id="f5a4q1p0" VALUE="vous n'avez pas répondu"> </option>
@@ -298,7 +299,7 @@
 					</div>
 					<hr>
 					<div>
-						2. Un courrier dont l’expéditeur n’est pas connu :</br>
+						2. Un courrier dont l’expéditeur n’est pas connu :<br/>
 						Un courrier
 						<select name="formap" class="form-control inline-form-control">
 							<option id="f5a4q2p0" VALUE="vous n'avez pas répondu"> </option>
@@ -309,7 +310,7 @@
 					</div>
 					<hr>
 					<div>
-						3. Des rapports qui disent la même chose :</br>
+						3. Des rapports qui disent la même chose :<br/>
 						Des rapports
 						<select name="formap" class="form-control inline-form-control">
 							<option id="f5a4q3p0" VALUE="vous n'avez pas répondu"> </option>
@@ -320,7 +321,7 @@
 					</div>
 					<hr>
 					<div>
-						4. Le montant de cette amende est fixé à l’avance et ne peut pas être changé :</br>
+						4. Le montant de cette amende est fixé à l’avance et ne peut pas être changé :<br/>
 						Un montant
 						<select name="formap" class="form-control inline-form-control">
 							<option id="f5a4q4p0" VALUE="vous n'avez pas répondu"> </option>
@@ -331,7 +332,7 @@
 					</div>
 					<hr>
 					<div>
-						5. L’appel d’offre n’a eu aucun résultat :</br>
+						5. L’appel d’offre n’a eu aucun résultat :<br/>
 						L’appel d’offre est resté
 						<select name="formap" class="form-control inline-form-control">
 							<option id="f5a4q5p0" VALUE="vous n'avez pas répondu"> </option>
@@ -374,24 +375,24 @@
 								<i class="fa fa-user fa-lg"></i> Moi</a>
 							</span>
 							<strong>À : </strong>Salim KHADRAOUI (sal.khadraoui@fargo.dz)
-								</br>
+								<br/>
 							<strong>Envoyé :</strong> dim. 02/04/15 14:17
 						</p>
 					</div>
 				</div>
 				<div class="list-group-item">
-					<p>Bonjour, </br>
+					<p>Bonjour, <br/>
 					Je vous écr<span class="erreur"><input type="checkbox" value="écrit" name="f5a5" id="f5a5p1"><label for="f5a5p1">it</label></span> 
 					pour que vous m’infor<span class="erreur"><input type="checkbox" value="informé" name="f5a5" id="f5a5p2"><label for="f5a5p2">mé</label></span> 
 					<span class="erreur"><input type="checkbox" value="c'est" name="f5a5" id="f5a5p3"><label for="f5a5p3">c’est</label></span> 
 					le comité des oeuvres sociales attribuerait des crédits à la consommation. 
 					En fait, je souhait<span class="erreur"><input type="checkbox" value="souhaitais" name="f5a5" id="f5a5p4"><label for="f5a5p4">ais</label></span> 
-					acquérir un véhicule mais je n’en ai pas les moyens.</br>
-					Je vous prie<span class="erreur"><input type="checkbox" value="priez" name="f5a5" id="f5a5p5"><label for="f5a5p5">z</label></span> de me répondre dans les meilleurs délais.</br>
+					acquérir un véhicule mais je n’en ai pas les moyens.<br/>
+					Je vous prie<span class="erreur"><input type="checkbox" value="priez" name="f5a5" id="f5a5p5"><label for="f5a5p5">z</label></span> de me répondre dans les meilleurs délais.<br/>
 					Je reste à votre entière disposition pour tou<span class="erreur"><input type="checkbox" value="tous" name="f5a5" id="f5a5p6"><label for="f5a5p6">s</label></span>
-					complément d’information.</br>
-					Je vous remercie <span class="erreur"><input type="checkbox" value="en" name="f5a5" id="f5a5p7"><label for="f5a5p7">en</label></span> avance de votre retour.</br>
-					Bien à vous,</br>
+					complément d’information.<br/>
+					Je vous remercie <span class="erreur"><input type="checkbox" value="en" name="f5a5" id="f5a5p7"><label for="f5a5p7">en</label></span> avance de votre retour.<br/>
+					Bien à vous,<br/>
 					
 					Mohammed RAÏS</p>
 				</div>
@@ -402,12 +403,12 @@
 					  <i class="fa fa-save fa-lg"></i>  Enregister dans Brouillons</a>
 					<a class="btn btn-danger" href="#this" title="Annuler">
 					  <i class="fa fa-trash-o fa-lg"></i> Annuler</a>
-				</div></br>
+				</div><br/>
 				
 				<!--FIN BOITE MAIL -->
 				
 				<button class="btn btn-success btn-md pull-right" type="submit" hidden="hidden">
-				<i class="fa fa-check-circle"> </i> Voir le corrigé</button></br></br>
+				<i class="fa fa-check-circle"> </i> Voir le corrigé</button><br/><br/>
 								
 				   </form><!-- FIN FORMULAIRE -->
 					

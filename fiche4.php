@@ -87,21 +87,21 @@
 							<span><strong>À : </strong>
 								<a class="btn btn-primary btn-xs" href="#this" title="Répondre">
 								<i class="fa fa-user fa-lg"></i> Moi</a>
-							</span></br>
+							</span><br/>
 							<strong>Envoyé :</strong> dim. 02/04/15 10:45
 						</p>
 					</div>
 				</div>
 				<div class="list-group-item">
-					<p>Bonjour Mohammed, </br>
+					<p>Bonjour Mohammed, <br/>
 
 					Je te remercie pour ton message. En fait, je comprends parfaitement tes soucis de déplacement 
-					et je t’encourage vivement à avancer dans ce projet.</br>
+					et je t’encourage vivement à avancer dans ce projet.<br/>
 					Tu peux bien demander un crédit auprès du comité des oeuvres sociales de notre société. Pour cela,
 					je te conseille d’écrire au chef du comité qui pourra te fournir tous les détails nécessaires concernant 
-					ta demande de crédit.</br>
-					Je te prie de m’informer de la réponse du comité.</br>
-					Bien à toi</br>
+					ta demande de crédit.<br/>
+					Je te prie de m’informer de la réponse du comité.<br/>
+					Bien à toi<br/>
 					Rachid.</p>
 				</div>
 				<div class="list-group-item">
@@ -113,7 +113,7 @@
 					  <i class="fa fa-share fa-lg"></i> Transférer</a>
 					<a class="btn btn-danger" href="#this" title="Supprimer">
 					  <i class="fa fa-trash-o fa-lg"></i> Supprimer</a>
-				</div></br>
+				</div><br/>
 				<!--FIN BOITE MAIL -->
 				
 				 <!-- FORMULAIRE A TRANSMETTRE -->
@@ -131,29 +131,29 @@
 								<span class="input-group-addon">                                     
 								<input type="radio" name="f4a1" id="f4a1p1" value="On lui propose une brochure" />
 							</span><label for="f4a1p1" class="form-control">
-							Bonjour,</br> 
-							Pouvez-vous, Monsieur Khadraoui, m’informer sur les possibilités d’avoir un crédit. </br> 
-							En fait, je veux acheter une auto et je n’ai pas les moyens nécessaires.</br> 
+							Bonjour,<br/> 
+							Pouvez-vous, Monsieur Khadraoui, m’informer sur les possibilités d’avoir un crédit. <br/> 
+							En fait, je veux acheter une auto et je n’ai pas les moyens nécessaires.<br/> 
 							Merci	
 							</label></div></div>
 						<div class="col-md-4 col-xs-12"><div class=" input-group">
 								<span class="input-group-addon">
 								<input type="radio" name="f4a1" id="f4a1p2" value="On lui fait une proposition commerciale" />
 							</span><label for="f4a1p2" class="2 form-control">
-							Salut Khadraoui,</br> 
-							Est-ce qu’il y a une possibilité de crédit bancaire dans notre société ? </br> 
-							On m’a dit que le comité en a déjà donné, pourquoi pas moi ? </br> 
-							J’ai aussi droit puisque je travaille depuis 5 ans dans cette entreprise ?</br> 
+							Salut Khadraoui,<br/> 
+							Est-ce qu’il y a une possibilité de crédit bancaire dans notre société ? <br/> 
+							On m’a dit que le comité en a déjà donné, pourquoi pas moi ? <br/> 
+							J’ai aussi droit puisque je travaille depuis 5 ans dans cette entreprise ?<br/> 
 							Je vous remercie.
 							</label></div></div>
 						<div class="col-md-4 col-xs-12"><div class="input-group">
 								<span class="input-group-addon">
 								<input type="radio" name="f4a1" id="f4a1p3" value="On lui indique qu'un conseiller commercial va le contacter" />
 							</span><label for="f4a1p3" class="2 form-control">
-							Bonjour,</br> 
+							Bonjour,<br/> 
 							Avant de m’engager dans l’achat d’un véhicule, je me permets de vous demander de bien vouloir m’informer sur les possibilités 
-							d’obtenir un crédit auprès de votre comité.</br> 
-							Je vous remercie par avance de votre retour.</br> 
+							d’obtenir un crédit auprès de votre comité.<br/> 
+							Je vous remercie par avance de votre retour.<br/> 
 							Meilleures salutations.
 							Mohammed RAÏS
 							</label></div></div>
@@ -251,7 +251,7 @@
 					</div>
 				</div>
 				<div class="list-group-item">
-					<p>Bonjour, </br>
+					<p>Bonjour, <br/>
 
 					Je vous
 					<select name="formap" class="form-control inline-form-control">
@@ -281,7 +281,7 @@
 						<option VALUE="f4a3q4p2">auprès</option>     	                                            
 						<option VALUE="f4a3q4p3">dans</option>
 					</select>
-					de votre comité.</br>
+					de votre comité.<br/>
 					Je vous remercie par avance de votre
 					<select name="formap" class="form-control inline-form-control">
 						<option VALUE="f4a3q5none"> </option>
@@ -289,9 +289,9 @@
 						<option VALUE="f4a3q5p2">attention</option>     	                                            
 						<option VALUE="f4a3q5p3">retour</option>
 					</select>
-					</br>
+					<br/>
 					
-					Salutations distinguées</br>
+					Salutations distinguées<br/>
 					
 					Mohammed RAÏS</p>
 				</div>
@@ -302,7 +302,7 @@
 					  <i class="fa fa-save fa-lg"></i>  Enregister dans Brouillons</a>
 					<a class="btn btn-danger" href="#this" title="Annuler">
 					  <i class="fa fa-trash-o fa-lg"></i> Annuler</a>
-				</div></br>
+				</div><br/>
 				
 				<!--FIN BOITE MAIL -->
 				
@@ -334,13 +334,13 @@
 							<span><a class="btn btn-primary btn-xs" href="#this" title="Répondre">
 								<i class="fa fa-user fa-lg"></i> Moi</a>
 							</span>
-								</br>
+								<br/>
 							<strong>Envoyé :</strong> dim. 02/04/15 17:25
 						</p>
 					</div>
 				</div>
 				<div class="list-group-item">
-					<p>Bonjour, </br>
+					<p>Bonjour, <br/>
 
 					Je vous
 					<select name="formap" class="form-control inline-form-control">
@@ -349,7 +349,7 @@
 						<option VALUE="f4a3q6p2">félicite</option>     	                                            
 						<option VALUE="f4a3q6p3">congratule</option>
 					</select>
-					pour votre message.</br>
+					pour votre message.<br/>
 					<select name="formap" class="form-control inline-form-control">
 						<option VALUE="f4a3q7none"> </option>
 						<option VALUE="f4a3q7p1">En effet</option>
@@ -363,7 +363,7 @@
 						<option VALUE="f4a3q8p2">allouer</option>     	                                            
 						<option VALUE="f4a3q8p3">donner</option>
 					</select>
-					un crédit.</br>
+					un crédit.<br/>
 					<select name="formap" class="form-control inline-form-control">
 						<option VALUE="f4a3q9none"> </option>
 						<option VALUE="f4a3q9p1">Par conséquent</option>
@@ -377,7 +377,7 @@
 						<option VALUE="f4a3q10p2">étudier</option>     	                                            
 						<option VALUE="f4a3q10p3">vérifier</option>
 					</select>
-					votre solvabilité.</br>
+					votre solvabilité.<br/>
 					
 					Nous restons à votre
 					<select name="formap" class="form-control inline-form-control">
@@ -393,9 +393,9 @@
 						<option VALUE="f4a3q12p2">n’importe</option>     	                                            
 						<option VALUE="f4a3q12p3">certain</option>
 					</select>
-					complément d’informations.</br>
+					complément d’informations.<br/>
 				
-					Salutations cordiales</br>
+					Salutations cordiales<br/>
 					
 					Salah KHADRAOUI</p>
 				</div>
@@ -408,12 +408,12 @@
 					  <i class="fa fa-share fa-lg"></i> Transférer</a>
 					<a class="btn btn-danger" href="#this" title="Supprimer">
 					  <i class="fa fa-trash-o fa-lg"></i> Supprimer</a>
-				</div></br>
+				</div><br/>
 				
 				<!--FIN BOITE MAIL -->
 				
 			<button class="btn btn-success btn-md pull-right" type="submit" hidden="hidden">
-				<i class="fa fa-check-circle"> </i> Voir le corrigé</button></br></br>
+				<i class="fa fa-check-circle"> </i> Voir le corrigé</button><br/><br/>
 								
 				   </form><!-- FIN FORMULAIRE -->
 					

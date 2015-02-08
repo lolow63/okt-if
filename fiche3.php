@@ -35,7 +35,6 @@
 			?>
 		</header>
 		<hr>
-		<!--ANCRE NAVBAR-TOPFIX--><div id="sujet"></div>
 		<div class="container">
 			<div class="well">
 				<h2>FICHE N°3</h2>
@@ -45,7 +44,8 @@
 						<h3 class="remarque">@</h3>
 					</div>
 					<div class="text-center well encadre col-xs-12 col-sm-offset-1 col-sm-10 col-sm-offset-1">
-						<ul class="list-unstyled"><h3 class="activite">Objectifs</h3>
+						<h3 class="activite">Objectifs</h3>
+						<ul class="list-unstyled">
 							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
 							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
 							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
@@ -54,7 +54,7 @@
 					</div>
 				</div>
 				
-				<p class="recoi" id="sujet">Mohammed reçoit le message suivant :</p>
+				<p class="recoi">Mohammed reçoit le message suivant :</p>
 			
             <!--BOITE MAIL-->
 				<div class="list-group-item">
@@ -83,21 +83,21 @@
 							<span><strong>À : </strong>
 								<a class="btn btn-primary btn-xs" href="#this" title="Répondre">
 								<i class="fa fa-user fa-lg"></i> Moi</a>
-							</span></br>
+							</span><br/>
 							<strong>Envoyé :</strong> mar. 25/03/15 10:21
 						</p>
 					</div>
 				</div>
 				<div class="list-group-item">
-					<p>Monsieur, </br>
+					<p>Monsieur, <br/>
 
 					Faisant suite à votre demande d’information sur la possibilité d’envisager un achat 
 					par crédit bancaire du véhicule CLS 2000, nous sommes au regret de vous informer que 
-					notre société ne fait plus de crédit à la consommation.</br>
-					En effet, nous avons arrêté les ventes par crédit depuis 2009.</br>
+					notre société ne fait plus de crédit à la consommation.<br/>
+					En effet, nous avons arrêté les ventes par crédit depuis 2009.<br/>
 					Tout en vous remerciant par avance de votre intérêt, nous restons à votre entière 
-					disposition pour de plus amples informations.</br>
-					Cordialement</br>
+					disposition pour de plus amples informations.<br/>
+					Cordialement<br/>
 					Service commercial VEH</p>
 				</div>
 				<div class="list-group-item">
@@ -109,7 +109,7 @@
 					  <i class="fa fa-share fa-lg"></i> Transférer</a>
 					<a class="btn btn-danger" href="#this" title="Supprimer">
 					  <i class="fa fa-trash-o fa-lg"></i> Supprimer</a>
-				</div></br>
+				</div><br/>
 				<!--FIN BOITE MAIL -->
 				
 				<p class="recoi" id="sujet">Mohammed RAÏS décide d’écrire à son chef de service :</p>
@@ -146,16 +146,16 @@
 					</div>
 				</div>
 				<div class="list-group-item">
-					<p>Bonjour Rachid, </br>
+					<p>Bonjour Rachid, <br/>
 
-					J’ai décidé d’acheter une voiture pour éviter d’être en retard le matin. Mais mes moyens ne me permettent pas cet achat.</br>
+					J’ai décidé d’acheter une voiture pour éviter d’être en retard le matin. Mais mes moyens ne me permettent pas cet achat.<br/>
 					
 					On m’a dit que notre comité des oeuvres sociales pourrait m’octroyer une aide financière. Je sollicite, donc, cette aide
-					auprès de vous sachant qu’elle me permettra de me faciliter la vie au quotidien.</br>
+					auprès de vous sachant qu’elle me permettra de me faciliter la vie au quotidien.<br/>
 					
-					Je vous remercie infiniment et j’attends votre réponse avec impatience.</br>
+					Je vous remercie infiniment et j’attends votre réponse avec impatience.<br/>
 					
-					Cordialement</br>
+					Cordialement<br/>
 					
 					Mohammed RAÏS</p>
 				</div>
@@ -166,7 +166,7 @@
 					  <i class="fa fa-save fa-lg"></i>  Enregister dans Brouillons</a>
 					<a class="btn btn-danger" href="#this" title="Annuler">
 					  <i class="fa fa-trash-o fa-lg"></i> Annuler</a>
-				</div></br>
+				</div><br/>
 				
 				<!--FIN BOITE MAIL -->
 			                    <!-- FORMULAIRE A TRANSMETTRE -->
@@ -284,58 +284,57 @@
 				<div class="well">
 					<div class="row">
 						<div class="list-group-item col-md-offset-1 col-md-8">
-							<p>Salut Omar! </br>
-							Moi je suis le représentant de l'association Tadhamon.</br> 
-							Excusez-moi ce grand retard, je n'ai pas pu me déplacer à Alger; en effet j'ai eu la maladie de la maman qui m'a empeché de venir. </br>
-							Voila la fiche technique de notre association qui projette de se doter d’une bibliothèque. Je vous remercie infiniment.</br>
+							<p>Salut Omar! <br/>
+							Moi je suis le représentant de l'association Tadhamon.<br/> 
+							Excusez-moi ce grand retard, je n'ai pas pu me déplacer à Alger; en effet j'ai eu la maladie de la maman qui m'a empeché de venir. <br/>
+							Voila la fiche technique de notre association qui projette de se doter d’une bibliothèque. Je vous remercie infiniment.<br/>
 							M. Farid Hamadouche.</p>
 						</div>
 					</div>	
 						<hr>
 					<div class="row">
 						<div class="col-md-12">
-							<ul class="list-unstyled a-rayer"><strong>a. Se présenter :</strong> <i>Moi je suis le représentant de l'association Tadhamon.</i>
-							<div class="well">
-								<li><input type="checkbox" name="f3a3qa" id="f3a3qap1"></input>
+							<p><strong>a. Se présenter :</strong> <i>Moi je suis le représentant de l'association Tadhamon.</i></p>
+							<ul class="well list-unstyled a-rayer">
+								<li><input type="checkbox" name="f3a3qa" id="f3a3qap1"/>
 								<label for="f3a3qap1">Je représente l’association Tadhamon.</label></li>
-								<li><input type="checkbox" name="f3a3qa" id="f3a3qap2"></input>
+								<li><input type="checkbox" name="f3a3qa" id="f3a3qap2"/>
 								<label for="f3a3qap2">L’association Tadhamon m’a chargé de la représenter.</label></li>
-								<li><input type="checkbox" name="f3a3qa" id="f3a3qap3"></input>
+								<li><input type="checkbox" name="f3a3qa" id="f3a3qap3"/>
 								<label for="f3a3qap3">Je vous écris au nom de l’association Tadhamon.</label></li>
-							</div>
 							</ul>
 							
-							<ul class="list-unstyled a-rayer"><strong>b. S’excuser :</strong> <i>Excusez-moi ce grand retard.</i>
-								<div class="well">
-								<li><input type="checkbox" name="f3a3qb" id="f3a3qbp1"></input>
+							
+							<p><strong>b. S’excuser :</strong> <i>Excusez-moi ce grand retard.</i></p>
+							<ul class="well list-unstyled a-rayer">
+								<li><input type="checkbox" name="f3a3qb" id="f3a3qbp1"/>
 								<label for="f3a3qbp1">Excusez-moi ce grand retard.</label></li>
-								<li><input type="checkbox" name="f3a3qb" id="f3a3qbp2"></input>
+								<li><input type="checkbox" name="f3a3qb" id="f3a3qbp2"/>
 								<label for="f3a3qbp2">Je vous prie de m’excuser de ce grand retard.</label></li>
-								<li><input type="checkbox" name="f3a3qb" id="f3a3qbp3"></input>
+								<li><input type="checkbox" name="f3a3qb" id="f3a3qbp3"/>
 								<label for="f3a3qbp3">Veuillez agréer mes sincères excuses pour ce grand retard.</label></li>
-							</div>
 							</ul>
 							
-							<ul class="list-unstyled a-rayer"><strong>c. Expliquer et justifier :</strong> <i>J’ai eu la maladie de la maman qui m’a empêché de ...</i>
-							<div class="well">
-								<li><input type="checkbox" name="f3a3qc" id="f3a3qcp1"></input>
+							
+							<p><strong>c. Expliquer et justifier :</strong> <i>J’ai eu la maladie de la maman qui m’a empêché de ...</i></p>
+							<ul class="well list-unstyled a-rayer">
+								<li><input type="checkbox" name="f3a3qc" id="f3a3qcp1"/>
 								<label for="f3a3qcp1">Ma mère est tombée malade et cela m’a empêché de venir.</label></li>
-								<li><input type="checkbox" name="f3a3qc" id="f3a3qcp2"></input>
+								<li><input type="checkbox" name="f3a3qc" id="f3a3qcp2"/>
 								<label for="f3a3qcp2">Maman est malade et je n’ai donc pas pu venir.</label></li>
-								<li><input type="checkbox" name="f3a3qc" id="f3a3qcp3"></input>
+								<li><input type="checkbox" name="f3a3qc" id="f3a3qcp3"/>
 								<label for="f3a3qcp3">J’ai pas pu venir à cause de ma mère qui est malade.</label></li>
-							</div>
 							</ul>
 							
-							<ul class="list-unstyled a-rayer"><strong>d. Adresser une pièce jointe :</strong> <i>Voilà la fiche technique de notre association.</i>
-							<div class="well">
-								<li><input type="checkbox" name="f3a3qd" id="f3a3qdp1"></input>
+							
+							<p><strong>d. Adresser une pièce jointe :</strong> <i>Voilà la fiche technique de notre association.</i></p>
+							<ul class="well a-rayer list-unstyled">
+								<li><input type="checkbox" name="f3a3qd" id="f3a3qdp1"/>
 								<label for="f3a3qdp1">Je vous prie de trouver ci-joint la fiche technique de notre association</label></li>
-								<li><li><input type="checkbox" name="f3a3qd" id="f3a3qdp2"></input>
+								<li><input type="checkbox" name="f3a3qd" id="f3a3qdp2"/>
 								<label for="f3a3qdp2">J’ai mis la fiche technique de notre association dans le mail</label></li>
-								<li><li><input type="checkbox" name="f3a3qd" id="f3a3qdp3"></input>
+								<li><input type="checkbox" name="f3a3qd" id="f3a3qdp3"/>
 								<label for="f3a3qdp3">La fiche technique de notre association est en pièces jointes.</label></li>
-							</div>
 							</ul>
 						</div>
 					</div>
@@ -345,7 +344,7 @@
 		
 		
 				<button class="btn btn-success btn-md pull-right" type="submit" hidden="hidden">
-				<i class="fa fa-check-circle"> </i> Voir le corrigé</button></br></br>
+				<i class="fa fa-check-circle"> </i> Voir le corrigé</button><br/><br/>
 								
 				</form><!-- FIN FORMULAIRE -->
 		

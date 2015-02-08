@@ -10,14 +10,14 @@
 				se proposant d'améliorer vos rédactions de courriers electroniques, appelés plus simplement courriels.</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1 col-lg-offset-1 col-lg-5">
-                <img src="img/mail.png" class="mailimg">
+                <img src="img/mail.png" alt="" class="mailimg">
             </div>
         </div>
         <div class="container"><br>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="buttons">
-                    <a href="intro.php"class="btn btn-inscription">M'inscrire gratuitement</a>
-                    <a href="intro.php"class="btn btn-formation">Débuter la formation</a>
+                    <a href="intro.php" class="btn btn-inscription">M'inscrire gratuitement</a>
+                    <a href="intro.php" class="btn btn-formation">Débuter la formation</a>
                 </div>         
             </div>
         </div>         
