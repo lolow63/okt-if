@@ -1,6 +1,0 @@
-FICHE 1
-Ajout du code BOITE_MAIL
-Ajout de la barre de navigation Scrollspy
-Ajout du javascript Collapse
-Ajout des script manquant et déplacement en bas de code
-Modif du dossier js (ajout de tout les scripts)
