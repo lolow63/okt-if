@@ -6,37 +6,30 @@
     opacity: 0.5;
     z-index: 2000;
 }
-ol.vertical {
-    margin: 0 0 4px 0;
+.vertical {
+    margin-bottom: 5px;
     min-height: 15px; 
-    padding-left: 0 !important
+
 }
-ol.vertical li ,
-ol.horizontal li,
-ol.cardinal li{
+.vertical li  {
     display: block;
-    margin: 2px;
-    padding: 8px;
+    margin-bottom: 5px;
+    padding: 6px;
     border: 1px solid #dfdfdf;
     color: #111;
     background: #eeeeee;
 }
-ol.vertical li.placeholder,
-ol.horizontal li.placeholder,
-ol.cardinal li.placeholder {
+.vertical li.placeholder {
     position: relative;
     margin: 0;
     padding: 0;
     border: none; 
 }
-ol.vertical li.placeholder:before {
+.vertical li.placeholder:before {
     position: absolute;
     content: "";
     width: 0;
     height: 0;
-    margin-top: -5px;
-    left: -5px;
-    top: -4px;
     border: 7px solid transparent;
     border-left-color: red;
     border-right: none; 
@@ -44,20 +37,12 @@ ol.vertical li.placeholder:before {
 .vertical li:hover {
 	cursor: n-resize;
 }
-.horizontal li:hover {
-	cursor: e-resize;
+
+.phrases .fa {
+	color: #0088cc;
 }
-.cardinal li:hover {
-	cursor: move;
-}
-ol.phrases {
-  	list-style-type: none; 
-}
-ol.phrases .fa {
-  color: #0088cc;
-}
-ol.encours li:hover{
-  background: #ddd
+.encours li:hover{
+	background: #ddd
 }
 #ordre {
 	display:none;
@@ -67,10 +52,10 @@ ol.encours li:hover{
 /*=================================================
 	Classes d'exercices à rayer					 */
 	
-ul.a-rayer li:hover{
+.a-rayer li:hover{
 	cursor: pointer;
 }
-ul.a-rayer li {
+.a-rayer li {
 	text-indent: 1em;
 }
 .a-rayer label{
@@ -127,6 +112,7 @@ text-decoration: line-through;
 }
 .label_activite{
  height: 34px;
+ width:auto;
  border-radius: 4px;
  text-align: center;
  vertical-align: middle;
@@ -147,6 +133,18 @@ input.bouton{
 	float:left;
 	margin-left:300px;
 	margin-bottom:10px;
+	}
+.hidden input{
+	visibility:hidden;
+	display:none;
+}
+
+.input-group, .btn{
+	margin-bottom:5px;
+	}
+
+label:hover , select:hover, a :hover, .modal-title{
+	cursor: pointer;
 	}
 /*===================================================
     Elements de mise en forme du texte                  */
@@ -195,15 +193,11 @@ color:#55BCBE;
 .fa-close{
   color: #D2204C;
 }
-#res{
-	border-width:2px;
-	border-color:#ADA59A;
-	border-style:inset;
-	margin-left:10px;
-	margin-right:10px;
-	background:#ADA59A;
-}
-a.continue{text-align:center;font-size:1.5em;}
+
+.encadre{
+	padding-top:0px;
+	padding-bottom:0px;
+	}
 
 /*====================================================
 	Instruction supplémentaires pour le responsive*/
@@ -236,29 +230,5 @@ a.continue{text-align:center;font-size:1.5em;}
 }
 
 
-.encadre{
-	padding-top:0px;
-	padding-bottom:0px;
-	}
-label:hover , select:hover, a :hover, .modal-title{
-	cursor: pointer;
-	}
-	
-/*==========================================================
-*******************FOOTER**********************************/
 
-footer .marianne img{
-  width: 80px;
-  margin-top:10px;
-  padding-left:5px;
-  margin-bottom: 10px;
-  float:right;
-}
-footer .copyrights{
-  font-size: 10px;
-}
-footer .bottombar img.logobott{
-  width: 90px;
-  margin-top: 10px;
-  padding-right:5px;
-}
+

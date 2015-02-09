@@ -247,7 +247,7 @@
 				<div class="well well-lg">
 					<div class="row">
 						<div class="col-md-6">
-							<ol class="vertical">
+							<ol class="list-unstyled vertical">
 								<li><span class="label label-info">1</span> Vous informez votre correspondant que vous expédiez des marchandises.</li>
 								<li><span class="label label-info">2</span> Vous annoncez que vous annulez en partie la commande passée précédemment.</li>
 								<li><span class="label label-info">3</span> Vous écrivez pour demander une documentation.</li>
@@ -257,7 +257,7 @@
 							
 						</div>
 						<div class="col-md-6">
-							<ol class="phrases vertical encours">
+							<ol class="list-unstyled phrases vertical encours">
 							<li value="3"><i class="fa fa-arrows-v"></i> Demande de documentation</li>
 							<li value="5"><i class="fa fa-arrows-v"></i> Demande de prolongation de paiement</li>
 							<li value="1"><i class="fa fa-arrows-v"></i> Expédition de marchandises</li>

@@ -176,7 +176,7 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
                                                  
             </div>
             <div class="well well-lg col-xs-12 col-sm-12 col-md-offset-1 col-md-6">
-                <ol class="phrases vertical encours">
+                <ol class="phrases list-unstyled vertical encours">
                     <li value="4"><i class="fa fa-arrows-v"></i> <strong>Développement</strong> : Votre conseiller commercial aura le privilège de...</li>
                     <li value="1"><i class="fa fa-arrows-v"></i> <strong>Objet</strong> : Offre commerciale</li>
                     <li value="3"><i class="fa fa-arrows-v"></i> <strong>Rappel du contexte</strong> : Faisant suite à...</li>
