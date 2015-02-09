@@ -1,0 +1,316 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Institut Français | Algérie</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap-theme.css">
+        <link rel="stylesheet" href="../css/responsive.css">
+        <link rel="stylesheet" href="../css/dinot.css">
+        <link rel="stylesheet" href="../css/fa/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+
+		 <style type="text/css"> 
+
+      /* Styles de base */
+      body {
+        background: url('') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+		padding-top: 50px;
+      }
+		.jumbotron{
+		background-color: rgba(185, 230, 230, 0.5);
+		padding-top:15px;
+		}
+		
+		h2{
+		text-indent:1em;
+		font-size:3em !important;
+		}
+		</style>
+		
+		<body>	
+		 <header>
+
+      <!-- Navigation
+      ================================================== -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="<icon-ba></icon-ba>r"></span>
+					</button>
+					<a class="navbar-brand" href="#">OKT-Solutions</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#Inputs">Inputs</a></li>
+						<li><a href="#Listes">Listes</a></li>
+						<li><a href="#Boutons">Boutons</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+ 
+
+    </header>
+
+	<div class="container">
+		<h1 class="recoi"> Rendu des classes d'exercices</h1>
+			<p class="activite">Éléments préparés pour l'intégration</p>
+			<hr>
+	<div class="well">
+		<h2 id="Inputs" class="activite">Inputs</h2>
+
+		<div class="jumbotron">
+		<h3 class="remarque">Menu déroulant à 4 entrées</h3>
+		<hr>
+		<p>S'insère dans
+		<select name="faq" id="faq1" class="form-control inline-form-control">
+			<option value="Vous n'avez pas répondu" id="faqp0"></option>
+			<option value="choix 1" id="faqp1">choix 1</option>
+			<option value="choix 2" id="faqp1">choix 2</option>
+			<option value="choix 3" id="faqp1">choix 3</option>
+			<option value="choix 4" id="faqp1">choix 4</option>
+		</select>
+		un élément inline</p>
+		
+		<div class="list-group-item"><strong>Zen Coding:</strong> <br/>
+		select[name="faq"]#faq$.form-control.inline-form-control>(option#faqp0[value="Vous n'avez pas répondu"])+(option#faqp$[value=""])*4
+		</div></div>
+		
+		
+		<div class="jumbotron">
+		<h3 class="remarque">Menu déroulant avec libellé à 4 entrées</h3>
+		<hr>
+		
+		<div class="form-group">
+			<div class="input-group">
+				<span class="input-group-addon label_activite"><i>Placez ici le Libellé</i>	
+				</span>		
+					<select name="rapp" class="form-control">
+						<option VALUE="vous n'avez pas répondu"> </option>
+						<option VALUE="Je vous remercie pour votre message">Choix 1</option>
+						<option VALUE="Merci pour votre message">Choix 2</option>     	                                            
+						<option VALUE="Merci beaucoup">Choix 3</option>
+						<option VALUE="Bien reçu, merci">Choix 4</option>
+					</select>												
+			</div>
+		</div>	
+		
+		<div class="list-group-item"><strong>Zen Coding:</strong> <br/>
+		div.form-group>div.input-group>span.input-group-addon.label_activite+select.form-control>option[value="Vous n'avez pas répondu"]+option[value="faqp$"]*4
+		</div></div>
+			
+
+
+		
+		<div class="jumbotron">
+		<h3 class="remarque">Input text</h3>
+		<hr>
+		<p>Cet élement <input class="form-control inline-form-control" type="text"  name="f6a1q1" id="f6a1q1" size="10" maxlength="20"/>est inline.
+		
+		<div class="list-group-item"><strong>Zen Coding:</strong> <br/>
+		p>input#faqp.form-control.inline-form-control[type="text"][name="faq"][size="10"][maxlength="20"]
+		</div></div>
+
+	
+		<div class="jumbotron">
+		<h3 class="remarque">Input text pré-remplis</h3>
+		<hr>
+		<p>Cet élement <input class="form-control inline-form-control" type="text"  name="f6a1q1" id="f6a1q1" placeholder="Votre texte ici" size="10" maxlength="20"/>est inline.
+
+		<div class="list-group-item"><strong>Zen Coding:</strong> <br/>
+		p>input#faqp.form-control.inline-form-control[type="text"][name="faq"][size="10"][placeholder="Votre texte ici"][maxlength="20"]
+		</div>
+		</div>
+		
+		
+		<div class="jumbotron">
+		<h3 class="remarque">Groupe de 3 boutons radios avec libellé</h3>
+		<hr>	
+
+			<div class="row">  
+				<div class="col-md-12 col-xs-12">
+					<p class="label-info label_activite">Pouvez-vous trouver la réponse à cette question ?</p>
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<input type="radio" style='visibility:hidden;display:none' name="exped" value="Vous n'avez pas répondu" checked="checked"/>
+					<div class="input-group">
+						<span class="input-group-addon">                                     
+							<input type="radio" name="exped" id="exped1" value="Un homme" />
+						</span>
+						<label for="exped1" class="form-control">Bien sur</label>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<div class="input-group">
+						<span class="input-group-addon">
+							<input type="radio" name="exped" id="exped2" value="Une femme" />
+						</span>
+						<label for="exped2" class="form-control">Je ne sais pas</label>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<div class="input-group">
+						<span class="input-group-addon">
+							<input type="radio" name="exped" id="exped3" value="On ne sait pas" />
+						</span>
+						<label for="exped3" class="form-control">Mais quelle question ?</label>
+					</div>
+				</div>
+			</div>
+			
+				
+				<div class="list-group-item"><strong>Zen Coding:</strong> <br/>
+		 div.row>(div.col-lg-12.col-xs-12>p.label-info.label_activite)+(div.col-sm-4.col-xs-12>input.hidden[type=radio][value="vous n'avez pas répondu"][checked="checked"]+div.input-group>(span.input-group-addon>input#faqp1[name="faq"][type="radio"][value=""])+label.form-control[for="faqp1"])+(div.col-sm-4.col-xs-12>div.input-group>(span.input-group-addon>input#faqp2[name="faq"][type="radio"][value=""])+label.form-control[for="faqp2"])+(div.col-sm-4.col-xs-12>div.input-group>(span.input-group-addon>input#faqp3[name="faq"][type="radio"][value=""])+label.form-control[for="faqp3"])
+		</div></div>
+		
+
+				
+		<div class="jumbotron">		
+		<h3 class="remarque">Groupe de 4 boutons checkbox</h3>
+		<hr>
+		<div class="row">
+			<div class="col-sm-6 col-xs-12">
+				<input type="checkbox" checked="checked" id="faqp0" class="hidden" name="faq" value="Vous n'avez pas répondu" />
+				<div class="input-group"><span class="input-group-addon"><input type="checkbox" id="f1aqp1" name="faq" value="Voici la proposition 1" /></span><label for="f1aqp1" class="form-control">Voici la proposition 1</label></div>
+			</div>
+			<div class="col-sm-6 col-xs-12">
+				<div class="input-group"><span class="input-group-addon"><input type="checkbox" id="f1aqp2" name="faq" value="Voici la proposition 2" /></span><label for="f1aqp2" class="form-control">Voici la proposition 2</label></div>
+			</div>
+			<div class="col-sm-6 col-xs-12">
+				<div class="input-group"><span class="input-group-addon"><input type="checkbox" id="f1aqp3" name="faq" value="Voici la proposition 3" /></span><label for="f1aqp3" class="form-control">Voici la proposition 3</label></div>
+			</div>
+			<div class="col-sm-6 col-xs-12">
+				<div class="input-group"><span class="input-group-addon"><input type="checkbox" id="f1aqp4" name="faq" value="Voici la proposition 4" /></span><label for="f1aqp4" class="form-control">Voici la proposition 4</label></div>
+			</div>
+		</div>
+		
+		
+		<div class="list-group-item"><strong>Zen Coding:</strong> <br/>
+		div.row>(div.col-sm-6.col-xs-12>input#faqp0.hidden[type="checkbox"][checked="checked"][name="faq"][value="Vous n'avez pas répondu"]+div.input-group>(span.input-group-addon>input#faqp1[type="checkbox"][name="faq"][value=""])+label.form-control[for="faqp1"])+(div.col-sm-6.col-xs-12>div.input-group>(span.input-group-addon>input#faqp2[type="checkbox"][name="faq"][value=""])+label.form-control[for="faqp2"])+(div.col-sm-6.col-xs-12>div.input-group>(span.input-group-addon>input#faqp3[type="checkbox"][name="faq"][value=""])+label.form-control[for="faqp3"])+(div.col-sm-6.col-xs-12>div.input-group>(span.input-group-addon>input#faqp4[type="checkbox"][name="faq"][value=""])+label.form-control[for="faqp4"])
+		</div></div>
+		
+		<h2 id="Listes" class="activite">Listes</h2>
+		
+		
+		<div class="jumbotron">
+		<h3 class="remarque">Liste radio</h3>
+		<hr>
+		<div class="row">
+						<ol class="list-untyled vertical col-md-6">
+							<li>a. <i>Choisissez le bon élément</i> parmi les suivants :</li>
+						</ol>
+						<div class="btn-group col-md-6" data-toggle="buttons">
+							<label for="element1" class="btn btn-primary">
+								<input type="radio" name="element" id="element1"> élement1
+							</label>
+							<label for="element2" class="btn btn-primary">
+								<input type="radio" name="element" id="element2"> élement2
+							</label>
+							<label for="element3" class="btn btn-primary">
+								<input type="radio" name="element" id="element3"> élement3
+							</label>
+						</div>
+					</div>
+								
+					<div class="list-group-item"><strong>Zen Coding:</strong> <br/>				
+					div.row>(ol.list-unstyled.vertical.col-md-6>li)+(div.btn-group.col-md-6[data-toggle="buttons"]>(label.btn.btn-primary>input#faqp$[name="faq"][type="radio"])*3)
+					</div></div>	
+
+					
+					
+				<div class="jumbotron">	
+				<h3 class="remarque">Mots à surligner</h3>
+				<hr>
+				<p>Cliquez sur le mot suivant:<span class="a-surligner"><input type="checkbox" value="formulée" name="f5a1" id="f5a1p1">
+				<label for="f5a1p1">surligner</label>
+				</span>. Cet élément est inline.</p>
+				
+				<div class="list-group-item"><strong>Zen Coding:</strong> <br/>	
+				span.a-surligner>input#fap[name="fa"][type="checkbox"][value=""]+label[for="fap"]
+				</div></div>
+				
+				
+				<div class="jumbotron">
+				<h3 class="remarque">Liste à rayer</h3>
+				<hr>
+
+		<p class="alinea">Barrez les mauvaises propositions :</p>
+		<ul class="well list-unstyled a-rayer">
+			<li class="alinea"><input type="checkbox" id="faq2p1" name="faq" /><label for="faq2p1">Ici la réponse numéro 1</label></li>
+			<li class="alinea"><input type="checkbox" id="faq2p2" name="faq" /><label for="faq2p2">Ici la réponse numéro 2</label></li>
+			<li class="alinea"><input type="checkbox" id="faq2p3" name="faq" /><label for="faq2p3">Ici la réponse numéro 3</label></li>
+			<li class="alinea"><input type="checkbox" id="faq2p4" name="faq" /><label for="faq2p4">Ici la réponse numéro 4</label></li>
+		</ul>
+		
+		<div class="list-group-item"><strong>Zen Coding: </strong><br/>
+		p+ul.well.list-unstyled.a-rayer>li.alinea*4>input#faqp$[type=checkbox name=faq]+label[for=faqp$]
+		</div></div>
+
+			
+		<div class="jumbotron">
+		<h3 class="remarque">Rayer les erreurs</h3>
+		<hr>
+		<p>Cliquez sur le mot suivant:<span class="erreur"><input type="checkbox" value="" name="f5a5" id="f5a5p1">
+		<label for="f5a5p1">rayer.</label>
+		</span> Cet élément est inline.<br/>
+			
+		<div class="list-group-item"><strong>Zen Coding:</strong> <br/>	
+				span.erreur>input#fap[name="fa"][type="checkbox"][value=""]+label[for="fap"]
+				</div></div>	
+				
+				<hr>
+				
+		<h2 id="Boutons" class="activite">Boutons</h2>
+		
+			<hr>
+			
+		</div>
+	</div>
+		
+		<!-- JavaScript Includes -->
+		<script src="../js/jquery.js"></script>
+    	<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/scrollspy.js"></script>
+		<script src="../js/sortable.js"></script>
+		<!-- JavaScript Sortable -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var group = $("ol.phrases").sortable({
+					group: 'phrases',
+
+				onDrop: function (item, container, _super) {
+					$('#ordre').val(group.sortable("serialize").get().join())
+					_super(item, container)
+					},
+				serialize: function (parent, children, isContainer) {
+					return isContainer ? children.join() : parent.val()
+					},
+				})
+			})
+		</script>
+		<!--Script pour Scrollspy fluide-->
+		<script>
+			$(function () {
+			$('li>a').on('click', function(e) {
+			e.preventDefault();
+			var hash = this.hash;
+			$('html, body').animate({
+			  scrollTop: $(this.hash).offset().top
+				}, 1000, function(){
+				window.location.hash = hash;
+				});
+			});
+		});
+		</Script>
+	</body>
+</html>	
