@@ -220,23 +220,47 @@
 				<!--FIN DE BOITE MAIL-->
 				
 				<h3 id="act4" class="activite">Activité 4</h3>
-				<p><i>Sélectionnez la forme adéquate :</i></p>
+				<p><i>Sélectionnez la forme adéquate :<br/>
+				Ø signifie que vous ne mettez rien à cette position.</i></p>
 				
 				<div class="well">
 					<p>1. Le séminaire commence 
-					<input class="form-control inline-form-control" type="text" name="f5a2q1" id="f5a2q1" size="10" maxlength="20"/>
+					<select name="f7a4q1" id="f7a4q1" class="form-control inline-form-control">
+						<option value="Vous n'avez pas répondu" id="f7a4q1p0"></option>
+						<option value="le" id="f7a4q1p1">le</option>
+						<option value="Ø" id="f7a4q1p2">Ø</option>
+					</select>
+					samedi 
+					<select name="f7a4q2" id="f7a4q2" class="form-control inline-form-control">
+						<option value="Vous n'avez pas répondu" id="f7a4q2p0"></option>
+						<option value="Ø" id="f7a4q2p1">Ø</option>
+						<option value="en" id="f7a4q2p2">en</option>
+					</select>
 					après midi.</p>
 					<hr>
 					<p>2. Le directeur organisera la réunion au plus tard
-					<input class="form-control inline-form-control" type="text" name="f5a2q2" id="f5a2q2" size="10" maxlength="20"/>
+					<select name="f7a4q3" id="f7a4q3" class="form-control inline-form-control">
+						<option value="Vous n'avez pas répondu" id="f7a4q3p0"></option>
+						<option value="Ø" id="f7a4q3p1">Ø</option>
+						<option value="le" id="f7a4q3p2">le</option>
+					</select>
 					mercredi prochain.</p>
 					<hr>
 					<p>3. Vous devez rendre votre réponse
-					<input class="form-control inline-form-control" type="text" name="f5a2q3" id="f5a2q3" size="10" maxlength="20"/>
+					<select name="f7a4q4" id="f7a4q4" class="form-control inline-form-control">
+						<option value="Vous n'avez pas répondu" id="f7a4q4p0"></option>
+						<option value="après" id="f7a4q4p1">après</option>
+						<option value="dans" id="f7a4q4p2">dans</option>
+						<option value="avant" id="f7a4q4p3">avant</option>
+					</select>
 					 48 heures.</p>
 					 <hr>
 					 <p>4. Nous vous octroyons le crédit
-					<input class="form-control inline-form-control" type="text" name="f5a2q4" id="f5a2q4" size="10" maxlength="20"/>
+					<select name="f7a4q5" id="f7a4q5" class="form-control inline-form-control">
+						<option value="Vous n'avez pas répondu" id="f7a4q5p0"></option>
+						<option value="sous" id="f7a4q5p1">sous</option>
+						<option value="avant" id="f7a4q5p2">avant</option>
+					</select>
 					deux jours.</p>
 					
 					
