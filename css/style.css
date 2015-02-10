@@ -1,5 +1,7 @@
 	/*Définition des classes pour les exercices de Drag N'Drop*/
 
+body{
+position:relative;}
 .dragged {
     position: absolute;
     top: 0;
