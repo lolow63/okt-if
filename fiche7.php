@@ -81,7 +81,7 @@
 				</div>
 		
 				<h3 id="act2" class="activite">Activité 2</h3>
-				<p><i>Choisissez la bonne terminaison pour chacun de ces verbes :</i></p>
+				<p><i>Choisissez la bonne terminaison pour chacun de ces participes passés :</i></p>
 				
 				<div class="well">
 					1. Tous les messages que j’ai
@@ -123,7 +123,7 @@
 				
 				
 				<h3 id="act3" class="activite">Activité 3</h3>
-				<p><i>Dans ce message, choisissez la forme qui convient :</i></p>
+				<p><i>Dans ce message, choisissez le temps verbal qui convient :</i></p>
 				
 				 <!--BOITE MAIL-->
 				<div class="list-group-item">

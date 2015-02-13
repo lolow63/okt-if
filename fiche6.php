@@ -91,7 +91,7 @@
 
 					Faisant suite à votre message, vous pouvez donner, à priori, 
 					une réponse favorable à la demande de Mohammed RAÏS.
-					<br/>Néanmoins, je vous demanderais si son dossier est acceptable par la commission.<br/>
+					<br/>Néanmoins, je vous demanderais de faire vérifier par la commission si son dossier est recevable.<br/>
 					Cordialement.<br/>
 					K.M</p>
 				</div>
@@ -112,7 +112,7 @@
 				<form method="post" action="construction.php">
 				
 				<h3 id="act1" class="activite">Activité 1</h3>
-				<p><i>Réécrivez les phrases suivantes en suivant l’exemple :</i></p>
+				<p><i>Réécrivez les phrases suivantes en utilisant l'adjectif verbal approprié.</i></p>
 				<p class="alinea"><i>Exemple:</i><strong> Puisqu’il travaille</strong> depuis longtemps en France, Karim parle bien français.</p>
 				<p class="alinea"><strong>Travaillant</strong> depuis longtemps en France, Karim parle bien français.</p>
 				
@@ -125,7 +125,7 @@
 					<p>Le chef de service<input class="form-control inline-form-control" type="text" name="f6a1q2" id="f6a1q2" size="10" maxlength="20"/>
 					, les dossiers n’ont pas été traités.</p>
 					<hr>
-					<p>3.<strong>Puisque</strong> les commandes <strong>ne sont pas arrivées pas</strong>à temps, la clientèle a changé de fournisseurs.</p>
+					<p>3.<strong>Puisque</strong> les commandes <strong>ne sont pas arrivées </strong>à temps, la clientèle a changé de fournisseurs.</p>
 					<p>Les commandes<input class="form-control inline-form-control" type="text" name="f6a1q3" id="f6a1q3" size="10" maxlength="20"/>
 					 à temps, la clientèle a changé de fournisseurs.</p>
 				</div>
@@ -187,7 +187,7 @@
 				<!--FIN BOITE MAIL -->
 				
 				<h3 id="act2" class="activite">Activité 2</h3>
-				<p><i>D’après ce message, la réunion est :</i></p>
+				<p><i>D’après ce message, la présence à cette réunion est :</i></p>
 				
 				<div class="well">
 					<div class="row">  
@@ -248,7 +248,7 @@
 				</div>
 				
 				<h3 id="act3" class="activite">Activité 3</h3>
-				<p><i>Complétez le message en sélectionnant le mot le plus juste :</i></p>
+				<p><i>Complétez le message en sélectionnant la forme verbale appropriée :</i></p>
 				
 				<!--BOITE MAIL-->
 				
@@ -283,7 +283,7 @@
 				<div class="list-group-item">
 					<p>Bonjour, <br/>
 					
-					Je vous prie de vouloir bien accepter la demande de Mohammed RAÏS. <br/>
+					Je vous prie de  bien vouloir accepter la demande de Mohammed RAÏS. <br/>
 					Cependant, au cas où elle ne
 								<select name="formap" class="form-control inline-form-control">
 									<option value="Vous n'avez pas répondu" id="f6a3q1p0"> </option>
@@ -300,7 +300,7 @@
 									<option VALUE="acceptiez" id="f6a3q2p2">acceptiez </option>     	                                            
 									<option VALUE="acceptez" id="f6a3q2p3">acceptez </option>
 								</select>
-					son dossier, faites en sorte d’informer Mohammed dans les meilleurs délais.<br/>
+					son dossier, faites en sorte d’informer Monsieur Raïs dans les meilleurs délais.<br/>
 					
 					A moins que le dossier ne
 								<select name="formap" class="form-control inline-form-control">
