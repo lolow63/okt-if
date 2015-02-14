@@ -132,7 +132,25 @@
 		</div>
 		</div>
 		
+		<div class="jumbotron">
+		<h3 class="remarque">Groupe de 2 boutons radios inline</h3>
+		<hr>
+		Ce type de bouton
+						<span class="inline-form-control btn-group" data-toggle="buttons">
+						<input type="radio" class="hidden" id="faqp" value="vous n'avez pas répondu" checked="checked" />
+							<label class="btn btn-primary btn-sm">
+								<input type="radio" value="Choix 1" name="f7a3q1" id="f7a3q1p1"> Choix 1
+							</label>
+							<label class="btn btn-primary btn-sm">
+								<input type="radio" value="Choix 2" name="f7a3q1" id="f7a3q1p2"> Choix 2
+							</label>
+						</span>
+					s'insère dans une phrase.<br/>
 		
+		<div class="list-group-item"><strong>Zen Coding:</strong> <br/>
+		span.inline-form-control.btn-group[data-toggle="buttons"]>input.hidden#faqp0[type=radio][value="vous n'avez pas répondu"][checked="checked"]+(label.btn.btn-primary.btn-sm[for="faqp"]>input#faqp[type="radio"][value=""][name="faqp"])*2
+		</div>
+		</div>
 		<div class="jumbotron">
 		<h3 class="remarque">Groupe de 3 boutons radios avec libellé</h3>
 		<hr>	
