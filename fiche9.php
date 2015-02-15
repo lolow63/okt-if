@@ -225,7 +225,7 @@
 				<!--FIN BOITE MAIL -->
 		
 				<h3 id="act1" class="activite">Activité 1</h3>
-				<p><i>Complétez ces phrases au subjonctif:</i></p>
+				<p><i>Complétez ces phrases à l'aide d'un verbe au subjonctif :</i></p>
 				
 				
 				<!-- FORMULAIRE A TRANSMETTRE -->
@@ -306,7 +306,7 @@
 						<label for="f9a2q6p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q6p2" value="à" name="f9a2q6p2" />à</label></span>
 					Constantine pour régler un problème de logistique.<br/>
 					
-					3. Le directeur sera absent de
+					3. Le directeur sera absent
 					<span class="inline-form-control btn-group" data-toggle="buttons">
 						<input type="radio" class="hidden" id="f9a2q7p0" value="vous n'avez pas répondu" checked="checked" />
 						<label for="f9a2q7p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q7p1" value="de" name="f9a2q7p1" />de</label>
@@ -341,7 +341,7 @@
 
 				
 				<h3 id="act3" class="activite">Activité 3</h3>
-				<p><i>Reconstituez le message de M.KHADRAOUI en complétant les mots manquants :</i><br/><br/>
+				<p><i>A l'aide des mots ci-dessous, reconstituez le message de M.KHADRAOUI :</i><br/><br/>
 				
 				<span class="label label-info">Faisant suite à</span>
 				<span class="label label-info">du</span>
@@ -439,7 +439,7 @@
 				<!--FIN BOITE MAIL -->
 				
 				<h3 id="act4" class="activite">Activité 4</h3>
-				<p><i>Dans le message précédent, trouvez le synonyme des mots suivants :</i><p/>
+				<p><i>En vous aidant du message précédent, trouvez un synonyme pour chacun des mots suivants:</i><p/>
 				
 				<div class="well">
 					<p>En réponse à :<input type="text" id="f9a4q1" class="form-control inline-form-control" name="f9a4q1" size="12" maxlength="20" /></p>

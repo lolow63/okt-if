@@ -264,7 +264,7 @@
 					</select>
 				nous n’arrivons pas à nous entendre.<br/>
 					
-				4. Le comité des œuvres sociales sont question importante sur
+				4. Le comité des œuvres sociales organise une réunion le mois prochain durant
 					<select name="f10a1q4" id="f10a1q4" class="form-control inline-form-control">
 						<option value="Vous n'avez pas répondu" id="f10a1q4p0"></option>
 						<option value="laquelle" id="f10a1q4p1">laquelle</option>
@@ -272,7 +272,7 @@
 						<option value="à laquelle" id="f10a1q4p3">à laquelle</option>
 						<option value="auxquelles" id="f10a1q4p4">auxquelles</option>
 					</select>
-				un débat aura lieu le mois prochain.
+				cette question sera traitée.
 		
 				</div>
 		
@@ -280,13 +280,13 @@
 				<h3 id="act2" class="activite">Activité 2</h3>
 				<p><i>Le message de M. RAÏS contient un pléonasme c’est-à-dire un mot inutile : « réserver par avance un véhicule». <br/>
 				L'expression correcte est : réserver un véhicule.<br/>
-				Rayez le mot inutile dans chacune des phrases suivantes :</i></p>
+				Rayez le Rayez le mot ou l'expression inutile dans chacune des phrases suivantes :</i></p>
 				
 				<div class="well">
 				
 					1. Après autorisation
 					<span class="erreur"><input type="checkbox" id="f10a2p1" name="f10a2" value="préalable" /><label for="f10a2p1">préalable</label></span>
-					du comité des oeuvres sociales, le crédit a été accepté.<br/>
+					du comité des œuvres sociales, le crédit a été accepté.<br/>
 					
 					2. Beaucoup de sociétés proposent des réductions sur les véhicules comme
 					<span class="erreur"><input type="checkbox" id="f10a2p2" name="f10a2" value="par exemple" /><label for="f10a2p2">par exemple</label></span>
@@ -357,7 +357,7 @@
 					
 					Par ailleurs,
 					<input type="text" id="f10a3q3" class="form-control inline-form-control" name="f10a3q3" size="20" maxlength="22" />
-					également de vous faire savoir que vous pourriez bénéficiez d’un escompte de 5% de tout achat effectué avant la fin du mois en cours.<br/>
+					également de vous faire savoir que vous pourriez bénéficier d’un escompte de 5% de tout achat effectué avant la fin du mois en cours.<br/>
 										
 					Nous vous remercions par avance
 					<input type="text" id="f10a3q4" class="form-control inline-form-control" name="f10a3q4" size="14" maxlength="22" />.<br/>
