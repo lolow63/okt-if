@@ -204,7 +204,7 @@
 					Après avoir passé commande du véhicule CLS 2000 et signé le contrat d’achat, je constate que mon véhicule n’est pas encore livré.
 					Or, il était prévu sur le bon de commande, en date du 16 avril 2015, que la livraison s’effectuerait après 20 jours, soit le 6 mai 2015.<br/>
 					
-					Conformément aux clauses de notre contrat, je vous remercie de bien vouloir me faire bénéficier des 15% de rabais prévu.<br/>
+					Conformément aux clauses de notre contrat, je vous remercie de bien vouloir me faire bénéficier des 15% de rabais prévus.<br/>
 					
 					Je vous prie de prendre les mesures nécessaires afin que mon acquisition se fasse dans les meilleurs délais.<br/>
 										
@@ -276,7 +276,7 @@
 				</div>
 		
 				<h3 id="act3" class="activite">Activité 3</h3>
-				<p><i>Complétez le message suivant en choisissant la forme correcte du verbe.</i></p>
+				<p><i>Complétez le message suivant en choisissant la forme verbale appropriée.</i></p>
 		
 				<!--BOITE MAIL-->
 				<div class="list-group-item">
