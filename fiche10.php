@@ -37,7 +37,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">FICHE 8</a>
+        <a class="navbar-brand" href="#">FICHE 10</a>
       </div>
       <div class="collapse navbar-collapse js-navbar-scrollspy">
         <ul class="nav navbar-nav">
@@ -45,7 +45,6 @@
           <li class=""><a href="#act1">ACTIVITÉ 1</a></li>
 		  <li class=""><a href="#act2">ACTIVITÉ 2</a></li>
           <li class=""><a href="#act3">ACTIVITÉ 3</a></li>
-		  <li class=""><a href="#act4">ACTIVITÉ 4</a></li>
 
           
           <li class="dropdown">
@@ -149,7 +148,7 @@
 		<!--ANCRE NAVBAR-TOPFIX-->
 		<div class="container">
 			<div class="well">
-				<h2>FICHE N°8</h2>
+				<h2>FICHE N°10</h2>
 				<div class="row">
 					<div class="text-center well encadre col-xs-12 col-sm-offset-4 col-sm-4 col-sm-offset-4">
 						<h3 class="activite">Thème</h3>
@@ -166,7 +165,9 @@
 					</div>
 				</div>
 				
-				<p id="sujet" class="recoi">Mohammed RAÏS remercie le comité.</p>
+				
+				<p id="sujet" class="recoi">M. RAÏS passe commande d’un véhicule chez VEH Motors après avoir obtenu son prêt.</p>
+				
 				
 				<!--BOITE MAIL-->
 				<div class="list-group-item">
@@ -189,25 +190,26 @@
 						<a href="#this" title="Imprimer">
 						<i class="hidden-xs fa fa-print fa-lg"></i></a>
 					</div>
-					<p><strong>Objet:</strong> Re : votre demande de crédit</p>
+					<p><strong>Objet:</strong> Commande du véhicule CLS 2000</p>
 					<div class="list-group-item">
 						<p><strong>De :</strong>
 						<a class="btn btn-primary btn-xs" href="#this" title="Répondre">
 								<i class="fa fa-user fa-lg"></i> Moi</a>
-							<strong>À : </strong> Salah KHADRAOUI (sal.khadraoui@fargo.dz)
+							<strong>À : </strong> VEH Motors(service.commercial@veh.dz)
 						</p>
 					</div>
 				</div>
 				<div class="list-group-item">
 					<p>Bonjour, <br/>
 
-					Je vous remercie infiniment pour votre réponse.
-					J’espère pouvoir bénéficier de l’aide du comité, puisque je compte énormément sur son apport pour financer
-					mon projet d’achat de véhicule.<br/>
+					Je me permets de vous écrire pour vous demander de bien vouloir me réserver à l’avance un véhicule du type
+					CLS 2000 pour lequel j’ai obtenu un crédit.<br/>
 					
-					Je vous remercie à l’avance de votre attention.<br/>
+					A cet effet, je ne sais pas si je pourrais vous demander de m’adresser la fiche technique du véhicule.<br/>
+										
+					Je vous remercie par avance pour votre attention.<br/>
 			
-					Bien cordialement.<br/>
+					Salutations distinguées.<br/>
 					
 					Mohammed RAÏS </p>
 				</div>
@@ -221,8 +223,94 @@
 				</div><br/>
 				
 				<!--FIN BOITE MAIL -->
+				
+				<h3 id="act1" class="activite">Activité 1</h3>
+				<p><i>Utilisez le mot juste dans les phrases suivantes :</i></p>
+				
+				
+				<!-- FORMULAIRE A TRANSMETTRE -->
+				
+				<form method="post" action="construction.php">
+				
+				<div class="well">
+				
+				1. Notre société a opté pour cette solution grâce
+					<select name="f10a1q1" id="f10a1q1" class="form-control inline-form-control">
+						<option value="Vous n'avez pas répondu" id="f10a1q1p0"></option>
+						<option value="auxquelles" id="f10a1q1p1">auxquelles</option>
+						<option value="à laquelle" id="f10a1q1p2">à laquelle</option>
+						<option value="lequel" id="f10a1q1p3">lequel</option>
+						<option value="laquelle" id="f10a1q1p4">laquelle</option>
+					</select>
+				Mohammed RAÏS pourra acheter son véhicule.<br/>
+					
+				2. L’assistante a fait un compte-rendu des réunions
+					<select name="f10a1q2" id="f10a1q2" class="form-control inline-form-control">
+						<option value="Vous n'avez pas répondu" id="f10a1q2p0"></option>
+						<option value="à laquelle" id="f10a1q2p1">à laquelle</option>
+						<option value="lequel" id="f10a1q2p2">lequel</option>
+						<option value="auxquelles" id="f10a1q2p3">auxquelles</option>
+						<option value="laquelle" id="f10a1q2p4">laquelle</option>
+					</select>
+				j’ai participé.<br/>
+					
+				3. Je souhaiterais que nous discutions du délai de livraison sur
+					<select name="f10a1q3" id="f10a1q3" class="form-control inline-form-control">
+						<option value="Vous n'avez pas répondu" id="f10a1q3p0"></option>
+						<option value="lequel" id="f10a1q3p1">lequel</option>
+						<option value="auxquelles" id="f10a1q3p2">auxquelles</option>
+						<option value="laquelle" id="f10a1q3p3">laquelle</option>
+						<option value="à laquelle" id="f10a1q3p4">à laquelle</option>
+					</select>
+				nous n’arrivons pas à nous entendre.<br/>
+					
+				4. Le comité des œuvres sociales sont question importante sur
+					<select name="f10a1q4" id="f10a1q4" class="form-control inline-form-control">
+						<option value="Vous n'avez pas répondu" id="f10a1q4p0"></option>
+						<option value="laquelle" id="f10a1q4p1">laquelle</option>
+						<option value="lequel" id="f10a1q4p2">lequel</option>
+						<option value="à laquelle" id="f10a1q4p3">à laquelle</option>
+						<option value="auxquelles" id="f10a1q4p4">auxquelles</option>
+					</select>
+				un débat aura lieu le mois prochain.
 		
-				<p class="recoi">M. KHADRAOUI demande à M. RAÏS de se rapprocher du bureau des oeuvres sociales.</p>
+				</div>
+		
+			
+				<h3 id="act2" class="activite">Activité 2</h3>
+				<p><i>Le message de M. RAÏS contient un pléonasme c’est-à-dire un mot inutile : « réserver par avance un véhicule». <br/>
+				L'expression correcte est : réserver un véhicule.<br/>
+				Rayez le mot inutile dans chacune des phrases suivantes :</i></p>
+				
+				<div class="well">
+				
+					1. Après autorisation
+					<span class="erreur"><input type="checkbox" id="f10a2p1" name="f10a2" value="préalable" /><label for="f10a2p1">préalable</label></span>
+					du comité des oeuvres sociales, le crédit a été accepté.<br/>
+					
+					2. Beaucoup de sociétés proposent des réductions sur les véhicules comme
+					<span class="erreur"><input type="checkbox" id="f10a2p2" name="f10a2" value="par exemple" /><label for="f10a2p2">par exemple</label></span>
+					veh.<br/>
+					
+					3. Suite à une erreur
+					<span class="erreur"><input type="checkbox" id="f10a2p3" name="f10a2" value="involontaire" /><label for="f10a2p3">involontaire</label></span>
+					de notre part, nous vous remboursons la somme de 20.000 da.<br/>
+					
+					4. La société jouit d’un monopole
+					<span class="erreur"><input type="checkbox" id="f10a2p4" name="f10a2" value="exclusif" /><label for="f10a2p4">exclusif</label></span>
+					.			
+				</div>
+			
+				
+				<h3 id="act3" class="activite">Activité 3</h3>
+				<p><i>Le service commercial de VEH Motors adresse un appel téléphonique à M. RAÏS et cherche à obtenir des informations complémentaires sur sa demande d’achat.<br/>
+				Utilisez les phrases suivantes pour compléter le message ci-dessous :</i><br/><br/>
+				
+				<span class="label label-info">pour votre intérêt</span>
+				<span class="label label-info">bien vouloir</span>
+				<span class="label label-info">nous avons le plaisir</span>
+				<span class="label label-info">nous nous réjouissons</span>
+				</p>
 				
 				<!--BOITE MAIL-->
 				<div class="list-group-item">
@@ -245,30 +333,37 @@
 						<a href="#this" title="Imprimer">
 						<i class="hidden-xs fa fa-print fa-lg"></i></a>
 					</div>
-					<p><strong>Objet:</strong> Réponse à votre demande de crédit.</p>
+					<p><strong>Objet:</strong> Re : votre commande du véhicule CLS 2000.</p>
 					<div class="list-group-item">
-						<p><strong>De :</strong> Salah KHADRAOUI (sal.khadraoui@fargo.dz)
+						<p><strong>De :</strong> VEH Motors(service.commercial@veh.dz)
 							<span><strong>À : </strong>
 							<a class="btn btn-primary btn-xs" href="#this" title="Répondre">
 								<i class="fa fa-user fa-lg"></i> Moi</a>
 							</span><br/>
-							<strong>Envoyé :</strong> jeu. 06/04/15 11:47
+							<strong>Envoyé :</strong> mar. 11/04/15 10:37
 						</p>
 					</div>
 				</div>
 				<div class="list-group-item">
 					<p>Bonjour, <br/>
-
-					Faisant suite à votre demande de crédit pour l’achat d’un véhicule, nous vous informons que 
-					le comité des oeuvres sociales de notre société, qui s’est réuni la semaine passée, a bien étudié votre dossier.<br/>
 					
-					A cet effet, nous vous prions de vous rapprocher du bureau du comité des oeuvres sociales.<br/>
+					En réponse à votre message en date du 17 juin 2014,
+					<input type="text" id="f10a3q1" class="form-control inline-form-control" name="f10a3q1" size="18" maxlength="22" />
+					de vous informer que votre véhicule CLS 2000 est actuellement disponible dans nos stocks.<br/>
 					
-					Nous restons à votre entière disposition pour tout complément d’information.<br/>
+					Nous vous prions de
+					<input type="text" id="f10a3q2" class="form-control inline-form-control" name="f10a3q2" size="8" maxlength="22" />
+					trouver en pièces jointes les fiches techniques des différents modèles CLS 2000.<br/>
 					
-					Bien cordialement.<br/>
-					Salah KHADRAOUI<br/>
-					Chef du comité des oeuvres sociales.</p>
+					Par ailleurs,
+					<input type="text" id="f10a3q3" class="form-control inline-form-control" name="f10a3q3" size="20" maxlength="22" />
+					également de vous faire savoir que vous pourriez bénéficiez d’un escompte de 5% de tout achat effectué avant la fin du mois en cours.<br/>
+										
+					Nous vous remercions par avance
+					<input type="text" id="f10a3q4" class="form-control inline-form-control" name="f10a3q4" size="14" maxlength="22" />.<br/>
+					
+					Cordialement.<br/>
+					Service commercial VEH</p>
 				</div>
 				<div class="list-group-item">
 					<a class="btn btn-primary" href="#this" title="Répondre">
@@ -281,132 +376,13 @@
 					  <i class="fa fa-trash-o fa-lg"></i> Supprimer</a>
 				</div><br/>
 				<!--FIN BOITE MAIL -->
-		
-				<h3 id="act1" class="activite">Activité 1</h3>
 				
-				
-				<!-- FORMULAIRE A TRANSMETTRE -->
-				
-				<form method="post" action="construction.php">
-		
-				<div class="row">
-					<div class="col-lg-12 col-xs-12">
-						<p class="label-info label_activite">Que peut-on comprendre de ce mail ?</p>
-					</div>
-					<div class="col-sm-4 col-xs-12">
-						<input type="radio" class="hidden" value="vous n'avez pas répondu" checked="checked" />
-						<div class="input-group"><span class="input-group-addon">
-						<input type="radio" id="f8a1p1" name="f8a1" value="Le comité des oeuvres sociales va accorder un crédit à M. RAÏS." /></span>
-						<label for="f8a1p1" class="form-control">
-						Le comité des oeuvres sociales va accorder un crédit à M. RAÏS.
-						</label></div>
-					</div>
-					<div class="col-sm-4 col-xs-12">
-						<div class="input-group"><span class="input-group-addon">
-						<input type="radio" id="f8a1p2" name="f8a1" value="Le comité des oeuvres sociales n’a pas encore pris de décision." /></span>
-						<label for="f8a1p2" class="form-control">
-						Le comité des oeuvres sociales n’a pas encore pris de décision.
-						</label></div>
-					</div>
-					<div class="col-sm-4 col-xs-12">
-						<div class="input-group"><span class="input-group-addon">
-						<input type="radio" id="f8a1p3" name="f8a1" value="M.RAÏS doit contacter le bureau des oeuvres sociales." /></span>
-						<label for="f8a1p3" class="form-control">
-						M.RAÏS doit contacter le bureau des oeuvres sociales.
-						</label></div>
-					</div>
-				</div> 
-				
-				
-				<h3 id="act2" class="activite">Activité 2</h3>
-				<p><i>Sélectionnez dans cette liste les trois expressions utiles pour formuler une demande :</i></p>
-				
-				<div class="well">
-				
-				<span class="a-surligner"><input type="checkbox" id="f8a2p1" name="f8a2" value="Je souhaiterais vous informer que ..." /><label for="f8a2p1">Je souhaiterais vous informer que ...</label></span><br/>
-				<span class="a-surligner"><input type="checkbox" id="f8a2p2" name="f8a2" value="En réponse à votre message ..." /><label for="f8a2p2">En réponse à votre message ...</label></span><br/>
-				<span class="a-surligner"><input type="checkbox" id="f8a2p3" name="f8a2" value="Je vous prie de bien vouloir préciser..." /><label for="f8a2p3">Je vous prie de bien vouloir préciser...</label></span><br/>
-				<span class="a-surligner"><input type="checkbox" id="f8a2p4" name="f8a2" value="Je vous serais reconnaissant si vous pouviez..." /><label for="f8a2p4">Je vous serais reconnaissant si vous pouviez...</label></span><br/>
-				<span class="a-surligner"><input type="checkbox" id="f8a2p5" name="f8a2" value="Ci-joint les détails sur..." /><label for="f8a2p5">Ci-joint les détails sur...</label></span><br/>
-				<span class="a-surligner"><input type="checkbox" id="f8a2p6" name="f8a2" value="Je souhaite vous apporter quelques éclairages sur les éléments mentionnés dans votre message ..." /><label for="f8a2p6">Je souhaite vous apporter quelques éclairages sur les éléments mentionnés dans votre message ...</label></span><br/>
-				<span class="a-surligner"><input type="checkbox" id="f8a2p7" name="f8a2" value="Je vous remercie par avance de me faire un retour dès que possible ..." /><label for="f8a2p7">Je vous remercie par avance de me faire un retour dès que possible ...</label></span><br/>
-				<span class="a-surligner"><input type="checkbox" id="f8a2p8" name="f8a2" value="Je me permets de faire quelques commentaires sur ..." /><label for="f8a2p8">Je me permets de faire quelques commentaires sur ...</label></span><br/> 
-		
-				</div>
-				
-				
-				<h3 id="act3" class="activite">Activité 3</h3>
-				<p><i>Intégrez les éléments à ajouter afin de compléter les phrases suivantes :<br/><br/>
-				Exemple:</i><br/>
-				<strong> Phrase simple: </strong>Le comité des oeuvres sociales a étudié votre dossier. <br/>
-				<strong>Éléments à ajouter: </strong>Il s’est réuni la semaine passée. <br/>
-				<strong>Phrase à compléter: </strong>Le comité des oeuvres sociales, réuni la semaine passée, a étudié voter dossier.</p>
-				
-				<div class="well">
-				
-				<p><strong> Phrase simple: </strong>Ce magasin compte déjà une importante clientèle. <br/>
-				<strong>Éléments à ajouter: </strong>Il a ouvert depuis peu. <br/>
-				<strong>Phrase à compléter: </strong>
-				Ce magasin,<input type="text" id="f8a3q1" class="form-control inline-form-control" name="f8a3q1" size="20" maxlength="40" />peu, compte déjà une importante clientèle.</p>
-				
-				<p><strong> Phrase simple: </strong>Le prêt a été accepté. <br/>
-				<strong>Éléments à ajouter: </strong>M. RAÏS a sollicité ce prêt.<br/>
-				<strong>Phrase à compléter: </strong>
-				Le prêt,<input type="text" id="f8a3q2" class="form-control inline-form-control" name="f8a3q2" size="20" maxlength="40" />, a été accepté.</p>
-				
-				<p><strong> Phrase simple: </strong>Le chef de projet ne pourra pas participer à la réunion de jeudi. <br/>
-				<strong>Éléments à ajouter: </strong>Il est contraint de partir en déplacement. <br/>
-				<strong>Phrase à compléter: </strong>
-				Le chef de projet,<input type="text" id="f8a3q3" class="form-control inline-form-control" name="f8a3q3" size="35" maxlength="40" />, ne pourra pas participer à la réunion de jeudi.</p>
-				
-				<p><strong> Phrase simple: </strong>Le message n’était pas signé. <br/>
-				<strong>Éléments à ajouter: </strong>Le secrétariat a envoyé ce message. <br/>
-				<strong>Phrase à compléter: </strong>
-				Le message,<input type="text" id="f8a3q4" class="form-control inline-form-control" name="f8a3q4" size="25" maxlength="40" />, n’était pas signé.</p>
-				
-				</div>
-				
-				<h3 id="act4" class="activite">Activité 4</h3>
-				<p><i>Choisissez le mot qui convient :</i><p/>
-				
-				<div class="well">
-				1. L’assemblée générale a eu lieu en
-				<select name="f8a4q1" id="f8a4q1" class="form-control inline-form-control">
-					<option value="Vous n'avez pas répondu" id="f8a4q1p0"></option>
-					<option value="cession" id="f8a4q1p1">cession</option>
-					<option value="session" id="f8a4q1p2">session</option>
-				</select>ordinaire.<br/>
-				
-				2. Ce message concerne tous les employés sans
-				<select name="f8a4q2" id="f8a4q2" class="form-control inline-form-control">
-					<option value="Vous n'avez pas répondu" id="f8a4q2p0"></option>
-					<option value="acception" id="f8a4q2p1">acception</option>
-					<option value="exception" id="f8a4q2p2">exception</option>
-				</select>.<br/>
-				
-				3. Ces dispositions ne sont assorties d’aucune
-				<select name="f8a4q3" id="f8a4q3" class="form-control inline-form-control">
-					<option value="Vous n'avez pas répondu" id="f8a4q3p0"></option>
-					<option value="latitude" id="f8a4q3p1">latitude</option>
-					<option value="l’attitude" id="f8a4q3p2">l’attitude</option>
-				</select>pour les services qui ont à les mettre en oeuvre.<br/>
-				
-				4. Il faut
-				<select name="f8a4q4" id="f8a4q4" class="form-control inline-form-control">
-					<option value="Vous n'avez pas répondu" id="f8a4q4p0"></option>
-					<option value="insister" id="f8a4q4p1">insister</option>
-					<option value="inciter" id="f8a4q4p2">inciter</option>
-				</select>
-				auprès du comité pour espérer avoir une réponse.
-				
-				</div>
-				
-				
-				
-					<button class="btn btn-success btn-md pull-right" type="submit" hidden="hidden">
+				<button class="btn btn-success btn-md pull-right" type="submit" hidden="hidden">
 				<i class="fa fa-check-circle"> </i> Voir le corrigé</button><br/><br/>
 								
 				   </form><!-- FIN FORMULAIRE -->
+		
+					
 			</div><!--fin well principal-->
 		</div><!--fin container principal-->
 		<hr>
