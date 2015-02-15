@@ -146,7 +146,7 @@
 			<?php include("include/header-login.php");?>
 		</header>
 		<hr>
-		<!--ANCRE NAVBAR-TOPFIX--><div id="sujet"></div>
+		<!--ANCRE NAVBAR-TOPFIX-->
 		<div class="container">
 			<div class="well">
 				<h2>FICHE N°@</h2>
