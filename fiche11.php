@@ -251,7 +251,7 @@
 				</div>
 			
 				<h3 id="act2" class="activite">Activité 2</h3>
-				<p><i>Choisissez la forme correcte dans les phrases suivantes :</i></p>
+				<p><i>Choisissez la terminaison adéquate pour le participe passé dans les phrases suivantes :</i></p>
 				
 				<div class="well">
 					
@@ -263,10 +263,10 @@
 					</span>
 					le crédit.<br/>
 					
-					2. L’assistante
+					2. L’assistante a
 					<span class="inline-form-control btn-group" data-toggle="buttons">
 						<input type="radio" class="hidden" id="f11a2q2p0" value="vous n'avez pas répondu" checked="checked" />
-						<label for="f11a2q2p1" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q2p1" value="a accompli" name="f11a2q2p1" />a accompli</label>
+						<label for="f11a2q2p1" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q2p1" value="accompli" name="f11a2q2p1" />a accompli</label>
 						<label for="f11a2q2p2" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q2p2" value="accomplie" name="f11a2q2p2" />accomplie</label>
 					</span>
 					ses missions avec beaucoup de professionnalisme.<br/>
@@ -279,11 +279,11 @@
 					</span>
 					ont satisfait les clients.<br/>
 					
-					4. La décision que notre directeur
+					4. La décision que notre directeur a
 					<span class="inline-form-control btn-group" data-toggle="buttons">
 						<input type="radio" class="hidden" id="f11a2q4p0" value="vous n'avez pas répondu" checked="checked" />
-						<label for="f11a2q4p1" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q4p1" value="a prise" name="f11a2q4p1" />a prise</label>
-						<label for="f11a2q4p2" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q4p2" value="a pris" name="f11a2q4p2" />a pris</label>
+						<label for="f11a2q4p1" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q4p1" value="prise" name="f11a2q4p1" />prise</label>
+						<label for="f11a2q4p2" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q4p2" value="pris" name="f11a2q4p2" />pris</label>
 					</span>
 					était très courageuse.
 					
@@ -337,7 +337,7 @@
 					<p>Bonjour, <br/>
 					
 					<input type="text" id="f11a3q1" class="form-control inline-form-control" name="f11a3q1" size="10" maxlength="25" />
-					à votre demande d’information concernant les procédures à engager pour l’acquisition d’un véhicule Veh Motors du type CLS 2000, 
+					à votre demande d’informations concernant les procédures à engager pour l’acquisition d’un véhicule Veh Motors du type CLS 2000, 
 					nous sommes heureux de vous adresser les conditions de vente.<br/>
 					
 					<input type="text" id="f11a3q2" class="form-control inline-form-control" name="f11a3q2" size="5" maxlength="22" />
