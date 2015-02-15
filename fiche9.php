@@ -146,7 +146,7 @@
 			<?php include("include/header-login.php");?>
 		</header>
 		<hr>
-		<!--ANCRE NAVBAR-TOPFIX--><div id="sujet"></div>
+		<!--ANCRE NAVBAR-TOPFIX-->
 		<div class="container">
 			<div class="well">
 				<h2>FICHE N°9</h2>
@@ -232,7 +232,7 @@
 				
 				<form method="post" action="construction.php">
 				
-				<div class="well"
+				<div class="well">
 				
 					<p> 1. Je suis ravi que le comité
 						<select name="f9a1q1" id="f9a1q1" class="form-control inline-form-control">
@@ -442,9 +442,9 @@
 				<p><i>Dans le message précédent, trouvez le synonyme des mots suivants :</i><p/>
 				
 				<div class="well">
-					<p>En réponse à :<input type="text" id="faqp" class="form-control inline-form-control" name="faq" size="12" maxlength="20" /></p>
-					<p>En fait :<input type="text" id="faqp" class="form-control inline-form-control" name="faq" size="4" maxlength="20" /></p>
-					<p>Par conséquent :<input type="text" id="faqp" class="form-control inline-form-control" name="faq" size="1" maxlength="20" /></p> 
+					<p>En réponse à :<input type="text" id="f9a4q1" class="form-control inline-form-control" name="f9a4q1" size="12" maxlength="20" /></p>
+					<p>En fait :<input type="text" id="f9a4q2" class="form-control inline-form-control" name="f9a4q2" size="4" maxlength="20" /></p>
+					<p>Par conséquent :<input type="text" id="f9a4q3" class="form-control inline-form-control" name="f9a4q3" size="1" maxlength="20" /></p> 
 				</div>				
 				   <button class="btn btn-success btn-md pull-right" type="submit" hidden="hidden">
 				<i class="fa fa-check-circle"> </i> Voir le corrigé</button><br/><br/>
