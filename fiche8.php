@@ -319,7 +319,7 @@
 				
 				
 				<h3 id="act2" class="activite">Activité 2</h3>
-				<p><i>Sélectionnez dans cette listes les trois expressions utiles pour formuler une demande :</i></p>
+				<p><i>Sélectionnez dans cette liste les trois expressions utiles pour formuler une demande :</i></p>
 				
 				<div class="well">
 				
