@@ -171,7 +171,10 @@
 		
 		
 		
-		
+					<button class="btn btn-success btn-md pull-right" type="submit" hidden="hidden">
+				<i class="fa fa-check-circle"> </i> Voir le corrigé</button><br/><br/>
+								
+				   </form><!-- FIN FORMULAIRE -->
 		
 					
 			</div><!--fin well principal-->
