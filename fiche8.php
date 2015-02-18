@@ -429,7 +429,7 @@
 					},
 				})
 			})
-		</script type="text/javascript">
+		</script>
 		<!--Script pour Scrollspy fluide-->
 		<script>
 			$(function () {
