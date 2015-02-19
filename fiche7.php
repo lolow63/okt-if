@@ -60,22 +60,22 @@
 				
 				<!-- FORMULAIRE A TRANSMETTRE -->
 				
-				<form method="post" action="construction.php">
+				<form method="post" action="corrige7.php">
 		
 				<div class="well">
-					1.<span class="a-surligner"><input type="checkbox" value="1. Nous vous accusons réception de votre message. Cordialement." name="f7a1" id="f7a1p1">
+					1.<span class="a-surligner"><input type="checkbox" value="p1" name="f7a1p1" id="f7a1p1">
 					<label for="f7a1p1"> Nous vous accusons réception de votre message. Cordialement.</label></span><br/><br/>
 					
-					2.<span class="a-surligner"><input type="checkbox" value="2. Nous avons bien reçu votre message. Cordialement." name="f7a1" id="f7a1p2">
+					2.<span class="a-surligner"><input type="checkbox" value="p2" name="f7a1p2" id="f7a1p2">
 					<label for="f7a1p2"> Nous avons bien reçu votre message. Cordialement.</label></span><br/><br/>
 					
-					3.<span class="a-surligner"><input type="checkbox" value="3. Votre message est bien reçu." name="f7a1" id="f7a1p3">
+					3.<span class="a-surligner"><input type="checkbox" value="p3" name="f7a1p3" id="f7a1p3">
 					<label for="f7a1p3"> Votre message est bien reçu.</label></span><br/><br/>
 					
-					4.<span class="a-surligner"><input type="checkbox" value="4. Nous accusons réception de votre message. Cordialement." name="f7a1" id="f7a1p4">
+					4.<span class="a-surligner"><input type="checkbox" value="p4" name="f7a1p4" id="f7a1p4">
 					<label for="f7a1p4"> Nous accusons réception de votre message. Cordialement.</label></span><br/><br/>
 					
-					5.<span class="a-surligner"><input type="checkbox" value="5. Nous venons de recevoir votre message." name="f7a1" id="f7a1p5">
+					5.<span class="a-surligner"><input type="checkbox" value="p5" name="f7a1p5" id="f7a1p5">
 					<label for="f7a1p5"> Nous venons de recevoir votre message. Merci par avance de votre retour.</label></span>
 					<br/>
 				</div>
@@ -85,7 +85,7 @@
 				
 				<div class="well">
 					1. Tous les messages que j’ai
-						<select name="formap" class="form-control inline-form-control">
+						<select name="f7a2q1" class="form-control inline-form-control">
 							<option value="Vous n'avez pas répondu" id="f7a2q1p0"> </option>
 							<option value="reçu" id="f7a2q1p1">reçu </option>
 							<option value="reçues" id="f7a2q1p2">reçues </option>     	                                            
@@ -94,7 +94,7 @@
 					sont des spams.<br/>
 
 					2. Les membres du comité ont
-						<select name="formap" class="form-control inline-form-control">
+						<select name="f7a2q2" class="form-control inline-form-control">
 							<option VALUE="Vous n'avez pas répondu" id="f7a2q2p0"> </option>
 							<option VALUE="confirmé" id="f7a2q2p1">confirmé</option>
 							<option VALUE="confirmés" id="f7a2q2p2">confirmés</option>     	                                            
@@ -103,7 +103,7 @@
 					leur présence.<br/>
 					
 					3. La réunion avec le directeur a été
-						<select name="formap" class="form-control inline-form-control">
+						<select name="f7a2q3" class="form-control inline-form-control">
 							<option VALUE="Vous n'avez pas répondu" id="f7a2q3p0"> </option>
 							<option VALUE="programmé" id="f7a2q3p1">programmé</option>
 							<option VALUE="programmée" id="f7a2q3p2">programmée</option>     	                                            
@@ -112,7 +112,7 @@
 					à 10h.<br/>
 								
 					4. Les convocations seront
-						<select name="formap" class="form-control inline-form-control">
+						<select name="f7a2q4" class="form-control inline-form-control">
 							<option VALUE="Vous n'avez pas répondu" id="f7a2q4p0"> </option>
 							<option VALUE="envoyé" id="f7a2q4p1">envoyé</option>
 							<option VALUE="envoyés" id="f7a2q4p2">envoyés</option>     	                                            
@@ -163,6 +163,7 @@
 					Nous vous informons que vous 
 						<span class="inline-form-control btn-group" data-toggle="buttons">
 							<label class="btn btn-primary btn-sm">
+							    <input type="radio" hidden="hidden" name="f7a3q1" value="Vous n'avez pas répondu" checked="checked"/>
 								<input type="radio" value="recevrez" name="f7a3q1" id="f7a3q1p1"> recevrez
 							</label>
 							<label class="btn btn-primary btn-sm">
@@ -174,6 +175,7 @@
 					Pour votre information, le comité des oeuvres sociales
 						<span class="inline-form-control btn-group" data-toggle="buttons">
 							<label class="btn btn-primary btn-sm">
+							    <input type="radio" hidden="hidden" name="f7a3q2" value="Vous n'avez pas répondu" checked="checked"/>
 								<input type="radio" value="se réunira" name="f7a3q2" id="f7a3q2p1"> se réunira
 							</label>
 							<label class="btn btn-primary btn-sm">
@@ -185,6 +187,7 @@
 					Si vous
 						<span class="inline-form-control btn-group" data-toggle="buttons">
 							<label class="btn btn-primary btn-sm">
+							    <input type="radio" hidden="hidden" name="f7a3q3" value="Vous n'avez pas répondu" checked="checked"/>
 								<input type="radio" value="souhaiterez" name="f7a3q3" id="f7a3q3p1"> souhaiterez
 							</label>
 							<label class="btn btn-primary btn-sm">
@@ -195,6 +198,7 @@
 					
 						<span class= "inline-form-control btn-group" data-toggle="buttons">
 							<label class="btn btn-primary btn-sm">
+							<input type="radio" hidden="hidden" name="f7a3q4" value="Vous n'avez pas répondu" checked="checked"/>
 								<input type="radio" value="restons" name="f7a3q4" id="f7a3q4p1"> restons
 							</label>
 							<label class="btn btn-primary btn-sm">
@@ -221,46 +225,23 @@
 				
 				<h3 id="act4" class="activite">Activité 4</h3>
 				<p><i>Sélectionnez la forme adéquate :<br/>
-				Ø signifie que vous ne mettez rien à cette position.</i></p>
+                &Oslash; signifie que vous ne mettez rien à cette position.</i></p>
 				
 				<div class="well">
 					<p>1. Le séminaire commence 
-					<select name="f7a4q1" id="f7a4q1" class="form-control inline-form-control">
-						<option value="Vous n'avez pas répondu" id="f7a4q1p0"></option>
-						<option value="le" id="f7a4q1p1">le</option>
-						<option value="Ø" id="f7a4q1p2">Ø</option>
-					</select>
-					samedi 
-					<select name="f7a4q2" id="f7a4q2" class="form-control inline-form-control">
-						<option value="Vous n'avez pas répondu" id="f7a4q2p0"></option>
-						<option value="Ø" id="f7a4q2p1">Ø</option>
-						<option value="en" id="f7a4q2p2">en</option>
-					</select>
+					<input class="form-control inline-form-control" type="text" name="f7a4q1" id="f5a2q1" size="10" maxlength="20"/>
 					après midi.</p>
 					<hr>
 					<p>2. Le directeur organisera la réunion au plus tard
-					<select name="f7a4q3" id="f7a4q3" class="form-control inline-form-control">
-						<option value="Vous n'avez pas répondu" id="f7a4q3p0"></option>
-						<option value="Ø" id="f7a4q3p1">Ø</option>
-						<option value="le" id="f7a4q3p2">le</option>
-					</select>
+					<input class="form-control inline-form-control" type="text" name="f7a4q2" id="f5a2q2" size="10" maxlength="20"/>
 					mercredi prochain.</p>
 					<hr>
 					<p>3. Vous devez rendre votre réponse
-					<select name="f7a4q4" id="f7a4q4" class="form-control inline-form-control">
-						<option value="Vous n'avez pas répondu" id="f7a4q4p0"></option>
-						<option value="après" id="f7a4q4p1">après</option>
-						<option value="dans" id="f7a4q4p2">dans</option>
-						<option value="avant" id="f7a4q4p3">avant</option>
-					</select>
+					<input class="form-control inline-form-control" type="text" name="f7a4q3" id="f5a2q3" size="10" maxlength="20"/>
 					 48 heures.</p>
 					 <hr>
 					 <p>4. Nous vous octroyons le crédit
-					<select name="f7a4q5" id="f7a4q5" class="form-control inline-form-control">
-						<option value="Vous n'avez pas répondu" id="f7a4q5p0"></option>
-						<option value="sous" id="f7a4q5p1">sous</option>
-						<option value="avant" id="f7a4q5p2">avant</option>
-					</select>
+					<input class="form-control inline-form-control" type="text" name="f7a4q4" id="f5a2q4" size="10" maxlength="20"/>
 					deux jours.</p>
 					
 					

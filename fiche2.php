@@ -84,12 +84,12 @@
 						<i class="hidden-xs fa fa-print fa-lg"></i></a>
 					</div>
 					<strong>Objet :</strong>
-								<select name="formap" class="form-control inline-form-control">
-									<option VALUE="f2a1q1none"> </option>
-									<option VALUE="f2a1q1p1">Souhait d'obtenir un crédit</option>
-									<option VALUE="f2a1q1p2">Volonté d'obtenir un crédit bancaire</option>     	                                            
-									<option VALUE="f2a1q1p3">Demande d'obtention d'un crédit</option>
-									<option VALUE="f2a1q1p4">Possiblitité d'obtention d'un crédit</option>
+								<select name="f2a1q1" class="form-control inline-form-control">
+									<option VALUE="vous n'avez pas répondu"> </option>
+									<option VALUE="Souhait d'obtenir un crédit">Souhait d'obtenir un crédit</option>
+									<option VALUE="Volonté d'obtenir un crédit bancaire">Volonté d'obtenir un crédit bancaire</option>     	                                            
+									<option VALUE="Demande d'obtention d'un crédit">Demande d'obtention d'un crédit</option>
+									<option VALUE="Possiblitité d'obtention d'un crédit">Possiblitité d'obtention d'un crédit</option>
 								</select>
 						
 					<div class="list-group-item">
@@ -103,11 +103,11 @@
 				<div class="list-group-item">
 					<p>Bonjour, <br/>
 					
-								<select name="formap" class="form-control inline-form-control">
-									<option VALUE="f2a1q2none"> </option>
-									<option VALUE="f2a1q2p1">En raison de </option>
-									<option VALUE="f2a1q2p2">À la suite de </option>     	                                            
-									<option VALUE="f2a1q2p3">Après </option>
+								<select name="f2a1q2" class="form-control inline-form-control">
+									<option VALUE="vous n'avez pas répondu"> </option>
+									<option VALUE="En raison de">En raison de </option>
+									<option VALUE="À la suite de">À la suite de </option>     	                                            
+									<option VALUE="Après">Après </option>
 								</select>
 						
 
@@ -115,22 +115,22 @@
 					la possibilité d’achat du modèle CLS 2000 par crédit bancaire.<br/>
 					
 					
-								<select name="formap" class="form-control inline-form-control">
-									<option VALUE="f2a1q3none"> </option>
-									<option VALUE="f2a1q3p1">Bien que </option>
-									<option VALUE="f2a1q3p2">Toutefois </option>     	                                            
-									<option VALUE="f2a1q3p3">En effet </option>
+								<select name="f2a1q3" class="form-control inline-form-control">
+									<option VALUE="vous n'avez pas répondu"> </option>
+									<option VALUE="Bien que">Bien que </option>
+									<option VALUE="Toutefois">Toutefois </option>     	                                            
+									<option VALUE="En effet">En effet </option>
 								</select>
 						
 
 					ma situation financière actuelle ne me permet pas de régler comptant la somme totale du véhicule.<br/>
 					
 			
-								<select name="formap" class="form-control inline-form-control">
-									<option VALUE="f2a1q4none"> </option>
-									<option VALUE="f2a1q4p1">Par ailleurs </option>
-									<option VALUE="f2a1q4p2">À la fin </option>     	                                            
-									<option VALUE="f2a1q4p3">En conséquence</option>
+								<select name="f2a1q4" class="form-control inline-form-control">
+									<option VALUE="vous n'avez pas répondu"> </option>
+									<option VALUE="Par ailleurs">Par ailleurs </option>
+									<option VALUE="À la fin">À la fin </option>     	                                            
+									<option VALUE="En conséquence">En conséquence</option>
 								</select>
 						
 					,je vous prie de bien vouloir prendre en considération ma demande.<br/>
@@ -161,13 +161,14 @@
 						</ol>
 						<div class="btn-group col-md-6" data-toggle="buttons">
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qa" id="f2a2qap1"> Recrue
+							    <input type="radio" hidden="hidden" name="f2a2qa" value="Vous n'avez pas répondu" checked="checked"/>
+								<input type="radio" name="f2a2qa" id="f2a2qap1" value="Recrue"> Recrue
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qa" id="f2a2qap2"> Recrutement
+								<input type="radio" name="f2a2qa" id="f2a2qap2" value="Recrutement"> Recrutement
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qa" id="f2a2qap3"> Recrutation
+								<input type="radio" name="f2a2qa" id="f2a2qap3" value="Recrutation"> Recrutation
 							</label>
 						</div>
 					</div>
@@ -177,13 +178,14 @@
 						</ol>
 						<div class="btn-group col-md-6" data-toggle="buttons">
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qb" id="f2a2qbp1"> Révision
+							    <input type="radio" hidden="hidden" name="f2a2qb" value="Vous n'avez pas répondu" checked="checked"/>
+								<input type="radio" name="f2a2qb" id="f2a2qbp1" value="Révision"> Révision
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qb" id="f2a2qbp2"> Revue
+								<input type="radio" name="f2a2qb" id="f2a2qbp2" value="Revue"> Revue
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qb" id="f2a2qbp3"> Révisionnement
+								<input type="radio" name="f2a2qb" id="f2a2qbp3" value="Révisionnement"> Révisionnement
 							</label>
 						</div>
 					</div>	
@@ -193,13 +195,14 @@
 						</ol>
 						<div class="btn-group col-md-6" data-toggle="buttons">
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qc" id="f2a2qcp1"> Réception
+							<input type="radio" hidden="hidden" name="f2a2qc" value="Vous n'avez pas répondu" checked="checked"/>
+								<input type="radio" name="f2a2qc" id="f2a2qcp1" value="Réception"> Réception
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qc" id="f2a2qcp2"> Reçu
+								<input type="radio" name="f2a2qc" id="f2a2qcp2" value="Reçu"> Reçu
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qc" id="f2a2qcp3"> Réceptive
+								<input type="radio" name="f2a2qc" id="f2a2qcp3" value="Réceptive"> Réceptive
 							</label>
 						</div>
 					</div>
@@ -209,13 +212,14 @@
 						</ol>
 						<div class="btn-group col-md-6" data-toggle="buttons">
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qd" id="f2a2qdp1"> Interromption
+							<input type="radio" hidden="hidden" name="f2a2qd" value="Vous n'avez pas répondu" checked="checked"/>
+								<input type="radio" name="f2a2qd" id="f2a2qdp1" value="Interromption"> Interromption
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qd" id="f2a2qdp2"> Interrupteur
+								<input type="radio" name="f2a2qd" id="f2a2qdp2"value="Interromption" > Interrupteur
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qd" id="f2a2qdp3"> Interruption
+								<input type="radio" name="f2a2qd" id="f2a2qdp3" value="Interruption"> Interruption
 							</label>
 						</div>
 					</div>
@@ -225,13 +229,14 @@
 						</ol>
 						<div class="btn-group col-md-6" data-toggle="buttons">
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qe" id="f2a2qep1"> Report
+							<input type="radio" hidden="hidden" name="f2a2qe" value="Vous n'avez pas répondu" checked="checked"/>
+								<input type="radio" name="f2a2qe" id="f2a2qep1" value="Report"> Report
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qe" id="f2a2qep2"> Reportage
+								<input type="radio" name="f2a2qe" id="f2a2qep2" value="Reportage"> Reportage
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="f2a2qe" id="f2a2qep3"> Reportement
+								<input type="radio" name="f2a2qe" id="f2a2qep3" value="Reportement"> Reportement
 							</label>
 						</div>
 					</div>
@@ -247,7 +252,7 @@
 				<div class="well well-lg">
 					<div class="row">
 						<div class="col-md-6">
-							<ol class="list-unstyled vertical">
+							<ol class="vertical">
 								<li><span class="label label-info">1</span> Vous informez votre correspondant que vous expédiez des marchandises.</li>
 								<li><span class="label label-info">2</span> Vous annoncez que vous annulez en partie la commande passée précédemment.</li>
 								<li><span class="label label-info">3</span> Vous écrivez pour demander une documentation.</li>
@@ -257,7 +262,7 @@
 							
 						</div>
 						<div class="col-md-6">
-							<ol class="list-unstyled phrases vertical encours">
+							<ol class="phrases vertical encours">
 							<li value="3"><i class="fa fa-arrows-v"></i> Demande de documentation</li>
 							<li value="5"><i class="fa fa-arrows-v"></i> Demande de prolongation de paiement</li>
 							<li value="1"><i class="fa fa-arrows-v"></i> Expédition de marchandises</li>

@@ -128,8 +128,9 @@
 						<div class="col-md-4 col-xs-12">
 						<input type="radio" style='visibility:hidden;display:none' name="f4a1" value="Vous n'avez pas répondu"  checked="checked"/>
 							   <div class="input-group">
-								<span class="input-group-addon">                                     
-								<input type="radio" name="f4a1" id="f4a1p1" value="On lui propose une brochure" />
+								<span class="input-group-addon">  
+                                <input type="radio" hidden="hidden" name="f4a1" value="Vous n'avez pas répondu" checked="checked"/>								
+								<input type="radio" name="f4a1" id="f4a1p1" value="p1" />
 							</span><label for="f4a1p1" class="form-control">
 							Bonjour,<br/> 
 							Pouvez-vous, Monsieur Khadraoui, m’informer sur les possibilités d’avoir un crédit. <br/> 
@@ -138,7 +139,7 @@
 							</label></div></div>
 						<div class="col-md-4 col-xs-12"><div class=" input-group">
 								<span class="input-group-addon">
-								<input type="radio" name="f4a1" id="f4a1p2" value="On lui fait une proposition commerciale" />
+								<input type="radio" name="f4a1" id="f4a1p2" value="p2" />
 							</span><label for="f4a1p2" class="2 form-control">
 							Salut Khadraoui,<br/> 
 							Est-ce qu’il y a une possibilité de crédit bancaire dans notre société ? <br/> 
@@ -148,7 +149,7 @@
 							</label></div></div>
 						<div class="col-md-4 col-xs-12"><div class="input-group">
 								<span class="input-group-addon">
-								<input type="radio" name="f4a1" id="f4a1p3" value="On lui indique qu'un conseiller commercial va le contacter" />
+								<input type="radio" name="f4a1" id="f4a1p3" value="p3" />
 							</span><label for="f4a1p3" class="2 form-control">
 							Bonjour,<br/> 
 							Avant de m’engager dans l’achat d’un véhicule, je me permets de vous demander de bien vouloir m’informer sur les possibilités 
@@ -168,45 +169,45 @@
 				<div class="well">
 					<div>
 						Suite au message
-						<select name="formap" class="form-control inline-form-control">
+						<select name="f4a2q1" class="form-control inline-form-control">
 							<option VALUE="vous n'avez pas répondu"> </option>
-							<option VALUE="f4a2q1qui">qui</option>
-							<option VALUE="f4a2q1que">que</option>     	                                            
-							<option VALUE="f4a2q1dont">dont</option>
-							<option VALUE="f4a2q1ou">où</option>
+							<option VALUE="qui">qui</option>
+							<option VALUE="que">que</option>     	                                            
+							<option VALUE="dont">dont</option>
+							<option VALUE="où">où</option>
 						</select>
 						vous nous avez adressé, je vous prie de trouver ci-joint le document demandé.
 					</div>
 					<div>
 						Les produits
-						<select name="formap" class="form-control inline-form-control">
+						<select name="f4a2q2" class="form-control inline-form-control">
 							<option VALUE="vous n'avez pas répondu"> </option>
-							<option VALUE="f4a2q2qui">qui</option>
-							<option VALUE="f4a2q2que">que</option>     	                                            
-							<option VALUE="f4a2q2dont">dont</option>
-							<option VALUE="f4a2q2ou">où</option>
+							<option VALUE="qui">qui</option>
+							<option VALUE="que">que</option>     	                                            
+							<option VALUE="dont">dont</option>
+							<option VALUE="où">où</option>
 						</select>
 						vous avez fait la commande vont vous être livrés très prochainement.
 					</div>
 					<div>
 						Mohammed RAÏS
-						<select name="formap" class="form-control inline-form-control">
+						<select name="f4a2q3" class="form-control inline-form-control">
 							<option VALUE="vous n'avez pas répondu"> </option>
-							<option VALUE="f4a2q3qui">qui</option>
-							<option VALUE="f4a2q3que">que</option>     	                                            
-							<option VALUE="f4a2q3dont">dont</option>
-							<option VALUE="f4a2q3ou">où</option>
+							<option VALUE="qui">qui</option>
+							<option VALUE="que">que</option>     	                                            
+							<option VALUE="dont">dont</option>
+							<option VALUE="où">où</option>
 						</select>
 						est employé chez FARGO, cherche à obtenir un crédit bancaire.
 					</div>
 					<div>
 						L'entreprise FARGO,
-						<select name="formap" class="form-control inline-form-control">
+						<select name="f4a2q4" class="form-control inline-form-control">
 							<option VALUE="vous n'avez pas répondu"> </option>
-							<option VALUE="f4a2q4qui">qui</option>
-							<option VALUE="f4a2q4que">que</option>     	                                            
-							<option VALUE="f4a2q4dont">dont</option>
-							<option VALUE="f4a2q4ou">où</option>
+							<option VALUE="qui">qui</option>
+							<option VALUE="que">que</option>     	                                            
+							<option VALUE="dont">dont</option>
+							<option VALUE="où">où</option>
 						</select>
 						travaille Mohammed RAÏS, est une entreprise de maintenance et de commercialisation de produits frigorifiques.
 					</div>
@@ -254,40 +255,40 @@
 					<p>Bonjour, <br/>
 
 					Je vous
-					<select name="formap" class="form-control inline-form-control">
-						<option VALUE="f4a3q1none"> </option>
-						<option VALUE="f4a3q1p1">prie</option>
-						<option VALUE="f4a3q1p2">sollicite </option>     	                                            
-						<option VALUE="f4a3q1p3">demande</option>
+					<select name="f4a3q1" class="form-control inline-form-control">
+						<option VALUE="vous n'avez pas répondu"> </option>
+						<option VALUE="prie">prie</option>
+						<option VALUE="sollicite">sollicite </option>     	                                            
+						<option VALUE="demande">demande</option>
 					</select>
 					de bien vouloir me
-					<select name="formap" class="form-control inline-form-control">
-						<option VALUE="f4a3q2none"> </option>
-						<option VALUE="f4a3q2p1">renseigner</option>
-						<option VALUE="f4a3q2p2">informer</option>     	                                            
-						<option VALUE="f4a3q2p3">éclairer</option>
+					<select name="f4a3q2" class="form-control inline-form-control">
+						<option VALUE="vous n'avez pas répondu"> </option>
+						<option VALUE="renseigner">renseigner</option>
+						<option VALUE="informer">informer</option>     	                                            
+						<option VALUE="éclairer">éclairer</option>
 					</select>
 					sur les
-					<select name="formap" class="form-control inline-form-control">
-						<option VALUE="f4a3q3none"> </option>
-						<option VALUE="f4a3q3p1">possibilités</option>
-						<option VALUE="f4a3q3p2">occasions</option>     	                                            
-						<option VALUE="f4a3q3p3">capacités</option>
+					<select name="f4a3q3" class="form-control inline-form-control">
+						<option VALUE="vous n'avez pas répondu"> </option>
+						<option VALUE="possibilités">possibilités</option>
+						<option VALUE="occasions">occasions</option>     	                                            
+						<option VALUE="capacités">capacités</option>
 					</select>
 					d’obtenir un crédit bancaire
-					<select name="formap" class="form-control inline-form-control">
-						<option VALUE="f4a3q4none"> </option>
-						<option VALUE="f4a3q4p1">chez</option>
-						<option VALUE="f4a3q4p2">auprès</option>     	                                            
-						<option VALUE="f4a3q4p3">dans</option>
+					<select name="f4a3q4" class="form-control inline-form-control">
+						<option VALUE="vous n'avez pas répondu"> </option>
+						<option VALUE="chez">chez</option>
+						<option VALUE="auprès">auprès</option>     	                                            
+						<option VALUE="dans">dans</option>
 					</select>
 					de votre comité.<br/>
 					Je vous remercie par avance de votre
-					<select name="formap" class="form-control inline-form-control">
-						<option VALUE="f4a3q5none"> </option>
-						<option VALUE="f4a3q5p1">réplique</option>
-						<option VALUE="f4a3q5p2">attention</option>     	                                            
-						<option VALUE="f4a3q5p3">retour</option>
+					<select name="f4a3q5" class="form-control inline-form-control">
+						<option VALUE="vous n'avez pas répondu"> </option>
+						<option VALUE="réplique">réplique</option>
+						<option VALUE="attention">attention</option>     	                                            
+						<option VALUE="retour">retour</option>
 					</select>
 					<br/>
 					
@@ -343,55 +344,55 @@
 					<p>Bonjour, <br/>
 
 					Je vous
-					<select name="formap" class="form-control inline-form-control">
-						<option VALUE="f4a3q6none"> </option>
-						<option VALUE="f4a3q6p1">remercie</option>
-						<option VALUE="f4a3q6p2">félicite</option>     	                                            
-						<option VALUE="f4a3q6p3">congratule</option>
+					<select name="f4a3q6" class="form-control inline-form-control">
+						<option VALUE="vous n'avez pas répondu"> </option>
+						<option VALUE="remercie">remercie</option>
+						<option VALUE="félicite">félicite</option>     	                                            
+						<option VALUE="congratule">congratule</option>
 					</select>
 					pour votre message.<br/>
-					<select name="formap" class="form-control inline-form-control">
-						<option VALUE="f4a3q7none"> </option>
-						<option VALUE="f4a3q7p1">En effet</option>
-						<option VALUE="f4a3q7p2">Par contre/</option>     	                                            
-						<option VALUE="f4a3q7p3">Alors</option>
+					<select name="f4a3q7" class="form-control inline-form-control">
+						<option VALUE="vous n'avez pas répondu"> </option>
+						<option VALUE="En effet">En effet</option>
+						<option VALUE="Par contre">Par contre</option>     	                                            
+						<option VALUE="Alors">Alors</option>
 					</select>
 					nous pouvons vous
-					<select name="formap" class="form-control inline-form-control">
-						<option VALUE="f4a3q8none"> </option>
-						<option VALUE="f4a3q8p1">accorder</option>
-						<option VALUE="f4a3q8p2">allouer</option>     	                                            
-						<option VALUE="f4a3q8p3">donner</option>
+					<select name="f4a3q8" class="form-control inline-form-control">
+						<option VALUE="vous n'avez pas répondu"> </option>
+						<option VALUE="accorder">accorder</option>
+						<option VALUE="allouer">allouer</option>     	                                            
+						<option VALUE="donner">donner</option>
 					</select>
 					un crédit.<br/>
-					<select name="formap" class="form-control inline-form-control">
-						<option VALUE="f4a3q9none"> </option>
-						<option VALUE="f4a3q9p1">Par conséquent</option>
-						<option VALUE="f4a3q9p2">Surtout</option>     	                                            
-						<option VALUE="f4a3q9p3">Toutefois </option>
+					<select name="f4a3q9" class="form-control inline-form-control">
+						<option VALUE="vous n'avez pas répondu"> </option>
+						<option VALUE="Par conséquent">Par conséquent</option>
+						<option VALUE="Surtout">Surtout</option>     	                                            
+						<option VALUE="Toutefois">Toutefois </option>
 					</select>
 					nous devons, avant cela,
-					<select name="formap" class="form-control inline-form-control">
-						<option VALUE="f4a3q10none"> </option>
-						<option VALUE="f4a3q10p1">contrôler</option>
-						<option VALUE="f4a3q10p2">étudier</option>     	                                            
-						<option VALUE="f4a3q10p3">vérifier</option>
+					<select name="f4a3q10" class="form-control inline-form-control">
+						<option VALUE="vous n'avez pas répondu"> </option>
+						<option VALUE="contrôler">contrôler</option>
+						<option VALUE="étudier">étudier</option>     	                                            
+						<option VALUE="vérifier">vérifier</option>
 					</select>
 					votre solvabilité.<br/>
 					
 					Nous restons à votre
-					<select name="formap" class="form-control inline-form-control">
-						<option VALUE="f4a3q11none"> </option>
-						<option VALUE="f4a3q11p1">complète</option>
-						<option VALUE="f4a3q11p2">totale</option>     	                                            
-						<option VALUE="f4a3q11p3">entière</option>
+					<select name="f4a3q11" class="form-control inline-form-control">
+						<option VALUE="vous n'avez pas répondu"> </option>
+						<option VALUE="complète">complète</option>
+						<option VALUE="totale">totale</option>     	                                            
+						<option VALUE="entière">entière</option>
 					</select>
 					disposition pour
-					<select name="formap" class="form-control inline-form-control">
-						<option VALUE="f4a3q12none"> </option>
-						<option VALUE="f4a3q12p1">tout</option>
-						<option VALUE="f4a3q12p2">n’importe</option>     	                                            
-						<option VALUE="f4a3q12p3">certain</option>
+					<select name="f4a3q12" class="form-control inline-form-control">
+						<option VALUE="vous n'avez pas répondu"> </option>
+						<option VALUE="tout">tout</option>
+						<option VALUE="n’importe">n’importe</option>     	                                            
+						<option VALUE="certain">certain</option>
 					</select>
 					complément d’informations.<br/>
 				

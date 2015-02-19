@@ -109,10 +109,10 @@
 				
 				<!-- FORMULAIRE A TRANSMETTRE -->
 				
-				<form method="post" action="construction.php">
+				<form method="post" action="corrige6.php">
 				
 				<h3 id="act1" class="activite">Activité 1</h3>
-				<p><i>Réécrivez les phrases suivantes en utilisant l'adjectif verbal approprié.</i></p>
+				<p><i>Réécrivez les phrases suivantes en utilisant l'adjectif verbal approprié:</i></p>
 				<p class="alinea"><i>Exemple:</i><strong> Puisqu’il travaille</strong> depuis longtemps en France, Karim parle bien français.</p>
 				<p class="alinea"><strong>Travaillant</strong> depuis longtemps en France, Karim parle bien français.</p>
 				
@@ -222,25 +222,25 @@
 						<input type="checkbox" style='visibility:hidden;display:none' name="f6a2q2" value="Vous n'avez pas répondu"  checked="checked"/>
 							   <div class="input-group">
 								<span class="input-group-addon">                                     
-								<input type="checkbox" name="f6a2q2" id="f6a2q2p1" value="Je serai en mission ce jour-là à Ghardaia." />
+								<input type="checkbox" name="f6a2q2a" id="f6a2q2p1" value="Je serai en mission ce jour-là à Ghardaia" />
 							</span><label for="f6a2q2p1" class="form-control">
 							Je serai en mission ce jour-là à Ghardaia.
 							</label></div></div>
 						<div class="label col-md-6 col-xs-12"><div class=" input-group">
 								<span class="input-group-addon">
-								<input type="checkbox" name="f6a2q2" id="f6a2q2p2" value="Je suis débordé ces derniers temps." />
+								<input type="checkbox" name="f6a2q2b" id="f6a2q2p2" value="Je suis débordé ces derniers temps" />
 							</span><label for="f6a2q2p2" class="2 form-control">
 							Je suis débordé ces derniers temps.
 							</label></div></div>
 						<div class="label col-md-6 col-xs-12"><div class="input-group">
 								<span class="input-group-addon">
-								<input type="checkbox" name="f6a2q2" id="f6a2q2p3" value="Je serai en déplacement à l’étranger." />
+								<input type="checkbox" name="f6a2q2c" id="f6a2q2p3" value="Je serai en déplacement à l'étranger" />
 							</span><label for="f6a2q2p3" class="2 form-control">
 							Je serai en déplacement à l’étranger.
 							</label></div></div>
 							<div class="label col-md-6 col-xs-12"><div class="input-group">
 								<span class="input-group-addon">
-								<input type="checkbox" name="f6a2q2" id="f6a2q2p4" value="Je n’ai pas le moral." />
+								<input type="checkbox" name="f6a2q2d" id="f6a2q2p4" value="Je n’ai pas le moral" />
 							</span><label for="f6a2q2p4" class="2 form-control">
 							Je n’ai pas le moral.
 							</label></div></div>
@@ -283,9 +283,9 @@
 				<div class="list-group-item">
 					<p>Bonjour, <br/>
 					
-					Je vous prie de  bien vouloir accepter la demande de Mohammed RAÏS. <br/>
+					Je vous prie de bien vouloir accepter la demande de Mohammed RAÏS. <br/>
 					Cependant, au cas où elle ne
-								<select name="formap" class="form-control inline-form-control">
+								<select name="f6a3q1" class="form-control inline-form-control">
 									<option value="Vous n'avez pas répondu" id="f6a3q1p0"> </option>
 									<option value="répondait" id="f6a3q1p1">répondait </option>
 									<option value="répond" id="f6a3q1p2">répond </option>     	                                            
@@ -294,7 +294,7 @@
 					pas aux normes, je vous prie de prendre les mesures nécessaires.<br/>
 
 					Dans l’hypothèse où vous
-								<select name="formap" class="form-control inline-form-control">
+								<select name="f6a3q2" class="form-control inline-form-control">
 									<option VALUE="Vous n'avez pas répondu" id="f6a3q2p0"> </option>
 									<option VALUE="accepteriez" id="f6a3q2p1">accepteriez</option>
 									<option VALUE="acceptiez" id="f6a3q2p2">acceptiez </option>     	                                            
@@ -303,7 +303,7 @@
 					son dossier, faites en sorte d’informer Monsieur Raïs dans les meilleurs délais.<br/>
 					
 					A moins que le dossier ne
-								<select name="formap" class="form-control inline-form-control">
+								<select name="f6a3q3" class="form-control inline-form-control">
 									<option VALUE="Vous n'avez pas répondu" id="f6a3q3p0"> </option>
 									<option VALUE="contient" id="f6a3q3p1">contient</option>
 									<option VALUE="contienne" id="f6a3q3p2">contienne</option>     	                                            
