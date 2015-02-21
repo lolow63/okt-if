@@ -32,7 +32,7 @@
 										  </a>
 										</h4>
 									  </div>
-									  <div id="collapseOne" class="panel-collapse collapse in">
+									  <div id="collapseOne" class="panel-collapse collapse">
 										<div class="panel-body">
 							<li><a href="fiche1.php">Fiche 1</a></li>
                             <li><a href="construction.php">Fiche 2</a></li>
@@ -49,7 +49,7 @@
 										  </a>
 										</h4>
 									  </div>
-									<div id="collapseTwo" class="panel-collapse collapse in">
+									<div id="collapseTwo" class="panel-collapse collapse">
 										<div class="panel-body">
 							<li><a href="construction.php">Fiche 7</a></li>
                             <li><a href="construction.php">Fiche 8</a></li>
@@ -66,7 +66,7 @@
 										  </a>
 										</h4>
 									  </div>
-									<div id="collapseThree" class="panel-collapse collapse in">
+									<div id="collapseThree" class="panel-collapse collapse">
 										<div class="panel-body">
 							<li><a href="construction.php">Fiche 13</a></li>
                             <li><a href="construction.php">Fiche 14</a></li>
@@ -83,14 +83,14 @@
 										  </a>
 										</h4>
 									  </div>
-									<div id="collapseFour" class="panel-collapse collapse in">
+									<div id="collapseFour" class="panel-collapse collapse">
 										<div class="panel-body">
-							<li><a href="#">construction.php</a></li>
-                            <li><a href="#">construction.php</a></li>
-                            <li><a href="#">construction.php</a></li>
-                            <li><a href="#">construction.php</a></li>
-							<li><a href="#">construction.php</a></li>
-							<li><a href="#">construction.php</a></li>
+							<li><a href="construction.php">Fiche 19</a></li>
+                            <li><a href="construction.php">Fiche 20</a></li>
+                            <li><a href="construction.php">Fiche 21</a></li>
+                            <li><a href="construction.php">Fiche 22</a></li>
+							<li><a href="construction.php">Fiche 23</a></li>
+							<li><a href="construction.php">Fiche 24</a></li>
 										</div>
 									</div>
 								</div>

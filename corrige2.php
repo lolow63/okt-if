@@ -13,13 +13,7 @@
         <link rel="stylesheet" href="css/style.css">
 		<!-- JavaScript Includes -->
 		<script src="js/jquery.js"></script>
-    	<script src="js/bootstrap.min.js"></script>
-        <script src="js/sortable.js"></script>
-    	<script src="js/bootstrap.min.js"></script>
-		<script src="js/transition.js"></script>
-		<script src="js/collapse.js"></script>
-		<script src="js/dropdown.js"></script>
-		<script src="js/scrollspy.js"></script>  
+    	<script src="js/bootstrap.min.js"></script>  
 		<style>
 		body { padding-top: 50px; }
 		</style>
@@ -40,7 +34,7 @@
 			<div class="well">
 				<h1>Fiches d'aide à la réalisation de courriels professionnels</h1>
 				 <h2>Corrigé de la fiche N°2</h2><br/>
-					<p>Félicitation ! Vous avez terminé votre desieme série d'activités.</p>
+					<p>Félicitation ! Vous avez terminé votre deuxième série d'activités.</p>
 					<p>Voici votre score :</p>	
 					<div class="list-group-item">
 		                <?php
@@ -206,8 +200,8 @@
 						echo '<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">'.$f2a1q1.': </strong>C\'est la bonne réponse !</p>';} 
 		                 elseif(($f2a1q1=='Souhait d\'obtenir un crédit')or($f2a1q1=='Volonté d\'obtenir un crédit bancaire')){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f2a1q1.':</strong></p> <p>La bonne réponse est : « Demande d\'obtention d\'un crédit »
 						                                                  <p class="remarque"> On ne formule pas une demande avec un nom abstrait comme souhait, désir, volonté, etc.</p>';}
-					   elseif($f2a1q1=='Possiblitité d\'obtention d\'un crédit'){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f2a1q1.':</strong></p> <p>La bonne réponse est : « Demande d\'obtention d\'un crédit »
-				                                                <p class="remarque">Objet formulé de façon ambigue car on sait pas si Mohammed offre ou demande un crédit bancaire</p>';}
+					   elseif($f2a1q1=='Possibilité d\'obtention d\'un crédit'){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f2a1q1.':</strong></p> <p>La bonne réponse est : « Demande d\'obtention d\'un crédit »
+				                                                <p class="remarque">Objet formulé de façon ambiguë car on sait pas si Mohammed offre ou demande un crédit bancaire</p>';}
 						elseif($f2a1q2=='vous n\'avez pas répondu') {echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f2a1q1.':</strong></p>';}										
 						else{echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f2a1q1.':</strong></p> <p>La bonne réponse est : « Demande d\'obtention d\'un crédit »';}
 					   
@@ -247,7 +241,7 @@
 					 if($rf2a2qb=='vrai'){
 						echo '<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">'.$f2a2qb.': </strong>C\'est la bonne réponse !</p>';} 
 		                elseif($f2a2qb=='Vous n\'avez pas répondu') {echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f2a2qb.':</strong></p>';} 
-					    else {echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f2a2qb.':</strong></p> <p>La bonne réponse est : « Révisiont »';}
+					    else {echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f2a2qb.':</strong></p> <p>La bonne réponse est : « Révision »';}
 					//qc
 					 echo'<h3>Question c</h3>';
 					 if($rf2a2qa=='vrai'){
@@ -276,134 +270,136 @@
 							$ligne1='<li value="1"><i class="fa fa-arrows-v"></i> Expédition de marchandises</li>';
 							$ligne4='<li value="4"><i class="fa fa-arrows-v"></i> Confirmation de commande</li>';
 							$ligne2='<li value="2"><i class="fa fa-arrows-v"></i> Annulation en partie de la commande passée précédemment</li>';
-					if($ok=='true'){
+						if($ok=='true'){
 						echo'<div class="row">
-						<div class="col-md-6">
-							<ol class="vertical">
-								<li><span class="label label-info">1</span> Vous informez votre correspondant que vous expédiez des marchandises.</li>
-								<li><span class="label label-info">2</span> Vous annoncez que vous annulez en partie la commande passée précédemment.</li>
-								<li><span class="label label-info">3</span> Vous écrivez pour demander une documentation.</li>
-								<li><span class="label label-info">4</span> Vous écrivez pour confirmer votre commande.</li>
-								<li><span class="label label-info">5</span> Vous écrivez à votre banque pour demander une prolongation de paiement.</li>
-							</ol>
-							
-						</div>
-						<div class="col-md-6">
-							<ol class="phrases vertical encours">
-							<li value="1"><i class="fa fa-arrows-v"></i> Expédition de marchandises</li>
-							<li value="2"><i class="fa fa-arrows-v"></i> Annulation en partie de la commande passée précédemment</li>
-							<li value="3"><i class="fa fa-arrows-v"></i> Demande de documentation</li>
-							<li value="4"><i class="fa fa-arrows-v"></i> Confirmation de commande</li>
-							<li value="5"><i class="fa fa-arrows-v"></i> Demande de prolongation de paiement</li>
-							</ol>
-							
+							<div class="col-md-6">
+								<ol class="vertical">
+									<li><span class="label label-info">1</span> Vous informez votre correspondant que vous expédiez des marchandises.</li>
+									<li><span class="label label-info">2</span> Vous annoncez que vous annulez en partie la commande passée précédemment.</li>
+									<li><span class="label label-info">3</span> Vous écrivez pour demander une documentation.</li>
+									<li><span class="label label-info">4</span> Vous écrivez pour confirmer votre commande.</li>
+									<li><span class="label label-info">5</span> Vous écrivez à votre banque pour demander une prolongation de paiement.</li>
+								</ol>
+								
+							</div>
+							<div class="col-md-6">
+								<ol class="phrases vertical encours">
+								<li value="1"><i class="fa fa-arrows-v"></i> Expédition de marchandises</li>
+								<li value="2"><i class="fa fa-arrows-v"></i> Annulation en partie de la commande passée précédemment</li>
+								<li value="3"><i class="fa fa-arrows-v"></i> Demande de documentation</li>
+								<li value="4"><i class="fa fa-arrows-v"></i> Confirmation de commande</li>
+								<li value="5"><i class="fa fa-arrows-v"></i> Demande de prolongation de paiement</li>
+								</ol>
+								
+							</div>
 						</div>
 					</div>
 					<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">C\'est correct !</strong></p>';}
 					elseif($rf2a3=='pas de reponse')
 						{echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">Vous n\'avez pas répondu:</strong></p>';} 
 					else{
-						echo'<div class="row">
-						<div class="col-md-6">
-							<ol class="vertical">
-								<li><span class="label label-info">1</span> Vous informez votre correspondant que vous expédiez des marchandises.</li>
-								<li><span class="label label-info">2</span> Vous annoncez que vous annulez en partie la commande passée précédemment.</li>
-								<li><span class="label label-info">3</span> Vous écrivez pour demander une documentation.</li>
-								<li><span class="label label-info">4</span> Vous écrivez pour confirmer votre commande.</li>
-								<li><span class="label label-info">5</span> Vous écrivez à votre banque pour demander une prolongation de paiement.</li>
-							</ol>
-							
-						</div>
-						<div class="col-md-6">
-							<ol class="phrases vertical encours">';
-							//ligne1
-							if($rf2a3[0]==1) {echo $ligne1;}
-						    elseif($rf2a3[0]==2) {echo $ligne2;}
-							elseif($rf2a3[0]==3) {echo $ligne3;}
-							elseif($rf2a3[0]==4) {echo $ligne4;}
-							elseif($rf2a3[0]==5) {echo $ligne5;}
-							//ligne2
-							if($rf2a3[1]==1) {echo $ligne1;}
-						    elseif($rf2a3[1]==2) {echo $ligne2;}
-							elseif($rf2a3[1]==3) {echo $ligne3;}
-							elseif($rf2a3[1]==4) {echo $ligne4;}
-							elseif($rf2a3[1]==5) {echo $ligne5;}
-							
-							//ligne3
-							if($rf2a3[2]==1) {echo $ligne1;}
-						    elseif($rf2a3[2]==2) {echo $ligne2;}
-							elseif($rf2a3[2]==3) {echo $ligne3;}
-							elseif($rf2a3[2]==4) {echo $ligne4;}
-							elseif($rf2a3[2]==5) {echo $ligne5;}
-							//ligne4
-							if($rf2a3[3]==1) {echo $ligne1;}
-						    elseif($rf2a3[3]==2) {echo $ligne2;}
-							elseif($rf2a3[3]==3) {echo $ligne3;}
-							elseif($rf2a3[3]==4) {echo $ligne4;}
-							elseif($rf2a3[3]==5) {echo $ligne5;}
-							//ligne5
-							if($rf2a3[4]==1) {echo $ligne1;}
-						    elseif($rf2a3[4]==2) {echo $ligne2;}
-							elseif($rf2a3[4]==3) {echo $ligne3;}
-							elseif($rf2a3[4]==4) {echo $ligne4;}
-							elseif($rf2a3[4]==5) {echo $ligne5;}
-							echo'</ol></br>
-						</div>';
-						echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">Hum, ce n\'est pas tout à fait ça...</strong></p> <p>La bonne réponse est :
-						<div class="col-md-6">
-							<ol class="vertical">
-								<li><span class="label label-info">1</span> Vous informez votre correspondant que vous expédiez des marchandises.</li>
-								<li><span class="label label-info">2</span> Vous annoncez que vous annulez en partie la commande passée précédemment.</li>
-								<li><span class="label label-info">3</span> Vous écrivez pour demander une documentation.</li>
-								<li><span class="label label-info">4</span> Vous écrivez pour confirmer votre commande.</li>
-								<li><span class="label label-info">5</span> Vous écrivez à votre banque pour demander une prolongation de paiement.</li>
-							</ol>
-							
-						</div>
-						<div class="col-md-6">
-							<ol class="phrases vertical encours">
-							<li value="1"><i class="fa fa-arrows-v"></i> Expédition de marchandises</li>
-							<li value="2"><i class="fa fa-arrows-v"></i> Annulation en partie de la commande passée précédemment</li>
-							<li value="3"><i class="fa fa-arrows-v"></i> Demande de documentation</li>
-							<li value="4"><i class="fa fa-arrows-v"></i> Confirmation de commande</li>
-							<li value="5"><i class="fa fa-arrows-v"></i> Demande de prolongation de paiement</li>
-							</ol>
-							
-						';
-					}
+					echo'<div class="row">
+							<div class="col-md-6">
+								<ol class="vertical">
+									<li><span class="label label-info">1</span> Vous informez votre correspondant que vous expédiez des marchandises.</li>
+									<li><span class="label label-info">2</span> Vous annoncez que vous annulez en partie la commande passée précédemment.</li>
+									<li><span class="label label-info">3</span> Vous écrivez pour demander une documentation.</li>
+									<li><span class="label label-info">4</span> Vous écrivez pour confirmer votre commande.</li>
+									<li><span class="label label-info">5</span> Vous écrivez à votre banque pour demander une prolongation de paiement.</li>
+								</ol>
+								
+							</div>
+							<div class="col-md-6">
+								<ol class="phrases vertical encours">';
+								//ligne1
+								if($rf2a3[0]==1) {echo $ligne1;}
+								elseif($rf2a3[0]==2) {echo $ligne2;}
+								elseif($rf2a3[0]==3) {echo $ligne3;}
+								elseif($rf2a3[0]==4) {echo $ligne4;}
+								elseif($rf2a3[0]==5) {echo $ligne5;}
+								//ligne2
+								if($rf2a3[1]==1) {echo $ligne1;}
+								elseif($rf2a3[1]==2) {echo $ligne2;}
+								elseif($rf2a3[1]==3) {echo $ligne3;}
+								elseif($rf2a3[1]==4) {echo $ligne4;}
+								elseif($rf2a3[1]==5) {echo $ligne5;}
+								
+								//ligne3
+								if($rf2a3[2]==1) {echo $ligne1;}
+								elseif($rf2a3[2]==2) {echo $ligne2;}
+								elseif($rf2a3[2]==3) {echo $ligne3;}
+								elseif($rf2a3[2]==4) {echo $ligne4;}
+								elseif($rf2a3[2]==5) {echo $ligne5;}
+								//ligne4
+								if($rf2a3[3]==1) {echo $ligne1;}
+								elseif($rf2a3[3]==2) {echo $ligne2;}
+								elseif($rf2a3[3]==3) {echo $ligne3;}
+								elseif($rf2a3[3]==4) {echo $ligne4;}
+								elseif($rf2a3[3]==5) {echo $ligne5;}
+								//ligne5
+								if($rf2a3[4]==1) {echo $ligne1;}
+								elseif($rf2a3[4]==2) {echo $ligne2;}
+								elseif($rf2a3[4]==3) {echo $ligne3;}
+								elseif($rf2a3[4]==4) {echo $ligne4;}
+								elseif($rf2a3[4]==5) {echo $ligne5;}
+								echo'</ol></br>
+							</div>';
+							echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">Hum, ce n\'est pas tout à fait ça...</strong></p> <p>La bonne réponse est :
+							<div class="col-md-6">
+								<ol class="vertical">
+									<li><span class="label label-info">1</span> Vous informez votre correspondant que vous expédiez des marchandises.</li>
+									<li><span class="label label-info">2</span> Vous annoncez que vous annulez en partie la commande passée précédemment.</li>
+									<li><span class="label label-info">3</span> Vous écrivez pour demander une documentation.</li>
+									<li><span class="label label-info">4</span> Vous écrivez pour confirmer votre commande.</li>
+									<li><span class="label label-info">5</span> Vous écrivez à votre banque pour demander une prolongation de paiement.</li>
+								</ol>
+								
+							</div>
+							<div class="col-md-6">
+								<ol class="phrases vertical encours">
+								<li value="1"><i class="fa fa-arrows-v"></i> Expédition de marchandises</li>
+								<li value="2"><i class="fa fa-arrows-v"></i> Annulation en partie de la commande passée précédemment</li>
+								<li value="3"><i class="fa fa-arrows-v"></i> Demande de documentation</li>
+								<li value="4"><i class="fa fa-arrows-v"></i> Confirmation de commande</li>
+								<li value="5"><i class="fa fa-arrows-v"></i> Demande de prolongation de paiement</li>
+								</ol>
+								
+							';
+						}
+						
+						
+						
+						echo'</div>';}?>
+					</div><!--fin row-->
 					
-					
-					
-					echo'</div>'
-					;}?> </div><!--fin list-group-item-->
-					<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
+				<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
 
-				<div class="modal-header">
-				  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				  <h4 class="modal-title resume text-center" id="myModalLabel"><img src="img/le-saviez-vous.png" alt="" class="img-responsive"></h4>
-				</div>
-				<div class="modal-body body-saviez-vous">
-					<h2 class="resume">EN RÉSUMÉ :</h2>
-					<div>
-							<p class="resume">L’objet d’un mail commence très souvent par un nom dérivé d’un verbe. Le nom est toujours suivi du mot « de » ou « des » : Je vous envoie les documents envoi de documents</p>
-							
+							<div class="modal-header">
+							  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							  <h4 class="modal-title resume text-center" id="myModalLabel"><img src="img/le-saviez-vous.png" alt="" class="img-responsive"></h4>
+							</div>
+							<div class="modal-body body-saviez-vous">
+								<h2 class="resume">EN RÉSUMÉ :</h2>
+								<div>
+										<p class="resume">L’objet d’un mail commence très souvent par un nom dérivé d’un verbe. Le nom est toujours suivi du mot « de » ou « des » : Je vous envoie les documents = envoi de documents</p>
+										
+								</div>
+							</div>
+							<div class="modal-footer">
+							<button class="btn btn-info" data-dismiss="modal">Fermer</button>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="modal-footer">
-				<button class="btn btn-info" data-dismiss="modal">Fermer</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<!--FIN DE MODAL JAVASCRIPT-->
+				
+				<!--FIN DE MODAL JAVASCRIPT-->
 
 				 <div class="modal-title" data-toggle="modal" data-target="#myModal">
 				 <br/>
 				 <img src="img/le-saviez-vous.png" alt="" class="img-responsive">
-				 </div>	  
+				 </div>
 			</div><!--fin well principal-->
 		</div><!--fin container principal-->
 		<hr>
