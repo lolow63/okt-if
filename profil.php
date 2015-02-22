@@ -70,7 +70,7 @@
 		
 			
 			<section id="info" class="well col-xs-12 col-md-7">
-				<form class="form-horizontal">
+				<div class="form-horizontal">
 					<h1 class="activite">MES INFOS<span class="pull-right fa fa-list"></span></h1>
 					<fieldset>
 						<div class="list-group-item">
@@ -112,10 +112,10 @@
 							<div class="list-group-item active">
 								<div class="row">
 									<div class="label col-xs-12 col-sm-4">
-										Profession:
+										Catégorie socio-professionnelle
 									</div>	
 									<div class="col-xs-12 col-sm-8">
-										<div class="badge">Agent administratif</div>
+										<div class="badge">Personnel des services aux particuliers</div>
 									</div>	
                                 </div>
 							</div>
@@ -143,7 +143,7 @@
 							</div>
 						</div>
 					</fieldset>
-				</form>
+				</div>
 				
 			</section>
 			<section id="notes" class="well col-xs-12 col-md-offset-1 col-md-4">
