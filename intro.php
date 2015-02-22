@@ -37,7 +37,7 @@
 	<body>
 		<header>
 			<?php include("include/header-login.php");    
-			  include("include/subheader.php");
+			  include("include/subheader-intro.php");
 			?>
 		</header>
 		<!--SNIPET MODAL JAVASCRIPT-->
@@ -229,6 +229,142 @@
 			</div>
 		</div>
 		<!--FIN DE MODAL6 JAVASCRIPT-->
+		<!--SNIPET ModalLogin-->
+		<div id="ModalLogin" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+					  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					  <h4 class="modal-title" id="myModalLabel">Connexion</h4>
+					</div>
+					<form class="form-horizontal" method="post" action="test-connexion.php">
+						<div class="modal-body">
+							<!-- Email input-->
+							<div class="form-group">
+								<div class="control-group">
+								  <label class="col-md-6 control-label" for="mail">Adresse électronique</label>  
+								  <div class="controls col-md-6">
+								  <input id="mail" name="mail" placeholder="exemple@domaine.com" class="form-control input-md" required="" type="email">
+									<p class="help-block"></p>
+								</div>
+								</div>
+							</div>					
+							<!-- Password input-->
+							<div class="form-group">
+								<div class="control-group">
+								  <label class="col-md-6 control-label" for="password">Choisissez votre mot de passe</label>
+								  <div class="col-md-6 controls">
+									<input id="password" name="password" class="form-control input-md" required="" type="password">
+									<p class="help-block"></p>
+								  </div>
+								</div>
+							</div>
+							<!-- Multiple Checkboxes (inline) -->
+							<div class="form-group">
+							  <div class="col-md-offset-6 col-md-6">
+									<div class="input-group">
+										<span class="input-group-addon">
+											<input type="checkbox" id="keeplog" name="keeplog" />
+										</span>
+										<label for="keeplog" class="form-control">Se souvenir de moi</label>
+									</div>
+								</div>	
+							</div>
+						</div>
+						<div class="modal-footer">
+							<!--Submit button-->
+							<div class="col-md-2">
+								<button id="valid" name="valid" class="btn btn-success" type="submit">Confirmer</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--FIN DE ModalLogin-->
+		<!--SNIPET ModalIncription-->
+		<div id="ModalInscription" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="myModalLabel">Formulaire d'inscription</h4>
+					</div>
+					<form class="form-horizontal" method="post" action="test-inscription.php">
+						<div class="modal-body">
+							<!-- Name input-->
+							<div class="form-group">
+							  <label class="col-md-6 control-label" for="actual-password">Nom</label>
+							  <div class="col-md-6">
+								<input id="nom" name="nom" placeholder="" class="form-control input-md" required="" type="text">
+								<p class="help-block"></p>
+							  </div>
+							</div>
+							
+							<!-- First-name input-->
+							<div class="form-group">
+							  <label class="col-md-6 control-label" for="prenom">Prénom</label>
+							  <div class="col-md-6">
+								<input id="prenom" name="prenom" placeholder="" class="form-control input-md" required="" type="text">
+								<p class="help-block"></p>
+							  </div>
+							</div>
+						
+							<!-- Email input-->
+							<div class="form-group">
+								<div class="control-group">
+								  <label class="col-md-6 control-label" for="mail">Adresse électronique</label>  
+								  <div class="controls col-md-6">
+								  <input id="mail" name="mail" placeholder="exemple@domaine.com" class="form-control input-md" required="" type="email">
+									<p class="help-block"></p>
+								</div>
+								</div>
+							</div>
+							
+							<!-- Email input-->
+							<div class="form-group">
+								<div class="control-group">
+								  <label class="col-md-6 control-label" for="confirm-mail">Confirmez votre adresse électronique</label>  
+								  <div class="controls col-md-6">
+								  <input id="confirm-mail" data-validation-match-match="mail" data-validation-match-message="Les champs doivent correspondre!" name="confirm-mail" placeholder="exemple@domaine.com" class="form-control input-md" required="" type="email">
+									<p class="help-block"></p>
+								</div>
+								</div>
+							</div>
+							
+							<!-- Password input-->
+							<div class="form-group">
+								<div class="control-group">
+								  <label class="col-md-6 control-label" for="password">Choisissez votre mot de passe</label>
+								  <div class="col-md-6 controls">
+									<input id="password" name="password" class="form-control input-md" required="" type="password">
+									<p class="help-block"></p>
+								  </div>
+								</div>
+							</div>
+							<!-- Confirm Password input-->
+							<div class="form-group">
+								<div class="control-group">
+								  <label class="col-md-6 control-label" for="confirm-password">Confirmez votre mot de passe</label>
+								  <div class="col-md-6 controls">
+									<input id="confirm-password" data-validation-match-match="password" data-validation-match-message="Les champs doivent correspondre!" name="confirm-password" class="form-control input-md" required="" type="password">
+									<p class="help-block"></p>
+								  </div>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<!--Submit button-->
+							<button id="valid" name="valid" class="btn btn-success" type="submit">Confirmer</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--FIN DE ModalInscription-->
+		
+		
+		
 		<div class="content">
 			<div class="container">
 				<div class="well">
@@ -270,7 +406,8 @@
 					<p class="alinea">Par la richesse de ses contenus, son ergonomie et son aspect dynamique, cette formation en ligne de l’IFA vous aidera à acquérir et développer des compétences, nécessaires pour la bonne conduite de vos projets en entreprise.</p>
 				</div>
 				<div class="buttons pull-right">
-					<a href="construction2.html" class="btn btn-formation">M'inscrire gratuitement</a>
+					<noscript><a href="inscription.php" class="btn btn-inscription">M'inscrire gratuitement</a></noscript>
+					<a class="btn btn-inscription modal-title" data-toggle="modal" data-target="#ModalInscription">M'inscrire gratuitement</a>
 				</div> 
 			</div>
 		</div>

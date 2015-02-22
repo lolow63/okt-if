@@ -16,7 +16,8 @@
         <div class="container"><br>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="buttons">
-                    <a href="inscription.php" class="btn btn-inscription">M'inscrire gratuitement</a>
+                    <noscript><a href="inscription.php" class="btn btn-inscription">M'inscrire gratuitement</a></noscript>
+					<a class="btn btn-inscription modal-title" data-toggle="modal" data-target="#ModalInscription">M'inscrire gratuitement</a>
                     <a href="intro.php" class="btn btn-formation">Débuter la formation</a>
                 </div>         
             </div>

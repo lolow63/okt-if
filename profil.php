@@ -134,9 +134,9 @@
 						
 							 <hr/>
 								<!--Insertion de la page info-profi.php-->
-							   <a class="btn btn-primary btn-md pull-right" href="info-profil.php" data-toggle="modal" data-backdrop="static" data-target="#myModal">
+							   <a class="btn btn-primary btn-md pull-right" href="info-profil.php" data-toggle="modal" data-backdrop="static" data-target="#ModalFormProfil">
 								<i class="fa fa-spin fa-gear"> </i> Modifier</a><br/><br/>
-							<div class="modal fade" id="myModal">
+							<div class="modal fade" id="ModalFormProfil">
 								<div class="modal-dialog">
 								<div class="modal-content"></div>
 								</div>

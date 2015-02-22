@@ -6,14 +6,12 @@
         </div>
     </div>
     	<div class="container">
-			<div class="col-xs-5 visible-xs">
+			<div class="col-xs-12 visible-xs">
 							<ul class="nav navbar-nav navbar-default">
-								<li><a href="construction.php"><i class="fa fa-2x fa-lock"></i> CONNEXION</a></li>                     
-							</ul>
-			</div>
-			<div class="col-xs-offset-2 col-xs-5 visible-xs">
-							<ul class="nav navbar-nav navbar-default">
-								<li><a href="construction.php"><i class="fa fa-2x fa-user-plus"></i> S'INSCRIRE</a></li>                     
+								<li>
+									<noscript><a href="connexion.php"><i class="fa fa-2x fa-lock"></i> CONNEXION</a></noscript>
+									<a class="modal-title" data-toggle="modal" data-target="#ModalLogin"><i class="fa fa-2x fa-lock"></i>CONNEXION</a>
+								</li>
 							</ul>
 			</div>
     	    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 mainnav">
@@ -41,14 +39,12 @@
 					</div><!-- /.navbar-collapse -->
 				</nav>   
 			</div>
-           <div class="col-sm-2 col-md-2 col-lg-2 hidden-xs">
+           <div class="col-sm-4 col-md-4 col-lg-4 hidden-xs">
 				<ul class="nav navbar-nav navbar-default navbar-right">
-                    <li><a href="construction.php"><i class="fa fa-lock hidden-sm"></i> CONNEXION</a></li>                     
-				</ul>
-           </div>
-		   <div class="col-sm-2 col-md-2 col-lg-2 hidden-xs">
-				<ul class="nav navbar-nav navbar-default navbar-right">
-                    <li><a href="construction.php"><i class="fa fa-user-plus hidden-sm"></i> S'INSCRIRE</a></li>                     
+                    <li>
+					<noscript><a href="connexion.php"><i class="fa fa-2x fa-lock"></i> CONNEXION</a></noscript>
+					<a class="modal-title" data-toggle="modal" data-target="#ModalLogin">CONNEXION</a>
+					</li>
 				</ul>
            </div>
         </div>

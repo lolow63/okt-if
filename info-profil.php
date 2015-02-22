@@ -4,10 +4,20 @@
         <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Institut Français | Algérie</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/dinot.css">
+        <link rel="stylesheet" href="css/fa/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
 	</head>
 	<body>
 		<!--DEBUT DU FORMULAIRE DE MODIFICATION PROFIL-->
-		<form class="form-horizontal" method="post" action="construction.php">
+		<form class="form-horizontal" method="post" action="test-profil.php">
 			<div class="modal-body">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 					 <h2>NOM Prénom</h2>
@@ -379,7 +389,7 @@
 					<div class="control-group">
 					  <label class="col-md-6 control-label" for="date-naissance">Date de naissance</label>
 					  <div class="col-md-6 controls">
-						<input id="date-naissance" class="form-control input-md" 
+						<input id="date-naissance" name="date-naissance" class="form-control input-md" 
 						data-validation-regex-regex="^(((0[1-9]|[12]\d|3[01])\/(0[13578]|1[02])\/((19|[2-9]\d)\d{2}))|((0[1-9]|[12]\d|30)\/(0[13456789]|1[012])\/((19|[2-9]\d)\d{2}))|((0[1-9]|1\d|2[0-8])\/02\/((19|[2-9]\d)\d{2}))|(29\/02\/((1[6-9]|[2-9]\d)(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00))))$"
 							data-validation-regex-message="Format: JJ/MM/AAAA" type="text">
 						<p class="help-block"></p>
@@ -393,7 +403,7 @@
 					  <div class="col-md-6">
 							<div class="input-group">
 								<span class="input-group-addon">
-									<input type="checkbox" id="newsletter" name="newsletter" value="" />
+									<input type="checkbox" id="newsletter" name="newsletter" />
 								</span>
 								<label for="newsletter" class="form-control">Me prévenir par courriel</label>
 							</div>
