@@ -16,8 +16,14 @@
 		<![endif]-->
 	</head>
 	<body>
+		<!--AVERTISSEMENT JAVASCRIPT DÉSACTIVÉ-->
+		<noscript>
+			<div class="jumbotron">
+				<div class="activite text-center" style="font-size:1em">AVERTISSEMENT: Votre navigateur à bloqué le Javascript sur cette page ! Modifiez vos paramètres pour profiter pleinement de toute les fonctionnalités. 
+				</div>
+			</div>
+		</noscript>
 		<form class="form-horizontal" method="post" action="test-connexion.php">
-						
 				<!-- Email input-->
 				<div class="form-group">
 					<div class="control-group">

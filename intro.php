@@ -11,24 +11,7 @@
         <link rel="stylesheet" href="css/dinot.css">
         <link rel="stylesheet" href="css/fa/font-awesome.min.css">
 		<link rel="stylesheet" href="css/style.css">
-        <script src="js/jquery.js"></script>
-    	<script src="js/bootstrap.min.js"></script>
-		<script src="js/transition.js"></script>
-		<script src="js/tooltip.js"></script>
-		<script src="js/popover.js"></script>
-		<!-- JavaScript Test -->
-		<script>
-		$(function () {
-		  $('.js-popover').popover()
-		})
-		</script>
-		<!--script integration du lecteur Adobe-->
-		<script type="text/javascript"> 
-		PDF.SetShowToolBar("true"); //--- barre d'outils true(visible) false(non visible) ---// 
-		PDF.SetShowScrollbar("true"); //--- barre de scroll true(visible) false(non visible) ---// 
-		PDF.SetPageMode("none"); //--- cache les signets ---// 
-		PDF.setZoom(80%); //--- Zoom le document à 80% ---// 
-		</script>
+       
 		  <!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -229,59 +212,6 @@
 			</div>
 		</div>
 		<!--FIN DE MODAL6 JAVASCRIPT-->
-		<!--SNIPET ModalLogin-->
-		<div id="ModalLogin" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-					  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					  <h4 class="modal-title" id="myModalLabel">Connexion</h4>
-					</div>
-					<form class="form-horizontal" method="post" action="test-connexion.php">
-						<div class="modal-body">
-							<!-- Email input-->
-							<div class="form-group">
-								<div class="control-group">
-								  <label class="col-md-6 control-label" for="mail">Adresse électronique</label>  
-								  <div class="controls col-md-6">
-								  <input id="mail" name="mail" placeholder="exemple@domaine.com" class="form-control input-md" required="" type="email">
-									<p class="help-block"></p>
-								</div>
-								</div>
-							</div>					
-							<!-- Password input-->
-							<div class="form-group">
-								<div class="control-group">
-								  <label class="col-md-6 control-label" for="password">Choisissez votre mot de passe</label>
-								  <div class="col-md-6 controls">
-									<input id="password" name="password" class="form-control input-md" required="" type="password">
-									<p class="help-block"></p>
-								  </div>
-								</div>
-							</div>
-							<!-- Multiple Checkboxes (inline) -->
-							<div class="form-group">
-							  <div class="col-md-offset-6 col-md-6">
-									<div class="input-group">
-										<span class="input-group-addon">
-											<input type="checkbox" id="keeplog" name="keeplog" />
-										</span>
-										<label for="keeplog" class="form-control">Se souvenir de moi</label>
-									</div>
-								</div>	
-							</div>
-						</div>
-						<div class="modal-footer">
-							<!--Submit button-->
-							<div class="col-md-2">
-								<button id="valid" name="valid" class="btn btn-success" type="submit">Confirmer</button>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-		<!--FIN DE ModalLogin-->
 		<!--SNIPET ModalIncription-->
 		<div id="ModalInscription" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
@@ -415,5 +345,25 @@
 		<footer>
 			<?php include("include/footer.php"); ?>
 		</footer>
+		<script src="js/jquery.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+		<script src="js/jqBootstrapValidation.js"></script>	
+		<!-- JavaScript Popover -->
+		<script>
+		$(function () {
+		  $('.js-popover').popover()
+		})
+		</script>
+		<!--script integration du lecteur Adobe-->
+		<script type="text/javascript"> 
+		PDF.SetShowToolBar("true"); //--- barre d'outils true(visible) false(non visible) ---// 
+		PDF.SetShowScrollbar("true"); //--- barre de scroll true(visible) false(non visible) ---// 
+		PDF.SetPageMode("none"); //--- cache les signets ---// 
+		PDF.setZoom(80%); //--- Zoom le document à 80% ---// 
+		</script>
+		<!--Script JqBootstrapValidation-->
+		<script>
+		  $(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
+		</script>
     </body>
 </html>

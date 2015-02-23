@@ -1,3 +1,60 @@
+<!--INCLUDE HEADER UNLOG-->
+<!--SNIPET ModalLogin-->
+<form class="form-horizontal" method="post" action="test-connexion.php">
+	<div id="ModalLogin" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				  <h4 class="modal-title" id="myModalLabel">Connexion</h4>
+				</div>
+
+					<div class="modal-body">
+						<!-- Email input-->
+						<div class="form-group">
+							<div class="control-group">
+							  <label class="col-md-6 control-label" for="mail">Adresse électronique</label>  
+							  <div class="controls col-md-6">
+							  <input id="mail" name="mail" placeholder="exemple@domaine.com" class="form-control input-md" required="" type="email">
+								<p class="help-block"></p>
+							</div>
+							</div>
+						</div>					
+						<!-- Password input-->
+						<div class="form-group">
+							<div class="control-group">
+							  <label class="col-md-6 control-label" for="password">Mot de passe</label>
+							  <div class="col-md-6 controls">
+								<input id="password" name="password" class="form-control input-md" required="" type="password">
+								<p class="help-block"></p>
+							  </div>
+							</div>
+						</div>
+						<!-- Multiple Checkboxes (inline) -->
+						<div class="form-group">
+						  <div class="col-md-offset-6 col-md-6">
+								<div class="input-group">
+									<span class="input-group-addon">
+										<input type="checkbox" id="keeplog" name="keeplog" />
+									</span>
+									<label for="keeplog" class="form-control">Se souvenir de moi</label>
+								</div>
+							</div>	
+						</div>
+					</div>
+					<div class="modal-footer">
+						<!--Submit button-->
+						<div class="col-md-2">
+							<button id="valid" name="valid" class="btn btn-success" type="submit">Confirmer</button>
+						</div>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+</form>
+
+<!--FIN DE ModalLogin-->
  <div class="header">
     <div class="container">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 topheader">
@@ -9,7 +66,7 @@
 			<div class="col-xs-12 visible-xs">
 							<ul class="nav navbar-nav navbar-default">
 								<li>
-									<noscript><a href="connexion.php"><i class="fa fa-2x fa-lock"></i> CONNEXION</a></noscript>
+									<noscript><a href="connexion.php">CONNEXION</a></noscript>
 									<a class="modal-title" data-toggle="modal" data-target="#ModalLogin"><i class="fa fa-2x fa-lock"></i>CONNEXION</a>
 								</li>
 							</ul>
@@ -42,8 +99,8 @@
            <div class="col-sm-4 col-md-4 col-lg-4 hidden-xs">
 				<ul class="nav navbar-nav navbar-default navbar-right">
                     <li>
-					<noscript><a href="connexion.php"><i class="fa fa-2x fa-lock"></i> CONNEXION</a></noscript>
-					<a class="modal-title" data-toggle="modal" data-target="#ModalLogin">CONNEXION</a>
+					<noscript><a href="connexion.php">CONNEXION</a></noscript>
+					<a class="modal-title" data-toggle="modal" data-target="#ModalLogin"><i class="fa fa-lock"></i> CONNEXION</a>
 					</li>
 				</ul>
            </div>

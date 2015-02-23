@@ -426,6 +426,10 @@
 			<!--FIN DU FORMULAIRE DE MODIFICATION PROFIL-->	
 		</form>
 	
+		<!-- JavaScript Includes -->
+		<script src="js/jquery.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+		<script src="js/jqBootstrapValidation.js"></script>	
 		<!--Script JqBootstrapValidation-->
 		<script>
 		  $(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );

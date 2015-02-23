@@ -134,6 +134,7 @@
 						
 							 <hr/>
 								<!--Insertion de la page info-profi.php-->
+								
 							   <a class="btn btn-primary btn-md pull-right" href="info-profil.php" data-toggle="modal" data-backdrop="static" data-target="#ModalFormProfil">
 								<i class="fa fa-spin fa-gear"> </i> Modifier</a><br/><br/>
 							<div class="modal fade" id="ModalFormProfil">
@@ -256,7 +257,6 @@
 		</footer>
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>	
-		<script src="js/bootstrap-confirmation.js"></script>
         <script src="js/jqBootstrapValidation.js"></script>	
 		<!--Script pour Scrollspy fluide-->
 		<script>
