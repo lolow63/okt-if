@@ -213,18 +213,18 @@
 		</div>
 		<!--FIN DE MODAL6 JAVASCRIPT-->
 		<!--SNIPET ModalIncription-->
-		<div id="ModalInscription" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div id="ModalInscription" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="InscriptionLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-						<h4 class="modal-title" id="myModalLabel">Formulaire d'inscription</h4>
+						<h4 class="modal-title" id="InscriptionLabel">Formulaire d'inscription</h4>
 					</div>
 					<form class="form-horizontal" method="post" action="test-inscription.php">
 						<div class="modal-body">
 							<!-- Name input-->
 							<div class="form-group">
-							  <label class="col-md-6 control-label" for="actual-password">Nom</label>
+							  <label class="col-md-6 control-label" for="nom">Nom</label>
 							  <div class="col-md-6">
 								<input id="nom" name="nom" placeholder="" class="form-control input-md" required="" type="text">
 								<p class="help-block"></p>

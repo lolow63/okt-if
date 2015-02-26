@@ -4,7 +4,9 @@
 <title>Page de traitement</title>
 </head>
 <body>
-<p>Mot de passe: <?php echo $_POST['password'];?></p>
-<p>Mail: <?php echo $_POST['mail'];?></p>
+<p>Mot de passe: <?php echo $_POST['login-password'];?></p>
+<p>Mail: <?php echo $_POST['login-mail'];?></p>
+<p>Se souvenir de moi: <?php echo $_POST['keeplog'];?></p>
+
 </body>
 </html>

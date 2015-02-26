@@ -1,21 +1,21 @@
 <!--INCLUDE HEADER UNLOG-->
-<!--SNIPET ModalLogin-->
+<!--MODAL ModalLogin-->
 <form class="form-horizontal" method="post" action="test-connexion.php">
-	<div id="ModalLogin" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div id="ModalLogin" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="LoginLabel" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
 				  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				  <h4 class="modal-title" id="myModalLabel">Connexion</h4>
+				  <h4 class="modal-title" id="LoginLabel">Connexion</h4>
 				</div>
 
 					<div class="modal-body">
 						<!-- Email input-->
 						<div class="form-group">
 							<div class="control-group">
-							  <label class="col-md-6 control-label" for="mail">Adresse électronique</label>  
+							  <label class="col-md-6 control-label" for="login-mail">Adresse électronique</label>  
 							  <div class="controls col-md-6">
-							  <input id="mail" name="mail" placeholder="exemple@domaine.com" class="form-control input-md" required="" type="email">
+							  <input id="login-mail" name="login-mail" placeholder="exemple@domaine.com" class="form-control input-md" required="" type="email">
 								<p class="help-block"></p>
 							</div>
 							</div>
@@ -23,9 +23,9 @@
 						<!-- Password input-->
 						<div class="form-group">
 							<div class="control-group">
-							  <label class="col-md-6 control-label" for="password">Mot de passe</label>
+							  <label class="col-md-6 control-label" for="login-password">Mot de passe</label>
 							  <div class="col-md-6 controls">
-								<input id="password" name="password" class="form-control input-md" required="" type="password">
+								<input id="login-password" name="login-password" class="form-control input-md" required="" type="password">
 								<p class="help-block"></p>
 							  </div>
 							</div>
@@ -45,7 +45,7 @@
 					<div class="modal-footer">
 						<!--Submit button-->
 						<div class="col-md-2">
-							<button id="valid" name="valid" class="btn btn-success" type="submit">Confirmer</button>
+							<button id="login-valid" name="login-valid" class="btn btn-success" type="submit">Confirmer</button>
 						</div>
 					</div>
 				

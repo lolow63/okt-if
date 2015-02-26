@@ -303,10 +303,10 @@
 					</div>
 
 					<!-- Select Basic -->
-					<div id="wilaya" class="form-group">
+					<div id="Wilaya" class="form-group">
 					  <label class="col-md-6 control-label" for="wilaya">Wilaya</label>
 					  <div class="col-md-6">
-						<select name="wilaya" class="form-control">
+						<select id="wilaya" name="wilaya" class="form-control">
 						  <option value="non renseignée">Voir la liste</option>      
 						  <option value="Adrar">Adrar</option>
 						  <option value="Chlef">Chlef</option>
@@ -444,19 +444,19 @@
 		<!--script pour cacher le champs wilaya pour autre pays qu'Algérie-->
 		<script>
 		$(document).ready(function() {
-			$("#wilaya").hide();
+			
 
 			$("#pays").change(function() {
 				if ( $("#pays").val() == "Algérie"){
-				$("#wilaya").show();
+				$("#Wilaya").show();
 				}
 				else{
-				$("#wilaya").hide();
+				$("#Wilaya").hide();
 				}
 				});
 				
 			if ( $("#pays").val() == "Algérie"){
-			$("#wilaya").show();
+			$("#Wilaya").show();
 			}
 		});
 		</script>

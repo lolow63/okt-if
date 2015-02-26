@@ -26,7 +26,7 @@
 		<form class="form-horizontal" method="post" action="test-inscription.php">			
 				<!-- Name input-->
 				<div class="form-group">
-				  <label class="col-md-6 control-label" for="actual-password">Nom</label>
+				  <label class="col-md-6 control-label" for="nom">Nom</label>
 				  <div class="col-md-6">
 					<input id="nom" name="nom" placeholder="" class="form-control input-md" required="" type="text">
 					<p class="help-block"></p>

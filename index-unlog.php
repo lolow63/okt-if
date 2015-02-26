@@ -24,13 +24,13 @@
 			?>
 		</header>
 		
-		<!--SNIPET MODAL JAVASCRIPT-->
-		<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<!--MODAL Certification-->
+		<div id="certification" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="CertificationLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
 					  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					  <h4 class="modal-title" id="myModalLabel">Exemple de certification</h4>
+					  <h4 class="modal-title" id="CertificationLabel">Exemple de certification</h4>
 					</div>
 					<div class="modal-body">
 						<div style="size:auto">
@@ -43,7 +43,7 @@
 				</div>
 			</div>
 		</div>
-		<!--FIN DE MODAL JAVASCRIPT-->
+		<!--FIN DE MODAL-->
 		
 				
 		
@@ -53,7 +53,7 @@
 				<p class=" alinea justif">Pour un professionnel, il est essentiel d'avoir une communication claire et respectueuse des conventions d'usage. Nous 
 				allons vous guider, séance après séance, pas à pas, vers une méthode qui facilitera vos échanges au quotidien et améliorera vos rédactions de 
 				courriels. Si vous obtenez la moyenne à l'issue de cette formation, 
-				vous recevrez une certification.<a class="modal-title" data-toggle="modal" data-target="#myModal"><strong>Voir un exemple de certification.
+				vous recevrez une certification.<a class="modal-title" data-toggle="modal" data-target="#certification"><strong>Voir un exemple de certification.
 				</strong></a></p>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">

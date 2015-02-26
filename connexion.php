@@ -27,9 +27,9 @@
 				<!-- Email input-->
 				<div class="form-group">
 					<div class="control-group">
-					  <label class="col-md-6 control-label" for="mail">Adresse électronique</label>  
+					  <label class="col-md-6 control-label" for="login-mail">Adresse électronique</label>  
 					  <div class="controls col-md-6">
-					  <input id="mail" name="mail" placeholder="exemple@domaine.com" class="form-control input-md" required="" type="email">
+					  <input id="login-mail" name="login-mail" placeholder="exemple@domaine.com" class="form-control input-md" required="" type="email">
 						<p class="help-block"></p>
 					</div>
 					</div>
@@ -39,9 +39,9 @@
 				<!-- Password input-->
 				<div class="form-group">
 					<div class="control-group">
-					  <label class="col-md-6 control-label" for="password">Choisissez votre mot de passe</label>
+					  <label class="col-md-6 control-label" for="login-password">Choisissez votre mot de passe</label>
 					  <div class="col-md-6 controls">
-						<input id="password" name="password" class="form-control input-md" required="" type="password">
+						<input id="login-password" name="login-password" class="form-control input-md" required="" type="password">
 						<p class="help-block"></p>
 					  </div>
 					</div>
