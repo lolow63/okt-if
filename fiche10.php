@@ -230,7 +230,7 @@
 				
 				<!-- FORMULAIRE A TRANSMETTRE -->
 				
-				<form method="post" action="construction.php">
+				<form method="post" action="corrige10.php">
 				
 				<div class="well">
 				
@@ -280,24 +280,24 @@
 				<h3 id="act2" class="activite">Activité 2</h3>
 				<p><i>Le message de M. RAÏS contient un pléonasme c’est-à-dire un mot inutile : « réserver par avance un véhicule». <br/>
 				L'expression correcte est : réserver un véhicule.<br/>
-				Rayez le Rayez le mot ou l'expression inutile dans chacune des phrases suivantes :</i></p>
+				Rayez le mot ou l'expression inutile dans chacune des phrases suivantes :</i></p>
 				
 				<div class="well">
 				
 					1. Après autorisation
-					<span class="erreur"><input type="checkbox" id="f10a2p1" name="f10a2" value="préalable" /><label for="f10a2p1">préalable</label></span>
+					<span class="erreur"><input type="checkbox" id="f10a2p1" name="f10a2q1" value="préalable" /><label for="f10a2p1">préalable</label></span>
 					du comité des œuvres sociales, le crédit a été accepté.<br/>
 					
 					2. Beaucoup de sociétés proposent des réductions sur les véhicules comme
-					<span class="erreur"><input type="checkbox" id="f10a2p2" name="f10a2" value="par exemple" /><label for="f10a2p2">par exemple</label></span>
+					<span class="erreur"><input type="checkbox" id="f10a2p2" name="f10a2q2" value="par exemple" /><label for="f10a2p2">par exemple</label></span>
 					veh.<br/>
 					
 					3. Suite à une erreur
-					<span class="erreur"><input type="checkbox" id="f10a2p3" name="f10a2" value="involontaire" /><label for="f10a2p3">involontaire</label></span>
+					<span class="erreur"><input type="checkbox" id="f10a2p3" name="f10a2q3" value="involontaire" /><label for="f10a2p3">involontaire</label></span>
 					de notre part, nous vous remboursons la somme de 20.000 da.<br/>
 					
 					4. La société jouit d’un monopole
-					<span class="erreur"><input type="checkbox" id="f10a2p4" name="f10a2" value="exclusif" /><label for="f10a2p4">exclusif</label></span>
+					<span class="erreur"><input type="checkbox" id="f10a2p4" name="f10a2q4" value="exclusif" /><label for="f10a2p4">exclusif</label></span>
 					.			
 				</div>
 			

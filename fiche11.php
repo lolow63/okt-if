@@ -228,7 +228,7 @@
 				
 				<!-- FORMULAIRE A TRANSMETTRE -->
 				
-				<form method="post" action="construction.php">
+				<form method="post" action="corrige11.php">
 				
 				<div class="well">
 				
@@ -237,7 +237,7 @@
 						<p class="label-info label_activite">L’objectif principal de ce message est :</p>
 					</div>
 					<div class="col-sm-4 col-xs-12">
-						<input type="radio" class="hidden" value="vous n'avez pas répondu" checked="checked" />
+						<input type="radio" class="hidden" name="f11a1" value="vous n'avez pas répondu" checked="checked" />
 						<div class="input-group"><span class="input-group-addon"><input type="radio" id="f11a1p1" name="f11a1" value="De demander de l’information" /></span><label for="f11a1p1" class="form-control">De demander de l’information</label></div>
 					</div>
 					<div class="col-sm-4 col-xs-12">
@@ -257,33 +257,33 @@
 					
 					1. Les membres du comité ont
 					<span class="inline-form-control btn-group" data-toggle="buttons">
-						<input type="radio" class="hidden" id="f11a2q1p0" value="vous n'avez pas répondu" checked="checked" />
-						<label for="f11a2q1p1" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q1p1" value="accordé" name="f11a1q1p1" />accordé</label>
-						<label for="f11a2q1p2" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q1p2" value="accordés" name="f11a2q1p2" />accordés</label>
+						<input type="radio" class="hidden" id="f11a2q1p0" value="vous n'avez pas répondu" name="f11a2q1" checked="checked" />
+						<label for="f11a2q1p1" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q1p1" value="accordé" name="f11a2q1" />accordé</label>
+						<label for="f11a2q1p2" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q1p2" value="accordés" name="f11a2q1" />accordés</label>
 					</span>
 					le crédit.<br/>
 					
 					2. L’assistante a
 					<span class="inline-form-control btn-group" data-toggle="buttons">
-						<input type="radio" class="hidden" id="f11a2q2p0" value="vous n'avez pas répondu" checked="checked" />
-						<label for="f11a2q2p1" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q2p1" value="accompli" name="f11a2q2p1" />a accompli</label>
-						<label for="f11a2q2p2" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q2p2" value="accomplie" name="f11a2q2p2" />accomplie</label>
+						<input type="radio" class="hidden" id="f11a2q2p0" value="vous n'avez pas répondu" name="f11a2q2" checked="checked" />
+						<label for="f11a2q2p1" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q2p1" value="accompli" name="f11a2q2" />accompli</label>
+						<label for="f11a2q2p2" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q2p2" value="accomplie" name="f11a2q2" />accomplie</label>
 					</span>
 					ses missions avec beaucoup de professionnalisme.<br/>
 					
 					3. Les livraisons que nous avons
 					<span class="inline-form-control btn-group" data-toggle="buttons">
-						<input type="radio" class="hidden" id="f11a2q3p0" value="vous n'avez pas répondu" checked="checked" />
-						<label for="f11a2q3p1" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q3p1" value="réalisé" name="f11a2q3p1" />réalisé</label>
-						<label for="f11a2q3p2" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q3p2" value="réalisées" name="f11a2q3p2" />réalisées</label>
+						<input type="radio" class="hidden" id="f11a2q3p0" value="vous n'avez pas répondu" name="f11a2q3" checked="checked" />
+						<label for="f11a2q3p1" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q3p1" value="réalisé" name="f11a2q3" />réalisé</label>
+						<label for="f11a2q3p2" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q3p2" value="réalisées" name="f11a2q3" />réalisées</label>
 					</span>
 					ont satisfait les clients.<br/>
 					
 					4. La décision que notre directeur a
 					<span class="inline-form-control btn-group" data-toggle="buttons">
-						<input type="radio" class="hidden" id="f11a2q4p0" value="vous n'avez pas répondu" checked="checked" />
-						<label for="f11a2q4p1" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q4p1" value="prise" name="f11a2q4p1" />prise</label>
-						<label for="f11a2q4p2" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q4p2" value="pris" name="f11a2q4p2" />pris</label>
+						<input type="radio" class="hidden" id="f11a2q4p0" value="vous n'avez pas répondu" name="f11a2q4" checked="checked" />
+						<label for="f11a2q4p1" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q4p1" value="prise" name="f11a2q4" />prise</label>
+						<label for="f11a2q4p2" class="btn btn-primary btn-sm"><input type="radio" id="f11a2q4p2" value="pris" name="f11a2q4" />pris</label>
 					</span>
 					était très courageuse.
 					

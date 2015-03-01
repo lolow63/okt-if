@@ -11,9 +11,6 @@
         <link rel="stylesheet" href="css/dinot.css">
         <link rel="stylesheet" href="css/fa/font-awesome.min.css">
         <link rel="stylesheet" href="css/style.css">
-		<!-- JavaScript Includes -->
-		<script src="js/jquery.js"></script>
-    	<script src="js/bootstrap.min.js"></script>  
 		<style>
 		body { padding-top: 50px; }
 		</style>
@@ -38,7 +35,7 @@
 					<p>Voici votre score :</p>	
 					<div class="list-group-item">
 		                <?php
-                       if ($_POST){
+                      if ($_POST){
 						   //varibale activite1
 					   if(isset($_POST['f2a1q1'])){$f2a1q1 = ($_POST['f2a1q1']);} 
 					   if(isset($_POST['f2a1q2'])){$f2a1q2 = ($_POST['f2a1q2']);} 
@@ -83,112 +80,95 @@
 		 
 		 $total=($nf2a1+$nf2a2+$nf2a3)/3;
 		 // tableaux de note
-		  echo'<table class="text-center table table-bordered table-striped table-condensed">';
-						         echo'<tr>
-						            <td class="activite" style="vertical-align:middle">Activité 1</td>
-						            <td>'.$nf2a1.'%';
-									 if(($nf2a1 >0) and ($nf2a1<25)){
+		       echo'<table class="text-center table table-bordered table-striped table-condensed">';
+			    echo'<tr>
+						<td class="activite" style="vertical-align:middle">Activité 1</td>
+						    <td>'.$nf2a1.'%';
+								 if(($nf2a1 >0) and ($nf2a1<25)){
+								 echo'<div class="progress">
+                                         <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a1.'%"></div>
+					                  </div>';}
+						        elseif(($nf2a1 >= 25) and ($nf2a1<50)){
 									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a1.'%"></div>
-      </div>';}
-						elseif(($nf2a1 >= 25) and ($nf2a1<50)){
+                                               <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a1.'%"></div>
+                                            </div>';}	
+                                elseif(($nf2a1 >= 50) ){
 									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a1.'%"></div>
-      </div>';}	
-                        elseif(($nf2a1 >= 50) ){
+                                              <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a1.'%"></div>
+                                            </div>';}	  
+	                            else{
 									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a1.'%"></div>
-      </div>';}	  
-	                  else{
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
-      </div>';}	  
+                                              <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                                            </div>';}	  
+					    echo'</td>
+					</tr>			
+				    <tr>
+                            <td class="activite" style="vertical-align:middle">Activité 2</td>
+					        <td>'.$nf2a2.'%';
 									
-									
-									
-									
-									
-									
-									
-									echo'</td>
-						         </tr>
-
-						         <tr>
-                                    <td class="activite" style="vertical-align:middle">Activité 2</td>
-									
-						            <td>'.$nf2a2.'%';
-									
-									 if(($nf2a2 >0) and ($nf2a2<25)){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a2.'%"></div>
-      </div>';}
-						elseif(($nf2a2 >= 25) and ($nf2a2<50)){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a2.'%"></div>
-      </div>';}	
-                        elseif(($nf2a2 >= 50) ){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a2.'%"></div>
-      </div>';}	  
-	                  else{
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
-      </div>';}
-									
-									
-									
-									echo'</td>
-						         </tr>
-
-						         <tr>
-                                    <td class="activite" style="vertical-align:middle">Activité 3</td>
-						            <td>'.$nf2a3.'%';
-									 if(($nf2a3 >0) and ($nf2a3<25)){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a3.'%"></div>
-      </div>';}
-						elseif(($nf2a3 >= 25) and ($nf2a3<50)){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a3.'%"></div>
-      </div>';}	
-                        elseif(($nf2a3 >= 50) ){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a3.'%"></div>
-      </div>';}	  
-	                  else{
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
-      </div>';}
-									echo'</td>
-						         </tr>
-
-						         
-
-						         
-
-								<tfoot>
-						         <tr>
-						           <td class="activite" style="vertical-align:middle"><strong>Total Fiche N°2</strong></td>
-						            <td> '.$total.'%';
-									 if(($total >0) and ($total<25)){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$total.'%"></div>
-      </div>';}
-						elseif(($total >= 25) and ($total<50)){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$total.'%"></div>
-      </div>';}	
-                        elseif(($total >= 50) ){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$total.'%"></div>
-      </div>';}	  
-	                  else{
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
-      </div>';}
-									echo'</td>
-						         </tr></tfoot>
-                                 </table><br/>
+							   if(($nf2a2 >0) and ($nf2a2<25)){
+								echo'<div class="progress">
+                                       <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a2.'%"></div>
+                                     </div>';}
+						       elseif(($nf2a2 >= 25) and ($nf2a2<50)){
+							     echo'<div class="progress">
+                                       <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a2.'%"></div>
+                                     </div>';}	
+                                elseif(($nf2a2 >= 50) ){
+								 echo'<div class="progress">
+										<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a2.'%"></div>
+									</div>';}	  
+	                            else{
+								 echo'<div class="progress">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                                      </div>';}
+						  echo'</td>
+				   </tr>
+                   <tr>
+						      <td class="activite" style="vertical-align:middle">Activité 3</td>
+						      <td>'.$nf2a3.'%';
+						        if(($nf2a3 >0) and ($nf2a3<25)){
+							     echo'<div class="progress">
+                                         <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a3.'%"></div>
+                                      </div>';}
+						        elseif(($nf2a3 >= 25) and ($nf2a3<50)){
+							     echo'<div class="progress">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a3.'%"></div>
+                                      </div>';}	
+                                elseif(($nf2a3 >= 50) ){
+								echo'<div class="progress">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a3.'%"></div>
+                                     </div>';}	  
+	                            else{
+								echo'<div class="progress">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                                     </div>';}
+							echo'</td>
+				   </tr>
+				<tfoot>
+					<tr>
+						       <td class="activite" style="vertical-align:middle"><strong>Total Fiche N°2</strong></td>
+						       <td> '.$total.'%';
+								if(($total >0) and ($total<25)){
+								echo'<div class="progress">
+                                       <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$total.'%"></div>
+                                     </div>';}
+						        elseif(($total >= 25) and ($total<50)){
+								 echo'<div class="progress">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$total.'%"></div>
+                                      </div>';}	
+                                 elseif(($total >= 50) ){
+								 echo'<div class="progress">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$total.'%"></div>
+                                      </div>';}	  
+	                            else{
+								echo'<div class="progress">
+                                       <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                                     </div>';}
+						  echo'</td>
+				    </tr>
+			    </tfoot>
+      </table><br/>
 								 </div><br/>';
 		  // correction activité 1
 		  echo'<p>Voyons maintenant vos réponses plus en détail :</p>
@@ -200,8 +180,8 @@
 						echo '<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">'.$f2a1q1.': </strong>C\'est la bonne réponse !</p>';} 
 		                 elseif(($f2a1q1=='Souhait d\'obtenir un crédit')or($f2a1q1=='Volonté d\'obtenir un crédit bancaire')){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f2a1q1.':</strong></p> <p>La bonne réponse est : « Demande d\'obtention d\'un crédit »
 						                                                  <p class="remarque"> On ne formule pas une demande avec un nom abstrait comme souhait, désir, volonté, etc.</p>';}
-					   elseif($f2a1q1=='Possibilité d\'obtention d\'un crédit'){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f2a1q1.':</strong></p> <p>La bonne réponse est : « Demande d\'obtention d\'un crédit »
-				                                                <p class="remarque">Objet formulé de façon ambiguë car on sait pas si Mohammed offre ou demande un crédit bancaire</p>';}
+					   elseif($f2a1q1=='Possiblitité d\'obtention d\'un crédit'){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f2a1q1.':</strong></p> <p>La bonne réponse est : « Demande d\'obtention d\'un crédit »
+				                                                <p class="remarque">Objet formulé de façon ambigue car on sait pas si Mohammed offre ou demande un crédit bancaire</p>';}
 						elseif($f2a1q2=='vous n\'avez pas répondu') {echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f2a1q1.':</strong></p>';}										
 						else{echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f2a1q1.':</strong></p> <p>La bonne réponse est : « Demande d\'obtention d\'un crédit »';}
 					   
@@ -241,7 +221,7 @@
 					 if($rf2a2qb=='vrai'){
 						echo '<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">'.$f2a2qb.': </strong>C\'est la bonne réponse !</p>';} 
 		                elseif($f2a2qb=='Vous n\'avez pas répondu') {echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f2a2qb.':</strong></p>';} 
-					    else {echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f2a2qb.':</strong></p> <p>La bonne réponse est : « Révision »';}
+					    else {echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f2a2qb.':</strong></p> <p>La bonne réponse est : « Révisiont »';}
 					//qc
 					 echo'<h3>Question c</h3>';
 					 if($rf2a2qa=='vrai'){
@@ -270,136 +250,135 @@
 							$ligne1='<li value="1"><i class="fa fa-arrows-v"></i> Expédition de marchandises</li>';
 							$ligne4='<li value="4"><i class="fa fa-arrows-v"></i> Confirmation de commande</li>';
 							$ligne2='<li value="2"><i class="fa fa-arrows-v"></i> Annulation en partie de la commande passée précédemment</li>';
-						if($ok=='true'){
+					if($ok=='true'){
 						echo'<div class="row">
-							<div class="col-md-6">
-								<ol class="vertical">
-									<li><span class="label label-info">1</span> Vous informez votre correspondant que vous expédiez des marchandises.</li>
-									<li><span class="label label-info">2</span> Vous annoncez que vous annulez en partie la commande passée précédemment.</li>
-									<li><span class="label label-info">3</span> Vous écrivez pour demander une documentation.</li>
-									<li><span class="label label-info">4</span> Vous écrivez pour confirmer votre commande.</li>
-									<li><span class="label label-info">5</span> Vous écrivez à votre banque pour demander une prolongation de paiement.</li>
-								</ol>
-								
-							</div>
-							<div class="col-md-6">
-								<ol class="phrases vertical encours">
-								<li value="1"><i class="fa fa-arrows-v"></i> Expédition de marchandises</li>
-								<li value="2"><i class="fa fa-arrows-v"></i> Annulation en partie de la commande passée précédemment</li>
-								<li value="3"><i class="fa fa-arrows-v"></i> Demande de documentation</li>
-								<li value="4"><i class="fa fa-arrows-v"></i> Confirmation de commande</li>
-								<li value="5"><i class="fa fa-arrows-v"></i> Demande de prolongation de paiement</li>
-								</ol>
-								
-							</div>
+						<div class="col-md-6">
+							<ol class="vertical">
+								<li><span class="label label-info">1</span> Vous informez votre correspondant que vous expédiez des marchandises.</li>
+								<li><span class="label label-info">2</span> Vous annoncez que vous annulez en partie la commande passée précédemment.</li>
+								<li><span class="label label-info">3</span> Vous écrivez pour demander une documentation.</li>
+								<li><span class="label label-info">4</span> Vous écrivez pour confirmer votre commande.</li>
+								<li><span class="label label-info">5</span> Vous écrivez à votre banque pour demander une prolongation de paiement.</li>
+							</ol>
+							
+						</div>
+						<div class="col-md-6">
+							<ol class="phrases vertical encours">
+							<li value="1"><i class="fa fa-arrows-v"></i> Expédition de marchandises</li>
+							<li value="2"><i class="fa fa-arrows-v"></i> Annulation en partie de la commande passée précédemment</li>
+							<li value="3"><i class="fa fa-arrows-v"></i> Demande de documentation</li>
+							<li value="4"><i class="fa fa-arrows-v"></i> Confirmation de commande</li>
+							<li value="5"><i class="fa fa-arrows-v"></i> Demande de prolongation de paiement</li>
+							</ol>
+							
 						</div>
 					</div>
 					<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">C\'est correct !</strong></p>';}
 					elseif($rf2a3=='pas de reponse')
 						{echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">Vous n\'avez pas répondu:</strong></p>';} 
 					else{
-					echo'<div class="row">
-							<div class="col-md-6">
-								<ol class="vertical">
-									<li><span class="label label-info">1</span> Vous informez votre correspondant que vous expédiez des marchandises.</li>
-									<li><span class="label label-info">2</span> Vous annoncez que vous annulez en partie la commande passée précédemment.</li>
-									<li><span class="label label-info">3</span> Vous écrivez pour demander une documentation.</li>
-									<li><span class="label label-info">4</span> Vous écrivez pour confirmer votre commande.</li>
-									<li><span class="label label-info">5</span> Vous écrivez à votre banque pour demander une prolongation de paiement.</li>
-								</ol>
-								
-							</div>
-							<div class="col-md-6">
-								<ol class="phrases vertical encours">';
-								//ligne1
-								if($rf2a3[0]==1) {echo $ligne1;}
-								elseif($rf2a3[0]==2) {echo $ligne2;}
-								elseif($rf2a3[0]==3) {echo $ligne3;}
-								elseif($rf2a3[0]==4) {echo $ligne4;}
-								elseif($rf2a3[0]==5) {echo $ligne5;}
-								//ligne2
-								if($rf2a3[1]==1) {echo $ligne1;}
-								elseif($rf2a3[1]==2) {echo $ligne2;}
-								elseif($rf2a3[1]==3) {echo $ligne3;}
-								elseif($rf2a3[1]==4) {echo $ligne4;}
-								elseif($rf2a3[1]==5) {echo $ligne5;}
-								
-								//ligne3
-								if($rf2a3[2]==1) {echo $ligne1;}
-								elseif($rf2a3[2]==2) {echo $ligne2;}
-								elseif($rf2a3[2]==3) {echo $ligne3;}
-								elseif($rf2a3[2]==4) {echo $ligne4;}
-								elseif($rf2a3[2]==5) {echo $ligne5;}
-								//ligne4
-								if($rf2a3[3]==1) {echo $ligne1;}
-								elseif($rf2a3[3]==2) {echo $ligne2;}
-								elseif($rf2a3[3]==3) {echo $ligne3;}
-								elseif($rf2a3[3]==4) {echo $ligne4;}
-								elseif($rf2a3[3]==5) {echo $ligne5;}
-								//ligne5
-								if($rf2a3[4]==1) {echo $ligne1;}
-								elseif($rf2a3[4]==2) {echo $ligne2;}
-								elseif($rf2a3[4]==3) {echo $ligne3;}
-								elseif($rf2a3[4]==4) {echo $ligne4;}
-								elseif($rf2a3[4]==5) {echo $ligne5;}
-								echo'</ol></br>
-							</div>';
-							echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">Hum, ce n\'est pas tout à fait ça...</strong></p> <p>La bonne réponse est :
-							<div class="col-md-6">
-								<ol class="vertical">
-									<li><span class="label label-info">1</span> Vous informez votre correspondant que vous expédiez des marchandises.</li>
-									<li><span class="label label-info">2</span> Vous annoncez que vous annulez en partie la commande passée précédemment.</li>
-									<li><span class="label label-info">3</span> Vous écrivez pour demander une documentation.</li>
-									<li><span class="label label-info">4</span> Vous écrivez pour confirmer votre commande.</li>
-									<li><span class="label label-info">5</span> Vous écrivez à votre banque pour demander une prolongation de paiement.</li>
-								</ol>
-								
-							</div>
-							<div class="col-md-6">
-								<ol class="phrases vertical encours">
-								<li value="1"><i class="fa fa-arrows-v"></i> Expédition de marchandises</li>
-								<li value="2"><i class="fa fa-arrows-v"></i> Annulation en partie de la commande passée précédemment</li>
-								<li value="3"><i class="fa fa-arrows-v"></i> Demande de documentation</li>
-								<li value="4"><i class="fa fa-arrows-v"></i> Confirmation de commande</li>
-								<li value="5"><i class="fa fa-arrows-v"></i> Demande de prolongation de paiement</li>
-								</ol>
-								
-							';
-						}
-						
-						
-						
-						echo'</div>';}?>
-					</div><!--fin row-->
-					
-				<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-					<div class="modal-dialog">
-						<div class="modal-content">
-
-							<div class="modal-header">
-							  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-							  <h4 class="modal-title resume text-center" id="myModalLabel"><img src="img/le-saviez-vous.png" alt="" class="img-responsive"></h4>
-							</div>
-							<div class="modal-body body-saviez-vous">
-								<h2 class="resume">EN RÉSUMÉ :</h2>
-								<div>
-										<p class="resume">L’objet d’un mail commence très souvent par un nom dérivé d’un verbe. Le nom est toujours suivi du mot « de » ou « des » : Je vous envoie les documents = envoi de documents</p>
-										
-								</div>
-							</div>
-							<div class="modal-footer">
-							<button class="btn btn-info" data-dismiss="modal">Fermer</button>
-							</div>
+						echo'<div class="row">
+						<div class="col-md-6">
+							<ol class="vertical">
+								<li><span class="label label-info">1</span> Vous informez votre correspondant que vous expédiez des marchandises.</li>
+								<li><span class="label label-info">2</span> Vous annoncez que vous annulez en partie la commande passée précédemment.</li>
+								<li><span class="label label-info">3</span> Vous écrivez pour demander une documentation.</li>
+								<li><span class="label label-info">4</span> Vous écrivez pour confirmer votre commande.</li>
+								<li><span class="label label-info">5</span> Vous écrivez à votre banque pour demander une prolongation de paiement.</li>
+							</ol>
+							
 						</div>
+						<div class="col-md-6">
+							<ol class="phrases vertical encours">';
+							//ligne1
+							if($rf2a3[0]==1) {echo $ligne1;}
+						    elseif($rf2a3[0]==2) {echo $ligne2;}
+							elseif($rf2a3[0]==3) {echo $ligne3;}
+							elseif($rf2a3[0]==4) {echo $ligne4;}
+							elseif($rf2a3[0]==5) {echo $ligne5;}
+							//ligne2
+							if($rf2a3[1]==1) {echo $ligne1;}
+						    elseif($rf2a3[1]==2) {echo $ligne2;}
+							elseif($rf2a3[1]==3) {echo $ligne3;}
+							elseif($rf2a3[1]==4) {echo $ligne4;}
+							elseif($rf2a3[1]==5) {echo $ligne5;}
+							
+							//ligne3
+							if($rf2a3[2]==1) {echo $ligne1;}
+						    elseif($rf2a3[2]==2) {echo $ligne2;}
+							elseif($rf2a3[2]==3) {echo $ligne3;}
+							elseif($rf2a3[2]==4) {echo $ligne4;}
+							elseif($rf2a3[2]==5) {echo $ligne5;}
+							//ligne4
+							if($rf2a3[3]==1) {echo $ligne1;}
+						    elseif($rf2a3[3]==2) {echo $ligne2;}
+							elseif($rf2a3[3]==3) {echo $ligne3;}
+							elseif($rf2a3[3]==4) {echo $ligne4;}
+							elseif($rf2a3[3]==5) {echo $ligne5;}
+							//ligne5
+							if($rf2a3[4]==1) {echo $ligne1;}
+						    elseif($rf2a3[4]==2) {echo $ligne2;}
+							elseif($rf2a3[4]==3) {echo $ligne3;}
+							elseif($rf2a3[4]==4) {echo $ligne4;}
+							elseif($rf2a3[4]==5) {echo $ligne5;}
+							echo'</ol></br>
+						</div>';
+						echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">Hum, ce n\'est pas tout à fait ça...</strong></p> <p>La bonne réponse est :
+						<div class="col-md-6">
+							<ol class="vertical">
+								<li><span class="label label-info">1</span> Vous informez votre correspondant que vous expédiez des marchandises.</li>
+								<li><span class="label label-info">2</span> Vous annoncez que vous annulez en partie la commande passée précédemment.</li>
+								<li><span class="label label-info">3</span> Vous écrivez pour demander une documentation.</li>
+								<li><span class="label label-info">4</span> Vous écrivez pour confirmer votre commande.</li>
+								<li><span class="label label-info">5</span> Vous écrivez à votre banque pour demander une prolongation de paiement.</li>
+							</ol>
+							
+						</div>
+						<div class="col-md-6">
+							<ol class="phrases vertical encours">
+							<li value="1"><i class="fa fa-arrows-v"></i> Expédition de marchandises</li>
+							<li value="2"><i class="fa fa-arrows-v"></i> Annulation en partie de la commande passée précédemment</li>
+							<li value="3"><i class="fa fa-arrows-v"></i> Demande de documentation</li>
+							<li value="4"><i class="fa fa-arrows-v"></i> Confirmation de commande</li>
+							<li value="5"><i class="fa fa-arrows-v"></i> Demande de prolongation de paiement</li>
+							</ol>
+							
+						';
+					}
+					
+					
+					
+					echo'</div>';}?>
+                       
+					 </div><!--fin list-group-item-->
+					<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				  <h4 class="modal-title resume text-center" id="myModalLabel"><img src="img/le-saviez-vous.png" alt="" class="img-responsive"></h4>
+				</div>
+				<div class="modal-body body-saviez-vous">
+					<h2 class="resume">EN RÉSUMÉ :</h2>
+					<div>
+							<p class="resume">L’objet d’un mail commence très souvent par un nom dérivé d’un verbe. Le nom est toujours suivi du mot « de » ou « des » : Je vous envoie les documents envoi de documents</p>
+							
 					</div>
 				</div>
-				
-				<!--FIN DE MODAL JAVASCRIPT-->
+				<div class="modal-footer">
+				<button class="btn btn-info" data-dismiss="modal">Fermer</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!--FIN DE MODAL JAVASCRIPT-->
 
 				 <div class="modal-title" data-toggle="modal" data-target="#myModal">
 				 <br/>
 				 <img src="img/le-saviez-vous.png" alt="" class="img-responsive">
-				 </div>
+				 </div>	  
 			</div><!--fin well principal-->
 		</div><!--fin container principal-->
 		<hr>
@@ -407,6 +386,10 @@
 			<?php include("include/footer.php"); ?> 
 		</footer>
 		<!-- JavaScript Includes -->
+		<script src="js/jquery.js"></script>    
+		<script src="js/bootstrap.min.js"></script>
+        <script src="js/sortable.js"></script>
+		<style>
 		<script type="text/javascript">
 			$(document).ready(function(){
 				var group = $("ol.phrases").sortable({

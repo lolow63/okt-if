@@ -287,30 +287,30 @@
 				
 				<!-- FORMULAIRE A TRANSMETTRE -->
 				
-				<form method="post" action="construction.php">
+				<form method="post" action="corrige8.php">
 		
 				<div class="row">
 					<div class="col-lg-12 col-xs-12">
 						<p class="label-info label_activite">Que peut-on comprendre de ce mail ?</p>
 					</div>
 					<div class="col-sm-4 col-xs-12">
-						<input type="radio" class="hidden" value="vous n'avez pas répondu" checked="checked" />
+						<input type="radio" class="hidden" name="f8a1" value="vous n'avez pas répondu" checked="checked" />
 						<div class="input-group"><span class="input-group-addon">
-						<input type="radio" id="f8a1p1" name="f8a1" value="Le comité des oeuvres sociales va accorder un crédit à M. RAÏS." /></span>
+						<input type="radio" id="f8a1p1" name="f8a1" value="f8p1" /></span>
 						<label for="f8a1p1" class="form-control">
 						Le comité des oeuvres sociales va accorder un crédit à M. RAÏS.
 						</label></div>
 					</div>
 					<div class="col-sm-4 col-xs-12">
 						<div class="input-group"><span class="input-group-addon">
-						<input type="radio" id="f8a1p2" name="f8a1" value="Le comité des oeuvres sociales n’a pas encore pris de décision." /></span>
+						<input type="radio" id="f8a1p2" name="f8a1" value="f8p2" /></span>
 						<label for="f8a1p2" class="form-control">
 						Le comité des oeuvres sociales n’a pas encore pris de décision.
 						</label></div>
 					</div>
 					<div class="col-sm-4 col-xs-12">
 						<div class="input-group"><span class="input-group-addon">
-						<input type="radio" id="f8a1p3" name="f8a1" value="M.RAÏS doit contacter le bureau des oeuvres sociales." /></span>
+						<input type="radio" id="f8a1p3" name="f8a1" value="f8p3" /></span>
 						<label for="f8a1p3" class="form-control">
 						M.RAÏS doit contacter le bureau des oeuvres sociales.
 						</label></div>
@@ -323,14 +323,14 @@
 				
 				<div class="well">
 				
-				<span class="a-surligner"><input type="checkbox" id="f8a2p1" name="f8a2" value="Je souhaiterais vous informer que ..." /><label for="f8a2p1">Je souhaiterais vous informer que ...</label></span><br/>
-				<span class="a-surligner"><input type="checkbox" id="f8a2p2" name="f8a2" value="En réponse à votre message ..." /><label for="f8a2p2">En réponse à votre message ...</label></span><br/>
-				<span class="a-surligner"><input type="checkbox" id="f8a2p3" name="f8a2" value="Je vous prie de bien vouloir préciser..." /><label for="f8a2p3">Je vous prie de bien vouloir préciser...</label></span><br/>
-				<span class="a-surligner"><input type="checkbox" id="f8a2p4" name="f8a2" value="Je vous serais reconnaissant si vous pouviez..." /><label for="f8a2p4">Je vous serais reconnaissant si vous pouviez...</label></span><br/>
-				<span class="a-surligner"><input type="checkbox" id="f8a2p5" name="f8a2" value="Ci-joint les détails sur..." /><label for="f8a2p5">Ci-joint les détails sur...</label></span><br/>
-				<span class="a-surligner"><input type="checkbox" id="f8a2p6" name="f8a2" value="Je souhaite vous apporter quelques éclairages sur les éléments mentionnés dans votre message ..." /><label for="f8a2p6">Je souhaite vous apporter quelques éclairages sur les éléments mentionnés dans votre message ...</label></span><br/>
-				<span class="a-surligner"><input type="checkbox" id="f8a2p7" name="f8a2" value="Je vous remercie par avance de me faire un retour dès que possible ..." /><label for="f8a2p7">Je vous remercie par avance de me faire un retour dès que possible ...</label></span><br/>
-				<span class="a-surligner"><input type="checkbox" id="f8a2p8" name="f8a2" value="Je me permets de faire quelques commentaires sur ..." /><label for="f8a2p8">Je me permets de faire quelques commentaires sur ...</label></span><br/> 
+				<span class="a-surligner"><input type="checkbox" id="f8a2p1" name="f8a2q1" value="Je souhaiterais vous informer que ..." /><label for="f8a2p1">Je souhaiterais vous informer que ...</label></span><br/>
+				<span class="a-surligner"><input type="checkbox" id="f8a2p2" name="f8a2q2" value="En réponse à votre message ..." /><label for="f8a2p2">En réponse à votre message ...</label></span><br/>
+				<span class="a-surligner"><input type="checkbox" id="f8a2p3" name="f8a2q3" value="Je vous prie de bien vouloir préciser..." /><label for="f8a2p3">Je vous prie de bien vouloir préciser...</label></span><br/>
+				<span class="a-surligner"><input type="checkbox" id="f8a2p4" name="f8a2q4" value="Je vous serais reconnaissant si vous pouviez..." /><label for="f8a2p4">Je vous serais reconnaissant si vous pouviez...</label></span><br/>
+				<span class="a-surligner"><input type="checkbox" id="f8a2p5" name="f8a2q5" value="Ci-joint les détails sur..." /><label for="f8a2p5">Ci-joint les détails sur...</label></span><br/>
+				<span class="a-surligner"><input type="checkbox" id="f8a2p6" name="f8a2q6" value="Je souhaite vous apporter quelques éclairages sur les éléments mentionnés dans votre message ..." /><label for="f8a2p6">Je souhaite vous apporter quelques éclairages sur les éléments mentionnés dans votre message ...</label></span><br/>
+				<span class="a-surligner"><input type="checkbox" id="f8a2p7" name="f8a2q7" value="Je vous remercie par avance de me faire un retour dès que possible ..." /><label for="f8a2p7">Je vous remercie par avance de me faire un retour dès que possible ...</label></span><br/>
+				<span class="a-surligner"><input type="checkbox" id="f8a2p8" name="f8a2q8" value="Je me permets de faire quelques commentaires sur ..." /><label for="f8a2p8">Je me permets de faire quelques commentaires sur ...</label></span><br/> 
 		
 				</div>
 				
@@ -350,7 +350,7 @@
 				Ce magasin,<input type="text" id="f8a3q1" class="form-control inline-form-control" name="f8a3q1" size="20" maxlength="40" />peu, compte déjà une importante clientèle.</p>
 				
 				<p><strong> Phrase simple: </strong>Le prêt a été accepté. <br/>
-				<strong>Éléments à ajouter: </strong>M. RAÏS a sollicité ce prêt.<br/>
+				<strong>Éléments à ajouter: </strong>M. Raïs a sollicité ce prêt.<br/>
 				<strong>Phrase à compléter: </strong>
 				Le prêt,<input type="text" id="f8a3q2" class="form-control inline-form-control" name="f8a3q2" size="20" maxlength="40" />, a été accepté.</p>
 				

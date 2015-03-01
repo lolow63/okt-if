@@ -230,7 +230,7 @@
 				
 				<!-- FORMULAIRE A TRANSMETTRE -->
 				
-				<form method="post" action="construction.php">
+				<form method="post" action="corrige9.php">
 				
 				<div class="well">
 				
@@ -270,71 +270,71 @@
 				<div class="well">
 				
 					1.<span class="inline-form-control btn-group" data-toggle="buttons">
-						<input type="radio" class="hidden" id="f9a2q1p0" value="vous n'avez pas répondu" checked="checked" />
-						<label for="f9a2q1p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q1p1" value="À" name="f9a2q1p1" />À</label>
-						<label for="f9a2q1p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q1p2" value="En" name="f9a2q1p2" />En</label></span> 
+						<input type="radio" class="hidden" id="f9a2q1p0" value="+"name="f9a2q1" checked="checked" />
+						<label for="f9a2q1p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q1p1" value="À" name="f9a2q1" />À</label>
+						<label for="f9a2q1p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q1p2" value="En" name="f9a2q1" />En</label></span> 
 					07h10, Mohammed prend le bus pour Alger-centre. Il revient
 						
 					<span class="inline-form-control btn-group" data-toggle="buttons">
-						<input type="radio" class="hidden" id="f9a2q2p0" value="vous n'avez pas répondu" checked="checked" />
-						<label for="f9a2q2p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q2p1" value="en" name="f9a2q2p1" />en</label>
-						<label for="f9a2q2p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q2p2" value="de" name="f9a2q2p2" />de</label></span> 
+						<input type="radio" class="hidden" id="f9a2q2p0" value="+" name="f9a2q2" checked="checked" />
+						<label for="f9a2q2p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q2p1" value="en" name="f9a2q2" />en</label>
+						<label for="f9a2q2p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q2p2" value="de" name="f9a2q2" />de</label></span> 
 					fin d’après midi par le bus
 					
 					<span class="inline-form-control btn-group" data-toggle="buttons">
-						<input type="radio" class="hidden" id="f9a2q3p0" value="vous n'avez pas répondu" checked="checked" />
-						<label for="f9a2q3p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q3p1" value="de" name="f9a2q3p1" />de</label>
-						<label for="f9a2q3p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q3p2" value="à" name="f9a2q3p2" />à</label></span> 
+						<input type="radio" class="hidden" id="f9a2q3p0" value="+" name="f9a2q3" checked="checked" />
+						<label for="f9a2q3p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q3p1" value="de" name="f9a2q3" />de</label>
+						<label for="f9a2q3p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q3p2" value="à" name="f9a2q3" />à</label></span> 
 					18h00.<br/>
 					
 					2. La réunion commence
 					<span class="inline-form-control btn-group" data-toggle="buttons">
-						<input type="radio" class="hidden" id="f9a2q4p0" value="vous n'avez pas répondu" checked="checked" />
-						<label for="f9a2q4p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q4p1" value="à" name="f9a2q4p1" />à</label>
-						<label for="f9a2q4p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q4p2" value="de" name="f9a2q4p2" />de</label></span> 
+						<input type="radio" class="hidden" id="f9a2q4p0" value="+" name="f9a2q4" checked="checked" />
+						<label for="f9a2q4p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q4p1" value="à" name="f9a2q4" />à</label>
+						<label for="f9a2q4p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q4p2" value="de" name="f9a2q4" />de</label></span> 
 					9h20 et dure jusqu’à 11h30. Par la suite, le directeur prend l’avion pour Paris. Il fait une escale
 					
 					<span class="inline-form-control btn-group" data-toggle="buttons">
-						<input type="radio" class="hidden" id="f9a2q5p0" value="vous n'avez pas répondu" checked="checked" />
-						<label for="f9a2q5p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q5p1" value="à" name="f9a2q5p1" />à</label>
-						<label for="f9a2q5p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q5p2" value="de" name="f9a2q5p2" />de</label></span> 
+						<input type="radio" class="hidden" id="f9a2q5p0" value="+" name="f9a2q5" checked="checked" />
+						<label for="f9a2q5p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q5p1" value="à" name="f9a2q5" />à</label>
+						<label for="f9a2q5p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q5p2" value="de" name="f9a2q5" />de</label></span> 
 					l’aéroport
 					
 					<span class="inline-form-control btn-group" data-toggle="buttons">
-						<input type="radio" class="hidden" id="f9a2q6p0" value="vous n'avez pas répondu" checked="checked" />
-						<label for="f9a2q6p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q6p1" value="de" name="f9a2q6p1" />de</label>
-						<label for="f9a2q6p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q6p2" value="à" name="f9a2q6p2" />à</label></span>
+						<input type="radio" class="hidden" id="f9a2q6p0" value="+" name="f9a2q6" checked="checked" />
+						<label for="f9a2q6p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q6p1" value="de" name="f9a2q6" />de</label>
+						<label for="f9a2q6p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q6p2" value="à" name="f9a2q6" />à</label></span>
 					Constantine pour régler un problème de logistique.<br/>
 					
 					3. Le directeur sera absent
 					<span class="inline-form-control btn-group" data-toggle="buttons">
-						<input type="radio" class="hidden" id="f9a2q7p0" value="vous n'avez pas répondu" checked="checked" />
-						<label for="f9a2q7p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q7p1" value="de" name="f9a2q7p1" />de</label>
-						<label for="f9a2q7p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q7p2" value="du" name="f9a2q7p2" />du</label></span> 
+						<input type="radio" class="hidden" id="f9a2q7p0" value="+" name="f9a2q7" checked="checked" />
+						<label for="f9a2q7p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q7p1" value="de" name="f9a2q7" />de</label>
+						<label for="f9a2q7p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q7p2" value="du" name="f9a2q7" />du</label></span> 
 					mardi matin
 					
 					<span class="inline-form-control btn-group" data-toggle="buttons">
-						<input type="radio" class="hidden" id="f9a2q8p0" value="vous n'avez pas répondu" checked="checked" />
-						<label for="f9a2q8p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q8p1" value="au" name="f9a2q8p1" />au</label>
-						<label for="f9a2q8p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q8p2" value="à" name="f9a2q8p2" />à</label></span> 
+						<input type="radio" class="hidden" id="f9a2q8p0" value="+" name="f9a2q8" checked="checked" />
+						<label for="f9a2q8p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q8p1" value="au" name="f9a2q8" />au</label>
+						<label for="f9a2q8p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q8p2" value="à" name="f9a2q8" />à</label></span> 
 					jeudi
 					
 					<span class="inline-form-control btn-group" data-toggle="buttons">
-						<input type="radio" class="hidden" id="f9a2q9p0" value="vous n'avez pas répondu" checked="checked" />
-						<label for="f9a2q9p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q9p1" value="en" name="f9a2q9p1" />en</label>
-						<label for="f9a2q9p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q9p2" value="de" name="f9a2q9p2" />de</label></span> 
-					de fin d’après midi.<br/>
+						<input type="radio" class="hidden" id="f9a2q9p0" value="+" name="f9a2q9" checked="checked" />
+						<label for="f9a2q9p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q9p1" value="en" name="f9a2q9" />en</label>
+						<label for="f9a2q9p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q9p2" value="de" name="f9a2q9" />de</label></span> 
+					 fin d’après midi.<br/>
 					
 					4.<span class="inline-form-control btn-group" data-toggle="buttons">
-						<input type="radio" class="hidden" id="f9a2q10p0" value="vous n'avez pas répondu" checked="checked" />
-						<label for="f9a2q10p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q10p1" value="de" name="f9a2q10p1" />De</label>
-						<label for="f9a2q10p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q10p2" value="du" name="f9a2q10p2" />Du</label></span> 
+						<input type="radio" class="hidden" id="f9a2q10p0" value="+" name="f9a2q10" checked="checked" />
+						<label for="f9a2q10p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q10p1" value="De" name="f9a2q10" />De</label>
+						<label for="f9a2q10p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q10p2" value="Du" name="f9a2q10" />Du</label></span> 
 					janvier
 					
 					<span class="inline-form-control btn-group" data-toggle="buttons">
-						<input type="radio" class="hidden" id="f9a2q11p0" value="vous n'avez pas répondu" checked="checked" />
-						<label for="f9a2q11p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q11p1" value="à" name="f9a2q11p1" />à</label>
-						<label for="f9a2q11p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q11p2" value="au" name="f9a2q11p2" />au</label></span> 
+						<input type="radio" class="hidden" id="f9a2q11p0" value="+" name="f9a2q11" checked="checked" />
+						<label for="f9a2q11p1" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q11p1" value="à" name="f9a2q11" />à</label>
+						<label for="f9a2q11p2" class="btn btn-primary btn-sm"><input type="radio" id="f9a2q11p2" value="au" name="f9a2q11" />au</label></span> 
 					mars, il sera à Sétif.
 					
 				</div>
@@ -394,7 +394,7 @@
 				<div class="list-group-item">
 					<p>Bonjour, <br/>
 
-					<input type="text" id="f9a3q1" class="form-control inline-form-control" name="f9a3q1" size="10" maxlength="20" />à votre
+					<input type="text" id="f9a3q1" class="form-control inline-form-control" name="f9a3q1" size="10" maxlength="20" /> votre
 					<input type="text" id="f9a3q2" class="form-control inline-form-control" name="f9a3q2" size="4" maxlength="20" />message, je suis
 					<input type="text" id="f9a3q3" class="form-control inline-form-control" name="f9a3q3" size="6" maxlength="20" />de vous
 					<input type="text" id="f9a3q4" class="form-control inline-form-control" name="f9a3q4" size="5" maxlength="20" />que le bureau sera

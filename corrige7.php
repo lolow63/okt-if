@@ -40,7 +40,7 @@
 			<div class="well">
 				<h1>Fiches d'aide à la réalisation de courriels professionnels</h1>
 				 <h2>Corrigé de la fiche N°7</h2><br/>
-					<p>Félicitation ! Vous avez terminé votre @ série d'activités.</p>
+					<p>Félicitation ! Vous avez terminé votre septième série d'activités.</p>
 					<p>Voici votre score :</p>	
 					<div class="list-group-item">
 		                <?php 
@@ -78,12 +78,13 @@
 						  if(isset($_POST['f7a4q1'])){$f7a4q1 = ($_POST['f7a4q1']);}
                           if(isset($_POST['f7a4q2'])){$f7a4q2 = ($_POST['f7a4q2']);}
                           if(isset($_POST['f7a4q3'])){$f7a4q3 = ($_POST['f7a4q3']);} 
-                          if(isset($_POST['f7a4q4'])){$f7a4q4 = ($_POST['f7a4q4']);}  						  
-                           $nf7a4q1=0;$nf7a4q2=0;$nf7a4q3=0;$nf7a4q4=0;
+                          if(isset($_POST['f7a4q4'])){$f7a4q4 = ($_POST['f7a4q4']);} 
+                          if(isset($_POST['f7a4q5'])){$f7a4q5 = ($_POST['f7a4q5']);} 						  
+                           $nf7a4q1=0;$nf7a4q2=0;$nf7a4q3=0;$nf7a4q4=0;$nf7a4q5=0;
 					   //note activité1
 		                if(($chek1=='false')&&($chek2=='true') &&($chek3=='false') &&($chek4=='true') &&($chek5=='false')){$nf7a1=$nf7a1+100;} 
 					      //note activité2
-						if ($f7a2q1=='reçu'){$nf7a2q1=$nf7a2q1+25;}else{ $nf7a2q1;}
+						if ($f7a2q1=='reçus'){$nf7a2q1=$nf7a2q1+25;}else{ $nf7a2q1;}
 						if ($f7a2q2=='confirmé'){$nf7a2q2=$nf7a2q2+25;}else{ $nf7a2q2;}
 						if ($f7a2q3=='programmée'){$nf7a2q3=$nf7a2q3+25;}else{ $nf7a2q3;}
 						if ($f7a2q4=='envoyées'){$nf7a2q4=$nf7a2q4+25;}else{ $nf7a2q4;}
@@ -95,11 +96,13 @@
 						if ($f7a3q4=='restons'){$nf7a3q4=$nf7a3q4+25;}else{ $nf7a3q4;}
 						$nf7a3=$nf7a3q1+$nf7a3q2+$nf7a3q3+$nf7a3q4;
 						 //note activité4
-						 if ($f7a4q1=='le samedi')   {$nf7a4q1=$nf7a4q1+25; }else{ $nf7a4q1;}
-						 if ($f7a4q2=='le')   {$nf7a4q2=$nf7a4q2+25; }else{ $nf7a4q2;}
-						 if ($f7a4q3=='avant')   {$nf7a4q3=$nf7a4q3+25; }else{ $nf7a4q3;}
-						 if ($f7a4q4=='sous')   {$nf7a4q4=$nf7a4q4+25; }else{ $nf7a4q4;}
-						 $nf7a4=$nf7a4q1+$nf7a4q2+$nf7a4q3+$nf7a4q4;
+						 if ($f7a4q1=='Ø')   {$nf7a4q1=$nf7a4q1+20; }else{ $nf7a4q1;}
+						 if ($f7a4q2=='Ø')   {$nf7a4q2=$nf7a4q2+20; }else{ $nf7a4q2;}
+						 if ($f7a4q3=='Ø')    {$nf7a4q3=$nf7a4q3+20; }else{ $nf7a4q3;}
+						 if ($f7a4q4=='avant'){$nf7a4q4=$nf7a4q4+20; }else{ $nf7a4q4;}
+						 if ($f7a4q5=='sous') {$nf7a4q5=$nf7a4q5+20; }else{ $nf7a4q5;}
+						 
+						 $nf7a4=$nf7a4q1+$nf7a4q2+$nf7a4q3+$nf7a4q4+$nf7a4q5;
 						 $total=($nf7a1+$nf7a2+$nf7a3+$nf7a4)/4;
 						 
 						 //tableaux de note
@@ -210,7 +213,7 @@
 
 								<tfoot>
 						         <tr>
-						           <td class="activite" style="vertical-align:middle"><strong>Total Fiche N°3</strong></td>
+						           <td class="activite" style="vertical-align:middle"><strong>Total Fiche N°7</strong></td>
 						            <td> '.$total.'%';
 									 if(($total >0) and ($total<25)){
 									   echo'<div class="progress">
@@ -233,10 +236,10 @@
                                  </table><br/>
 								 </div><br/>';
 						  //corrigé activité1
-						   $f7a1r='<div class="well">
+						   $f7a1r='
 					1.<span class="a-surligner"><input type="checkbox" value="p1" name="f7a1p1" '.$checked1.'id="f7a1p1">
-					<label for="f7a1p1"> Nous vous accusons réception de votre message. Cordialement.</label>
-					<p class="remarque">« vous » est en trop dans cette phrase. Attention à ne pas confondre : on dit « accuser réception » de quelque chose et pas de quelqu’un. Exemple : prière d’accuser réception est correct. ; prière de m’accuser réception est incorrect.</p></span><br/>
+					<label for="f7a1p1"> Nous vous accusons réception de votre message. Cordialement.</label></span>
+					<p class="remarque"> « vous » est en trop dans cette phrase. Attention à ne pas confondre : on dit « accuser réception » de quelque chose et pas de quelqu’un. Exemple : prière d’accuser réception est correct. Prière de m’accuser réception est incorrect.</p></span><br/>
 					
 					2.<span class="a-surligner"><input type="checkbox" value="p2" name="f7a1p2" '.$checked2.' id="f7a1p2">
 					<label for="f7a1p2"> Nous avons bien reçu votre message. Cordialement.</label></span><br/><br/>
@@ -251,8 +254,8 @@
 					5.<span class="a-surligner"><input type="checkbox" value="p5" name="f7a1p5" '.$checked5.'id="f7a1p5">
 					<label for="f7a1p5"> Nous venons de recevoir votre message. Merci par avance de votre retour.</label>
 					<p class="remarque">Cette phrase est utilisée à l’oral.</p></span>
-					<br/>
-				</div>';
+					<br/>';
+				
 						     echo'<p>Voyons maintenant vos réponses plus en détail :</p>
 					   <h3 class="activite">Activité 1 ('.$nf7a1.'%)</h3>
 					   <div class="list-group-item">';
@@ -284,25 +287,25 @@
                       	echo'<h3 class="activite">Activité 2 ('.$nf7a2.'%)</h3>
 					   <div class="list-group-item">';
 					    echo'<h3>Question 1</h3>';					
-					   if($f7a2q1=='répondrait'){
+					   if($f7a2q1=='reçus'){
 						echo '<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">'.$f7a2q1.': </strong>C\'est la bonne réponse !</p>';} 
 					   elseif($f7a2q1=='Vous n\'avez pas répondu'){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f7a2q1.':</strong></p>';}
 					   else {echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f7a2q1.':</strong></p><p>La bonne réponse est : « reçus »</p>';}
 					   
 					   echo'<h3>Question 2</h3>';					
-					   if($f7a2q2=='répondrait'){
+					   if($f7a2q2=='confirmé'){
 						echo '<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">'.$f7a2q2.': </strong>C\'est la bonne réponse !</p>';} 
 					   elseif($f7a2q2=='Vous n\'avez pas répondu'){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f7a2q2.':</strong></p>';}
 					   else {echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f7a2q2.':</strong></p><p>La bonne réponse est : « confirmé »</p>';}
 					   
 					    echo'<h3>Question 3</h3>';					
-					   if($f7a2q3=='répondrait'){
+					   if($f7a2q3=='programmée'){
 						echo '<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">'.$f7a2q3.': </strong>C\'est la bonne réponse !</p>';} 
 					   elseif($f7a2q3=='Vous n\'avez pas répondu'){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f7a2q3.':</strong></p>';}
 					   else {echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f7a2q3.':</strong></p><p>La bonne réponse est : « programmée »</p>';}
 					   
 					    echo'<h3>Question 4</h3>';					
-					   if($f7a2q4=='répondrait'){
+					   if($f7a2q4=='envoyées'){
 						echo '<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">'.$f7a2q4.': </strong>C\'est la bonne réponse !</p>';} 
 					   elseif($f7a2q4=='Vous n\'avez pas répondu'){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f7a2q4.':</strong></p>';}
 					   else {echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f7a2q4.':</strong></p><p>La bonne réponse est : « envoyées »</p>';}
@@ -338,28 +341,28 @@
 					echo'<h3 class="activite">Activité 4 ('.$nf7a4.'%)</h3>
 					   <div class="list-group-item">';
 					    echo'<h3>Question 1</h3>';
-					if($f7a4q1==''){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">vous n\'avez pas repondu:</strong></p>';}
-					elseif($f7a4q1=='le samedi'){
-					  echo '<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">'.$f7a4q1.': </strong>C\'est la bonne réponse !</p>';} 
-					else{echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f7a4q1.':</strong></p> <p>La bonne réponse est : « le samedi »';}
+					if(($f7a4q1=='')&&($f7a4q2=='')){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">vous n\'avez pas repondu:</strong></p>';}
+					elseif(($f7a4q1=='Ø')&&($f7a4q2=='Ø')){
+					  echo '<p><span class="fa fa-2x fa-check"></span>1. Le séminaire commence  <strong class="bonrep">'.$f7a4q1.'</strong> samedi <strong class="bonrep">'.$f7a4q2.' </strong>après midi. C\'est la bonne réponse !</p>';} 
+					else{echo'<p><span class="fa fa-2x fa-close"></span> 1. Le séminaire commence <strong class="mauvrep">'.$f7a4q1.'</strong> samedi <strong class="mauvrep">'.$f7a4q2.' </strong> après midi</p> <p>La bonne réponse est : « le et Ø»';}
 					
 					echo'<h3>Question 2</h3>';
-					if($f7a4q2==''){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">vous n\'avez pas repondu:</strong></p>';}
-					elseif($f7a4q2=='le'){
-					  echo '<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">'.$f7a4q2.': </strong>C\'est la bonne réponse !</p>';} 
-					else{echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f7a4q2.':</strong></p> <p>La bonne réponse est : « le »';}
+					if($f7a4q3==''){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">vous n\'avez pas repondu:</strong></p>';}
+					elseif($f7a4q3=='Ø'){
+					  echo '<p><span class="fa fa-2x fa-check"></span>2. Le directeur organisera la réunion au plus tard <strong class="bonrep">'.$f7a4q3.'</strong> mercredi prochain.C\'est la bonne réponse !</p>';} 
+					else{echo'<p><span class="fa fa-2x fa-close"></span>2. Le directeur organisera la réunion au plus tard <strong class="mauvrep">'.$f7a4q3.' </strong> mercredi prochain</p> <p>La bonne réponse est : « Ø »';}
 					
 					echo'<h3>Question 3</h3>';
-					if($f7a4q3==''){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">vous n\'avez pas repondu:</strong></p>';}
-					elseif($f7a4q3=='avant'){
-					  echo '<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">'.$f7a4q3.': </strong>C\'est la bonne réponse !</p>';} 
-					else{echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f7a4q3.':</strong></p> <p>La bonne réponse est : « avant »';}
+					if($f7a4q4==''){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">vous n\'avez pas repondu:</strong></p>';}
+					elseif($f7a4q4=='avant'){
+					  echo '<p><span class="fa fa-2x fa-check"></span>3. Vous devez rendre votre réponse <strong class="bonrep">'.$f7a4q4.' </strong> 48 heures. C\'est la bonne réponse !</p>';} 
+					else{echo'<p><span class="fa fa-2x fa-close"></span>3. Vous devez rendre votre réponse  <strong class="mauvrep">'.$f7a4q4.' </strong> 48 heures.</p> <p>La bonne réponse est : « avant »';}
 					
 					echo'<h3>Question 4</h3>';
-					if($f7a4q4==''){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">vous n\'avez pas repondu:</strong></p>';}
-					elseif($f7a4q4=='sous'){
-					  echo '<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">'.$f7a4q4.': </strong>C\'est la bonne réponse !</p>';} 
-					else{echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f7a4q4.':</strong></p> <p>La bonne réponse est : « sous »';}
+					if($f7a4q5==''){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">vous n\'avez pas repondu:</strong></p>';}
+					elseif($f7a4q5=='sous'){
+					  echo '<p><span class="fa fa-2x fa-check"></span>4. Nous vous octroyons le crédit <strong class="bonrep">'.$f7a4q5.' </strong>deux jours. C\'est la bonne réponse !</p>';} 
+					else{echo'<p><span class="fa fa-2x fa-close"></span>4. Nous vous octroyons le crédit <strong class="mauvrep">'.$f7a4q5.'</strong> deux jours.</p> <p>La bonne réponse est : « sous »';}
 					echo'</div>';
 					
 					;}?></div><!--fin list-group-item-->

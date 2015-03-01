@@ -125,9 +125,8 @@
 					<p>Le chef de service<input class="form-control inline-form-control" type="text" name="f6a1q2" id="f6a1q2" size="10" maxlength="20"/>
 					, les dossiers n’ont pas été traités.</p>
 					<hr>
-					<p>3.<strong>Puisque</strong> les commandes <strong>ne sont pas arrivées </strong>à temps, la clientèle a changé de fournisseurs.</p>
-					<p>Les commandes<input class="form-control inline-form-control" type="text" name="f6a1q3" id="f6a1q3" size="10" maxlength="20"/>
-					 à temps, la clientèle a changé de fournisseurs.</p>
+					<p>3.<strong>Puisque</strong> les commandes <input class="form-control inline-form-control" type="text" name="f6a1q3" id="f6a1q3" size="10" maxlength="20"/> à temps, la clientèle a changé de fournisseurs.</p>
+					<p>Les commandes <strong>n'arrivant pas</strong> à temps, la clientèle a changé de fournisseurs.</p>
 				</div>
 				
 				<p class="recoi">M. KHADRAOUI écrit aux membres du comité des oeuvres sociales.</p>

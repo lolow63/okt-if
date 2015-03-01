@@ -185,153 +185,136 @@
                          //$total=($notetab+$notea+$noteb+$notemed+$notea2)/5;
                            $total=($notea+$notegenerale+$noteb+$notemed+$notetab)/5;
                          
-						  echo'<table class="text-center table table-bordered table-striped table-condensed">';
-						         echo'<tr>
-						            <td class="activite" style="vertical-align:middle">Activité 1</td>
-						            <td>'.$notea.'%';
-									 if(($notea >0) and ($notea<25)){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notea.'%"></div>
-      </div>';}
-						elseif(($notea >= 25) and ($notea<50)){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notea.'%"></div>
-      </div>';}	
-                        elseif(($notea >= 50) ){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notea.'%"></div>
-      </div>';}	  
-	                  else{
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
-      </div>';}	  
-									
-									
-									
-									
-									
-									
-									
-									echo'</td>
-						         </tr>
-
-						         <tr>
-                                    <td class="activite" style="vertical-align:middle">Activité 2</td>
-									
-						            <td>'.$notegenerale.'%';
-									
-									 if(($notegenerale >0) and ($notegenerale<25)){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notegenerale.'%"></div>
-      </div>';}
-						elseif(($notegenerale >= 25) and ($notegenerale<50)){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notegenerale.'%"></div>
-      </div>';}	
-                        elseif(($notegenerale >= 50) ){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notegenerale.'%"></div>
-      </div>';}	  
-	                  else{
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
-      </div>';}
-									
-									
-									
-									echo'</td>
-						         </tr>
-
-						         <tr>
-                                    <td class="activite" style="vertical-align:middle">Activité 3</td>
-						            <td>'.$noteb.'%';
-									 if(($noteb >0) and ($noteb<25)){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$noteb.'%"></div>
-      </div>';}
-						elseif(($noteb >= 25) and ($noteb<50)){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$noteb.'%"></div>
-      </div>';}	
-                        elseif(($noteb >= 50) ){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$noteb.'%"></div>
-      </div>';}	  
-	                  else{
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
-      </div>';}
-									echo'</td>
-						         </tr>
-
-						         <tr>
-						            <td class="activite" style="vertical-align:middle">Activité 4</td>
-						            <td>'.$notemed.'%';
-									 if(($notemed >0) and ($notemed<25)){
-									   echo'<div class="progress">
+	echo'<table class="text-center table table-bordered table-striped table-condensed">';
+	 echo'<tr>
+	        <td class="activite" style="vertical-align:middle">Activité 1</td>
+			<td>'.$notea.'%';
+		        if(($notea >0) and ($notea<25)){
+				echo'<div class="progress">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notea.'%"></div>
+                     </div>';}
+				elseif(($notea >= 25) and ($notea<50)){
+				echo'<div class="progress">
+                       <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notea.'%"></div>
+                     </div>';}	
+                elseif(($notea >= 50) ){
+				echo'<div class="progress">
+                       <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notea.'%"></div>
+                    </div>';}	  
+	            else{
+		        echo'<div class="progress">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                      </div>';}	
+	   echo'</td>
+	    </tr>
+		<tr>
+            <td class="activite" style="vertical-align:middle">Activité 2</td>
+				<td>'.$notegenerale.'%';
+				    if(($notegenerale >0) and ($notegenerale<25)){
+					echo'<div class="progress">
+                           <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notegenerale.'%"></div>
+                        </div>';}
+				    elseif(($notegenerale >= 25) and ($notegenerale<50)){
+					echo'<div class="progress">
+                           <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notegenerale.'%"></div>
+                         </div>';}	
+                     elseif(($notegenerale >= 50) ){
+					echo'<div class="progress">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notegenerale.'%"></div>
+                         </div>';}	  
+	                else{
+				    echo'<div class="progress">
+                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                       </div>';}
+		echo'</td>
+	    </tr>
+		<tr>
+		    <td class="activite" style="vertical-align:middle">Activité 3</td>
+		    <td>'.$noteb.'%';
+				  if(($noteb >0) and ($noteb<25)){
+				echo'<div class="progress">
+                       <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$noteb.'%"></div>
+                     </div>';}
+				elseif(($noteb >= 25) and ($noteb<50)){
+				echo'<div class="progress">
+                         <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$noteb.'%"></div>
+                     </div>';}	
+                 elseif(($noteb >= 50) ){
+				 echo'<div class="progress">
+                         <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$noteb.'%"></div>
+                      </div>';}	  
+	             else{
+		         echo'<div class="progress">
+                         <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                      </div>';}
+	  echo'</td>
+		</tr>
+		<tr>
+			<td class="activite" style="vertical-align:middle">Activité 4</td>
+			<td>'.$notemed.'%';
+			     if(($notemed >0) and ($notemed<25)){
+				echo'<div class="progress">
         <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notemed.'%"></div>
       </div>';}
-						elseif(($notemed >= 25) and ($notemed<50)){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notemed.'%"></div>
-      </div>';}	
-                        elseif(($notemed >= 50) ){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notemed.'%"></div>
-      </div>';}	  
-	                  else{
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+				elseif(($notemed >= 25) and ($notemed<50)){
+				echo'<div class="progress">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notemed.'%"></div>
+                    </div>';}	
+                elseif(($notemed >= 50) ){
+				echo'<div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notemed.'%"></div>
+                    </div>';}	  
+	            else{
+				echo'<div class="progress">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                    </div>';}
+	echo'</td>
+	</tr>
+	<tr>
+	    <td class="activite" style="vertical-align:middle">Activité 5</td>
+			<td>'.$notetab.'%';
+			    if(($notetab >0) and ($notetab<25)){
+				echo'<div class="progress">
+                       <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notetab.'%"></div>
+                     </div>';}
+				elseif(($notetab >= 25) and ($notetab<50)){
+				echo'<div class="progress">
+                         <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notetab.'%"></div>
+                     </div>';}	
+                 elseif(($notetab >= 50) and ($notetab<=100)){
+				echo'<div class="progress">
+                           <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notetab.'%"></div>
+                     </div>';}	  
+	             else{
+				echo'<div class="progress">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                    </div>';}
+	echo'</td>
+    </tr>
+<tfoot>
+	 <tr>
+	 <td class="activite" style="vertical-align:middle"><strong>Total Fiche N°1</strong></td>
+	<td> '.$total.'%';
+	   if(($total >0) and ($total<25)){
+	   echo'<div class="progress">
+             <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$total.'%"></div>
+          </div>';}
+	  elseif(($total >= 25) and ($total<50)){
+	 echo'<div class="progress">
+             <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$total.'%"></div>
+           </div>';}	
+    elseif(($total >= 50) ){
+	echo'<div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$total.'%"></div>
+          </div>';}	  
+  else{
+ echo'<div class="progress">
+         <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
       </div>';}
-									echo'</td>
-						         </tr>
-
-						         <tr>
-						           <td class="activite" style="vertical-align:middle">Activité 5</td>
-						            <td>'.$notetab.'%';
-									 if(($notetab >0) and ($notetab<25)){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notetab.'%"></div>
-      </div>';}
-						elseif(($notetab >= 25) and ($notetab<50)){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notetab.'%"></div>
-      </div>';}	
-                        elseif(($notetab >= 50) and ($notetab<=100)){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$notetab.'%"></div>
-      </div>';}	  
-	                  else{
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
-      </div>';}
-									echo'</td>
-						         </tr>
-
-								<tfoot>
-						         <tr>
-						           <td class="activite" style="vertical-align:middle"><strong>Total Fiche N°1</strong></td>
-						            <td> '.$total.'%';
-									 if(($total >0) and ($total<25)){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$total.'%"></div>
-      </div>';}
-						elseif(($total >= 25) and ($total<50)){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$total.'%"></div>
-      </div>';}	
-                        elseif(($total >= 50) ){
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$total.'%"></div>
-      </div>';}	  
-	                  else{
-									   echo'<div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
-      </div>';}
-									echo'</td>
-						         </tr></tfoot>
-                                 </table><br/>
-								 </div><br/>';
+echo'</td>
+  </tr></tfoot>
+</table><br/>
+	</div><br/>';
 								 //activité1
 
 						  echo'<p>Voyons maintenant vos réponses plus en détail :</p>

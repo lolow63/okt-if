@@ -227,7 +227,7 @@
 				
 				<!-- FORMULAIRE A TRANSMETTRE -->
 				
-				<form method="post" action="construction.php">
+				<form method="post" action="corrige12.php">
 				
 				<div class="well">
 				
@@ -236,7 +236,7 @@
 							<p class="label-info label_activite">Pourquoi M.RAÏS réclame-t-il un rabais de 15% ?</p>
 						</div>
 						<div class="col-sm-4 col-xs-12">
-							<input type="radio" class="hidden" value="vous n'avez pas répondu" checked="checked" />
+							<input type="radio" class="hidden" value="vous n'avez pas répondu" name="f12a1"checked="checked" />
 							<div class="input-group"><span class="input-group-addon"><input type="radio" id="f12a1p1" name="f12a1" value="Parce qu’il souhaite un dédommagement du retard de livraison du véhicule." /></span>
 							<label for="f12a1p1" class="form-control">Parce qu’il souhaite un dédommagement du retard de livraison du véhicule.</label></div>
 						</div>
@@ -260,7 +260,7 @@
 							<p class="label-info label_activite">Le message de M.RAIS comporte une erreur. S’agit-il :</p>
 						</div>
 						<div class="col-sm-4 col-xs-12">
-							<input type="radio" class="hidden" value="vous n'avez pas répondu" checked="checked" />
+							<input type="radio" class="hidden" value="vous n'avez pas répondu" name="f12a2" checked="checked" />
 							<div class="input-group"><span class="input-group-addon"><input type="radio" id="f12a2p1" name="f12a2" value="d’un manque de politesse." /></span>
 							<label for="f12a2p1" class="form-control">d’un manque de politesse.</label></div>
 						</div>
@@ -317,19 +317,19 @@
 					
 					Je t’ai déjà dit que je
 					<select name="f12a3q1" id="f12a3q1" class="form-control inline-form-control">
-						<option value="Vous n'avez pas répondu" id="f12a3q1p0"></option>
+						<option value="" id="f12a3q1p0"></option>
 						<option value="voudrai" id="f12a3q1p1">voudrai</option>
 						<option value="voudrais" id="f12a3q1p2">voudrais</option>
 					</select>
 					acheter un véhicule. J’ai passé commande et c’était prévu que la livraison
 					<select name="f12a3q2" id="f12a3q2" class="form-control inline-form-control">
-						<option value="Vous n'avez pas répondu" id="f12a3q2p0"></option>
+						<option value="" id="f12a3q2p0"></option>
 						<option value="se ferait" id="f12a3q2p1">se ferait</option>
 						<option value="se fera" id="f12a3q2p2">se fera</option>
 					</select>
 					la semaine passée. Mais, on m’a informé qu’on ne
 					<select name="f12a3q3" id="f12a3q3" class="form-control inline-form-control">
-						<option value="Vous n'avez pas répondu" id="f12a3q3p0"></option>
+						<option value="" id="f12a3q3p0"></option>
 						<option value="pourra" id="f12a3q3p1">pourra</option>
 						<option value="pourrait" id="f12a3q3p2">pourrait</option>
 					</select>
@@ -337,13 +337,13 @@
 					
 					En fait, normalement je dois bénéficier d’une réduction à cause de ce retard. Mais un collègue m’a prévenu qu’il ne
 					<select name="f12a3q4" id="f12a3q4" class="form-control inline-form-control">
-						<option value="Vous n'avez pas répondu" id="f12a3q4p0"></option>
+						<option value="" id="f12a3q4p0"></option>
 						<option value="faudra" id="f12a3q4p1">faudra</option>
 						<option value="faudrait" id="f12a3q4p2">faudrait</option>
 					</select>
 					pas trop y compter. Selon lui, plusieurs clients comme moi ont reçu la garantie qu’ils
 					<select name="f12a3q5" id="f12a3q5" class="form-control inline-form-control">
-						<option value="Vous n'avez pas répondu" id="f12a3q5p0"></option>
+						<option value="" id="f12a3q5p0"></option>
 						<option value="bénéficient" id="f12a3q5p1">bénéficient</option>
 						<option value="bénéficieraient" id="f12a3q5p2">bénéficieraient</option>
 					</select>

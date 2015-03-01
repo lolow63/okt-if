@@ -39,8 +39,8 @@
 		<div class="container">
 			<div class="well">
 				<h1>Fiches d'aide à la réalisation de courriels professionnels</h1>
-				 <h2>Corrigé de la fiche N°@</h2><br/>
-					<p>Félicitation ! Vous avez terminé votre @ série d'activités.</p>
+				 <h2>Corrigé de la fiche N°6</h2><br/>
+					<p>Félicitation ! Vous avez terminé votre sixième série d'activités.</p>
 					<p>Voici votre score :</p>	
 					<div class="list-group-item">
 		                <?php
@@ -72,7 +72,7 @@
                         $nf6a3q1=0; $nf6a3q2=0;$nf6a3q3=0;					   
 					   //note avtivité1
                         
-					  if ($f6a1q1=='demandant')   {$nf6a1q1=$nf6a1q1+35;}else{ $nf6a1q1;}
+					  if ($f6a1q1=='Demandant')   {$nf6a1q1=$nf6a1q1+35;}else{ $nf6a1q1;}
                       if ($f6a1q2=='étant absent')   {$nf6a1q2=$nf6a1q2+35;}else{ $nf6a1q2;}	
 					  if ($f6a1q3=='ne sont pas arrivées')   {$nf6a1q3=$nf6a1q3+30;}else{ $nf6a1q3;}	
 					  $nf6a1=$nf6a1q1+$nf6a1q2+$nf6a1q3;
@@ -204,7 +204,7 @@
 					   <div class="list-group-item">';
 					    echo'<h3>Question 1</h3>';
 					if($f6a1q1==''){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">vous n\'avez pas repondu:</strong></p>';}
-					elseif($f6a1q1=='demandant'){
+					elseif($f6a1q1=='Demandant'){
 					echo '<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">'.$f6a1q1.': </strong>C\'est la bonne réponse !</p>
 					<p class="remarque">On exprime ici un rapport de but</p>';} 	
 		             else{echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f6a1q1.':</strong></p> <p>La bonne réponse est : « demandant »
@@ -316,7 +316,7 @@
 						
 						echo'<h3>Question 3</h3>';
 						if($f6a3q3=='contienne'){
-						echo '<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">'.$f6a3q3.': </strong>C\'est la bonne réponse !</p><p class="remarque">Après « à moins que » on doit utiliser le subjonctif. Il s’agit d’un fait envisagé et non pas réel.p>';} 
+						echo '<p><span class="fa fa-2x fa-check"></span> <strong class="bonrep">'.$f6a3q3.': </strong>C\'est la bonne réponse !</p><p class="remarque">Après « à moins que » on doit utiliser le subjonctif. Il s’agit d’un fait envisagé et non pas réel.</p>';} 
 					    
 						elseif($f6a3q2=='contient'){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f6a3q3.':</strong></p><p>La bonne réponse est : « contienne »</p><p class="remarque">Le présent l’indicatif exprime un fait réel qui ne convient pas à cette situation..</p>';}
 					    elseif($f6a3q3=='contenait'){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f6a3q3.':</strong></p><p>La bonne réponse est : « contienne »</p><p class="remarque">L’imparfait de l’indicatif exprime un fait réel qui ne convient pas à cette situation.</p>';}

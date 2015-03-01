@@ -114,7 +114,7 @@
 				
 				 <!-- FORMULAIRE A TRANSMETTRE -->
 				
-				<form method="post" action="construction.php">
+				<form method="post" action="corrige5.php">
 				
 				<h3 id="act1" class="activite">Activité 1</h3>
 				<p><i>Recherchez les verbes au conditionnel:</i></p>
@@ -150,16 +150,16 @@
 				<div class="list-group-item">
 					<p>Bonjour, <br/>
 
-					Suite à la demande de crédit <span class="a-surligner"><input type="checkbox" value="formulée" name="f5a1" id="f5a1p1"><label for="f5a1p1">formulée</label></span> par Mohammed RAÏS pour l’achat de son véhicule,
-					je <span class="a-surligner"><input type="checkbox" value="souhaiterais" name="f5a1" id="f5a1p2"><label for="f5a1p2">souhaiterais</label></span>
-					savoir si nous <span class="a-surligner"><input type="checkbox" value="pourrions" name="f5a1" id="f5a1p3"><label for="f5a1p3">pourrions</label></span>
+					Suite à la demande de crédit <span class="a-surligner"><input type="checkbox" value="formulée" name="f5a1p1" id="f5a1p1"><label for="f5a1p1">formulée</label></span> par Mohammed RAÏS pour l’achat de son véhicule,
+					je <span class="a-surligner"><input type="checkbox" value="souhaiterais" name="f5a1p2" id="f5a1p2"><label for="f5a1p2">souhaiterais</label></span>
+					savoir si nous <span class="a-surligner"><input type="checkbox" value="pourrions" name="f5a1p3" id="f5a1p3"><label for="f5a1p3">pourrions</label></span>
 					répondre favorablement à sa demande.<br/>
-					Je vous <span class="a-surligner"><input type="checkbox" value="pourrions" name="f5a1" id="f5a1p4"><label for="f5a1p4">serais</label></span>
+					Je vous <span class="a-surligner"><input type="checkbox" value="pourrions" name="f5a1p4" id="f5a1p4"><label for="f5a1p4">serais</label></span>
 					reconnaissant de bien vouloir me 
-					<span class="a-surligner"><input type="checkbox" value="donner" name="f5a1" id="f5a1p5"><label for="f5a1p5">donner</label></span>
+					<span class="a-surligner"><input type="checkbox" value="donner" name="f5a1p5" id="f5a1p5"><label for="f5a1p5">donner</label></span>
 					une réponse dès que possible afin de rassurer cet employé,
 					aujourd’hui dans la difficulté.<br/>
-					Je vous <span class="a-surligner"><input type="checkbox" value="remercie" name="f5a1" id="f5a1p6"><label for="f5a1p6">remercie</label></span>
+					Je vous <span class="a-surligner"><input type="checkbox" value="remercie" name="f5a1p6" id="f5a1p6"><label for="f5a1p6">remercie</label></span>
 					par avance de votre retour.<br/>
 					Cordialement,<br/>
 					KHADRAOUI Salah<br/>
@@ -205,7 +205,7 @@
 				<div class="well">
 					<div>
 						1. Dites-nous
-						<select name="formap" class="form-control inline-form-control">
+						<select name="f5a3q1" class="form-control inline-form-control">
 							<option id="f5a3q1p0" VALUE="vous n'avez pas répondu"> </option>
 							<option id="f5a3q1p1" VALUE="comment">comment</option>
 							<option id="f5a3q1p2" VALUE="où">où</option>     	                                            
@@ -218,7 +218,7 @@
 					</div>
 					<div>
 						2. Traduis-moi
-						<select name="formap" class="form-control inline-form-control">
+						<select name="f5a3q2" class="form-control inline-form-control">
 							<option id="f5a3q2p0" VALUE="vous n'avez pas répondu"> </option>
 							<option id="f5a3q2p1" VALUE="comment">comment</option>
 							<option id="f5a3q2p2" VALUE="où">où</option>     	                                            
@@ -231,7 +231,7 @@
 					</div>
 					<div>
 						3. J’aimerais savoir
-						<select name="formap" class="form-control inline-form-control">
+						<select name="f5a3q3" class="form-control inline-form-control">
 							<option id="f5a3q3p0" VALUE="vous n'avez pas répondu"> </option>
 							<option id="f5a3q3p1" VALUE="comment">comment</option>
 							<option id="f5a3q3p2" VALUE="où">où</option>     	                                            
@@ -244,7 +244,7 @@
 					</div>
 					<div>
 						4. Je voudrais savoir
-						<select name="formap" class="form-control inline-form-control">
+						<select name="f5a3q4" class="form-control inline-form-control">
 							<option id="f5a3q4p0" VALUE="vous n'avez pas répondu"> </option>
 							<option id="f5a3q4p1" VALUE="comment">comment</option>
 							<option id="f5a3q4p2" VALUE="où">où</option>     	                                            
@@ -257,7 +257,7 @@
 					</div>
 					<div>
 						5. Expliquez-nous
-						<select name="formap" class="form-control inline-form-control">
+						<select name="f5a3q5" class="form-control inline-form-control">
 							<option id="f5a3q5p0" VALUE="vous n'avez pas répondu"> </option>
 							<option id="f5a3q5p1" VALUE="comment">comment</option>
 							<option id="f5a3q5p2" VALUE="où">où</option>     	                                            
@@ -270,7 +270,7 @@
 					</div>
 					<div>
 						6. Je me permets de vous demander
-						<select name="formap" class="form-control inline-form-control">
+						<select name="f5a3q6" class="form-control inline-form-control">
 							<option id="f5a3q6p0" VALUE="vous n'avez pas répondu"> </option>
 							<option id="f5a3q6p1" VALUE="comment">comment</option>
 							<option id="f5a3q6p2" VALUE="où">où</option>     	                                            
@@ -290,7 +290,7 @@
 					<div>
 						1. Une procédure devant les tribunaux :<br/>
 						Une procédure 
-						<select name="formap" class="form-control inline-form-control">
+						<select name="f5a4q1" class="form-control inline-form-control">
 							<option id="f5a4q1p0" VALUE="vous n'avez pas répondu"> </option>
 							<option id="f5a4q1p1" VALUE="contentieuse">contentieuse</option>
 							<option id="f5a4q1p2" VALUE="litigieuse">litigieuse</option>     	                                            
@@ -301,7 +301,7 @@
 					<div>
 						2. Un courrier dont l’expéditeur n’est pas connu :<br/>
 						Un courrier
-						<select name="formap" class="form-control inline-form-control">
+						<select name="f5a4q2" class="form-control inline-form-control">
 							<option id="f5a4q2p0" VALUE="vous n'avez pas répondu"> </option>
 							<option id="f5a4q2p1" VALUE="inconnu">inconnu</option>
 							<option id="f5a4q2p2" VALUE="anonyme">anonyme</option>     	                                            
@@ -312,7 +312,7 @@
 					<div>
 						3. Des rapports qui disent la même chose :<br/>
 						Des rapports
-						<select name="formap" class="form-control inline-form-control">
+						<select name="f5a4q3" class="form-control inline-form-control">
 							<option id="f5a4q3p0" VALUE="vous n'avez pas répondu"> </option>
 							<option id="f5a4q3p1" VALUE="correspondants">correspondants</option>
 							<option id="f5a4q3p2" VALUE="homologues">homologues</option>     	                                            
@@ -323,7 +323,7 @@
 					<div>
 						4. Le montant de cette amende est fixé à l’avance et ne peut pas être changé :<br/>
 						Un montant
-						<select name="formap" class="form-control inline-form-control">
+						<select name="f5a4q4" class="form-control inline-form-control">
 							<option id="f5a4q4p0" VALUE="vous n'avez pas répondu"> </option>
 							<option id="f5a4q4p1" VALUE="forfaitaire">forfaitaire</option>
 							<option id="f5a4q4p2" VALUE="tarifaire">tarifaire</option>     	                                            
@@ -334,7 +334,7 @@
 					<div>
 						5. L’appel d’offre n’a eu aucun résultat :<br/>
 						L’appel d’offre est resté
-						<select name="formap" class="form-control inline-form-control">
+						<select name="f5a4q5" class="form-control inline-form-control">
 							<option id="f5a4q5p0" VALUE="vous n'avez pas répondu"> </option>
 							<option id="f5a4q5p1" VALUE="vain">vain</option>
 							<option id="f5a4q5p2" VALUE="inopérant">inopérant</option>     	                                            
@@ -382,8 +382,8 @@
 				</div>
 				<div class="list-group-item">
 					<p>Bonjour, <br/>
-					Je vous écr<span class="erreur"><input type="checkbox" value="écrit" name="f5a5" id="f5a5p1"><label for="f5a5p1">it</label></span> 
-					pour que vous m’infor<span class="erreur"><input type="checkbox" value="informé" name="f5a5" id="f5a5p2"><label for="f5a5p2">mé</label></span> 
+					Je vous <span class="erreur"><input type="checkbox" value="écrit" name="f5a5" id="f5a5p1"><label for="f5a5p1">écrit</label></span> 
+					pour que vous <span class="erreur"><input type="checkbox" value="informé" name="f5a5" id="f5a5p2"><label for="f5a5p2">m’informé</label></span> 
 					<span class="erreur"><input type="checkbox" value="c'est" name="f5a5" id="f5a5p3"><label for="f5a5p3">c’est</label></span> 
 					le comité des oeuvres sociales attribuerait des crédits à la consommation. 
 					En fait, je souhait<span class="erreur"><input type="checkbox" value="souhaitais" name="f5a5" id="f5a5p4"><label for="f5a5p4">ais</label></span> 
