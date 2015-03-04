@@ -97,8 +97,8 @@
 		  $('.js-tooltip').tooltip()
 		})
 		</script>
-		 <!-- plugin call -->
-    <script>
+		 <!-- outdated browser plugin call -->
+		<script>
         //event listener form DOM ready
         function addLoadEvent(func) {
             var oldonload = window.onload;
@@ -122,6 +122,6 @@
                 languagePath: ''
             })
         });
-    </script>
+		</script>
     </body>
 </html>

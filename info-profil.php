@@ -20,7 +20,7 @@
 		<!--AVERTISSEMENT JAVASCRIPT DÉSACTIVÉ-->
 		<noscript>
 			<div class="jumbotron">
-				<div class="activite text-center" style="font-size:1em">AVERTISSEMENT: Votre navigateur à bloqué le Javascript sur cette page ! Modifiez vos paramètres pour profiter pleinement de toute les fonctionnalités. 
+				<div class="activite text-center" style="font-size:1em">AVERTISSEMENT: Le Javascript est désactivé sur cette page ! Modifiez les paramètres de votre navigateur pour profiter pleinement de toute les fonctionnalités. 
 				</div>
 			</div>
 		</noscript>
