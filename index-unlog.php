@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="css/dinot.css">
         <link rel="stylesheet" href="css/fa/font-awesome.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/outdatedbrowser.min.css">
 		
 		<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -73,10 +74,18 @@
 		<footer>
 			<?php include("include/footer.php"); ?>
 		</footer>
+		    <!-- ============= Outdated Browser ============= -->
+         <div id="outdated">
+			 <h6>Votre navigateur est désuet!</h6>
+			 <p>Mettez à jour votre navigateur pour afficher correctement ce site Web. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/fr" target="_blank">Mettre à jour maintenant </a></p>
+			 <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Fermer">&times;</a></p>
+		 </div>
+
 		<!-- JavaScript Includes -->
 		<script src="js/jquery.js"></script>
     	<script src="js/bootstrap.min.js"></script>
 		<script src="js/jqBootstrapValidation.js"></script>	
+		<script src="js/outdatedbrowser.min.js"></script>	
 		<!--Script JqBootstrapValidation-->
 		<script>
 		  $(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
@@ -88,5 +97,31 @@
 		  $('.js-tooltip').tooltip()
 		})
 		</script>
+		 <!-- plugin call -->
+    <script>
+        //event listener form DOM ready
+        function addLoadEvent(func) {
+            var oldonload = window.onload;
+            if (typeof window.onload != 'function') {
+                window.onload = func;
+            } else {
+                window.onload = function() {
+                    if (oldonload) {
+                        oldonload();
+                    }
+                    func();
+                }
+            }
+        }
+        //call function after DOM ready
+        addLoadEvent(function(){
+            outdatedBrowser({
+                bgColor: '#f25648',
+                color: '#ffffff',
+                lowerThan: 'transform',
+                languagePath: ''
+            })
+        });
+    </script>
     </body>
 </html>
