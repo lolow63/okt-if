@@ -20,7 +20,7 @@
 		<!--AVERTISSEMENT JAVASCRIPT DÉSACTIVÉ-->
 		<noscript>
 			<div class="jumbotron">
-				<div class="activite text-center" style="font-size:1em">AVERTISSEMENT: Le Javascript est désactivé sur cette page ! Modifiez les paramètres de votre navigateur pour profiter pleinement de toute les fonctionnalités. 
+				<div class="activite text-center" style="font-size:1em">AVERTISSEMENT: Le Javascript est désactivé sur cette page! Modifiez les paramètres de votre navigateur pour profiter pleinement de toutes les fonctionnalités. 
 				</div>
 			</div>
 		</noscript>
@@ -422,12 +422,13 @@
 				<!-- Button Double) -->
 				<div class="form-group">
 				  <label class="col-md-6 control-label" for="valid">Enregistrer les modifications</label>
+				   <div class="col-md-2">
+					<button id="cancel" name="cancel" class="btn btn-danger" data-dismiss="modal">Annuler</button>
+				  </div>
 				  <div class="col-md-2">
 					<button id="valid" name="valid" class="btn btn-success" type="submit">Confirmer</button>
 				  </div>
-				  <div class="col-md-2">
-					<button id="cancel" name="cancel" class="btn btn-danger" data-dismiss="modal">Annuler</button>
-				  </div>
+				 
 				</div>
 			</div>
 			<!--FIN DU FORMULAIRE DE MODIFICATION PROFIL-->	

@@ -164,7 +164,7 @@
 							<div class="progress">
 								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:100%"></div>
 							</div>
-							<a href="fiche1.php" class="btn btn-info"><span class="fa fa-pencil"></span>Refaire la fiche</a>
+							<a href="fiche1.php" class="btn btn-xs btn-info"><span class="fa fa-pencil"></span> Refaire la fiche</a>
 					    </li>
 						<li>Fiche 2: 80 %<br/>
 							<div class="progress">

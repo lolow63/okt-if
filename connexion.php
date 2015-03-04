@@ -19,10 +19,15 @@
 		<!--AVERTISSEMENT JAVASCRIPT DÉSACTIVÉ-->
 		<noscript>
 			<div class="jumbotron">
-				<div class="activite text-center" style="font-size:1em">AVERTISSEMENT: Le Javascript est désactivé sur cette page ! Modifiez les paramètres de votre navigateur pour profiter pleinement de toute les fonctionnalités. 
+				<div class="activite text-center" style="font-size:1em">AVERTISSEMENT: Le Javascript est désactivé sur cette page! Modifiez les paramètres de votre navigateur pour profiter pleinement de toutes les fonctionnalités du site. 
 				</div>
 			</div>
 		</noscript>
+		
+		<div class="jumbotron">
+			<div class="activite text-center">Connexion</div>
+		</div>
+		<div class="container">
 		<form class="form-horizontal" method="post" action="test-connexion.php">
 				<!-- Email input-->
 				<div class="form-group">
@@ -60,11 +65,11 @@
 					</div>
 				
 				<!--Submit button-->
-				<div class="col-md-2">
+				<div class="pull-right">
 					<button id="valid" name="valid" class="btn btn-success" type="submit">Confirmer</button>
 				</div>
 		</form>	
-				
+		</div>		
 
 				
 		<script src="js/jquery.js"></script>
