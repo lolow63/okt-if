@@ -1,10 +1,14 @@
 <!doctype html>
-<html>
+<html lang="fr">
     <head>
+		<title>Introduction | Formation de l'Institut Français</title>
         <meta charset="utf-8">
-        <meta name="description" content="">
+		<meta name="robots" content="all">
+        <meta name="description" content="Introduction à la formation">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Institut Français | Algérie</title>
+		<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<![endif]-->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.css">
         <link rel="stylesheet" href="css/responsive.css">

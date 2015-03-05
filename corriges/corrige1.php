@@ -1,22 +1,25 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="fr">>
     <head>
+		<title>Fiche 1: corrigé | Formation de l'Institut Français Algérie</title>
         <meta charset="utf-8">
-        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Institut Français | Algérie</title>
+		<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<![endif]-->
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/bootstrap-theme.css">
         <link rel="stylesheet" href="../css/responsive.css">
         <link rel="stylesheet" href="../css/dinot.css">
 		<link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/fa/font-awesome.css">
+		<style> body { padding-top: 50px; } </style>
 		<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->		
     </head>
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
 		<header>
 			<!--BARRE DE NAVIGATION TOP-FIXE-->
 			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">

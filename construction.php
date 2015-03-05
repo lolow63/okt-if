@@ -1,10 +1,13 @@
 <!doctype html>
 <html>
     <head>
+		<title>En construction</title>
         <meta charset="utf-8">
-        <meta name="description" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Institut Français | Algérie</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">		
+		<meta name="robots" content="none">
+		<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<![endif]-->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.css">
         <link rel="stylesheet" href="css/responsive.css">

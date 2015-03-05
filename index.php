@@ -1,10 +1,16 @@
 <!doctype html>
-<html>
+<html lang="fr">
     <head>
+		<title>Institut Français Algérie | Accueil</title>
         <meta charset="utf-8">
-        <meta name="description" content="IE=edge">
+		<meta name="robots" content="all">
+        <meta name="description" content="Accueil L'institut Français d'Algérie vous propose d'améliorer votre rédaction de courriels professionnels.">
+		<meta name="keywords" content="Institut Français d'Algérie, cours, informatique, boite mail, formation gratuite, certification, français, professionnels, apprendre, rédiger, mail"> 
+		<meta name="news_keywords" content="Institut Français d'Algérie, formation de français, professionnels algériens, apprendre le français, rédiger un mail"> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Institut Français | Algérie</title>
+		<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<![endif]-->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.css">
         <link rel="stylesheet" href="css/responsive.css">
