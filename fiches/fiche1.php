@@ -5,21 +5,21 @@
         <meta name="description" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Institut Français | Algérie</title>
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-    	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/bootstrap-theme.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="css/dinot.css">
-		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap-theme.css">
+        <link rel="stylesheet" href="../css/responsive.css">
+        <link rel="stylesheet" href="../css/dinot.css">
+        <link rel="stylesheet" href="../css/fa/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/style.css">
 		
-        <script src="js/jquery.js"></script>
-    	<script src="js/bootstrap.min.js"></script>
-        <script src="js/sortable.js"></script>
-    	<script src="js/bootstrap.min.js"></script>
-		<script src="js/transition.js"></script>
-		<script src="js/collapse.js"></script>
-		<script src="js/dropdown.js"></script>
-		<script src="js/scrollspy.js"></script>  
+        <script src="../js/jquery.js"></script>
+    	<script src="../js/bootstrap.min.js"></script>
+        <script src="../js/sortable.js"></script>
+    	<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/transition.js"></script>
+		<script src="../js/collapse.js"></script>
+		<script src="../js/dropdown.js"></script>
+		<script src="../js/scrollspy.js"></script>  
 		<style>
     body { padding-top: 50px; }
   </style>
@@ -27,8 +27,8 @@
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
 		<header>
-	<?php include("include/navbar-topfix-1.php");
-		include("include/header-login.php");
+	<?php include("../include/fiches/navbar-topfix-1.php");
+		include("../include/fiches/header-login.php");
 			?>
 		</header>
    <hr>
@@ -118,7 +118,7 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
 			                    <!-- FORMULAIRE A TRANSMETTRE -->
 
 				
-			  <form id="form" method="POST" action="corrige1.php">
+			  <form id="form" method="POST" action="../corriges/corrige1.php">
 			  <h3 class="activite">Activité 1</h3>
 			  <p><i>Repérez le sujet et l'objet du courriel :</i></p>
 
@@ -500,43 +500,28 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
            
                  </form>
                 
-     </div><!--fin well principal-->
-	 </div><!--fin container principal-->
-	
-     <hr>
-    <footer>
-    	<?php include("include/footer.php"); ?> 
-    </footer>
-	<!-- JavaScript Includes -->
-	<script type="text/javascript">
-        $(document).ready(function(){
-            var group = $("ol.phrases").sortable({
-                group: 'phrases',
+		 </div><!--fin well principal-->
+		 </div><!--fin container principal-->
+		
+		 <hr>
+		<footer>
+			<?php include("../include/fiches/footer.php"); ?> 
+		</footer>
+		<!-- JavaScript Includes -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var group = $("ol.phrases").sortable({
+					group: 'phrases',
 
-            onDrop: function (item, container, _super) {
-                $('#ordre').val(group.sortable("serialize").get().join())
-                _super(item, container)
-                },
-            serialize: function (parent, children, isContainer) {
-                return isContainer ? children.join() : parent.val()
-                },
-            })
-        })
-    </script>
-	<!--Script pour Scrollspy fluide-->
-	<script>
-		$(function () {
-		$('li>a').on('click', function(e) {
-		e.preventDefault();
-		var hash = this.hash;
-		$('html, body').animate({
-		  scrollTop: $(this.hash).offset().top
-			}, 1000, function(){
-			window.location.hash = hash;
-			});
-		});
-	});
-	</Script>
-	
+				onDrop: function (item, container, _super) {
+					$('#ordre').val(group.sortable("serialize").get().join())
+					_super(item, container)
+					},
+				serialize: function (parent, children, isContainer) {
+					return isContainer ? children.join() : parent.val()
+					},
+				})
+			})
+		</script>	
     </body>
 </html>

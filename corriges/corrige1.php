@@ -5,21 +5,21 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Institut Français | Algérie</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="css/dinot.css">
-		<link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/fa/font-awesome.css">
-        <script src="js/jquery.js"></script>
-    	<script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap-theme.css">
+        <link rel="stylesheet" href="../css/responsive.css">
+        <link rel="stylesheet" href="../css/dinot.css">
+		<link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/fa/font-awesome.css">
+        <script src="../js/jquery.js"></script>
+    	<script src="../js/bootstrap.min.js"></script>
         
     </head>
     <body>
     <div class="header">
             <div class="container">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 topheader">
-                  <img src="img/logoifa.jpg" alt="" class="toplogo">
+                  <img src="../img/logoifa.jpg" alt="" class="toplogo">
                   <h2 class="toptitle">FORMATION DE FRANÇAIS EN LIGNE</h2>
                 </div>
             </div>
@@ -1307,7 +1307,7 @@ echo'</td>
      <footer>
         <div class="container bottombar">
             <div class="col-xs-12 col-sm2 col-md-1 col-lg-1 marianne">
-                <img src="img/marianne.png" alt="">
+                <img src="../img/marianne.png" alt="">
             </div>
             <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 ">
                 <span class="copyrights"><strong>© Institut Français 2014 - Tous droits réservés 2014.</strong> L'Institut Français est l'opérateur du ministère des Affaires étrangères et européennes pour l'action culturelle extérieure de la France.
@@ -1321,7 +1321,7 @@ echo'</td>
                 
             </div>
             <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
-                <img src="img/logoifa2.jpg" alt="" class="logobott">
+                <img src="../img/logoifa2.jpg" alt="" class="logobott">
             </div>
         </div>
     </footer>

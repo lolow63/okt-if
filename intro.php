@@ -19,8 +19,8 @@
     </head>
 	<body>
 		<header>
-			<?php include("include/header-login.php");    
-			  include("include/subheader-intro.php");
+			<?php include("include/intro/header-login.php");    
+			  include("include/intro/subheader-intro.php");
 			?>
 		</header>
 		<!--SNIPET MODAL JAVASCRIPT-->
@@ -343,7 +343,7 @@
 		</div>
 		<hr>
 		<footer>
-			<?php include("include/footer.php"); ?>
+			<?php include("include/intro/footer.php"); ?>
 		</footer>
 		<script src="js/jquery.js"></script>
     	<script src="js/bootstrap.min.js"></script>

@@ -25,7 +25,7 @@
 		<![endif]-->
 	<body>
 		<header>
-			<?php include("include/header-login.php");
+			<?php include("include/index/header-login.php");
 			?>
 		</header>
 		<div class="jumbotron">
@@ -37,7 +37,7 @@
 		</div>
 		<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
 		<footer>
-			<?php include("include/footer.php"); ?> 
+			<?php include("include/index/footer.php"); ?> 
 		</footer>
 	</body>
 <html>

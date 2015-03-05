@@ -25,8 +25,8 @@
     </head>
     <body>
 		<header>
-			<?php include("include/header-login.php");
-			include("include/subheader-login.php");
+			<?php include("include/index/header-login.php");
+			include("include/index/subheader-login.php");
 			?>
 		</header>
 		<!--SNIPET MODAL JAVASCRIPT-->
@@ -73,7 +73,7 @@
 		</div>
 		<hr>
 		<footer>
-			<?php include("include/footer.php"); ?>
+			<?php include("include/index/footer.php"); ?>
 		</footer>
 		
 		<!-- JavaScript Test -->

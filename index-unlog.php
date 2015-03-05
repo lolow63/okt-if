@@ -20,8 +20,8 @@
     </head>
     <body>
 		<header>
-			<?php include("include/header-unlog.php");
-			include("include/subheader-unlog.php");
+			<?php include("include/index/header-unlog.php");
+			include("include/index/subheader-unlog.php");
 			?>
 		</header>
 		
@@ -72,7 +72,7 @@
 		</div>
 		<hr>
 		<footer>
-			<?php include("include/footer.php"); ?>
+			<?php include("include/index/footer.php"); ?>
 		</footer>
 		    <!-- ============= Outdated Browser ============= -->
          <div id="outdated">

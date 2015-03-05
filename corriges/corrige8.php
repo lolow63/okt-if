@@ -5,21 +5,21 @@
         <meta name="description" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Institut Français | Algérie</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="css/dinot.css">
-        <link rel="stylesheet" href="css/fa/font-awesome.min.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap-theme.css">
+        <link rel="stylesheet" href="../css/responsive.css">
+        <link rel="stylesheet" href="../css/dinot.css">
+        <link rel="stylesheet" href="../css/fa/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/style.css">
 		<!-- JavaScript Includes -->
-		<script src="js/jquery.js"></script>
-    	<script src="js/bootstrap.min.js"></script>
-        <script src="js/sortable.js"></script>
-    	<script src="js/bootstrap.min.js"></script>
-		<script src="js/transition.js"></script>
-		<script src="js/collapse.js"></script>
-		<script src="js/dropdown.js"></script>
-		<script src="js/scrollspy.js"></script>  
+		<script src="../js/jquery.js"></script>
+    	<script src="../js/bootstrap.min.js"></script>
+        <script src="../js/sortable.js"></script>
+    	<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/transition.js"></script>
+		<script src="../js/collapse.js"></script>
+		<script src="../js/dropdown.js"></script>
+		<script src="../js/scrollspy.js"></script>  
 		<style>
 		body { padding-top: 50px; }
 		</style>
@@ -30,8 +30,8 @@
 		</head>
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
 		<header>
-			<?php include("include/navbar-topfix-cor1.php");
-			include("include/header-login.php");
+			<?php include("../include/corriges/navbar-topfix-cor1.php");
+			include("../include/corriges/header-login.php");
 			?>
 		</header>
 		<hr>
@@ -332,7 +332,7 @@
 		</div><!--fin container principal-->
 		<hr>
 		<footer><!--ANCRE NAVBAR-TOPFIX--><div id="bottom"></div>
-			<?php include("include/footer.php"); ?> 
+			<?php include("../include/corriges/footer.php"); ?> 
 		</footer>
 		<!-- JavaScript Includes -->
 		<script type="text/javascript">

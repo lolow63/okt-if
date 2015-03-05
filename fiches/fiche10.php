@@ -5,21 +5,21 @@
         <meta name="description" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Institut Français | Algérie</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="css/dinot.css">
-        <link rel="stylesheet" href="css/fa/font-awesome.min.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap-theme.css">
+        <link rel="stylesheet" href="../css/responsive.css">
+        <link rel="stylesheet" href="../css/dinot.css">
+        <link rel="stylesheet" href="../css/fa/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/style.css">
 		<!-- JavaScript Includes -->
-		<script src="js/jquery.js"></script>
-    	<script src="js/bootstrap.min.js"></script>
-        <script src="js/sortable.js"></script>
-    	<script src="js/bootstrap.min.js"></script>
-		<script src="js/transition.js"></script>
-		<script src="js/collapse.js"></script>
-		<script src="js/dropdown.js"></script>
-		<script src="js/scrollspy.js"></script>  
+		<script src="../js/jquery.js"></script>
+    	<script src="../js/bootstrap.min.js"></script>
+        <script src="../js/sortable.js"></script>
+    	<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/transition.js"></script>
+		<script src="../js/collapse.js"></script>
+		<script src="../js/dropdown.js"></script>
+		<script src="../js/scrollspy.js"></script>  
 		<style>
 		body { padding-top: 50px; }
 		</style>
@@ -142,7 +142,7 @@
     </div>
   </nav>
 <!--FIN BARRE DE NAVIGATION TOP-FIXE-->
-			<?php include("include/header-login.php");?>
+			<?php include("../include/fiches/header-login.php");?>
 		</header>
 		<hr>
 		<!--ANCRE NAVBAR-TOPFIX-->
@@ -230,7 +230,7 @@
 				
 				<!-- FORMULAIRE A TRANSMETTRE -->
 				
-				<form method="post" action="corrige10.php">
+				<form method="post" action="../corriges/corrige10.php">
 				
 				<div class="well">
 				
@@ -387,7 +387,7 @@
 		</div><!--fin container principal-->
 		<hr>
 		<footer>
-			<?php include("include/footer.php"); ?> 
+			<?php include("../include/fiches/footer.php"); ?> 
 		</footer>
 			<!-- JavaScript Includes -->
 		<!-- JavaScript Sortable -->
@@ -406,20 +406,6 @@
 				})
 			})
 		</script>
-		<!--Script pour Scrollspy fluide-->
-		<script>
-			$(function () {
-			$('li>a').on('click', function(e) {
-			e.preventDefault();
-			var hash = this.hash;
-			$('html, body').animate({
-			  scrollTop: $(this.hash).offset().top
-				}, 1000, function(){
-				window.location.hash = hash;
-				});
-			});
-		});
-		</Script>
 	</body>
 </html>
 		  
