@@ -99,23 +99,6 @@
 		<!-- JavaScript Includes -->
 		<script src="../js/jquery.js"></script>
     	<script src="../js/bootstrap.min.js"></script>
-        <script src="../js/sortable.js"></script> 
-		<!-- JavaScript Sortable -->
-		<script type="text/javascript">
-			$(document).ready(function(){
-				var group = $("ol.phrases").sortable({
-					group: 'phrases',
-
-				onDrop: function (item, container, _super) {
-					$('#ordre').val(group.sortable("serialize").get().join())
-					_super(item, container)
-					},
-				serialize: function (parent, children, isContainer) {
-					return isContainer ? children.join() : parent.val()
-					},
-				})
-			})
-		</script>
 	</body>
 </html>
 		  

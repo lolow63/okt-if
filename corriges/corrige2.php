@@ -367,32 +367,30 @@
 					
 					
 					
-					echo'</div>';}?>
-                       
-					 </div><!--fin list-group-item-->
-					<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
+					echo'</div>';}?><!--fin list-group-item-->
+			<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
 
-				<div class="modal-header">
-				  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				  <h4 class="modal-title resume text-center" id="myModalLabel"><img src="../img/le-saviez-vous.png" alt="" class="img-responsive"></h4>
-				</div>
-				<div class="modal-body body-saviez-vous">
-					<h2 class="resume">EN RÉSUMÉ :</h2>
-					<div>
-							<p class="resume">L’objet d’un mail commence très souvent par un nom dérivé d’un verbe. Le nom est toujours suivi du mot « de » ou « des » : Je vous envoie les documents envoi de documents</p>
-							
+						<div class="modal-header">
+						  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						  <h4 class="modal-title resume text-center" id="myModalLabel"><img src="../img/le-saviez-vous.png" alt="" class="img-responsive"></h4>
+						</div>
+						<div class="modal-body body-saviez-vous">
+							<h2 class="resume">EN RÉSUMÉ :</h2>
+							<div>
+									<p class="resume">L’objet d’un mail commence très souvent par un nom dérivé d’un verbe. Le nom est toujours suivi du mot « de » ou « des » : Je vous envoie les documents envoi de documents</p>
+									
+							</div>
+						</div>
+						<div class="modal-footer">
+						<button class="btn btn-info" data-dismiss="modal">Fermer</button>
+						</div>
 					</div>
 				</div>
-				<div class="modal-footer">
-				<button class="btn btn-info" data-dismiss="modal">Fermer</button>
-				</div>
 			</div>
-		</div>
-	</div>
-	
-	<!--FIN DE MODAL JAVASCRIPT-->
+			
+			<!--FIN DE MODAL JAVASCRIPT-->
 
 				 <div class="modal-title" data-toggle="modal" data-target="#myModal">
 				 <br/>
@@ -407,23 +405,6 @@
 		<!-- JavaScript Includes -->
 		<script src="../js/jquery.js"></script>    
 		<script src="../js/bootstrap.min.js"></script>
-        <script src="../js/sortable.js"></script>
-		<!-- JavaScript Sortable -->
-		<script type="text/javascript">
-			$(document).ready(function(){
-				var group = $("ol.phrases").sortable({
-					group: 'phrases',
-
-				onDrop: function (item, container, _super) {
-					$('#ordre').val(group.sortable("serialize").get().join())
-					_super(item, container)
-					},
-				serialize: function (parent, children, isContainer) {
-					return isContainer ? children.join() : parent.val()
-					},
-				})
-			})
-		</script>
 	</body>
 </html>
 		  

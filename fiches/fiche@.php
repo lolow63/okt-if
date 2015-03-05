@@ -86,7 +86,6 @@
 		<!-- JavaScript Includes -->
 		<script src="../js/jquery.js"></script>
     	<script src="../js/bootstrap.min.js"></script>
-    	<script src="../js/bootstrap.min.js"></script>
 		<script src="../js/sortable.js"></script>
 		<!-- JavaScript Sortable -->
 		<script type="text/javascript">

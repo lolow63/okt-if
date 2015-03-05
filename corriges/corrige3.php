@@ -11,15 +11,6 @@
         <link rel="stylesheet" href="../css/dinot.css">
         <link rel="stylesheet" href="../css/fa/font-awesome.min.css">
         <link rel="stylesheet" href="../css/style.css">
-		<!-- JavaScript Includes -->
-		<script src="../js/jquery.js"></script>
-    	<script src="../js/bootstrap.min.js"></script>
-        <script src="../js/sortable.js"></script>
-    	<script src="../js/bootstrap.min.js"></script>
-		<script src="../js/transition.js"></script>
-		<script src="../js/collapse.js"></script>
-		<script src="../js/dropdown.js"></script>
-		<script src="../js/scrollspy.js"></script>  
 		<style>
 		body { padding-top: 50px; }
 		</style>
@@ -444,18 +435,7 @@
 								<label for="f3a3qdp3">La fiche technique de notre association est en pièces jointes.</label></li>
 							</ul>';}
 							 echo'</div>
-				        
-						
-					   ';}
-					   
-					  
-		
-					
-						
-		
-		
-		
-		
+					   ';}		
 					?>
 					</div><!--fin list-group-item-->
 			</div><!--fin well principal-->
@@ -465,21 +445,9 @@
 			<?php include("../include/corriges/footer.php"); ?> 
 		</footer>
 		<!-- JavaScript Includes -->
-		<script type="text/javascript">
-			$(document).ready(function(){
-				var group = $("ol.phrases").sortable({
-					group: 'phrases',
-
-				onDrop: function (item, container, _super) {
-					$('#ordre').val(group.sortable("serialize").get().join())
-					_super(item, container)
-					},
-				serialize: function (parent, children, isContainer) {
-					return isContainer ? children.join() : parent.val()
-					},
-				})
-			})
-		</script>
+				<!-- JavaScript Includes -->
+		<script src="../js/jquery.js"></script>
+    	<script src="../js/bootstrap.min.js"></script>  
 	</body>
 </html>
 		  

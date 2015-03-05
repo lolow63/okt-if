@@ -11,9 +11,10 @@
         <link rel="stylesheet" href="../css/dinot.css">
 		<link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/fa/font-awesome.css">
-        <script src="../js/jquery.js"></script>
-    	<script src="../js/bootstrap.min.js"></script>
-        
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->		
     </head>
     <body>
 		<header>
@@ -1254,7 +1255,7 @@ echo'</td>
 				 </div>	                      						   
 					 
 					 
-             </div><!-- fin de container courigé -->
+             </div><!-- fin de container corrigé -->
                 
                 
      </div><!--fin de container-->
@@ -1280,5 +1281,8 @@ echo'</td>
             </div>
         </div>
     </footer>
+		<!-- JavaScript Includes -->
+		<script src="js/jquery.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
     </body>
 </html>

@@ -11,15 +11,6 @@
         <link rel="stylesheet" href="../css/dinot.css">
         <link rel="stylesheet" href="../css/fa/font-awesome.min.css">
         <link rel="stylesheet" href="../css/style.css">
-		<!-- JavaScript Includes -->
-		<script src="../js/jquery.js"></script>
-    	<script src="../js/bootstrap.min.js"></script>
-        <script src="../js/sortable.js"></script>
-    	<script src="../js/bootstrap.min.js"></script>
-		<script src="../js/transition.js"></script>
-		<script src="../js/collapse.js"></script>
-		<script src="../js/dropdown.js"></script>
-		<script src="../js/scrollspy.js"></script>  
 		<style>
 		body { padding-top: 50px; }
 		</style>
@@ -382,6 +373,9 @@
 		<footer>
 			<?php include("../include/fiches/footer.php"); ?> 
 		</footer>
+		<!-- JavaScript Includes -->
+		<script src="../js/jquery.js"></script>
+    	<script src="../js/bootstrap.min.js"></script>
 	</body>
 </html>
 		  
