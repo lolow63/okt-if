@@ -30,9 +30,30 @@
 		</head>
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
 		<header>
-			<?php include("../include/fiches/navbar-topfix-2.php");
-			include("../include/fiches/header-login.php");
-			?>
+			<!--BARRE DE NAVIGATION TOP-FIXE-->
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="container-fluid">
+				  <div class="navbar-header">
+					<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".js-navbar-scrollspy">
+					  <span class="sr-only">Navigation</span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">FICHE 3</a>
+				  </div>
+				  <div class="collapse navbar-collapse js-navbar-scrollspy">
+					<ul class="nav navbar-nav">
+					  <li class=""><a href="#sujet">SUJET</a></li>
+					  <li class=""><a href="#act1">ACTIVITÉ 1</a></li>
+					  <li class=""><a href="#act2">ACTIVITÉ 2</a></li>
+					  <li class=""><a href="#act3">ACTIVITÉ 3</a></li>
+					</ul>
+				  </div>
+				</div>
+			</nav>
+			<!--FIN BARRE DE NAVIGATION TOP-FIXE-->
+			<?php include("../include/fiches/header-login.php");?>
 		</header>
 		<hr>
 		<div class="container">
@@ -54,7 +75,7 @@
 					</div>
 				</div>
 				
-				<p class="recoi">Mohammed reçoit le message suivant :</p>
+				<p id="sujet" class="recoi">Mohammed reçoit le message suivant :</p>
 			
             <!--BOITE MAIL-->
 				<div class="list-group-item">
@@ -112,7 +133,7 @@
 				</div><br/>
 				<!--FIN BOITE MAIL -->
 				
-				<p class="recoi" id="sujet">Mohammed RAÏS décide d’écrire à son chef de service :</p>
+				<p class="recoi">Mohammed RAÏS décide d’écrire à son chef de service :</p>
 				
 				<!--BOITE MAIL-->
 				<div class="list-group-item">

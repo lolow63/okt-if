@@ -16,75 +16,30 @@
         
     </head>
     <body>
-    <div class="header">
-            <div class="container">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 topheader">
-                  <img src="../img/logoifa.jpg" alt="" class="toplogo">
-                  <h2 class="toptitle">FORMATION DE FRANÇAIS EN LIGNE</h2>
-                </div>
-            </div>
-    	<div class="container">
-    	   <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 mainnav">
-            <nav class="navbar navbar-default" role="navigation">
-                <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-        
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.php">ACCUEIL</a></li>
-                    <li><a href="intro.php">INTRODUCTION</a></li>
-                    <li><a href="construction.php">LIEN</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="construction.php">AIDE</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">FICHES<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="fiche1.php">Fiche 1</a></li>
-                            <li><a href="construction.php">Fiche 2</a></li>
-                            <li><a href="construction.php">Fiche 3</a></li>
-                            <li><a href="construction.php">Fiche 4</a></li>
-							<li><a href="construction.php">Fiche 5</a></li>
-							<li><a href="construction.php">Fiche 6</a></li>
-							<li><a href="construction.php">Fiche 7</a></li>
-							<li><a href="construction.php">Fiche 8</a></li>
-							<li><a href="construction.php">Fiche 9</a></li>
-							<li><a href="construction.php">Fiche 10</a></li>
-							<li><a href="construction.php">Fiche 11</a></li>
-							<li><a href="construction.php">Fiche 12</a></li>
-							<li><a href="construction.php">Fiche 13</a></li>
-							<li><a href="construction.php">Fiche 14</a></li>
-							<li><a href="construction.php">Fiche 15</a></li>
-							<li><a href="construction.php">Fiche 16</a></li>
-							<li><a href="construction.php">Fiche 17</a></li>
-							<li><a href="construction.php">Fiche 18</a></li>
-							<li><a href="construction.php">Fiche 19</a></li>
-							<li><a href="construction.php">Fiche 20</a></li>
-							<li><a href="construction.php">Fiche 21</a></li>
-							<li><a href="construction.php">Fiche 22</a></li>
-							<li><a href="construction.php">Fiche 23</a></li>
-							<li><a href="construction.php">Fiche 24</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-            </nav>   
-           </div>
-           <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-               <ul class="nav navbar-nav navbar-default navbar-right">
-                           <li><a href="construction.php"><i class="fa fa-unlock-alt"></i> MON COMPTE</a></li>                     
-                       </ul>
-           </div>
-        </div>
-    </div>
+		<header>
+			<!--BARRE DE NAVIGATION TOP-FIXE-->
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="container-fluid">
+				  <div class="navbar-header">
+					<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".js-navbar-scrollspy">
+					  <span class="sr-only">Navigation</span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">FICHE 1: CORRIGÉ</a>
+				  </div>
+				  <div class="collapse navbar-collapse js-navbar-scrollspy">
+					<ul class="nav navbar-nav">
+					  <li><a href="#bottom">LE SAVIEZ-VOUS?</a></li>
+					  <li><a href="../fiches/fiche2.php">FICHE SUIVANTE</a></li>
+					</ul>
+				  </div>
+				</div>
+			</nav>
+			<!--FIN BARRE DE NAVIGATION TOP-FIXE-->
+			<?php include("../include/corriges/header-login.php");?>
+		</header>
    
      <div class="container">
 	         <div class="well">
@@ -1262,7 +1217,7 @@ echo'</td>
 				echo'<p class="remarque">Il est important de choisir le bon vocabulaire en fonction du statut du destinataire. Ces mots de vocabulaire sont classés dans différents registres de langue : familier, courant ou soutenu. On dit également que l\'on s\'adresse à l\'interlocuteur de manière informelle ( c\'est le langage familier),formelle (c\'est le langage courant) ou très formelle (ou encore de manière protocolaire,   c\'est le langage soutenu).</p>';
 					}	  
                 ?>
-				</div>
+				
 				<!--SNIPET MODAL JAVASCRIPT-->
 	 
 	<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -1293,9 +1248,9 @@ echo'</td>
 	
 	<!--FIN DE MODAL JAVASCRIPT-->
 
-				 <div class="modal-title" data-toggle="modal" data-target="#myModal">
+				 <div id="bottom" class="modal-title" data-toggle="modal" data-target="#myModal">
 				 <br/>
-				 <img src="img/le-saviez-vous.png" alt="" class="img-responsive">
+				 <img src="../img/le-saviez-vous.png" alt="" class="img-responsive">
 				 </div>	                      						   
 					 
 					 

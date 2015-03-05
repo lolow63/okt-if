@@ -19,9 +19,16 @@
     </head>
 	<body>
 		<header>
-			<?php include("include/intro/header-login.php");    
-			  include("include/intro/subheader-intro.php");
-			?>
+			<?php include("include/index/header-login.php");?>
+			<!--SUBHEADER-->
+			<div class="content">
+				<div class="subheader">
+					<div class="container">
+						<h1>Fiches d'aide à la réalisation de courriels professionnels</h1>
+						<h4>Une formation inédite au service des professionnels algériens!</h4>					                                         						
+					</div>
+				</div>
+			</div>
 		</header>
 		<!--SNIPET MODAL JAVASCRIPT-->
 		<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -343,7 +350,7 @@
 		</div>
 		<hr>
 		<footer>
-			<?php include("include/intro/footer.php"); ?>
+			<?php include("include/index/footer.php"); ?>
 		</footer>
 		<script src="js/jquery.js"></script>
     	<script src="js/bootstrap.min.js"></script>

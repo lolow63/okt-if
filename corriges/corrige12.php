@@ -30,9 +30,28 @@
 		</head>
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
 		<header>
-			<?php include("../include/corriges/navbar-topfix-cor1.php");
-			include("../include/corriges/header-login.php");
-			?>
+			<!--BARRE DE NAVIGATION TOP-FIXE-->
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="container-fluid">
+				  <div class="navbar-header">
+					<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".js-navbar-scrollspy">
+					  <span class="sr-only">Navigation</span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">FICHE 12: CORRIGÉ</a>
+				  </div>
+				  <div class="collapse navbar-collapse js-navbar-scrollspy">
+					<ul class="nav navbar-nav">
+					  <li><a href="#bottom">LE SAVIEZ-VOUS?</a></li>
+					  <li><a href="../construction.php">FICHE SUIVANTE</a></li>
+					</ul>
+				  </div>
+				</div>
+			</nav>
+			<!--FIN BARRE DE NAVIGATION TOP-FIXE-->
+			<?php include("../include/corriges/header-login.php");?>
 		</header>
 		<hr>
 		<!--ANCRE NAVBAR-TOPFIX--><div id="sujet"></div>
