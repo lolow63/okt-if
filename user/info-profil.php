@@ -22,15 +22,15 @@
 	</head>
 	<body>
 		<!--DEBUT DU FORMULAIRE DE MODIFICATION PROFIL-->
-		<!--AVERTISSEMENT JAVASCRIPT DÉSACTIVÉ-->
-		<noscript>
-			<div class="jumbotron">
-				<div class="activite text-center" style="font-size:1em">AVERTISSEMENT: Le Javascript est désactivé sur cette page! Modifiez les paramètres de votre navigateur pour profiter pleinement de toutes les fonctionnalités. 
-				</div>
-			</div>
-		</noscript>
 		<form class="form-horizontal" method="post" action="test-profil.php">
 			<div class="modal-body">
+			<!--AVERTISSEMENT JAVASCRIPT DÉSACTIVÉ-->
+			<noscript>
+				<div class="alert alert-danger">
+					<div class="activite text-center" style="font-size:1em">AVERTISSEMENT: Le Javascript est désactivé sur cette page! Modifiez les paramètres de votre navigateur pour profiter pleinement de toutes les fonctionnalités du site. 
+					</div>
+				</div>
+			</noscript>
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 					 <h2>NOM Prénom</h2>
 					 <h5>Adresse électronique: exemple@gmail.com</h5>

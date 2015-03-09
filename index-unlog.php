@@ -50,6 +50,13 @@
 				
 		
 		<div class="container">
+		<!--AVERTISSEMENT JAVASCRIPT DÉSACTIVÉ-->
+		<noscript>
+			<div class="alert alert-danger">
+				<div class="activite text-center" style="font-size:1em">AVERTISSEMENT: Le Javascript est désactivé sur cette page! Modifiez les paramètres de votre navigateur pour profiter pleinement de toutes les fonctionnalités du site. 
+				</div>
+			</div>
+		</noscript>
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 				<h4 class="hometitle"><i class="fa fa-lightbulb-o"></i> POURQUOI CETTE FORMATION?</h4>
 				<p class=" alinea justif">Pour un professionnel, il est essentiel d'avoir une communication claire et respectueuse des conventions d'usage. Nous 

@@ -23,18 +23,18 @@
 		<![endif]-->
 	</head>
 	<body>
-		<!--AVERTISSEMENT JAVASCRIPT DÉSACTIVÉ-->
-		<noscript>
-			<div class="jumbotron">
-				<div class="activite text-center" style="font-size:1em">AVERTISSEMENT: Le Javascript est désactivé sur cette page! Modifiez les paramètres de votre navigateur pour profiter pleinement de toutes les fonctionnalités du site. 
-				</div>
-			</div>
-		</noscript>
 		
 		<div class="jumbotron">
 			<div class="activite text-center">Inscription</div>
 		</div>
 		<div class="container">
+		<!--AVERTISSEMENT JAVASCRIPT DÉSACTIVÉ-->
+		<noscript>
+			<div class="alert alert-danger">
+				<div class="activite text-center" style="font-size:1em">AVERTISSEMENT: Le Javascript est désactivé sur cette page! Modifiez les paramètres de votre navigateur pour profiter pleinement de toutes les fonctionnalités du site. 
+				</div>
+			</div>
+		</noscript>
 		<form class="form-horizontal" method="post" action="test-inscription.php">			
 				<!-- Name input-->
 				<div class="form-group">
