@@ -377,7 +377,32 @@
 					else{echo'<p><span class="fa fa-2x fa-close"></span>4. Nous vous octroyons le crédit <strong class="mauvrep">'.$f7a4q5.'</strong> deux jours.</p> <p>La bonne réponse est : « sous »';}
 					echo'</div>';
 					
-					;}?></div><!--fin list-group-item-->
+					;}?>
+					<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+
+						<div class="modal-header">
+						  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						  <h4 class="modal-title resume text-center" id="myModalLabel"><img src="../img/le-saviez-vous.png" alt="" class="img-responsive"></h4>
+						</div>
+						<div class="modal-body body-saviez-vous">
+							<p class="resume">Soyez précis dans vos courriels en indiquant quand vous organisez un rendez-vous, quand vous devez proposez une date, un lieu, une heure ou un moment déterminé.<br/>
+							Exemple : vous êtes cordialement invités à participer à la réunion qui se tiendra le 16 février à l’institut des sciences naturelles d’Alger, en salle 24 de 16h 15 à 17h15.
+							</p>
+						</div>
+						<div class="modal-footer">
+						<button class="btn btn-info" data-dismiss="modal">Fermer</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--FIN DE MODAL JAVASCRIPT-->
+			 <div class="modal-title" data-toggle="modal" data-target="#myModal">
+				 <br/>
+				 <img src="../img/le-saviez-vous.png" alt="" class="img-responsive">
+			 </div>	
+					</div><!--fin list-group-item-->
 			</div><!--fin well principal-->
 		</div><!--fin container principal-->
 		<hr>

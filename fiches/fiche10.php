@@ -56,15 +56,14 @@
 				<div class="row">
 					<div class="text-center well encadre col-xs-12 col-sm-offset-4 col-sm-4 col-sm-offset-4">
 						<h3 class="activite">Thème</h3>
-						<h3 class="remarque">@</h3>
+						<h3 class="remarque">Le prêt a été accepté!</h3>
 					</div>
 					<div class="text-center well encadre col-xs-12 col-sm-offset-1 col-sm-10 col-sm-offset-1">
 						<h3 class="activite">Objectifs</h3>
 						<ul class="list-unstyled">
-							<li class="remarque"><span class="fa fa-angle-double-right"></span>@</li>
-							<li class="remarque"><span class="fa fa-angle-double-right"></span>@</li>
-							<li class="remarque"><span class="fa fa-angle-double-right"></span>@</li>
-							<li class="remarque"><span class="fa fa-angle-double-right"></span>@</li>
+							<li><span class="fa fa-angle-double-right"></span> Les pronoms relatifs: lequel – auxquelles – laquelle- à laquelle.</li>
+							<li><span class="fa fa-angle-double-right"></span> Éviter la répétition de mots inutiles.</li>
+							<li><span class="fa fa-angle-double-right"></span> Apprendre à exprimer le maximum d’idées en peu de mots.</li>
 						</ul>
 					</div>
 				</div>

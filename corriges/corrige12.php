@@ -261,7 +261,37 @@
 					Mohammed RAÏS </p>';}
 					echo'</div>';
 		
-					;}?></div><!--fin list-group-item-->
+					;}?>
+					<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+
+						<div class="modal-header">
+						  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						  <h4 class="modal-title resume text-center" id="myModalLabel"><img src="../img/le-saviez-vous.png" alt="" class="img-responsive"></h4>
+						</div>
+						<div class="modal-body body-saviez-vous">
+							<p class="resume">Le futur peut être aussi exprimé avec le verbe « aller » à l'infinitif.<br/>
+							Exemple: Mon collègue vous enverra les documents cet après-midi.<br/>
+							Ou: Mon collègue va vous envoyer les documents cet après midi.<br/>
+							On évitera le futur avec le verbe « aller » à l’écrit. C’est une forme réservée à l’oral. Comparez:<br/>
+							Oral: On va aller chez le directeur pour lui parler.<br/>
+							Écrit: nous irons chez le directeur la semaine prochaine pour lui parler.</p>
+						</div>
+						<div class="modal-footer">
+						<button class="btn btn-info" data-dismiss="modal">Fermer</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--FIN DE MODAL JAVASCRIPT-->
+
+				 <div class="modal-title" data-toggle="modal" data-target="#myModal">
+				 <br/>
+				 <img src="../img/le-saviez-vous.png" alt="" class="img-responsive">
+				 </div>
+					</div><!--fin list-group-item-->
 			</div><!--fin well principal-->
 		</div><!--fin container principal-->
 		<hr>

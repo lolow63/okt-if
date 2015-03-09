@@ -61,10 +61,10 @@
 					<div class="text-center well encadre col-xs-12 col-sm-offset-1 col-sm-10 col-sm-offset-1">
 						<h3 class="activite">Objectifs</h3>
 						<ul class="list-unstyled">
-							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
-							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
-							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
-							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
+							<li class=""><span class="fa fa-angle-double-right"></span> Choisir la formule adéquate d’un objet.</li>
+							<li class=""><span class="fa fa-angle-double-right"></span> Formuler de façon efficace l’objet d’un courriel.</li>
+							<li class=""><span class="fa fa-angle-double-right"></span> Utiliser les connecteurs logiques pour structurer le courriel.</li>
+							<li class=""><span class="fa fa-angle-double-right"></span> Utiliser la forme nominale des verbes.</li>
 						</ul>
 					</div>
 				</div>

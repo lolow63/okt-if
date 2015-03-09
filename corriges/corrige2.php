@@ -379,11 +379,10 @@
 						  <h4 class="modal-title resume text-center" id="myModalLabel"><img src="../img/le-saviez-vous.png" alt="" class="img-responsive"></h4>
 						</div>
 						<div class="modal-body body-saviez-vous">
-							<h2 class="resume">EN RÉSUMÉ :</h2>
-							<div>
-									<p class="resume">L’objet d’un mail commence très souvent par un nom dérivé d’un verbe. Le nom est toujours suivi du mot « de » ou « des » : Je vous envoie les documents envoi de documents</p>
-									
-							</div>
+							<p class="resume">L’objet d’un courriel commence très souvent par un nom dérivé d’un verbe.<br/>
+							Le nom est toujours suivi du mot « de » ou « des ».<br/>
+							Exemple: Je vous envoie les documents.<br/>
+							Envoi de documents.</p>
 						</div>
 						<div class="modal-footer">
 						<button class="btn btn-info" data-dismiss="modal">Fermer</button>

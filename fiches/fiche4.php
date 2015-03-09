@@ -56,14 +56,14 @@
 				<div class="row">
 					<div class="text-center well encadre col-xs-12 col-sm-offset-4 col-sm-4 col-sm-offset-4">
 						<h3 class="activite">Thème</h3>
-						<h3 class="remarque">@</h3>
+						<h3 class="remarque">Mohammed formule une demande auprès du comité des oeuvres sociales de son entreprise.</h3>
 					</div>
 					<div class="text-center well encadre col-xs-12 col-sm-offset-1 col-sm-10 col-sm-offset-1">
 						<ul class="list-unstyled"><h3 class="activite">Objectifs</h3>
-							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
-							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
-							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
-							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
+							<li class=""><span class="fa fa-angle-double-right"></span> Adopter un style courtois.</li>
+							<li class=""><span class="fa fa-angle-double-right"></span> Utiliser les pronoms relatifs: que – qui – dont - où.</li>
+							<li class=""><span class="fa fa-angle-double-right"></span> Choisir les mots justes pour exprimer son idée.</li>
+							<li class=""><span class="fa fa-angle-double-right"></span> Apprendre à être efficace tout en restant poli.</li>
 						</ul>
 					</div>
 				</div>

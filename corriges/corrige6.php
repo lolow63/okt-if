@@ -334,7 +334,34 @@
 					    elseif($f6a3q3=='contenait'){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f6a3q3.':</strong></p><p>La bonne réponse est : « contienne »</p><p class="remarque">L’imparfait de l’indicatif exprime un fait réel qui ne convient pas à cette situation.</p>';}
 					    else{echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f6a3q3.':</strong></p>';}
 						echo'</div>';
-					;}?></div><!--fin list-group-item-->
+					;}?>
+					<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+
+						<div class="modal-header">
+						  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						  <h4 class="modal-title resume text-center" id="myModalLabel"><img src="../img/le-saviez-vous.png" alt="" class="img-responsive"></h4>
+						</div>
+						<div class="modal-body body-saviez-vous">
+							<p class="resume">Pour réussir l’organisation d’une réunion, il convient d’insérer dans l’invitation l’ensemble des éléments suivants :<br/>
+							- date / lieu / heure. Il serait idéal de proposer trois dates possibles.<br/>
+							- rappeler aux participants de confirmer / infirmer leur présence.</p>
+						</div>
+						<div class="modal-footer">
+						<button class="btn btn-info" data-dismiss="modal">Fermer</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--FIN DE MODAL JAVASCRIPT-->
+
+				 <div class="modal-title" data-toggle="modal" data-target="#myModal">
+				 <br/>
+				 <img src="../img/le-saviez-vous.png" alt="" class="img-responsive">
+				 </div>
+					</div><!--fin list-group-item-->
 			</div><!--fin well principal-->
 		</div><!--fin container principal-->
 		<hr>

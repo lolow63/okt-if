@@ -1232,18 +1232,15 @@ echo'</td>
 
 				<div class="modal-header">
 				  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				  <h4 class="modal-title resume text-center" id="myModalLabel"><img src="img/le-saviez-vous.png" alt="" class="img-responsive"></h4>
+				  <h4 class="modal-title resume text-center" id="myModalLabel"><img src="../img/le-saviez-vous.png" alt="" class="img-responsive"></h4>
 				</div>
 				<div class="modal-body body-saviez-vous">
-					<h2 class="resume">EN RÉSUMÉ :</h2>
-					<div>
 							<p class="resume">- Lors de la réception d'un courriel, la première étape est de repérer l'expéditeur et l'objet du message.</p>
 							<p class="resume">- Il est important de respecter une organisation dans la rédaction d'un courriel : objet, formule d'appel,
 							rappel du contexte, développement, remerciements, salutations, signature.</p>
-							<p class="resume">-Les formules utilisées dans le courriel doivent tenir compte de la nature de l'expéditeur
+							<p class="resume">- Les formules utilisées dans le courriel doivent tenir compte de la nature de l'expéditeur
 							( un service, un homme, une femme, une catégorie de professionnels) ainsi que du type de relation qui vous lie 
 							avec ce dernier ( ami, collègue, client, subalterne, supérieur hiérarchique...)</p>
-					</div>
 				</div>
 				<div class="modal-footer">
 				<button class="btn btn-info" data-dismiss="modal">Fermer</button>
@@ -1287,7 +1284,7 @@ echo'</td>
         </div>
     </footer>
 		<!-- JavaScript Includes -->
-		<script src="js/jquery.js"></script>
-    	<script src="js/bootstrap.min.js"></script>
+		<script src="../js/jquery.js"></script>    
+		<script src="../js/bootstrap.min.js"></script>
     </body>
 </html>
