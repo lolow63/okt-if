@@ -232,7 +232,7 @@
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 						<h4 class="modal-title" id="InscriptionLabel">Formulaire d'inscription</h4>
 					</div>
-					<form class="form-horizontal" method="post" action="test-inscription.php">
+					<form class="form-horizontal" method="post" action="user/test-inscription.php">
 						<div class="modal-body">
 							<!-- Name input-->
 							<div class="form-group">
@@ -348,7 +348,7 @@
 					<p class="alinea">Par la richesse de ses contenus, son ergonomie et son aspect dynamique, cette formation en ligne de l’IFA vous aidera à acquérir et développer des compétences, nécessaires pour la bonne conduite de vos projets en entreprise.</p>
 				</div>
 				<div class="buttons pull-right">
-					<noscript><a href="inscription.php" class="btn btn-inscription">M'inscrire gratuitement</a></noscript>
+					<noscript><a href="user/inscription.php" class="btn btn-inscription">M'inscrire gratuitement</a></noscript>
 					<a class="btn btn-inscription modal-title" data-toggle="modal" data-target="#ModalInscription">M'inscrire gratuitement</a>
 				</div> 
 			</div>

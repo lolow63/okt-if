@@ -58,7 +58,7 @@
  <div class="header">
     <div class="container">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 topheader">
-            <img src="img/logoifa.jpg" alt="" class="toplogo">
+            <img src="../img/logoifa.jpg" alt="" class="toplogo">
             <h2 class="toptitle">FORMATION DE FRANÇAIS EN LIGNE</h2>
         </div>
     </div>
