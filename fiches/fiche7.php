@@ -57,15 +57,15 @@
 				<div class="row">
 					<div class="text-center well encadre col-xs-12 col-sm-offset-4 col-sm-4 col-sm-offset-4">
 						<h3 class="activite">Thème</h3>
-						<h3 class="remarque">@</h3>
+						<h3 class="remarque">Le comité des oeuvres sociales va étudier la demande de Mohammed.</h3>
 					</div>
 					<div class="text-center well encadre col-xs-12 col-sm-offset-1 col-sm-10 col-sm-offset-1">
 						<h3 class="activite">Objectifs</h3>
 						<ul class="list-unstyled">
-							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
-							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
-							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
-							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
+							<li class=""><span class="fa fa-angle-double-right"></span> Choisir le temps adéquat à l’idée exprimée.</li>
+							<li class=""><span class="fa fa-angle-double-right"></span> Conjuguer le participe passé.</li>
+							<li class=""><span class="fa fa-angle-double-right"></span> Mettre au présent ou au futur?</li>
+							<li class=""><span class="fa fa-angle-double-right"></span> Différencier les prépositions de temps.</li>
 						</ul>
 					</div>
 				</div>

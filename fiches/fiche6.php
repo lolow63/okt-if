@@ -56,15 +56,15 @@
 				<div class="row">
 					<div class="text-center well encadre col-xs-12 col-sm-offset-4 col-sm-4 col-sm-offset-4">
 						<h3 class="activite">Thème</h3>
-						<h3 class="remarque">@</h3>
+						<h3 class="remarque">Le directeur donne un accord de principe au commité.</h3>
 					</div>
 					<div class="text-center well encadre col-xs-12 col-sm-offset-1 col-sm-10 col-sm-offset-1">
 						<h3 class="activite">Objectifs</h3>
 						<ul class="list-unstyled">
-							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
-							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
-							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
-							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
+							<li class=""><span class="fa fa-angle-double-right"></span> Juger la nature d’une excuse : valable – correcte - fausse.</li>
+							<li class=""><span class="fa fa-angle-double-right"></span> Rédiger des phrases complexes à l'aide du participe présent.</li>
+							<li class=""><span class="fa fa-angle-double-right"></span> Rédiger un courriel efficace en motivant les informations avancées.</li>
+							<li class=""><span class="fa fa-angle-double-right"></span> Utiliser le conditionnel.</li>
 						</ul>
 					</div>
 				</div>
@@ -126,7 +126,7 @@
 				<form method="post" action="../corriges/corrige6.php">
 				
 				<h3 id="act1" class="activite">Activité 1</h3>
-				<p><i>Réécrivez les phrases suivantes en utilisant l'adjectif verbal approprié:</i></p>
+				<p><i>Réécrivez les phrases suivantes en utilisant le participe présent approprié:</i></p>
 				<p class="alinea"><i>Exemple:</i><strong> Puisqu’il travaille</strong> depuis longtemps en France, Karim parle bien français.</p>
 				<p class="alinea"><strong>Travaillant</strong> depuis longtemps en France, Karim parle bien français.</p>
 				

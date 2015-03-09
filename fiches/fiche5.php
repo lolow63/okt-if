@@ -58,15 +58,15 @@
 				<div class="row">
 					<div class="text-center well encadre col-xs-12 col-sm-offset-4 col-sm-4 col-sm-offset-4">
 						<h3 class="activite">Thème</h3>
-						<h3 class="remarque">@</h3>
+						<h3 class="remarque"> La demande de Mohammed est prise en considération.</h3>
 					</div>
 					<div class="text-center well encadre col-xs-12 col-sm-offset-1 col-sm-10 col-sm-offset-1">
 						<h3 class="activite">Objectifs</h3>
 						<ul class="list-unstyled">
-							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
-							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
-							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
-							<li class=""><span class="fa fa-angle-double-right"></span>@</li>
+							<li class=""><span class="fa fa-angle-double-right"></span> Utiliser les verbes au conditionnel.</li>
+							<li class=""><span class="fa fa-angle-double-right"></span> Choisir les bons pronoms interrogatifs: comment – où – pourquoi – quand- si.</li>
+							<li class=""><span class="fa fa-angle-double-right"></span> Demander une chose de façon polie et indirecte.</li>
+							<li class=""><span class="fa fa-angle-double-right"></span> Résumer son idée en un mot.</li>
 						</ul>
 					</div>
 				</div>
