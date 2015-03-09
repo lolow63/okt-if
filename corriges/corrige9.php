@@ -419,7 +419,34 @@
 					  else {echo'<p><span class="fa fa-2x fa-close"></span> Par conséquent : <strong class="mauvrep">'.$f9a4q3.'</strong></p> <p>la bonne réponse est:« Donc »</p>';} 
 					echo'</div>';//fin activité4
 					
-					;}?></div><!--fin list-group-item-->
+					;}?>
+					<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+
+						<div class="modal-header">
+						  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						  <h4 class="modal-title resume text-center" id="myModalLabel"><img src="../img/le-saviez-vous.png" alt="" class="img-responsive"></h4>
+						</div>
+						<div class="modal-body body-saviez-vous">
+							<p class="resume">Un courriel professionnel est d’autant plus efficace qu’il est formé avec des phrases simples et courtes. En moyenne, une phrase contient jusqu’à 15 mots (55 caractères à peu près). Car au-delà, le lecteur perd le fil de la phrase. A cet effet, certaines entreprises utilisent des logiciels de formatage de courriels spécifiques.<br/>
+							Exemple : Nous avons bien reçu votre message en date du 12 janvier, y compris les références en objet, et nous vous informons que nous y répondons ci-dessous. Phrase longue (+ 25 mots).<br/>
+							En réponse à votre message en date du 12 janvier, nous vous informons que... (14 mots)</p>
+						</div>
+						<div class="modal-footer">
+						<button class="btn btn-info" data-dismiss="modal">Fermer</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--FIN DE MODAL JAVASCRIPT-->
+
+				 <div class="modal-title" data-toggle="modal" data-target="#myModal">
+				 <br/>
+				 <img src="../img/le-saviez-vous.png" alt="" class="img-responsive">
+				 </div>
+					</div><!--fin list-group-item-->
 			</div><!--fin well principal-->
 		</div><!--fin container principal-->
 		<hr>

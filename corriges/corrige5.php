@@ -125,7 +125,6 @@
 		             //corrigéactivité2
 					 
 					 echo' <h3 class="activite">Activité 2 ('.$nf5a2.'%)</h3>
-					   <div class="list-group-item">
 					     <h3>Question 1</h3>';
 					 if($f5a2q1==''){echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">vous n\'avez pas repondu:</strong></p>';}
 					 elseif($f5a2q1=='Pourrais-je'){
@@ -244,7 +243,32 @@
 					
 					echo'</div>';
 					
-					;}?></div><!--fin list-group-item-->
+					;}?>
+					<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+
+						<div class="modal-header">
+						  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						  <h4 class="modal-title resume text-center" id="myModalLabel"><img src="../img/le-saviez-vous.png" alt="" class="img-responsive"></h4>
+						</div>
+						<div class="modal-body body-saviez-vous">
+							<p class="resume">Pour avoir plus de chances d’être lu, un courrier professionnel doit être concis, clair et indiquer clairement ce que l’on attend de l’autre.</p>
+						</div>
+						<div class="modal-footer">
+						<button class="btn btn-info" data-dismiss="modal">Fermer</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--FIN DE MODAL JAVASCRIPT-->
+
+				 <div class="modal-title" data-toggle="modal" data-target="#myModal">
+				 <br/>
+				 <img src="../img/le-saviez-vous.png" alt="" class="img-responsive">
+				 </div>
+					</div><!--fin list-group-item-->
 			</div><!--fin well principal-->
 		</div><!--fin container principal-->
 		<hr>

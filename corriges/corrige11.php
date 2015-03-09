@@ -277,7 +277,36 @@
 					Service commercial VEH.</p>';}
 					
 					echo'</div>';
-					;}?></div><!--fin list-group-item-->
+					;}?>
+					<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+
+						<div class="modal-header">
+						  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						  <h4 class="modal-title resume text-center" id="myModalLabel"><img src="../img/le-saviez-vous.png" alt="" class="img-responsive"></h4>
+						</div>
+						<div class="modal-body body-saviez-vous">
+							<p class="resume">Pour que votre message soit facilement compréhensible, il est préférable d'utiliser des structures simples: sujet + verbe + complément.<br/>
+							Exemple: Dans un délai de 20 jours, votre commande sera satisfaite.<br/>
+							Préférez: Votre commande sera satisfaite dans un délai de 20 jours.<br/>
+							Exemple: Pour que les conditions de vente vous soient adressées, il vous sera nécessaire de confirmer votre commande.<br/>
+							Préférez: Nous vous adresserons les conditions de vente après confirmation de votre commande.</p>
+						</div>
+						<div class="modal-footer">
+						<button class="btn btn-info" data-dismiss="modal">Fermer</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--FIN DE MODAL JAVASCRIPT-->
+
+				 <div class="modal-title" data-toggle="modal" data-target="#myModal">
+				 <br/>
+				 <img src="../img/le-saviez-vous.png" alt="" class="img-responsive">
+				 </div>
+					</div><!--fin list-group-item-->
 			</div><!--fin well principal-->
 		</div><!--fin container principal-->
 		<hr>

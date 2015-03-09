@@ -284,7 +284,34 @@
 					Cordialement.<br/>
 					Service commercial VEH</p>';}
 					echo'</div>';
-					;}?></div><!--fin list-group-item-->
+					;}?>
+					<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+
+								<div class="modal-header">
+								  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								  <h4 class="modal-title resume text-center" id="myModalLabel"><img src="../img/le-saviez-vous.png" alt="" class="img-responsive"></h4>
+								</div>
+								<div class="modal-body body-saviez-vous">
+									<p class="resume">Pour rendre vos messages efficaces, il serait recommandé d’utiliser des phrases positives, et cela même si vous exprimez des contenus négatifs.<br/>
+									Exemple : Je ne sais pas si je pourrais vous demander de m’adresser la fiche technique du véhicule.<br/>
+									<span class="fa fa-angle-double-right"></span> Je serais ravi si vous pouviez m’adresser la fiche technique du véhicule.</p>
+								</div>
+								<div class="modal-footer">
+								<button class="btn btn-info" data-dismiss="modal">Fermer</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+						<!--FIN DE MODAL JAVASCRIPT-->
+
+						 <div class="modal-title" data-toggle="modal" data-target="#myModal">
+						 <br/>
+						 <img src="../img/le-saviez-vous.png" alt="" class="img-responsive">
+						 </div>
+				</div><!--fin list-group-item-->
 			</div><!--fin well principal-->
 		</div><!--fin container principal-->
 		<hr>

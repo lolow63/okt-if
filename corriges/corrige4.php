@@ -337,7 +337,34 @@
 					    else {echo'<p><span class="fa fa-2x fa-close"></span> <strong class="mauvrep">'.$f4a3q12.':</strong></p> <p>La bonne réponse est : « tout »';}
                         
 					   echo'</div>';
-					   ;}?></div><!--fin list-group-item-->
+					   ;}?>
+					   
+					   <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+
+						<div class="modal-header">
+						  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						  <h4 class="modal-title resume text-center" id="myModalLabel"><img src="../img/le-saviez-vous.png" alt="" class="img-responsive"></h4>
+						</div>
+						<div class="modal-body body-saviez-vous">
+							<p class="resume">Lorsque vous souhaitez demander quelque chose dans un courriel, avant d’entrer en matière, il est plus professionnel de resituer tout d’abord le contexte de manière très brève, dès la première phrase.<br/>
+							Exemple : Suite à votre appel / Faisant suite à / Sur les conseils de / Avant de / Afin de / Après avoir ...</p>
+						</div>
+						<div class="modal-footer">
+						<button class="btn btn-info" data-dismiss="modal">Fermer</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--FIN DE MODAL JAVASCRIPT-->
+
+				 <div class="modal-title" data-toggle="modal" data-target="#myModal">
+				 <br/>
+				 <img src="../img/le-saviez-vous.png" alt="" class="img-responsive">
+				 </div>
+					   </div><!--fin list-group-item-->
 					   
 			</div><!--fin well principal-->
 		</div><!--fin container principal-->
