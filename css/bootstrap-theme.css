@@ -212,9 +212,6 @@ section#info, section#notes {
 .badge{
 	color: #FFFFFF;
 	background-color: #55BCBE;
-	display: block;
-	float: none !important;
-	font-size: large;
 }
 
 .btn-default,

@@ -380,13 +380,13 @@
 							<option value="Cadre d'entreprise">Cadre d'entreprise</option>
 							<option value="Professionnel de l'enseignement">Professionnel de l'enseignement</option>
 							<option value="Professionnel de la santé">Professionnel de la santé</option>
-							<option value="Employé administratifs d'entreprise">Employé administratifs d'entreprise</option>
+							<option value="Employé administratifs">Employé administratifs d'entreprise</option>
 							<option value="Commercial">Commercial</option>
 							<option value="Techniciens">Techniciens</option>
 							<option value="Contremaître, agent de maîtrise">Contremaître, agent de maîtrise</option>
 							<option value="Employé de la fonction publique">Employé de la fonction publique</option>
 							<option value="Employé de commerce">Employé de commerce</option>
-							<option value="Personnel des services aux particuliers">Personnel des services aux particuliers</option>
+							<option value="Services aux particuliers">Personnel des services aux particuliers</option>
 							<option value="Artiste">Artiste</option>
 							<option value="Ouvriers">Ouvriers</option>
 							<option value="Retraité">Retraité</option>
@@ -438,11 +438,6 @@
 			</div>
 			<!--FIN DU FORMULAIRE DE MODIFICATION PROFIL-->	
 		</form>
-	
-		<!-- JavaScript Includes -->
-		<script src="../js/jquery.js"></script>
-    	<script src="../js/bootstrap.min.js"></script>
-		<script src="../js/jqBootstrapValidation.js"></script>	
 		<!--Script JqBootstrapValidation-->
 		<script>
 		  $(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
@@ -451,7 +446,6 @@
 		<script>
 		$(document).ready(function() {
 			
-
 			$("#pays").change(function() {
 				if ( $("#pays").val() == "Algérie"){
 				$("#Wilaya").show();
