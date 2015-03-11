@@ -310,6 +310,7 @@
 		<script src="../js/jquery.js"></script>
     	<script src="../js/bootstrap.min.js"></script>
         <script src="../js/sortable.js"></script>
+        <script src="../js/scrollspy.js"></script>
 		<!-- JavaScript Sortable -->
 		<script type="text/javascript">
 			$(document).ready(function(){

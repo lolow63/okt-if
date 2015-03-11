@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
     <head>
 		<title>Enregistrement | Formation de l'Institut Français Algérie</title>
@@ -128,7 +128,25 @@
            </div>
         </div>
 </div>
+	<!--SUBHEADER-->
+	<div class="content">
+		<div class="subheader">
+			<div class="container">
+				<h1>Fiches d'aide à la réalisation de courriels professionnels</h1>
+				<h4>Une formation inédite au service des professionnels algériens!</h4>					                                         						
+			</div>
+		</div>
+	</div>
 	</header>
+	<div class="container">
+	
+	<!--AVERTISSEMENT JAVASCRIPT DÉSACTIVÉ-->
+		<noscript>
+			<div class="alert alert-danger">
+				<div class="activite text-center" style="font-size:1em">AVERTISSEMENT: Le Javascript est désactivé sur cette page! Modifiez les paramètres de votre navigateur pour profiter pleinement de toutes les fonctionnalités du site. 
+				</div>
+			</div>
+		</noscript>
 <?php 
      
       require_once('../fonctions/config.inc.php');
@@ -136,7 +154,7 @@
 	  
 	     
 	      if($_POST){
-	      $nom=trim($_POST['nom']);
+	          $nom=trim($_POST['nom']);
               $prenom=trim($_POST['prenom']);
               $mail=trim($_POST['mail']);	   
               $password=trim($_POST['password']);
@@ -147,12 +165,12 @@
 	              include '../fonctions/cnx_db.php';
 	             
 	             $con->exec("INSERT INTO users VALUES('','$nom','$prenom','$mail',SHA1('$password'),'','$a',NOW())");
-	             $body="Mreci pour enregistrement veillez clicker sur ce lien pour activé votre compte:\n\n";
-		     $body .=BASE_URL .'activate.php?x='.urlencode($mail)."&y=$a";
-		     mail($mail, 'Confirmation du compte', $body, 'From it@okt-s.com');
-                  echo '<div class="container"><div class="alert alert-success text-center">Nous vous souhaitons la bienvenue sur notre formation. Pour activer votre compte, rendez-vous sur votre messagerie et cliquez sur le lien de confirmation.</div></div>';
+	             $body="Pour terminer la procédure d'inscription, veuillez cliquer sur ce lien pour activer votre compte:\n\n";
+		     $body .=BASE_URL .'activation.php?x='.urlencode($mail)."&y=$a";
+		     mail($mail, 'Confirmation du compte', $body, 'De: Service de la formation en ligne de l\'Institut Français');
+                  echo '<h3 class="alert alert-success text-center">Nous vous souhaitons la bienvenue sur notre formation.<br/> Pour activer votre compte, rendez-vous sur votre messagerie et cliquez sur le lien de confirmation.</h3>';
 				   
-	       } else {echo '<div class="container"><div class="alert alert-danger text-center">Cette adresse électronique est déja utilisée. Veuillez renseigner une autre adresse ou vous rendre sur l\'<a href="connexion.php">espace de connexion</a> pour vous authentifier</div></div>';}
+	       } else {echo '<div class="alert alert-danger text-center">Cette adresse électronique est déjà utilisée. Veuillez renseigner une <a href="inscription.php">autre adresse</a> ou vous rendre sur l\'<a href="connexion.php">espace de connexion</a> pour vous authentifier</div>';}
 		}
              catch(PDOExeption $ee)
 	          {
@@ -166,7 +184,8 @@
 ?>
 
  <hr>
-		<footer>
+ </div><!--fin container-->
+		<footer style="position:fixed bottom 0px">
 			<?php include("../include/fiches/footer.php"); ?> 
 		</footer>
 		<!-- JavaScript Includes -->

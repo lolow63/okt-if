@@ -77,55 +77,50 @@
 						<div id="partie1" class="panel-collapse collapse">
 							<div class="panel-body">
 								<div class="list-group-item">
-									<p class="text-success">Fiche 1<span class="label label-success pull-right">100 %</span></p>
-									<div class="progress">
-										<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:100%"></div>
+									<p><strong>Fiche 1</strong>
+										<a href="../fiches/fiche1.php" class="pull-right btn btn-xs btn-info"><span class="fa fa-refresh"></span> Refaire</a>
+									</p>
+									<div class="clearfix progress">
+										<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:100%">100%</div>
 									</div>
-									<div class="text-right">
-										<a href="../fiches/fiche1.php" class="btn btn-xs btn-info"><span class="fa fa-pencil"></span> Refaire la fiche</a>
+								</div>
+									
+								<div class="list-group-item">
+									<p><strong>Fiche 2</strong>
+										<a href="../fiches/fiche2.php" class="pull-right btn btn-xs btn-info"><span class="fa fa-refresh"></span> Refaire</a>
+									</p>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">80%</div>
 									</div>
 								</div>
 								<div class="list-group-item">
-									<p class="text-success">Fiche 2<span class="label label-success pull-right">80 %</span></p>
+									<p><strong>Fiche 3</strong>
+										<a href="../fiches/fiche3.php" class="pull-right btn btn-xs btn-info"><span class="fa fa-refresh"></span> Refaire</a>
+									</p>
 									<div class="progress">
-										<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"></div>
-									</div>
-									<div class="text-right">
-										<a href="../fiches/fiche2.php" class="btn btn-xs btn-info"><span class="fa fa-pencil"></span> Refaire la fiche</a>
+										<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:45%">45%</div>
 									</div>
 								</div>
 								<div class="list-group-item">
-								<p class="text-warning">Fiche 3<span class="label label-warning pull-right">45 %</span></p>
+									<p><strong>Fiche 4</strong>
+										<a href="../fiches/fiche4.php" class="pull-right btn btn-xs btn-info"><span class="fa fa-refresh"></span> Refaire</a>
+									</p>
 									<div class="progress">
-										<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:45%"></div>
-									</div>
-									<div class="text-right">
-										<a href="../fiches/fiche3.php" class="btn btn-xs btn-info"><span class="fa fa-pencil"></span> Refaire la fiche</a>
+										<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:55%">55%</div>
 									</div>
 								</div>
 								<div class="list-group-item">
-								<p class="text-success">Fiche 4<span class="label label-success pull-right">55 %</span></p>
+									<p><strong>Fiche 5</strong>
+										<a href="../fiches/fiche5.php" class="pull-right btn btn-xs btn-info"><span class="fa fa-refresh"></span> Refaire</a>
+									</p>
 									<div class="progress">
-										<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:55%"></div>
-									</div>
-									<div class="text-right">
-										<a href="../fiches/fiche4.php" class="btn btn-xs btn-info"><span class="fa fa-pencil"></span> Refaire la fiche</a>
+										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:15%">15%</div>
 									</div>
 								</div>
 								<div class="list-group-item">
-								<p class="text-danger">Fiche 5<span class="label label-danger pull-right">15 %</span></p>
-									<div class="progress">
-										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:15%"></div>
-									</div>
-									<div class="text-right">
-										<a href="../fiches/fiche5.php" class="btn btn-xs btn-info"><span class="fa fa-pencil"></span> Refaire la fiche</a>
-									</div>
-								</div>
-								<div class="list-group-item">
-									<p>Fiche 6 
-									<div class="text-right">
-										<a class="btn btn-success" href="../fiches/fiche6.php">Commencer la fiche</a></li></p>
-									</div>
+									<p><strong>Fiche 6</strong>
+										<a class="pull-right btn btn-success" href="../fiches/fiche6.php"><span class="fa fa-chevron-circle-right"></span> Commencer</a>
+									</p>
 								</div>
 							</div>
 						</div>
@@ -183,8 +178,11 @@
 					</div>
 				</div>
 				<hr/>
-				<a class="btn btn-success btn-md pull-right">
-				<i class="fa fa-mortar-board"> </i> Obtenir mon certificat</a><br/><br/>
+				<a href="info-profil.php" class="btn btn-success disabled btn-md pull-right">
+				<i class="fa fa-mortar-board"></i> Obtenir mon certificat</a>
+				<small class="pull-right text-info"><span class="fa fa-warning"></span> Obtenez la moyenne à la formation pour obtenir votre certificat.</small>
+				<small class="pull-right text-danger"><span class="fa fa-warning"></span> Terminez la formation pour obtenir votre certificat.</small>
+				<br/><br/>
 			</section>
 			<section id="info" class="well col-xs-12 col-md-offset-1 col-md-5">
 				<h2 class="activite">MES INFOS<span class="pull-right fa fa-list"></span></h2>
