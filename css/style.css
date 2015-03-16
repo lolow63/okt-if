@@ -148,6 +148,9 @@ input.bouton{
 label:hover , select:hover, a :hover, .modal-title{
 	cursor: pointer;
 	}
+
+.progress-bar{
+	min-width:2em;}
 /*===================================================
     Elements de mise en forme du texte                  */
 
@@ -156,6 +159,13 @@ label:hover , select:hover, a :hover, .modal-title{
 	
 .justif{
 	text-align: justify;}
+
+/*===================================================
+    Elements de mise en forme du tableau corrigé            */
+
+td.activite{
+	width:33%;
+	}
 	
 /*=================================================	
 	Définition des classes de polices            */	

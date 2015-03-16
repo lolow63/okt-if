@@ -103,15 +103,15 @@
 		 // tableaux de note
 		       echo'<table class="text-center table table-bordered table-striped table-condensed">';
 			    echo'<tr>
-						<td class="activite" style="vertical-align:middle">Activité 1</td>
-						    <td>'.$nf2a1.'%';
+						<td class="activite">Activité 1</td>
+						    <td>';
 								 if(($nf2a1 >0) and ($nf2a1<25)){
 								 echo'<div class="progress">
                                          <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a1.'%"></div>
 					                  </div>';}
 						        elseif(($nf2a1 >= 25) and ($nf2a1<50)){
 									   echo'<div class="progress">
-                                               <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a1.'%"></div>
+                                               <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: '.$nf2a1.'%">'.$nf2a1.'%</div>
                                             </div>';}	
                                 elseif(($nf2a1 >= 50) ){
 									   echo'<div class="progress">

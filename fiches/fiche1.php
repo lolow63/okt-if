@@ -376,7 +376,7 @@ Service commercial VEH</p><!--ANCRE NAVBAR-TOPFIX--><div id="act1"></div>
 								<div class="col-md-3 col-xs-12"><div class=" input-group">
                                         <span class="input-group-addon">
                                         <input type="radio" name="cord" id="cord2" value="À des professionnels" />
-                                    </span><label for="cord2" class=" form-control">À un profes<wbr>sionnel</label></div></div>
+                                    </span><label for="cord2" class=" form-control">À un professionnel</label></div></div>
 								<div class="col-md-3 col-xs-12"><div class="input-group">
                                         <span class="input-group-addon">
                                         <input type="radio" name="cord" id="cord3" value="À une personnalité" />
