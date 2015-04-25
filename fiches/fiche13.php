@@ -235,10 +235,88 @@
                 </div>
 		
         <h3 id="act3" class="activite">Activité 3</h3>
-        <p><i>Pour impliquer davantage votre destinataire, respectez le rapport 6/1 : « je lui parle six fois de lui pour une fois de moi »</i></p>
+        <p><i>Observez cet exemple :<br/>
+        "Suite à notre dernière rencontre, nous vous envoyons la maquette de nos produits. Elle décrit en détails nos différentes prestations ainsi que nos tarifs."</i></p>
+        <p><strong>Caractéristiques:</strong> nous/notre : 5 fois<br/>
+        Vous : 1 fois  (texte centré sur l’émetteur)</p>
+        <p>Vous remarquez que le rédacteur concentre son message sur lui-même et non pas sur son destinataire. Pour impliquer davantage votre destinataire, respectez le rapport 6/1 : « je lui parle six fois de lui pour une fois de moi ».<p>
+        <p><strong>A préférer:</strong><br/>
+        <i>" Vous nous avez demandé de vous fournir une maquette de produits adéquate à vos besoins. Vous trouverez ci-joint un document qui vous décrit les différentes prestations susceptibles de vous satisfaire."</i>
+		<p><strong>Caractéristiques:</strong> nous : 1 fois<br/>
+        Vous/vos : 6 fois (texte centré sur le destinataire)</p>
+		<p><i>Sélectionnez l’un des mots:<strong> vous – votre – vos</strong> de façon à impliquer davantage le destinataire dans les phrases suivantes: </i></p>
+        <div class="well">
+            <p> 1. Nous serons heureux si nos produits pourront satisfaire nos clients dont vous êtes l’un des plus fidèles.<br/>
+            <select name="f13a3q1" id="f13a3q1" class="form-control inline-form-control">
+                <option value="Vous n'avez pas répondu" id="f13a3q1p0"></option>
+                <option value="Vous" id="f13a3q1p1">Vous</option>
+                <option value="Votre" id="f13a3q1p2">Votre</option>
+                <option value="Vos" id="f13a3q1p3">Vos</option>
+            </select>
+            êtes l’un des clients les plus fidèles.
+             <select name="f13a3q2" id="f13a3q2" class="form-control inline-form-control">
+                <option value="Vous n'avez pas répondu" id="f13a3q2p0"></option>
+                <option value="Vous" id="f13a3q2p1">Vous</option>
+                <option value="Votre" id="f13a3q2p2">Votre</option>
+                <option value="Vos" id="f13a3q2p3">Vos</option>
+            </select> 
+            nous ferez plaisir si
+            <select name="f13a3q3" id="f13a3q3" class="form-control inline-form-control">
+                <option value="Vous n'avez pas répondu" id="f13a3q3p0"></option>
+                <option value="vous" id="f13a3q3p1">vous</option>
+                <option value="votre" id="f13a3q3p2">votre</option>
+                <option value="vos" id="f13a3q3p3">vos</option>
+            </select> 
+            achetez nos produits.<br/>
+            
+            2. Nous sommes au regret d’apprendre que notre marchandise que nous avons livrée le 15 du mois en cours ne vous est pas encore parvenue.<br/>
+            Nous somme au regret d’apprendre que
+            <select name="f13a3q4" id="f13a3q4" class="form-control inline-form-control">
+                <option value="Vous n'avez pas répondu" id="f13a3q4p0"></option>
+                <option value="vous" id="f13a3q4p1">vous</option>
+                <option value="votre" id="f13a3q4p2">votre</option>
+                <option value="vos" id="f13a3q4p3">vos</option>
+            </select>
+            marchandise ne
+            <select name="f13a3q5" id="f13a3q5" class="form-control inline-form-control">
+                <option value="Vous n'avez pas répondu" id="f13a3q5p0"></option>
+                <option value="vous" id="f13a3q5p1">vous</option>
+                <option value="votre" id="f13a3q5p2">votre</option>
+                <option value="vos" id="f13a3q5p3">vos</option>
+            </select>
+            est pas encore parvenue. Elle
+            <select name="f13a3q6" id="f13a3q6" class="form-control inline-form-control">
+                <option value="Vous n'avez pas répondu" id="f13a3q6p0"></option>
+                <option value="vous" id="f13a3q6p1">vous</option>
+                <option value="votre" id="f13a3q6p2">votre</option>
+                <option value="vos" id="f13a3q6p3">vos</option>
+            </select>
+            a pourtant été livrée le 15 du mois. <br/>
+            
+            3. L’une des conditions que nous devons exiger de nos clients avant de passer commande de nos produits est de nous verser un acompte.<br/>
+            <select name="f13a3q7" id="f13a3q7" class="form-control inline-form-control">
+                <option value="Vous n'avez pas répondu" id="f13a3q7p0"></option>
+                <option value="Vous" id="f13a3q7p1">Vous</option>
+                <option value="Votre" id="f13a3q7p2">Votre</option>
+                <option value="Vos" id="f13a3q7p3">Vos</option>
+            </select>
+            commande sera passée une fois
+            <select name="f13a3q8" id="f13a3q8" class="form-control inline-form-control">
+                <option value="Vous n'avez pas répondu" id="f13a3q8p0"></option>
+                <option value="vous" id="f13a3q8p1">vous</option>
+                <option value="votre" id="f13a3q8p2">votre</option>
+                <option value="vos" id="f13a3q8p3">vos</option>
+            </select>
+            aurez versé un acompte. C’est une condition préalable à
+            <select name="f13a3q9" id="f13a3q9" class="form-control inline-form-control">
+                <option value="Vous n'avez pas répondu" id="f13a3q9p0"></option>
+                <option value="vous" id="f13a3q9p1">vous</option>
+                <option value="votre" id="f13a3q9p2">votre</option>
+                <option value="vos" id="f13a3q9p3">vos</option>
+            </select>
+            engagement.</p>
+        </div>
         
-		
-		
 					<button class="btn btn-success btn-md pull-right" type="submit" hidden="hidden">
 				<i class="fa fa-check-circle"> </i> Voir le corrigé</button><br/><br/>
 								
