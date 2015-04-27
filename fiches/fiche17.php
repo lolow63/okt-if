@@ -111,14 +111,14 @@
 						</p>
 					</div>
                     <span class="label label-info">réception</span>
-                    <span class="label label-info">apparaitre</span>
+                    <span class="label label-info">apparaître</span>
                     <span class="label label-info">destinés</span>
                     <span class="label label-info">la marchandise</span>
                     <span class="label label-info">effectués</span>
                     <span class="label label-info">commandée</span>
                     <span class="label label-info">reçu</span>
                     <span class="label label-info">incident</span>
-                    <span class="label label-info">reconnaitre</span>
+                    <span class="label label-info">reconnaître</span>
                     <span class="label label-info">justifiée</span>
                     <span class="label label-info">sentiments</span>
                     <span class="label label-info">En effet</span>                   
