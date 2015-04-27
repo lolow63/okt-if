@@ -166,9 +166,90 @@
 				</div><br/>
 </div></div>
 				<!--FIN BOITE MAIL -->
-		
+                
+                <h3 id="act2" class="activite">Activité 2</h3>
+                <p><i>Remplacez le mot répété par l’un des mots suivants :</i> <strong>celui – celle – ceux - celles</strong></p>
+				
+                <p><i>Exemple :</i> Nous vous avons livré un produit qui ne correspond pas au <strong>produit</strong> que vous avez commandé.<br/>
+                Nous vous avons livré un produit qui ne correspond pas à <strong>celui</strong> que vous avez commandé.</p>
+                
+                <div class="well">
+				1. Les documents que nous avons signés ne sont pas
+                <input type="text" id="f17a2q1"  name="f17a2q1" class="form-control inline-form-control" placeholder="les documents" size="10" maxlength="20" />
+				que nous devons envoyer au fournisseur.<br/>
+				2. Les dates convenues correspondent avec
+                <input type="text" id="f17a2q2"  name="f17a2q2" class="form-control inline-form-control" placeholder="les dates" size="10" maxlength="20" />
+				données par notre conseiller financier.<br/>
+				3. La décision prise par notre directeur est
+                <input type="text" id="f17a2q3"  name="f17a2q3" class="form-control inline-form-control" placeholder="la décision" size="10" maxlength="20" />
+				qui permettra d’augmenter notre efficacité.<br/>
+				4. Le site de production que nous avons acheté n’est pas
+                <input type="text" id="f17a2q4"  name="f17a2q4" class="form-control inline-form-control" placeholder="le site de production" size="15" maxlength="20" />
+				montré sur la photo.
+                
+                </div>
+                
+                <h3 id="act3" class="activite">Activité 3</h3>
+                <p>Le fournisseur qui reçoit une demande de modification ou d'annulation de commande peut soit accepter soit refuser la demande. Dans les deux cas, il doit motiver sa réponse.</p>
+				<p><i>Dites si les motifs invoqués ci-dessous annoncent une <strong>acceptation</strong> ou un <strong>refus</strong></i></p>
+                
+                
+                <div class="well">
+                
+                1. Ces articles ont déjà été remis au transporteur ...
+                <span class="inline-form-control btn-group" data-toggle="buttons">
+                    <input type="radio" class="hidden" id="f17a3q1p0" value="vous n'avez pas répondu" checked="checked" />
+                    <label for="f17a3q1p1" class="btn btn-primary btn-sm"><input type="radio" id="f17a3q1p1" name="f17a3q1p1" value="acceptation"/>acceptation</label>
+                    <label for="f17a3q1p2" class="btn btn-primary btn-sm"><input type="radio" id="f17a3q1p2" name="f17a3q1p2" value="refus"/>refus</label>
+                </span><br/>
+                2. Ces articles ayant été fabriqués spécialement sur vos indications...
+                <span class="inline-form-control btn-group" data-toggle="buttons">
+                    <input type="radio" class="hidden" id="f17a3q2p0" value="vous n'avez pas répondu" checked="checked" />
+                    <label for="f17a3q2p1" class="btn btn-primary btn-sm"><input type="radio" id="f17a3q2p1" name="f17a3q2p1" value="acceptation"/>acceptation</label>
+                    <label for="f17a3q2p2" class="btn btn-primary btn-sm"><input type="radio" id="f17a3q2p2" name="f17a3q2p2" value="refus"/>refus</label>
+                </span><br/>
+                3. Étant donné la régularité de nos relations ...
+                <span class="inline-form-control btn-group" data-toggle="buttons">
+                    <input type="radio" class="hidden" id="f17a3q3p0" value="vous n'avez pas répondu" checked="checked" />
+                    <label for="f17a3q3p1" class="btn btn-primary btn-sm"><input type="radio" id="f17a3q3p1" name="f17a3q3p1" value="acceptation"/>acceptation</label>
+                    <label for="f17a3q3p2" class="btn btn-primary btn-sm"><input type="radio" id="f17a3q3p2" name="f17a3q3p2" value="refus"/>refus</label>
+                </span><br/>
+                4. La marchandise est déjà sortie de nos stocks et est en cours d'expédition...
+                <span class="inline-form-control btn-group" data-toggle="buttons">
+                    <input type="radio" class="hidden" id="f17a3q4p0" value="vous n'avez pas répondu" checked="checked" />
+                    <label for="f17a3q4p1" class="btn btn-primary btn-sm"><input type="radio" id="f17a3q4p1" name="f17a3q4p1" value="acceptation"/>acceptation</label>
+                    <label for="f17a3q4p2" class="btn btn-primary btn-sm"><input type="radio" id="f17a3q4p2" name="f17a3q4p2" value="refus"/>refus</label>
+                </span><br/>
+                5. Votre commande a exigé un approvisionnement important de matières premières que nous ne pouvons pas stocker...
+                <span class="inline-form-control btn-group" data-toggle="buttons">
+                    <input type="radio" class="hidden" id="f17a3q5p0" value="vous n'avez pas répondu" checked="checked" />
+                    <label for="f17a3q5p1" class="btn btn-primary btn-sm"><input type="radio" id="f17a3q5p1" name="f17a3q5p1" value="acceptation"/>acceptation</label>
+                    <label for="f17a3q5p2" class="btn btn-primary btn-sm"><input type="radio" id="f17a3q5p2" name="f17a3q5p2" value="refus"/>refus</label>
+                </span><br/>
+                6. Les articles dont vous demandez le remplacement étant faciles à écouler...
+                <span class="inline-form-control btn-group" data-toggle="buttons">
+                    <input type="radio" class="hidden" id="f17a3q6p0" value="vous n'avez pas répondu" checked="checked" />
+                    <label for="f17a3q6p1" class="btn btn-primary btn-sm"><input type="radio" id="f17a3q6p1" name="f17a3q6p1" value="acceptation"/>acceptation</label>
+                    <label for="f17a3q6p2" class="btn btn-primary btn-sm"><input type="radio" id="f17a3q6p2" name="f17a3q6p2" value="refus"/>refus</label>
+                </span><br/>
+                7. En vue de la fabrication de vos articles, nous avons constitué un stock important de pièces détachées ...
+                <span class="inline-form-control btn-group" data-toggle="buttons">
+                    <input type="radio" class="hidden" id="f17a3q7p0" value="vous n'avez pas répondu" checked="checked" />
+                    <label for="f17a3q7p1" class="btn btn-primary btn-sm"><input type="radio" id="f17a3q7p1" name="f17a3q7p1" value="acceptation"/>acceptation</label>
+                    <label for="f17a3q7p2" class="btn btn-primary btn-sm"><input type="radio" id="f17a3q7p2" name="f17a3q7p2" value="refus"/>refus</label>
+                </span><br/>
+                8. Compte tenu du caractère exceptionnel de votre demande ...
+                <span class="inline-form-control btn-group" data-toggle="buttons">
+                    <input type="radio" class="hidden" id="f17a3q8p0" value="vous n'avez pas répondu" checked="checked" />
+                    <label for="f17a3q8p1" class="btn btn-primary btn-sm"><input type="radio" id="f17a3q8p1" name="f17a3q8p1" value="acceptation"/>acceptation</label>
+                    <label for="f17a3q8p2" class="btn btn-primary btn-sm"><input type="radio" id="f17a3q8p2" name="f17a3q8p2" value="refus"/>refus</label>
+                </span><br/>
+                
+                
+                </div>
 					<button class="btn btn-success btn-md pull-right" type="submit" hidden="hidden">
 				<i class="fa fa-check-circle"> </i> Voir le corrigé</button><br/><br/>
+                
 								
 				   </form><!-- FIN FORMULAIRE -->
 		
